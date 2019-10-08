@@ -7,9 +7,10 @@ upcomingshows: |-
   Sad Tambourine - Moscow 21.12.19 /
   Beyond Blue - London 28.12.19
 fbfav: 'https://www.facebook.com/Yosei.Gorazu'
-instafav: 'https://www.instagram.com/clariannorth/?hl=en'
-twitterfav: 'https://www.facebook.com/Yosei.Gorazu'
-presskit: 'https://www.facebook.com/Yosei.Gorazu'
+instafav: 'https://www.instagram.com/clariannorth'
+twitterfav: 'https://twitter.com/clarianmusic'
+presskit: >-
+  https://docs.google.com/spreadsheets/d/1rbonZXDi59WG9Lfbfv7bgMsJA_dJOu4LAWhcYxstqHo/edit#gid=0
 latestmix: >-
   <iframe width="100%" height="300" scrolling="no" frameborder="no"
   allow="autoplay"
