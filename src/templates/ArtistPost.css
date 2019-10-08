@@ -2,27 +2,6 @@
     background: black;
   }
   
-  .ArtistPost--BackButton {
-    color: white;
-    position: relative;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: 0.1em;
-  }
-  
-  .ArtistPost--BackButton svg {
-    transition: transform 0.2s ease-out;
-    transform: translateX(0);
-    height: 1.2em;
-  }
-  
-  .ArtistPost--BackButton:hover svg,
-  .ArtistPost--BackButton:focus svg {
-    transform: translateX(-0.25em);
-  }
-  
   .ArtistPost--Content {
     background: rgb(0, 0, 0);
     padding: 8rem 8rem 4rem 18rem;

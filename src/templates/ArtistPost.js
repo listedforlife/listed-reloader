@@ -24,9 +24,6 @@ export const ArtistPostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="ArtistPost--BackButton" to="/artists/">
-          <ChevronLeft /> BACKasds
-        </Link>
         <div className="ArtistPost--Content relative">
           <div className="ArtistPost--Meta">
           <img src={featuredImage} alt={title} />
@@ -83,14 +80,6 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
   return (
     <Layout
       meta={post.frontmatter.meta || false}
-      title={post.frontmatter.url || false}
-      upcomingshows={post.frontmatter.upcomingshows || false}
-      fbfav={post.frontmatter.fbfav || false}
-      instafav={post.frontmatter.instafav || false}
-      twitterfav={post.frontmatter.twitterfav || false}
-      presskit={post.frontmatter.presskit || false}
-      latestmix={post.frontmatter.latestmix || false}
-
     >
                   
       <ArtistPostTemplate
@@ -110,6 +99,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a href={post.frontmatter.presskit}>
       <button>PressKit</button>
       </a>
+      <iframe width="683" height="384" src={post.frontmatter.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br/>
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={post.frontmatter.latestmix}></iframe>
     </Layout>
@@ -136,6 +126,7 @@ export const pageQuery = graphql`
         fbfav
         instafav
         twitterfav
+        video
         upcomingshows
         presskit
         latestmix
