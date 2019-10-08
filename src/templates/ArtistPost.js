@@ -3,7 +3,7 @@ import _get from 'lodash/get'
 import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
-import Image from '../components/Image'
+import MixTape from '../components/MixTape'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -101,16 +101,17 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
-      <a>{post.frontmatter.fbfav}</a>
+      <a href={post.frontmatter.fbfav}>Facebook</a>
       <br/>
-      <a>{post.frontmatter.instafav}</a>
+      <a href={post.frontmatter.instafav}>Instagram</a>
       <br/>
-      <a>{post.frontmatter.twitterfav}</a>
+      <a href={post.frontmatter.twitterfav}>Twitter</a>
       <br/>
-      <a>{post.frontmatter.presskit}</a>
+      <button href={post.frontmatter.presskit}>PressKit</button>
       <br/>
-      <a>{post.frontmatter.latestmix}</a>
+        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={post.frontmatter.latestmix}></iframe>
     </Layout>
+    
   )
 }
 
