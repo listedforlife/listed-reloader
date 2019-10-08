@@ -8,20 +8,22 @@ export default ({
   action = ''
 }) => (
   <form
+    name = "contact"
     className='Form'
-    name={name}
-    action={action}
-    data-netlify=''
-    data-netlify-honeypot='_gotcha'
+    method="post"
+    data-netlify='true'
+    data-netlify-honeypot='bot-field'
   >
-    <label className='Form--Label'>
-      <input
+    <label className='Form--Label' >
+      <input style={{color:'white'}}
         className='Form--Input'
         type='text'
         placeholder='Name'
         name='name'
         required
       />
+      <input type="hidden" name="bot-field" />
+<input type="hidden" name="form-name" value="contact" />
     </label>
     <label className='Form--Label'>
       <input
