@@ -1,5 +1,5 @@
 .SinglePost {
-  background: var(--lightGrey);
+  background: black;
 }
 
 .SinglePost--BackButton {
@@ -24,8 +24,8 @@
 }
 
 .SinglePost--Content {
-  background: white;
-  padding: 8rem 8rem 4rem 8rem;
+  background: rgb(0, 0, 0);
+  padding: 8rem 8rem 4rem 18rem;
 }
 
 @media screen and (max-width: 750px) {

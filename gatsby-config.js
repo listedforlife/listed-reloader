@@ -2,8 +2,8 @@ const postcssPresetEnv = require('postcss-preset-env')
 
 module.exports = {
   siteMetadata: {
-    title: 'Yelloecake',
-    siteUrl: 'https://yellowcake.netlify.com'
+    title: 'Listed Productions',
+    siteUrl: 'https://listedproductions.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -88,6 +88,21 @@ module.exports = {
             options: {
               maxWidth: 800,
               linkImagesToOriginal: false
+            }
+          },
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              providers: {
+                settings: {
+                  Twitter: {
+                    theme: "dark" // Use the Twitter dark theme
+                  },
+                  Instagram: {
+                    hidecaption: true
+                  }
+                }
+              }
             }
           },
           `gatsby-remark-responsive-iframe`

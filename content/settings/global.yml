@@ -1,8 +1,7 @@
-siteTitle: Yellow Cake
-siteUrl: 'https://yellowcake.netlify.com'
+siteTitle: Listed Productions
+siteUrl: 'https://listedproductions.com'
 siteDescription: >-
-  A starter project for creating lightning-fast websites with Gatsby v2 Netlify
-  CMS v2 and Uploadcare media library.
+  Listed Productions music productions and artists.
 socialMediaCard:
-  image: 'https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/'
+  image: 'https://ucarecdn.com/1ad727b2-5db5-41b9-a4db-05f26e34f273/'
 googleTrackingId: 'UA-133175780-1'

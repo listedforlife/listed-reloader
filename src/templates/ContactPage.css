@@ -1,8 +1,10 @@
-.Contact {
-}
 
 .Contact--Details {
   margin-top: 3rem;
+}
+
+html {
+  background-color: black;
 }
 
 .Contact--Details--Item {

@@ -128,6 +128,7 @@ export const pageQuery = graphql`
         contentType
       }
       frontmatter {
+        url
         title
         excerpt
         template
@@ -147,6 +148,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            excerpt
             title
             date
             categories {

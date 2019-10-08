@@ -1,10 +1,16 @@
+
+
+
 .Nav {
-  background: white;
+  background: rgb(0, 0, 0);
   position: sticky;
-  top: 0;
+  top: -7;
   z-index: 1;
-  border-bottom: 1px solid var(--lightGrey);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
+  border-bottom: 1px solid rgb(29, 29, 29);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.025);
+  margin-top:12px;
+  bottom:-22px;
+  height:80px;
 }
 
 .Nav--Container {
@@ -18,6 +24,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  opacity:0.9;
+
 }
 
 .Nav--Links > * + * {
@@ -76,10 +84,11 @@
 
 .Nav--GroupLinks {
   position: absolute;
-  top: 100%;
+  
   left: 0;
   width: auto;
-  background: white;
+  background: rgb(0, 0, 0);
+  color: white;
   /* opacity: 0; */
   max-height: 0;
   overflow: hidden;
@@ -102,6 +111,19 @@
   position: relative;
   width: 15rem;
 }
+
+@media (max-width: 709px) {
+  .smedialinks {
+    visibility: hidden;;
+  }
+}
+
+@media (max-width: 597px) {
+  .smedialinks {
+    visibility: visible;
+  }
+}
+
 
 @media (max-width: 600px) {
   .Nav--Container {
@@ -127,7 +149,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: rgb(0, 0, 0);
     animation: Nav--Links 0.2s ease;
   }
 

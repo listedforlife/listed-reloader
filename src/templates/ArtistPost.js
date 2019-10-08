@@ -3,48 +3,40 @@ import _get from 'lodash/get'
 import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
+import Image from '../components/Image'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import './SinglePost.css'
+import './ArtistPost.css'
 
-export const SinglePostTemplate = ({
+export const ArtistPostTemplate = ({
   title,
-  date,
   body,
-  nextPostURL,
+  upcomingshows,
+  featuredImage,
   atURL,
-  prevPostURL,
   categories = [],
 }) => (
   <main>
     <article
-      className="SinglePost section light"
+      className="ArtistPost section light"
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
       <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
-          <ChevronLeft /> BACKjaa
+        <Link className="ArtistPost--BackButton" to="/artists/">
+          <ChevronLeft /> BACKasds
         </Link>
-        <div className="SinglePost--Content relative">
-          <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {_format(date, 'MMMM Do, YYYY')}
-              </time>
-            )}
+        <div className="ArtistPost--Content relative">
+          <div className="ArtistPost--Meta">
+          <img src={featuredImage} alt={title} />
             {categories && (
               <Fragment>
                 <span>|</span>
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
-                    className="SinglePost--Meta--Category"
+                    className="ArtistPost--Meta--Category"
                   >
                     {cat.category}
                     {/* Add a comma on all but last category */}
@@ -56,8 +48,14 @@ export const SinglePostTemplate = ({
           </div>
             
           {title && (
-            <h1 className="SinglePost--Title" itemProp="title">
+            <h1 className="ArtistPost--Title" itemProp="title">
               {title}
+            </h1>
+          )}
+
+{upcomingshows && (
+            <h1 className="ArtistPost--Title" itemProp="title">
+              {upcomingshows}
             </h1>
           )}
         
@@ -68,49 +66,34 @@ export const SinglePostTemplate = ({
             </h1>
           )}
 
-          <div className="SinglePost--InnerContent">
+          <div className="ArtistPost--InnerContent">
             <Content source={body} />
           </div>
 
-          <div className="SinglePost--Pagination">
-            {prevPostURL && (
-              <Link
-                className="SinglePost--Pagination--Link prev"
-                to={prevPostURL}
-              >
-              
-                Previous Post
-              </Link>
-              
-            )}
-            
-            {nextPostURL && (
-              <Link
-                className="SinglePost--Pagination--Link next"
-                to={nextPostURL}
-              >
-                Next Post
-              </Link>
-            )}
-
-          </div>
+       
         </div>
       </div>
     </article>
   </main>
 )
 
-// Export Default SinglePost for front-end
-const SinglePost = ({ data: { post, allPosts } }) => {
+// Export Default ArtistPost for front-end
+const ArtistPost = ({ data: { post, allPosts } }) => {
   const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
     <Layout
       meta={post.frontmatter.meta || false}
       title={post.frontmatter.url || false}
-      atURL={post.frontmatter.url || false}
+      upcomingshows={post.frontmatter.upcomingshows || false}
+      fbfav={post.frontmatter.fbfav || false}
+      instafav={post.frontmatter.instafav || false}
+      twitterfav={post.frontmatter.twitterfav || false}
+      presskit={post.frontmatter.presskit || false}
+      latestmix={post.frontmatter.latestmix || false}
+
     >
                   
-      <SinglePostTemplate
+      <ArtistPostTemplate
         {...post}
         {...post.frontmatter}
         body={post.html}
@@ -118,30 +101,42 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
-      <button  onClick={post.frontmatter.excerpt}>download link</button>
-      <a>{post.frontmatter.url}</a>
+      <a>{post.frontmatter.fbfav}</a>
+      <br/>
+      <a>{post.frontmatter.instafav}</a>
+      <br/>
+      <a>{post.frontmatter.twitterfav}</a>
+      <br/>
+      <a>{post.frontmatter.presskit}</a>
+      <br/>
+      <a>{post.frontmatter.latestmix}</a>
     </Layout>
   )
 }
 
-export default SinglePost
+export default ArtistPost
 
 export const pageQuery = graphql`
-  ## Query for SinglePost data
+  ## Query for ArtistPost data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query SinglePost($id: String!) {
+  query ArtistPost($id: String!) {
     post: markdownRemark(id: { eq: $id }) {
       ...Meta
       html
       id
       frontmatter {
-        url
         title
+        featuredImage
         template
+        fbfav
+        instafav
+        twitterfav
+        upcomingshows
+        presskit
+        latestmix
         subtitle
-        date
         excerpt
         categories {
           category
@@ -150,7 +145,7 @@ export const pageQuery = graphql`
     }
 
     allPosts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
+      filter: { fields: { contentType: { eq: "artists" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {

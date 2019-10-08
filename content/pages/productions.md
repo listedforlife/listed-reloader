@@ -1,22 +1,18 @@
 ---
-template: ComponentsPage
-slug: components
-title: Components Page
+template: ProductionsPage
+slug: productions
+title: Productions 
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: This is the components page subtitle.
+subtitle: 
 section1: >-
-  ## This is a container component
-
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur
-  tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi
-  a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  ## Listed Productions
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit
-  scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam
-  vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
-  bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
-  vestibulum.
+  Listed is a SF based initiative that showcases cutting-edge EDM and strives to make it accessible via event productions and an artist agency. Our mission is to create unforgettable experiences with a warm, intimate vibe for our guests. We strive to make the partygoer as important as the headliner because we think the experience matters!
+
+
+
+  We add personal touches to foster “ridiculous fun for ridiculous people” creating a communal atmosphere that’s long been forgotten in the dance music scene. listed also acts as an agency of representation for 17 artists from around the world. Get listed and join in on our fun!
 section2: |-
   ## You can use videos, images and text.
 
@@ -30,6 +26,7 @@ videoTitle: Also background videos, with poster image & title overlay.
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
+    featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
   - description: Taciti lorem tempor quam vestibulum dis habitasse

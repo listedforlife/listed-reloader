@@ -37,8 +37,8 @@ body {
   font-family: var(--font-system);
   min-height: 100%;
   position: relative;
-  background: white;
-  color: var(--secondary);
+  background: black;
+  color: white;
   font-size: 1.6em;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -81,7 +81,7 @@ code {
   font-size: 85%;
   padding: 0.15em 0;
   background: var(--lightGrey);
-  border-radius: 3px;
+  border-radius: 1px;
 }
 code:before,
 code:after {
@@ -106,13 +106,13 @@ blockquote {
 
 /* Utility Classes */
 .light {
-  background-color: var(--lightGrey);
+  background-color: black;
 }
 .white {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
 }
 .dark {
-  background-color: var(--primary);
+  background-color: black;
   color: white;
 }
 .dark h1,
@@ -155,7 +155,7 @@ blockquote {
 .section {
   width: 100%;
   padding: 5rem 0;
-  border-bottom: 1px solid #f1f1f1;
+
 }
 .section:last-child {
   border: 0;
@@ -169,6 +169,7 @@ blockquote {
 .section.noPadding {
   padding: 0;
 }
+
 
 @media (max-width: 600px) {
   .section {

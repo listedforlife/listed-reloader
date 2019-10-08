@@ -16,6 +16,7 @@ media_library:
     clearable: true
 
 collections: # A list of collections the CMS should be able to edit
+
   - name: 'pages'
     label: 'Page'
     delete: false # Prevent users from deleting documents in this collection
@@ -137,15 +138,55 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/componets.md'
-        label: 'Componets Page'
-        name: 'componets-page'
+
+      - file: 'content/pages/artists.md'
+        label: 'Blog Page'
+        name: 'blog-page2'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponetsPage,
+              default: ArtistPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
+      - file: 'content/pages/productions.md'
+        label: 'Productions Page'
+        name: 'productions-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: ProductionsPage,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'componets' }
           - { label: Title, name: title, widget: string }
@@ -241,43 +282,6 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-  - name: infoPages
-    label: Info Page
-    editor:
-      preview: true
-    folder: content/infoPages
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields:
-      - {
-          label: Template,
-          name: template,
-          widget: hidden,
-          default: DefaultPage,
-        }
-      - { label: Slug, name: slug, widget: string }
-      - { label: Title, name: title, widget: string }
-      - { label: Featured Image, name: featuredImage, widget: image }
-      - { label: Body, name: body, widget: markdown }
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
-        fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: posts
     label: Post
@@ -287,12 +291,19 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
+      - {label: "Display Text", name: displayText, widget: string}
+      - {label: URL, name: url, widget: string}
+      - label: "Item Type"
+        name: itemType
+        widget: select
+        options: ["Link", "Button"]
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
+
       - label: 'Status'
         name: 'status'
         widget: 'select'
-        options: ['Published', 'Featured', 'Draft']
+        options: ['Published', 'Featured', 'Draft', 'Button']
         default: 'Published'
       - { label: Date / Order, name: date, widget: date }
       - {
@@ -301,9 +312,9 @@ collections: # A list of collections the CMS should be able to edit
           widget: image,
           required: false,
         }
-      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: excerpt, name: excerpt, widget: text }
       - { label: Content, name: body, widget: markdown }
-      - label: 'Categories'
+      - label: 'poop'
         name: 'categories'
         widget: 'list'
         required: false
@@ -371,6 +382,8 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
 
+          
+
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection
@@ -400,3 +413,93 @@ collections: # A list of collections the CMS should be able to edit
               widget: string,
               required: false,
             }
+
+  - name: artists
+    label: Artists
+    editor:
+      preview: true
+    folder: content/artists
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+
+      - { label: Template, name: template, widget: hidden, default: ArtistPost }
+      - { label: Artist Name, name: title, widget: string }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - { label: Bio, name: body, widget: markdown }
+      - { label: Upcoming Shows, name: upcomingshows, widget: text }
+
+      - {label: "Facebook", name: fbfav, widget: string}
+      - {label: "Instagram", name: instafav, widget: string}
+      - {label: "Twitter", name: twitterfav, widget: string}
+      - {label: Presskit, name: presskit, widget: string}
+      - {label: Latest Mix, name: latestmix, widget: string}
+     
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ['Published', 'Featured', 'Draft']
+        default: 'Published'
+      - { label: Date / Order, name: date, widget: date }
+
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+  - name: postCategories2
+    label: Post Category2
+    editor:
+      preview: false
+    folder: content/postCategories2
+    slug: '{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: ArtistPage }
+      - { label: Title, name: title, widget: string }
+      - { label: Subtitle, name: subtitle, widget: string, required: false }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }

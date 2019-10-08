@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import _format from 'date-fns/format'
 import Image from './Image'
 import './PostCard.css'
 
@@ -8,6 +8,7 @@ const PostCard = ({
   featuredImage,
   title,
   excerpt,
+  date,
   slug,
   categories = [],
   className = '',
@@ -21,6 +22,15 @@ const PostCard = ({
     )}
     <div className="PostCard--Content">
       {title && <h3 className="PostCard--Title">{title}</h3>}
+      {date && (
+              <time
+                className="SinglePost--Meta--Date"
+                itemProp="dateCreated pubdate datePublished"
+                date={date}
+              >
+                {_format(date, 'MMMM Do, YYYY')}
+              </time>
+            )}
       <div className="PostCard--Category">
         {categories && categories.map(cat => cat.category).join(', ')}
       </div>

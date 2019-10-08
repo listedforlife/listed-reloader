@@ -1,0 +1,79 @@
+.ArtistPost {
+    background: black;
+  }
+  
+  .ArtistPost--BackButton {
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+  }
+  
+  .ArtistPost--BackButton svg {
+    transition: transform 0.2s ease-out;
+    transform: translateX(0);
+    height: 1.2em;
+  }
+  
+  .ArtistPost--BackButton:hover svg,
+  .ArtistPost--BackButton:focus svg {
+    transform: translateX(-0.25em);
+  }
+  
+  .ArtistPost--Content {
+    background: rgb(0, 0, 0);
+    padding: 8rem 8rem 4rem 18rem;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .ArtistPost--Content {
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .ArtistPost--Meta {
+    font-size: 1rem;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+  
+  .ArtistPost--Meta > * + * {
+    margin-left: 0.75em;
+  }
+  
+  .ArtistPost--Title {
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .ArtistPost--InnerContent {
+    padding: 0 8rem;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .ArtistPost--InnerContent {
+      padding: 0;
+    }
+  }
+  
+  .ArtistPost--Pagination {
+    margin: 4rem 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ArtistPost--Pagination--Link {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .ArtistPost--Pagination--Link.next {
+    margin-left: auto;
+  }
+  

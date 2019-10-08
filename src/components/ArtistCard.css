@@ -1,0 +1,39 @@
+.ArtistCard {
+    text-decoration: none;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    color: inherit;
+    border: 14px solid rgb(16, 16, 16);
+    border-radius: var(--borderRadius);
+    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.1);
+    transition: all 0.15s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .ArtistCard:hover,
+  .ArtistCard:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .ArtistCard--Image {
+    margin: 0 0 2rem 0;
+    width: 100%;
+    height: 20rem;
+  }
+  
+  .ArtistCard--Title {
+    margin: 0;
+  }
+  
+  .ArtistCard--Content {
+    padding: 0 2.5rem 2.5rem;
+  }
+  
+  .ArtistCard--Category {
+    font-size: 1.2rem;
+    min-height: 1.2em;
+    line-height: 1;
+    margin: 0.5em 0;
+  }
+  

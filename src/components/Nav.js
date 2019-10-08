@@ -3,6 +3,7 @@ import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
+import { SocialIcon } from 'react-social-icons';
 
 import './Nav.css'
 
@@ -49,8 +50,9 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/">Listed</NavLink>
+            <NavLink to="/artists/">Artists</NavLink>
+            <NavLink to="/productions/">Productions</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -66,7 +68,7 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                News
               </span>
               <div className="Nav--GroupLinks">
                 <NavLink to="/blog/" className="Nav--GroupLink">
@@ -83,16 +85,29 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <NavLink to="/contact/" style={{marginLeft:'-10px'}}>Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
+            style={{color:'white'}}
             onClick={this.handleMenuToggle}
           >
             {active ? <X /> : <Menu />}
           </button>
         </div>
+        <div className="smedialinks">
+        <div style={{opacity:'0.9', float:'right', marginBottom:'30px', marginRight:'69px', marginTop:'-44px'}}>
+      <span style={{margin:'5px'}}>
+      <SocialIcon url="https://facebook.com/jaketrent"  style={{ height: 25, width: 25 }} />
+      </span>
+      <span style={{margin:'5px'}}>
+      <SocialIcon url="https://instagram.com/jaketrent"  style={{ height: 25, width: 25 }} />
+      </span>
+      <span style={{margin:'5px'}}>
+      <SocialIcon  url="https://twitter.com/jaketrent"  style={{ height: 25, width: 25, }} />
+      </span>
+      </div>
+      </div>
       </nav>
     )
   }

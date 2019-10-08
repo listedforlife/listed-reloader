@@ -2,10 +2,10 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { Location } from '@reach/router'
 import qs from 'qs'
-import Content from '../components/Content'
-import PostSection from '../components/PostSection'
+
+import ArtistSection from '../components/ArtistSection'
+import ArtistCategoriesNav from '../components/ArtistCategoriesNav'
 import Layout from '../components/Layout'
-import './HomePage.css'
 
 /**
  * Filter posts by date. Feature dates will be fitered
@@ -26,7 +26,7 @@ export const byDate = posts => {
  * @param {contentType} string
  */
 export const byCategory = (posts, title, contentType) => {
-  const isCategory = contentType === 'postCategories'
+  const isCategory = contentType === 'postCategories2'
   const byCategory = post =>
     post.categories &&
     post.categories.filter(cat => cat.category === title).length
@@ -34,20 +34,17 @@ export const byCategory = (posts, title, contentType) => {
 }
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({
+export const ArtistPageTemplate = ({
   title,
-  body,
   subtitle,
+  fbfav,
   featuredImage,
   posts = [],
-  date,
-  postCategories = [],
+  postCategories2 = [],
   enableSearch = true,
   contentType
 }) => (
-
   <Location>
-
     {({ location }) => {
       let filteredPosts =
         posts && !!posts.length
@@ -66,93 +63,65 @@ export const HomePageTemplate = ({
 
       return (
         <main className="Blog">
-   
 
-<section className="section">
-      <div className="container">
-        <Content source={body} />
         
-      </div>
-    </section>
-
-
 
           {!!posts.length && (
             <section className="section">
               <div className="container">
-                <PostSection posts={filteredPosts} />
+                <ArtistSection posts={filteredPosts} />
               </div>
             </section>
           )}
         </main>
       )
     }}
-    
   </Location>
-  
 )
 
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts, postCategories } }) => (
+const ArtistPage = ({ data: { page, posts, postCategories2 } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
-    title={page.frontmatter.title || false}>
-       <div className='slider'>
-  <div className='slide1'></div>
-  <div className='slide2'></div>
-  <div className='slide3'></div>
-</div>
-<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Latest News</div>
-
-    <HomePageTemplate
-
+    title={page.frontmatter.title || false}
+  >
+    Roster
+    <ArtistPageTemplate
       {...page}
       {...page.fields}
       {...page.frontmatter}
-      
       posts={posts.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
       }))}
-
-      postCategories={postCategories.edges.map(post => ({
+      postCategories2={postCategories2.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
       }))}
-      
     />
-    <div style={{textAlign:'center'}}>
-      
-      <HomePageTemplate       body={page.html} 
-></HomePageTemplate></div>
-<div style={{paddingLeft:'45px',fontSize:'25px'}}> Listed Playlist Vol #1</div>
-<br></br>
- <div><iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657878880&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
   </Layout>
-  
 )
 
-export default HomePage
+export default ArtistPage
 
 export const pageQuery = graphql`
-  ## Query for HomePage data
+  ## Query for ArtistPage data
   ## Use GraphiQL interface (http://localhost:8000/___graphql)
   ## $id is processed via gatsby-node.js
   ## query name must be unique to this file
-  query HomePage($id: String!) {
-
+  query ArtistPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      html
       fields {
         contentType
       }
       frontmatter {
+        url
         title
         excerpt
-        date
+
         template
         subtitle
         featuredImage
@@ -160,7 +129,7 @@ export const pageQuery = graphql`
     }
 
     posts: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "posts" } } }
+      filter: { fields: { contentType: { eq: "artists" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
@@ -170,7 +139,9 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            excerpt
             title
+            fbfav
             date
             categories {
               category
@@ -180,8 +151,8 @@ export const pageQuery = graphql`
         }
       }
     }
-    postCategories: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "postCategories" } } }
+    postCategories2: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "postCategories2" } } }
       sort: { order: ASC, fields: [frontmatter___title] }
     ) {
       edges {
@@ -197,4 +168,3 @@ export const pageQuery = graphql`
     }
   }
 `
-
