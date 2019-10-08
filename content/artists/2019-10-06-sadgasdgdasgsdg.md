@@ -10,7 +10,7 @@ fbfav: 'https://www.facebook.com/Yosei.Gorazu'
 instafav: 'https://www.instagram.com/clariannorth'
 twitterfav: 'https://twitter.com/clarianmusic'
 presskit: >-
-  https://docs.google.com/spreadsheets/d/1rbonZXDi59WG9Lfbfv7bgMsJA_dJOu4LAWhcYxstqHo/edit#gid=0
+  http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Clarian_Press_Kit_2018-1.zip
 latestmix: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679794170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 status: Published
