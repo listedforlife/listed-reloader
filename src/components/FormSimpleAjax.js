@@ -95,7 +95,7 @@ class Form extends React.Component {
             </label>
           </div>
           <label className="Form--Label">
-            <input
+            <input style={{borderColor:'white'}}
               className="Form--Input Form--InputText"
               type="email"
               placeholder="Email"
@@ -104,14 +104,14 @@ class Form extends React.Component {
             />
             <span>Email Address</span>
           </label>
-          <label className="Form--Label has-arrow" style={{color:'white'}}>
+          <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
               defaultValue="Type of Enquiry"
               required
             >
-              <option disabled hidden>
+              <option  >
               Type of Enquiry
               </option>
               <option >Booking Request</option>

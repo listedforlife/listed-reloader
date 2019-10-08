@@ -82,8 +82,10 @@
 }
 
 .Form--Select {
-  background: none;
+  background-color: black;
+  color:white;
   appearance: none;
+  border-color: white;
 }
 
 .Form--Label.has-arrow:after {
