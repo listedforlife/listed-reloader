@@ -12,7 +12,8 @@ twitterfav: 'https://twitter.com/clarianmusic'
 presskit: >-
   https://docs.google.com/spreadsheets/d/1rbonZXDi59WG9Lfbfv7bgMsJA_dJOu4LAWhcYxstqHo/edit#gid=0
 latestmix: >-
-  https://soundcloud.com/its-deeper-sounds/clarian-big-imagination-with-deeper-sounds-emirates-inflight-radio-august-2019
+  width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679794170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 status: Published
 date: 2019-10-06T20:25:40.793Z
 meta:
