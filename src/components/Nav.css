@@ -112,7 +112,7 @@
   width: 15rem;
 }
 
-@media (max-width: 709px) {
+@media (max-width: 766px) {
   .smedialinks {
     visibility: hidden;;
   }

@@ -102,7 +102,7 @@ const HomePage = ({ data: { page, posts, postCategories } }) => (
   <div className='slide2'></div>
   <div className='slide3'></div>
 </div>
-<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Latest News</div>
+<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Listed News</div>
 
     <HomePageTemplate
 
