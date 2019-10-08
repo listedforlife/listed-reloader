@@ -439,7 +439,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Twitter", name: twitterfav, widget: string}
       - {label: Presskit, name: presskit, widget: string}
       - {label: Latest Mix, name: latestmix, widget: string}
-     
+      - {label: Video, name: video, widget: string}
       - label: 'Status'
         name: 'status'
         widget: 'select'

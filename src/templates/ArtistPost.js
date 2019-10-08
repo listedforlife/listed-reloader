@@ -107,7 +107,9 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <br/>
       <a href={post.frontmatter.twitterfav}>Twitter</a>
       <br/>
-      <button href={post.frontmatter.presskit}>PressKit</button>
+      <a href={post.frontmatter.presskit}>
+      <button>PressKit</button>
+      </a>
       <br/>
         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={post.frontmatter.latestmix}></iframe>
     </Layout>
