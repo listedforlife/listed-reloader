@@ -3,7 +3,7 @@ import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import FormSimple from '../components/FormSimple'
+import FormSimple2 from '../components/FormSimple2'
 import Content from '../components/Content'
 import GoogleMap from '../components/GoogleMap'
 import Layout from '../components/Layout'
@@ -52,7 +52,7 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimple name="contact" />
+          <FormSimple2 name="contact" />
         </div>
       </div>
     </section>
