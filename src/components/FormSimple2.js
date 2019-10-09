@@ -36,7 +36,7 @@ const FormSimple2 = () => {
 
     <label className='Form--Label has-arrow'>
       <select 
-        style={{borderColor:'white'}}
+        
         className='Form--Input Form--Select'
         name='type'
         defaultValue='Type of Inquiry'
