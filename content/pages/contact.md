@@ -18,4 +18,4 @@ meta:
 
 # Contact Us
 
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+For all general inquiries, bookings, and production.

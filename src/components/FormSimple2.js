@@ -7,35 +7,68 @@ const FormSimple2 = () => {
     return (
 
 <form name="listed" 
+      className='Form'
       method="post" 
       data-netlify="true" 
       >  
       
       <input type="hidden" name="bot-field" />  
       <input type="hidden" name="form-name" value="listed" />  
-      
-      <div className="field half first">
     
-    <label htmlFor="name">Name</label>
-    <input type="text" name="name" id="name" />
-      </div>
+    <label className='Form--Label' htmlFor="name"></label>
+    <input 
+      style={{color:'white'}}
+      type="text" 
+      name="name" 
+      id="name"
+      placeholder='Name'
+      className='Form--Input'
+           />
   
-    <div className="field half">
-    <label htmlFor="email">Email</label>
-    <input type="text" name="email" id="email" />
+    <label className='Form--Label' htmlFor="email"></label>
+    <input 
+        type="text" 
+        name="email" 
+        id="email"
+        placeholder='Email'
+        className='Form--Input'
+        />
+
+    <label className='Form--Label has-arrow'>
+      <select 
+        style={{borderColor:'white'}}
+        className='Form--Input Form--Select'
+        name='type'
+        defaultValue='Type of Inquiry'
+        id="inquiry"
+      >
+        <option disabled hidden>
+                Type of Inquiry </option>
+        <option>Bookings Inquiry</option>
+        <option>Productions And Events</option>
+        <option>General Inquiry</option>
+      </select>
+    </label>
+    <label 
+      className='Form--Label' 
+      htmlFor="message"></label>
+   
+    <textarea 
+    name="message" 
+    id="message" 
+    placeholder='Message'
+    className='Form--Input Form--Textarea'
+    rows='10'
+
+     />
+    <div data-netlify-recaptcha="true">
     </div>
-    <div className="field">
-    <label htmlFor="message">Message</label>
-    <textarea name="message" id="message" rows="6" />
-    </div>
-    <ul className="actions">
-      <li>
-      <input type="submit" value="Send Message" className="special" />
-      </li>
-      <li>
-      <input type="reset" value="Clear" />
-    </li>
-    </ul>
+
+      <input 
+      type="submit" 
+      value="Send Message" 
+      className='Button Form--SubmitButton' />
+      
 </form>
 )
 }
