@@ -9,9 +9,12 @@ import './ArtistPost.css'
 export const ArtistPostTemplate = ({
   title,
   body,
-  upcomingshows,
+  fbfav,
+  instafav,
+  twitterfav,
+  latestmix,
   featuredImage,
-  atURL,
+  video,
   categories = [],
 }) => (
   <main>
@@ -21,11 +24,12 @@ export const ArtistPostTemplate = ({
     >
       <div className="card">
           {title && (
-            <h1 itemProp="title">
+            <h1 style={{textAlign:'center', fontSize:'30px', textTransform:'uppercase'}} 
+            itemProp="title">
             {title}  
             </h1>
           )}
-          <div className="imagefix">
+          <div className="img2" className="item">
           <img src={featuredImage} alt={title} />
           </div>
             {categories && (
@@ -43,19 +47,29 @@ export const ArtistPostTemplate = ({
                 ))}
               </Fragment>
             )}
-        
-          <div>
+        <div className="text-holder right">
+        <div className="pg1-2-txt">
+            <p>
             <Content source={body} />
+            </p>
+            </div>
+            <ul id="footerlinks">
+      <a href={fbfav}  > Facebook </a>&nbsp;&nbsp;
+      <a href={instafav}  > Instagram </a>&nbsp;&nbsp;
+      <a href={twitterfav}  > Twitter </a>
+     </ul>
+      </div>
+          <div style={{ marginLeft:'30px', borderColor:'white', border:'3px'}}>
+          {video && ( <iframe width="50%" height="400px" src={video} frameborder="0" 
+          allow="accelerometer; autoplay; 
+          encrypted-media; gyroscope; picture-in-picture" 
+          ></iframe>)}
+          {latestmix && (
+           <iframe width="50%" height="300px" scrolling="no" 
+           frameborder="no" allow="autoplay" 
+           src={latestmix}></iframe>)}   
           </div>
-          
-          <div style={{fontSize:"12px"}}>          
-          {upcomingshows && (
-            <h1>
-              {upcomingshows}
-            </h1>
-          )}
-           </div>
-           </div>
+          </div>
     </article>
   </main>
 )
@@ -72,22 +86,34 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
         {...post}
         {...post.frontmatter}
         body={post.html}
+        
 
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
-      <a href={post.frontmatter.fbfav}>Facebook</a>
+      <div style={{textAlign:'center', marginLeft:'30px'}}>
+      <div className="scroll">
+      <p>
+      __________________________________   
+      <br/>Upcoming Shows<br/>
+      __________________________________ <br/>
+      {post.frontmatter.upcomingshows}</p>
+      </div>
+      </div>
       <br/>
-      <a href={post.frontmatter.instafav}>Instagram</a>
-      <br/>
-      <a href={post.frontmatter.twitterfav}>Twitter</a>
-      <br/>
-      <a href={post.frontmatter.presskit}>
-      <button>PressKit</button>
+      <div style={{textAlign:'center',
+      }}>
+      <a style={{margin:'30px', textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      Presskit
       </a>
-      <iframe width="683" height="384" src={post.frontmatter.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <a style={{margin:'30px',textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      Book Artist
+      </a>
+      </div>
       <br/>
-        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src={post.frontmatter.latestmix}></iframe>
+      <iframe width="100%" height="300px" scrolling="no" 
+           frameborder="no" allow="autoplay" 
+           src={post.frontmatter.latestmix}></iframe>)}   
     </Layout>
     
   )
