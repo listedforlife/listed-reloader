@@ -2,9 +2,6 @@ import React, { Fragment } from 'react'
 import _get from 'lodash/get'
 import _format from 'date-fns/format'
 import { Link, graphql } from 'gatsby'
-import { ChevronLeft } from 'react-feather'
-import MixTape from '../components/MixTape'
-
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './ArtistPost.css'
@@ -19,21 +16,25 @@ export const ArtistPostTemplate = ({
 }) => (
   <main>
     <article
-      className="ArtistPost section light"
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="container skinny">
-        <div className="ArtistPost--Content relative">
-          <div className="ArtistPost--Meta">
+      <div className="card">
+          {title && (
+            <h1 itemProp="title">
+            {title}  
+            </h1>
+          )}
+          <div className="imagefix">
           <img src={featuredImage} alt={title} />
+          </div>
             {categories && (
               <Fragment>
                 <span>|</span>
+              
                 {categories.map((cat, index) => (
                   <span
                     key={cat.category}
-                    className="ArtistPost--Meta--Category"
                   >
                     {cat.category}
                     {/* Add a comma on all but last category */}
@@ -42,34 +43,19 @@ export const ArtistPostTemplate = ({
                 ))}
               </Fragment>
             )}
+        
+          <div>
+            <Content source={body} />
           </div>
-            
-          {title && (
-            <h1 className="ArtistPost--Title" itemProp="title">
-              {title}
-            </h1>
-          )}
-
-{upcomingshows && (
-            <h1 className="ArtistPost--Title" itemProp="title">
+          
+          <div style={{fontSize:"12px"}}>          
+          {upcomingshows && (
+            <h1>
               {upcomingshows}
             </h1>
           )}
-        
-
-{atURL && (
-            <h1 style={{color:'white'}}>
-              {atURL}
-            </h1>
-          )}
-
-          <div className="ArtistPost--InnerContent">
-            <Content source={body} />
-          </div>
-
-       
-        </div>
-      </div>
+           </div>
+           </div>
     </article>
   </main>
 )
