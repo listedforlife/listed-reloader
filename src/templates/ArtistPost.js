@@ -54,7 +54,10 @@ export const ArtistPostTemplate = ({
             </p>
             </div>
       </div>
-          <div style={{ marginLeft:'30px', borderColor:'white', border:'3px'}}>
+                  <div className="marginbox">          
+                    
+                    <div style={{ marginLeft:'60px', borderColor:'white', border:'3px'}}>
+          
           {video && ( <iframe className="vid" height="400px" src={video} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
@@ -65,6 +68,8 @@ export const ArtistPostTemplate = ({
            src={latestmix}></iframe>)}   
           </div>
           </div>
+          </div>
+
     </article>
   </main>
 )
@@ -86,13 +91,15 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
         nextPostURL={_get(thisEdge, 'next.fields.slug')}
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
-      <div style={{textAlign:'center', marginLeft:'30px'}}>
+      <div className="marginbox">
+      <div style={{textAlign:'center', marginLeft:'60px'}}>
       <div className="scroll">
       <p>
       __________________________________   
       <br/>Upcoming Shows<br/>
       __________________________________ <br/>
       {post.frontmatter.upcomingshows}</p>
+      </div>
       </div>
       </div>
       <br/>
@@ -119,7 +126,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <br/>
       <iframe width="100%" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 
-           src={post.frontmatter.latestmix}></iframe>)}   
+           src={post.frontmatter.latestmix}></iframe>   
     </Layout>
     
   )

@@ -125,6 +125,11 @@ text-align: center;
 .vid {
   width:50%;
   text-align:center;
+  margin-right:-30px;
+}
+
+.marginbox {
+  margin-right:0px;
 
 }
 
@@ -155,9 +160,15 @@ text-align: center;
   scrollbar-width: none; 
 }
 
+.marginbox {
+  margin-right:60px;
+
+}
+
 .vid {
   width:100%;
   text-align:center;
+
 }
 
 .pg1-2-txt::-webkit-scrollbar { 
