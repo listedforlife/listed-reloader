@@ -9,16 +9,15 @@ import './ArtistPost.css'
 export const ArtistPostTemplate = ({
   title,
   body,
-  fbfav,
-  instafav,
-  twitterfav,
-  soundcloudfav,
-  spotifyfav,
-  spotify,
+  fblk,
+  instalk,
+  twitterlk,
+  sclk,
+  spotifylk,
   spotifywidg,
-  latestmix,
+  scwidg,
   featuredImage,
-  video,
+  videowidg,
   categories = [],
 }) => (
   <main>
@@ -62,11 +61,11 @@ export const ArtistPostTemplate = ({
                     
                     <div style={{ marginLeft:'60px', borderColor:'white', border:'3px'}}>
           
-          {video && (<iframe className="vid" height="400px" src={video} frameborder="0" 
+          {videowidg && (<iframe className="vid" height="400px" src={videowidg} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
-          <iframe src={latestmix} className="vid" height="380" style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src={scwidg} className="vid" height="380" style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           </div>
           </div>
@@ -118,17 +117,17 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
                    justifyContent: 'center',
                    }}>
       <ul>
-      <a href={post.frontmatter.soundcloudfav}  > Soundcloud </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.spotifyfav}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.fbfav}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.instafav}  > Instagram </a>
+      <a href={post.frontmatter.sclk}  > Soundcloud </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.spotifylk}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.fblk}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.instalk}  > Instagram </a>
      </ul>
       </div>
       <br/>
       <div style={{textAlign:'center'}}>
       <iframe className="spotifyc"  width="80%" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 
-           src="https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa"></iframe>   
+           src={post.frontmatter.spotifywidg}></iframe>   
     </div>
     </Layout>
     
@@ -151,13 +150,16 @@ export const pageQuery = graphql`
         title
         featuredImage
         template
-        fbfav
-        instafav
-        twitterfav
-        video
+        spotifywidg
+        fblk
+        instalk
+        twitterlk
+        sclk
+        spotifylk
+        videowidg
         upcomingshows
         presskit
-        latestmix
+        scwidg
         subtitle
         excerpt
         categories {

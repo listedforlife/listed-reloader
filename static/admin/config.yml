@@ -434,15 +434,15 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Bio, name: body, widget: markdown }
       - { label: Upcoming Shows, name: upcomingshows, widget: text }
 
-      - {label: "Facebook Link", name: fbfav, widget: string}
-      - {label: "Instagram Link", name: instafav, widget: string}
-      - {label: "Twitter Link", name: twitterfav, widget: string}
-      - {label: "Spotify Link", name: spotifyfav, widget: string}
-      - {label: "SoundCloud Link", name: soundcloudfav, widget: string}
+      - {label: "Facebook Link", name: fblk, widget: string}
+      - {label: "Instagram Link", name: instalk, widget: string}
+      - {label: "Twitter Link", name: twitterlk, widget: string}
+      - {label: "Spotify Link", name: spotifylk, widget: string}
+      - {label: "SoundCloud Link", name: sclk, widget: string}
       - {label: Presskit, name: presskit, widget: string}
-      - {label: Soundcloud Mix, name: latestmix, widget: string}
-      - {label: Youtube Video, name: video, widget: string}
-      - {label: Spotify Widget, name: spotify, widget: string}
+      - {label: Soundcloud Widget, name: scwidg, widget: string}
+      - {label: Youtube Widget, name: videowidg, widget: string}
+      - {label: Spotify Widget, name: spotifywidg, widget: string}
 
       - label: 'Status'
         name: 'status'

@@ -37,7 +37,7 @@ export const byCategory = (posts, title, contentType) => {
 export const ArtistPageTemplate = ({
   title,
   subtitle,
-  fbfav,
+  fblk,
   featuredImage,
   posts = [],
   postCategories2 = [],
@@ -141,7 +141,7 @@ export const pageQuery = graphql`
           frontmatter {
             excerpt
             title
-            fbfav
+            fblk
             date
             categories {
               category
