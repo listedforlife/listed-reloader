@@ -12,7 +12,10 @@ export const ArtistPostTemplate = ({
   fbfav,
   instafav,
   twitterfav,
+  soundcloudfav,
+  spotifyfav,
   spotify,
+  spotifywidg,
   latestmix,
   featuredImage,
   video,
@@ -115,10 +118,10 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
                    justifyContent: 'center',
                    }}>
       <ul>
-      <a href={post.frontmatter.fbfav}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.soundcloudfav}  > Soundcloud </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.spotifyfav}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href={post.frontmatter.fbfav}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.instafav}  > Instagram </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.twitterfav}  > Soundcloud </a>
+      <a href={post.frontmatter.instafav}  > Instagram </a>
      </ul>
       </div>
       <br/>
