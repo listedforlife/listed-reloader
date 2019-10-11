@@ -40,12 +40,8 @@
   .ArtistPost--InnerContent {
     padding: 0 8rem;
   }
-  
-  @media screen and (max-width: 750px) {
-    .ArtistPost--InnerContent {
-      padding: 0;
-    }
-  }
+
+
   
   .ArtistPost--Pagination {
     margin: 4rem 0 0 0;
@@ -124,6 +120,56 @@ text-align: center;
 
 .pg1-2-txt::-webkit-scrollbar { 
   display: none; 
+}
+
+.vid {
+  width:50%;
+  text-align:center;
+
+}
+
+@media (max-width: 643px) {
+  .ArtistPost--InnerContent {
+    padding: 0;
+  }
+
+  .text-holder {
+    width:100%;
+}
+.right {
+  float: center;
+}
+.pg1-2-txt {
+  color:'blue';
+  font-size:'12px';
+  text-align:center;
+  margin:0 auto;
+  padding:1em;
+  overflow:scroll;
+  height:1100px;
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+.vid {
+  width:100%;
+  text-align:center;
+}
+
+.pg1-2-txt::-webkit-scrollbar { 
+  display: none; 
+}
+
+.scroll {
+  background-color: rgb(9, 21, 24);
+  width: 100%;
+  height: 100px;
+  overflow: scroll;
+  text-align: center;
+  margin-top:40px;
+}
+
+
 }
 
   .example_c {

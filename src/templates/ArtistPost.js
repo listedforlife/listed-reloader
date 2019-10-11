@@ -53,19 +53,14 @@ export const ArtistPostTemplate = ({
             <Content source={body} />
             </p>
             </div>
-            <ul id="footerlinks">
-      <a href={fbfav}  > Facebook </a>&nbsp;&nbsp;
-      <a href={instafav}  > Instagram </a>&nbsp;&nbsp;
-      <a href={twitterfav}  > Twitter </a>
-     </ul>
       </div>
           <div style={{ marginLeft:'30px', borderColor:'white', border:'3px'}}>
-          {video && ( <iframe width="50%" height="400px" src={video} frameborder="0" 
+          {video && ( <iframe className="vid" height="400px" src={video} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
           {latestmix && (
-           <iframe width="50%" height="300px" scrolling="no" 
+           <iframe className="vid" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 
            src={latestmix}></iframe>)}   
           </div>
@@ -109,6 +104,16 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a style={{margin:'30px',textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
       Book Artist
       </a>
+      </div>
+      <div style={{display:'flex',
+                   alignItems: 'center',
+                   justifyContent: 'center'}}>
+      <ul id="footerlinks">
+      <a href={post.frontmatter.fbfav}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.fbfav}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.instafav}  > Instagram </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.twitterfav}  > Soundcloud </a>
+     </ul>
       </div>
       <br/>
       <iframe width="100%" height="300px" scrolling="no" 
