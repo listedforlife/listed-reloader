@@ -15,7 +15,7 @@ presskit: >-
   http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Clarian_Press_Kit_2018-1.zip
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679794170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/rHgmXJLpa5o?list=RDrHgmXJLpa5o'
+videowidg: 'https://www.youtube.com/embed/X6tkrMOo2WM'
 spotifywidg: 'https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa'
 status: Published
 date: 2019-10-06T20:25:40.793Z
