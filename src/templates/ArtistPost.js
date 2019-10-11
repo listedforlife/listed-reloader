@@ -105,10 +105,11 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       Book Artist
       </a>
       </div>
-      <div style={{display:'flex',
+      <div className='smlist' style={{display:'flex',
                    alignItems: 'center',
-                   justifyContent: 'center'}}>
-      <ul id="footerlinks">
+                   justifyContent: 'center',
+                   }}>
+      <ul>
       <a href={post.frontmatter.fbfav}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href={post.frontmatter.fbfav}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href={post.frontmatter.instafav}  > Instagram </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
