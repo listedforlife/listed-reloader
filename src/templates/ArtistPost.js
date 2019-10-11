@@ -58,14 +58,11 @@ export const ArtistPostTemplate = ({
                     
                     <div style={{ marginLeft:'60px', borderColor:'white', border:'3px'}}>
           
-          {video && ( <iframe className="vid" height="400px" src={video} frameborder="0" 
+          {video && (<iframe className="vid" height="400px" src={video} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
-          {latestmix && (
-           <iframe className="vid" height="300px" scrolling="no" 
-           frameborder="no" allow="autoplay" 
-           src={latestmix}></iframe>)}   
+          <iframe src={latestmix} className="vid" height="380" style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           </div>
           </div>
@@ -124,9 +121,11 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
      </ul>
       </div>
       <br/>
-      <iframe width="100%" height="300px" scrolling="no" 
+      <div style={{textAlign:'center'}}>
+      <iframe className="spotifyc"  width="80%" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 
-           src={post.frontmatter.latestmix}></iframe>   
+           src="https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa"></iframe>   
+    </div>
     </Layout>
     
   )
