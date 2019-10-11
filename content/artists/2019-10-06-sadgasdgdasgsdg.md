@@ -9,11 +9,14 @@ upcomingshows: |-
 fbfav: 'https://www.facebook.com/Yosei.Gorazu'
 instafav: 'https://www.instagram.com/clariannorth'
 twitterfav: 'https://twitter.com/clarianmusic'
+spotifyfav: 'https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa'
+soundcloudfav: 'https://soundcloud.com/clariannorth'
 presskit: >-
   http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Clarian_Press_Kit_2018-1.zip
 latestmix: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679794170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 video: 'https://www.youtube.com/embed/rHgmXJLpa5o?list=RDrHgmXJLpa5o'
+spotify: 'https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa'
 status: Published
 date: 2019-10-06T20:25:40.793Z
 meta:
