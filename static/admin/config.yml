@@ -440,6 +440,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: Presskit, name: presskit, widget: string}
       - {label: Latest Mix, name: latestmix, widget: string}
       - {label: Video, name: video, widget: string}
+      - {label: Spotify, name: spotify, widget: string}
+
       - label: 'Status'
         name: 'status'
         widget: 'select'

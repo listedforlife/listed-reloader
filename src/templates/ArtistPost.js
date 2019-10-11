@@ -12,6 +12,7 @@ export const ArtistPostTemplate = ({
   fbfav,
   instafav,
   twitterfav,
+  spotify,
   latestmix,
   featuredImage,
   video,
