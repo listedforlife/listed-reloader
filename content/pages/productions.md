@@ -1,32 +1,36 @@
 ---
 template: ProductionsPage
 slug: productions
-title: Productions 
+title: Productions
 featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: 
+subtitle: asdgdas
 section1: >-
-  ## Listed Productions
+  ## Tatiana Productions
 
 
-  Listed is a SF based initiative that showcases cutting-edge EDM and strives to make it accessible via event productions and an artist agency. Our mission is to create unforgettable experiences with a warm, intimate vibe for our guests. We strive to make the partygoer as important as the headliner because we think the experience matters!
+  Listed is a SF based initiative that showcases cutting-edge EDM and strives to
+  make it accessible via event productions and an artist agency. Our mission is
+  to create unforgettable experiences with a warm, intimate vibe for our guests.
+  We strive to make the partygoer as important as the headliner because we think
+  the experience matters!
 
 
-
-  We add personal touches to foster “ridiculous fun for ridiculous people” creating a communal atmosphere that’s long been forgotten in the dance music scene. listed also acts as an agency of representation for 17 artists from around the world. Get listed and join in on our fun!
+  We add personal touches to foster “ridiculous fun for ridiculous people”
+  creating a communal atmosphere that’s long been forgotten in the dance music
+  scene. listed also acts as an agency of representation for 17 artists from
+  around the world. Get listed and join in on our fun!
 section2: |-
   ## You can use videos, images and text.
 
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: Also background videos, with poster image & title overlay.
+videoTitle: 'Also background videos, with poster image & title overlay.'
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
-    featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
   - description: Taciti lorem tempor quam vestibulum dis habitasse
@@ -47,3 +51,4 @@ meta:
   description: This is a meta description.
   title: Components Page
 ---
+
