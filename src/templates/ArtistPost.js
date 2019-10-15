@@ -26,14 +26,18 @@ export const ArtistPostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <div className="card">
+        <br/>
+        <div className='htoone' className='headers'>
           {title && (
             <h1 style={{textAlign:'center', fontSize:'30px', textTransform:'uppercase'}} 
             itemProp="title">
             {title}  
             </h1>
+            
           )}
-          <div className="img2" className="item">
-          <img src={featuredImage} alt={title} />
+          </div>
+          <div className="img2" className="shadow" className="item">
+          <img className="thisone" src={featuredImage} alt={title} />
           </div>
             {categories && (
               <Fragment>
@@ -52,6 +56,7 @@ export const ArtistPostTemplate = ({
             )}
         <div className="text-holder right">
         <div className="pg1-2-txt">
+            <br/>
             <p>
             <Content source={body} />
             </p>
@@ -108,7 +113,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
       Presskit
       </a>
-      <a style={{margin:'30px',textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      <a style={{margin:'30px',textAlign:'center', textDecoration:'none'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
       Book Artist
       </a>
       </div>
@@ -125,6 +130,8 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       </div>
       <br/>
       <div style={{textAlign:'center'}}>
+      _________________________________________________________________________________________________________________________________
+      <br/><br/>
       <iframe className="spotifyc"  width="80%" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 
            src={post.frontmatter.spotifywidg}></iframe>   
