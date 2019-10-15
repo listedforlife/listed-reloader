@@ -61,11 +61,11 @@ export const ArtistPostTemplate = ({
                     
                     <div style={{ marginLeft:'60px', borderColor:'white', border:'3px'}}>
           
-          {videowidg && (<iframe className="vid" height="400px" src={videowidg} frameborder="0" 
+          {videowidg && (<iframe className="vid"  src={videowidg} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
-          <iframe src={scwidg} className="vid" height="380" style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src={scwidg} className="vid"  style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           </div>
           </div>
@@ -105,7 +105,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <br/>
       <div style={{textAlign:'center',
       }}>
-      <a style={{margin:'30px', textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
       Presskit
       </a>
       <a style={{margin:'30px',textAlign:'center'}} className="doingit" href={post.frontmatter.presskit} className="example_c">

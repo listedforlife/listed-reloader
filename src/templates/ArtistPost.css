@@ -124,6 +124,7 @@ text-align: center;
 
 .vid {
   width:50%;
+  height:380px;
   text-align:center;
   margin-right:-30px;
 }
@@ -141,6 +142,8 @@ text-align: center;
 .spotifyc {
   box-shadow: 10px 10px 5px rgb(65, 65, 65);
 }
+
+
 
 
 @media (max-width: 643px) {
@@ -173,6 +176,7 @@ text-align: center;
 
 .vid {
   width:100%;
+  height:340px;
   text-align:center;
 
 }
@@ -224,3 +228,15 @@ text-align: center;
     font-size:'12px';
     margin:0 auto;
    }
+
+   @media (max-width: 380px) { 
+
+    .vid {
+      width:100%;
+      height:220px;
+      text-align:center;
+    
+    }
+  
+  
+  }
