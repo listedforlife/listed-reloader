@@ -21,9 +21,10 @@ export const ArtistPostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <br/>
-      <div className="card" >
+      <div className="card"  >
         <div className='htoone' id="demo"  style={{backgroundColor:randomColor(
-              {
+      
+      {
              }
             ), width:'70%', textAlign:'center', marginLeft:'15%'
             }}>
@@ -36,6 +37,7 @@ export const ArtistPostTemplate = ({
           )}
           <div className="img2" className="shadow" className="item">
           <img className="thisone" style={{marginBottom:'38px'}} src={featuredImage} alt={title} />
+            
           </div>
           </div>
           </div>
