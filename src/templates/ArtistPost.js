@@ -5,16 +5,11 @@ import { Link, graphql } from 'gatsby'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './ArtistPost.css'
+import randomColor from 'randomcolor';
 
 export const ArtistPostTemplate = ({
   title,
   body,
-  fblk,
-  instalk,
-  twitterlk,
-  sclk,
-  spotifylk,
-  spotifywidg,
   scwidg,
   featuredImage,
   videowidg,
@@ -25,19 +20,24 @@ export const ArtistPostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="card">
-        <br/>
-        <div className='htoone' className='headers'>
+      <br/>
+      <div className="card" >
+        <div className='htoone' id="demo"  style={{backgroundColor:randomColor(
+              {
+             }
+            ), width:'70%', textAlign:'center', marginLeft:'15%'
+            }}>
           {title && (
-            <h1 style={{textAlign:'center', fontSize:'30px', textTransform:'uppercase'}} 
+            <h1 className="textheader" style={{textAlign:'center', opacity: '1.7', fontSize:'45px', textTransform:'uppercase', marginBottom:'-6px'}} 
             itemProp="title">
             {title}  
             </h1>
-            
+        
           )}
-          </div>
           <div className="img2" className="shadow" className="item">
-          <img className="thisone" src={featuredImage} alt={title} />
+          <img className="thisone" style={{marginBottom:'38px'}} src={featuredImage} alt={title} />
+          </div>
+          </div>
           </div>
             {categories && (
               <Fragment>
@@ -71,7 +71,6 @@ export const ArtistPostTemplate = ({
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
           <iframe src={scwidg} className="vid"  style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
           </div>
           </div>
 
@@ -129,8 +128,8 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
      </ul>
       </div>
       <br/>
-      <div style={{textAlign:'center'}}>
-      _________________________________________________________________________________________________________________________________
+      <div style={{textAlign:'center', width:'100%'}}>
+      _________________
       <br/><br/>
       <iframe className="spotifyc"  width="80%" height="300px" scrolling="no" 
            frameborder="no" allow="autoplay" 

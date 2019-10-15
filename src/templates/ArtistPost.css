@@ -6,6 +6,15 @@
     background: rgb(0, 0, 0);
     padding: 8rem 8rem 4rem 18rem;
   }
+
+  #demoObject {
+    -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 2px 5px 12px 5px rgba(0,0,0,0); 
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 2px 5px 12px 5px rgba(0,0,0,0);
+    background: #ECEFCF;
+    }
+    body#tinymce {
+    background: #FFFFFF
+    }
   
   @media screen and (max-width: 750px) {
     .ArtistPost--Content {
@@ -63,8 +72,8 @@
   
 .card {
   width: '600px';
-  margin: '40px auto';
-  background-color: '#F7F7E9';
+  padding:0;
+  margin: 10px auto;
   color: '#444';
   overflow: 'hidden // clearfix';
   box-shadow: '5px 5px 0 0 #aaa';
@@ -91,7 +100,7 @@ border-radius: 15px;
   
   img {
     top: 50%;
-    left: 50%;
+    text-align: center;
     animation: 'grow 0.6s';
     max-width: 70%;
     max-height: 400px;
