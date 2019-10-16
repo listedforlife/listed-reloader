@@ -429,20 +429,19 @@ collections: # A list of collections the CMS should be able to edit
           label: Featured Image,
           name: featuredImage,
           widget: image,
-          required: false,
         }
       - { label: Bio, name: body, widget: markdown }
-      - { label: Upcoming Shows, name: upcomingshows, widget: text }
+      - { label: Upcoming Shows, name: upcomingshows, required: false, widget: text }
 
-      - {label: "Facebook Link", name: fblk, widget: string}
-      - {label: "Instagram Link", name: instalk, widget: string}
-      - {label: "Twitter Link", name: twitterlk, widget: string}
-      - {label: "Spotify Link", name: spotifylk, widget: string}
-      - {label: "SoundCloud Link", name: sclk, widget: string}
-      - {label: Presskit, name: presskit, widget: string}
-      - {label: Soundcloud Widget, name: scwidg, widget: string}
-      - {label: Youtube Widget, name: videowidg, widget: string}
-      - {label: Spotify Widget, name: spotifywidg, widget: string}
+      - {label: "Facebook Link", name: fblk, required: false, widget: string}
+      - {label: "Instagram Link", name: instalk, required: false, widget: string}
+      - {label: "Twitter Link", name: twitterlk, required: false, widget: string}
+      - {label: "Spotify Link", name: spotifylk, required: false, widget: string}
+      - {label: "SoundCloud Link", name: sclk, required: false, widget: string}
+      - {label: Presskit, name: presskit, required: false, widget: string}
+      - {label: Soundcloud Widget, name: scwidg, required: false, widget: string}
+      - {label: Youtube Widget, name: videowidg, required: false, widget: string}
+      - {label: Spotify Widget, name: spotifywidg, required: false, widget: string}
 
       - label: 'Status'
         name: 'status'
