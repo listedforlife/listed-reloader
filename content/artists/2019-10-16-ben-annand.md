@@ -8,7 +8,7 @@ upcomingshows: |-
 fblk: 'https://www.facebook.com/benannandmusic'
 instalk: 'https://www.instagram.com/benannand'
 twitterlk: 'https://twitter.com/benannand'
-spotifylk: 'https://twitter.com/benannand'
+spotifylk: ''
 sclk: 'https://soundcloud.com/ben-annand'
 presskit: 'https://soundcloud.com/ben-annand'
 scwidg: >-
