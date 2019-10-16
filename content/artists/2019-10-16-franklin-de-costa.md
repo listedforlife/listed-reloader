@@ -21,7 +21,7 @@ sclk: 'https://soundcloud.com/franklindecosta'
 presskit: 'https://soundcloud.com/franklindecosta'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348827465&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/uOyIEMLQsJY'
+videowidg: 'https://www.youtube.com/embed/wbnzSOJ4Ggw'
 spotifywidg: 'https://open.spotify.com/embed/artist/2f5rbWB8Cv5suxxjLrF3E2'
 status: Published
 date: 2019-10-16T19:51:45.640Z
