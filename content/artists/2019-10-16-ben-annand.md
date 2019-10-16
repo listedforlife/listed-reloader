@@ -14,7 +14,8 @@ presskit: 'https://soundcloud.com/ben-annand'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/686899837&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true
 videowidg: 'https://www.youtube.com/embed/H5jPrYY07HI'
-spotifywidg: ''
+spotifywidg: >-
+  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/495683133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 status: Published
 date: 2019-10-16T17:57:21.655Z
 ---
