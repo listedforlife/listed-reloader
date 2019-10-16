@@ -67,9 +67,9 @@ export const ArtistPostTemplate = ({
       </div>
                   <div className="marginbox">          
                     
-                    <div style={{ marginLeft:'60px', borderColor:'white', border:'3px'}}>
+                    <div style={{ marginLeft:'60px', marginTop:'10px', borderColor:'white', border:'3px'}}>
           
-          {videowidg && (<iframe className="vid"  src={videowidg} frameborder="0" 
+          {videowidg && (<iframe className="vid"   src={videowidg} frameborder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
