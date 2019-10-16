@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 .ArtistPost {
     background: black;
@@ -104,7 +104,7 @@ border-radius: 15px;
     margin: '0';
     padding: '20px';
     text-align: 'center';
-    background-color: '#4DD65F';
+    background-color: 'black';
     animation: 'fadein 1.2s'
   }
   
@@ -181,6 +181,13 @@ text-align: center;
   margin-right:-30px;
 }
 
+.sc {
+  width:50%;
+  height:320px;
+  text-align:center;
+  margin-right:-30px;
+}
+
 .marginbox {
   margin-right:0px;
 
@@ -228,7 +235,13 @@ text-align: center;
 
 .vid {
   width:100%;
-  height:340px;
+  height:310px;
+  text-align:center;
+
+}
+.sc {
+  width:100%;
+  height:260px;
   text-align:center;
 
 }
@@ -286,6 +299,13 @@ text-align: center;
     .vid {
       width:100%;
       height:220px;
+      text-align:center;
+    
+    }
+
+    .sc {
+      width:100%;
+      height:160px;
       text-align:center;
     
     }

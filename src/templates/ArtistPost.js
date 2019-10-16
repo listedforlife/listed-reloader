@@ -7,6 +7,7 @@ import Layout from '../components/Layout'
 import './ArtistPost.css'
 import randomColor from 'randomcolor';
 
+
 export const ArtistPostTemplate = ({
   title,
   body,
@@ -21,19 +22,17 @@ export const ArtistPostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <br/>
-      <div className="card"  >
+      <div className="card" className="rainbow"  >
         <div className='htoone' id="demo"  style={{backgroundColor:randomColor(
-      
       {
              }
             ), width:'70%', textAlign:'center', marginLeft:'15%'
             }}>
           {title && (
-            <h1 className="textheader" style={{textAlign:'center', opacity: '1.7', fontSize:'45px', textTransform:'uppercase', marginBottom:'-6px'}} 
+            <h1 className="textheader" style={{textAlign:'center', opacity: '1.7', fontSize:'45px',  marginBottom:'-6px'}} 
             itemProp="title">
             {title}  
             </h1>
-        
           )}
           <div className="img2" className="shadow" className="item">
           <img className="thisone" style={{marginBottom:'38px'}} src={featuredImage} alt={title} />
@@ -72,7 +71,7 @@ export const ArtistPostTemplate = ({
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
-          <iframe src={scwidg} className="vid"  style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src={scwidg} className="sc"  style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           </div>
 
