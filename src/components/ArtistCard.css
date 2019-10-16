@@ -5,7 +5,7 @@
     color: inherit;
     border: 14px solid rgb(16, 16, 16);
     border-radius: var(--borderRadius);
-    box-shadow: 0 6px 30px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 6px 30px rgba(133, 18, 18, 0.1);
     transition: all 0.15s ease-in-out;
     overflow: hidden;
   }
@@ -13,7 +13,8 @@
   .ArtistCard:hover,
   .ArtistCard:focus {
     transform: translateY(-1px);
-    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
+    opacity:1.5;
+    box-shadow: 0 2px 30px rgba(255, 8, 8, 0.15);
   }
   
   .ArtistCard--Image {
@@ -27,13 +28,6 @@
   }
   
   .ArtistCard--Content {
-    padding: 0 2.5rem 2.5rem;
-  }
-  
-  .ArtistCard--Category {
-    font-size: 1.2rem;
-    min-height: 1.2em;
-    line-height: 1;
-    margin: 0.5em 0;
+    padding: 0 1.5rem 1.5rem;
   }
   

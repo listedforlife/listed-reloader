@@ -24,7 +24,7 @@ const ArtistCard = ({
       <div className="ArtistCard--Category">
         {categories && categories.map(cat => cat.category).join(', ')}
       </div>
-      {excerpt && <div className="ArtistCard--Excerpt">{excerpt}</div>}
+      
     </div>
   </Link>
 )
