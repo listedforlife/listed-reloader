@@ -12,7 +12,7 @@ spotifylk: ''
 sclk: 'https://soundcloud.com/ben-annand'
 presskit: 'https://soundcloud.com/ben-annand'
 scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/686899837&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true
+  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211795183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/H5jPrYY07HI'
 spotifywidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/495683133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
