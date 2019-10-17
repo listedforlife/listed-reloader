@@ -80,8 +80,12 @@ const ArtistPage = ({ data: { page, posts, postCategories2 } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
-  >
-    Roster
+  ><div style={{background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 35%, rgba(0,212,255,1) 100%)',
+              margin:'30px'}}>
+    <div style={{fontSize:'20px'}}>
+    <h1>Artists</h1>
+    </div>
+    </div>
     <ArtistPageTemplate
       {...page}
       {...page.fields}
