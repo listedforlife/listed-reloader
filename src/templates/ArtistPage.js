@@ -1,67 +1,22 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Location } from '@reach/router'
-import qs from 'qs'
-
 import ArtistSection from '../components/ArtistSection'
 import Layout from '../components/Layout'
 
-/**
- * Filter posts by date. Feature dates will be fitered
- * When used, make sure you run a cronejob each day to show schaduled content. See docs
- *
- * @param {posts} object
- */
-export const byDate = posts => {
-  const now = Date.now()
-  return posts.filter(post => Date.parse(post.date) <= now)
-}
 
-/**
- * filter posts by category.
- *
- * @param {posts} object
- * @param {title} string
- * @param {contentType} string
- */
-export const byCategory = (posts, title, contentType) => {
-  const isCategory = contentType === 'postCategories2'
-  const byCategory = post =>
-    post.categories &&
-    post.categories.filter(cat => cat.category === title).length
-  return isCategory ? posts.filter(byCategory) : posts
-}
-
-// Export Template for use in CMS preview
 export const ArtistPageTemplate = ({
-  title,
+
   posts = [],
-  postCategories2 = [],
-  enableSearch = true,
-  contentType
+
 }) => (
   <Location>
-    {({ location }) => {
+    {() => {
       let filteredPosts =
-        posts && !!posts.length
-          ? byCategory(byDate(posts), title, contentType)
-          : []
-
-      let queryObj = location.search.replace('?', '')
-      queryObj = qs.parse(queryObj)
-
-      if (enableSearch && queryObj.s) {
-        const searchTerm = queryObj.s.toLowerCase()
-        filteredPosts = filteredPosts.filter(post =>
-          post.frontmatter.title.toLowerCase().includes(searchTerm)
-        )
-      }
+        posts 
 
       return (
         <main className="Blog">
-
-        
-
           {!!posts.length && (
             <section className="section">
               <div className="container">
@@ -82,9 +37,8 @@ const ArtistPage = ({ data: { page, posts, postCategories2 } }) => (
     title={page.frontmatter.title || false}
   ><div style={{background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 35%, rgba(0,212,255,1) 100%)',
               margin:'30px'}}>
-    <div style={{fontSize:'20px'}}>
-    <h1>Artists</h1>
-    </div>
+    <div></div>
+    Artists
     </div>
     <ArtistPageTemplate
       {...page}
