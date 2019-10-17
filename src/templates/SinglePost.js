@@ -119,7 +119,6 @@ const SinglePost = ({ data: { post, allPosts } }) => {
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
       <button  onClick={post.frontmatter.excerpt}>download link</button>
-      <a>{post.frontmatter.url}</a>
     </Layout>
   )
 }

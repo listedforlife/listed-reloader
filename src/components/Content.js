@@ -74,7 +74,7 @@ const Content = ({ source, src, className = '' }) => {
     source = withContentImages(source)
 
     return (
-      <div
+      <span
         className={`Content ${className}`}
         dangerouslySetInnerHTML={{ __html: source }}
       />

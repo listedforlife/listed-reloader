@@ -1,8 +1,6 @@
 import React from 'react'
 import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
-
-import PageHeader from '../components/PageHeader'
 import FormSimple2 from '../components/FormSimple2'
 import Content from '../components/Content'
 import GoogleMap from '../components/GoogleMap'

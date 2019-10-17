@@ -4,7 +4,6 @@ import { Location } from '@reach/router'
 import qs from 'qs'
 
 import ArtistSection from '../components/ArtistSection'
-import ArtistCategoriesNav from '../components/ArtistCategoriesNav'
 import Layout from '../components/Layout'
 
 /**

@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
-import _format from 'date-fns/format'
-import { Link, graphql } from 'gatsby'
+import {graphql } from 'gatsby'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './ArtistPost.css'
@@ -24,7 +23,7 @@ export const ArtistPostTemplate = ({
       itemType="http://schema.org/BlogPosting"
     >
       <br/>
-      <div className="card" className="rainbow"  >
+      <div className="card rainbow"  >
         <div className='htoone' id="demo"  style={{backgroundColor:randomColor(
       {
              }
@@ -36,7 +35,7 @@ export const ArtistPostTemplate = ({
             {title}  
             </h1>
           )}
-          <div className="img2" className="shadow" className="item">
+          <div className="img2 shadow item">
           <img className="thisone" style={{marginBottom:'38px'}} src={featuredImage} alt={title} />
             
           </div>
@@ -69,11 +68,11 @@ export const ArtistPostTemplate = ({
                     
                     <div style={{ marginLeft:'60px', marginTop:'10px', borderColor:'white', border:'3px'}}>
           
-          {videowidg && (<iframe className="vid"   src={videowidg} frameborder="0" 
+          {videowidg && (<iframe title="video widget" className="vid"   src={videowidg} frameBorder="0" 
           allow="accelerometer; autoplay; 
           encrypted-media; gyroscope; picture-in-picture" 
           ></iframe>)}
-          <iframe src={scwidg} className="sc"  style={{backgroundColor:'black'}} frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          <iframe src={scwidg} title="sc widget" className="sc"  style={{backgroundColor:'black'}} frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           </div>
 
@@ -112,10 +111,10 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <br/>
       <div style={{textAlign:'center',
       }}>
-      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
       Presskit
       </a>
-      <a style={{margin:'30px',textAlign:'center', textDecoration:'none'}} className="doingit" href={post.frontmatter.presskit} className="example_c">
+      <a style={{margin:'30px',textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
       Book Artist
       </a>
       </div>
@@ -134,8 +133,8 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <div style={{textAlign:'center', width:'100%'}}>
       _________________
       <br/><br/>
-      <iframe className="spotifyc"  width="80%" height="300px" scrolling="no" 
-           frameborder="no" allow="autoplay" 
+      <iframe className="spotifyc" title="spotify widget"  width="80%" height="300px" scrolling="no" 
+           frameBorder="no" allow="autoplay" 
            src={post.frontmatter.spotifywidg}></iframe>   
     </div>
     </Layout>
