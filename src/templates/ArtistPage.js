@@ -35,9 +35,6 @@ export const byCategory = (posts, title, contentType) => {
 // Export Template for use in CMS preview
 export const ArtistPageTemplate = ({
   title,
-  subtitle,
-  fblk,
-  featuredImage,
   posts = [],
   postCategories2 = [],
   enableSearch = true,

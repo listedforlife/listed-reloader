@@ -7,10 +7,10 @@ class ArtistSection extends React.Component {
   static defaultProps = {
     posts: [],
     title: '',
-    limit: 12,
+    limit: 50,
     showLoadMore: true,
     loadMoreTitle: 'Load More',
-    perPageLimit: 12
+    perPageLimit: 50
   }
 
   state = {
@@ -23,7 +23,7 @@ class ArtistSection extends React.Component {
     }))
 
   render() {
-    const { posts, title, showLoadMore, loadMoreTitle } = this.props,
+    const { posts, title } = this.props,
       { limit } = this.state,
       visiblePosts = posts.slice(0, limit || posts.length)
 
@@ -35,13 +35,6 @@ class ArtistSection extends React.Component {
             {visiblePosts.map((post, index) => (
               <ArtistCard key={post.title + index} {...post} />
             ))}
-          </div>
-        )}
-        {showLoadMore && visiblePosts.length < posts.length && (
-          <div className="taCenter">
-            <button className="button" onClick={this.increaseLimit}>
-              {loadMoreTitle}
-            </button>
           </div>
         )}
       </div>
