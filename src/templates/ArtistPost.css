@@ -25,11 +25,25 @@
     body#tinymce {
     background: #FFFFFF
     }
+
+.titleflex {
+  text-align:center; 
+  opacity: 1.7; 
+  font-size:45px;  
+  margin-bottom:-6px
+}    
   
   @media screen and (max-width: 750px) {
     .ArtistPost--Content {
       padding: 4rem 2rem;
     }
+
+    .titleflex {
+      text-align:center; 
+      opacity: 1.7; 
+      font-size:45px;  
+      margin-bottom:-6px
+    } 
   }
 
   .scroll {
@@ -210,6 +224,13 @@ text-align: center;
     padding: 0;
   }
 
+  .titleflex {
+    text-align:center; 
+    opacity: 1.7; 
+    font-size:35px;  
+    margin-bottom:-6px
+  } 
+
   .text-holder {
     width:100%;
 }
@@ -266,6 +287,7 @@ text-align: center;
   }
   }
 
+
   .example_c {
     color: #ffffff !important;
     text-transform: uppercase;
@@ -302,6 +324,13 @@ text-align: center;
       text-align:center;
     
     }
+
+    .titleflex {
+      text-align:center; 
+      opacity: 1.7; 
+      font-size:22px;  
+      margin-bottom:-4px
+    } 
 
     .sc {
       width:100%;

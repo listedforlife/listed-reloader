@@ -30,7 +30,7 @@ export const ArtistPostTemplate = ({
             ), width:'70%', textAlign:'center', marginLeft:'15%'
             }}>
           {title && (
-            <h1 className="textheader"  style={{textAlign:'center', opacity: '1.7', fontSize:'45px',  marginBottom:'-6px'}} 
+            <h1 className="textheader titleflex"
             itemProp="title">
             {title}  
             </h1>
