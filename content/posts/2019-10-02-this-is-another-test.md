@@ -1,21 +1,20 @@
 ---
-displayText: testing
-url: >-
-  http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip
+displayText: bla
+url: 'https://www.facebook.com/events/439971906628344/'
 itemType: Link
 template: SinglePost
 title: >-
-  this is another test this is another test this is another test this is another
-  test
+  On the list for ADE tonight: Manjumasi and Listed join up for a major get down
+  at Duke Of Tokyo with Tim Engelhardt (live), atish + Mark Slee, Birds ov
+  Paradise and Dj Dory. It's the place to be!
 status: Published
 date: 2019-10-02T15:36:56.667Z
-featuredImage: 'https://ucarecdn.com/ac718cd8-2cab-447b-a74e-1ee7b9963088/'
-excerpt: >-
-  http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip
+featuredImage: 'https://ucarecdn.com/23c36b62-2367-417e-89f6-c407be5e29bf/'
+excerpt: bla
 meta:
   description: >-
     http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip
   title: >-
     http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip
 ---
-this is the content
+On the list for ADE tonight: Manjumasi and Listed join up for a major get down at Duke Of Tokyo with Tim Engelhardt (live), atish + Mark Slee, Birds ov Paradise and Dj Dory. It's the place to be!
