@@ -22,8 +22,9 @@
   height: 20rem;
 }
 
-.PostCard--Title {
+.PostCard--excerpt {
   margin: 0;
+  font-size:18px;
 }
 
 .PostCard--Content {

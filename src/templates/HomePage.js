@@ -98,11 +98,10 @@ const HomePage = ({ data: { page, posts, postCategories } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
        <div className='slider'>
-  <div className='slide1'></div>
-  <div className='slide2'></div>
-  <div className='slide3'></div>
+
+
 </div>
-<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Listed News</div>
+<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Fresh News</div>
 
     <HomePageTemplate
 
@@ -151,6 +150,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        url
         excerpt
         date
         template
@@ -171,6 +171,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            url
             date
             categories {
               category
