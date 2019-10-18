@@ -11,4 +11,4 @@ excerpt: asdgsadg
 categories:
   - category: News
 ---
-Brooklyn gets listed this Friday 10/18! NYC is in luck as the first Morgana of the season falls on a Friday.
+NYC is in luck as the first Morgana of the season falls on a Friday.
