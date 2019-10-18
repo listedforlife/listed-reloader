@@ -16,8 +16,4 @@ meta:
   title: >-
     http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip
 ---
-dasfdsfadsf asf asdf asdf sdf 
-
-sa dfasdfsadf sadf dsaf dsaf sadf sdaf sad
-
- dsafadsfsadfsdafasd
+this is the content
