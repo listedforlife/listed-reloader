@@ -291,12 +291,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Display Text", name: displayText, widget: string}
       - {label: URL, name: url, widget: string}
-      - label: "Item Type"
-        name: itemType
-        widget: select
-        options: ["Link", "Button"]
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
 
@@ -312,19 +307,7 @@ collections: # A list of collections the CMS should be able to edit
           widget: image,
           required: false,
         }
-      - { label: excerpt, name: excerpt, widget: text }
       - { label: Content, name: body, widget: markdown }
-      - label: 'poop'
-        name: 'categories'
-        widget: 'list'
-        required: false
-        fields:
-          - label: 'Category'
-            name: 'category'
-            widget: 'relation'
-            collection: 'postCategories'
-            searchFields: ['title']
-            valueField: 'title'
       - label: 'Meta'
         required: false
         name: 'meta'

@@ -53,39 +53,8 @@ export class Navigation extends Component {
             <NavLink to="/">Listed</NavLink>
             <NavLink to="/artists/">Artists</NavLink>
             <NavLink to="/productions/">Productions</NavLink>
-            <div
-              className={`Nav--Group ${
-                this.state.activeSubNav === 'posts' ? 'active' : ''
-              }`}
-            >
-              <span
-                className={`NavLink Nav--GroupParent ${
-                  this.props.location.pathname.includes('posts') ||
-                  this.props.location.pathname.includes('blog') ||
-                  this.props.location.pathname.includes('post-categories')
-                    ? 'active'
-                    : ''
-                }`}
-                onClick={() => this.toggleSubNav('posts')}
-              >
-                News
-              </span>
-              <div className="Nav--GroupLinks">
-                <NavLink to="/blog/" className="Nav--GroupLink">
-                  All Posts
-                </NavLink>
-                {subNav.posts.map((link, index) => (
-                  <NavLink
-                    to={link.slug}
-                    key={'posts-subnav-link-' + index}
-                    className="Nav--GroupLink"
-                  >
-                    {link.title}
-                  </NavLink>
-                ))}
-              </div>
-            </div>
-            <NavLink to="/contact/" style={{marginLeft:'-10px'}}>Contact</NavLink>
+            <NavLink to="/blog/">News</NavLink>
+            <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
@@ -96,7 +65,7 @@ export class Navigation extends Component {
           </button>
         </div>
         <div className="smedialinks">
-        <div style={{opacity:'0.9', float:'right', marginBottom:'30px', marginRight:'69px', marginTop:'-44px'}}>
+        <div style={{opacity:'0.7', float:'right', marginBottom:'30px', marginRight:'69px', marginTop:'-44px'}}>
       <span style={{margin:'5px'}}>
       <SocialIcon url="https://www.facebook.com/listedbookings"  style={{ height: 25, width: 25 }} />
       </span>

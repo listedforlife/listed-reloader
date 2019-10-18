@@ -15,6 +15,7 @@ const PostCard = ({
   className = '',
   ...props
 }) => (
+  <div>
   <a href={url}  target="_blank" className={`PostCard ${className}`}>
     {featuredImage && (
       <div className="PostCard--Image relative">
@@ -22,7 +23,6 @@ const PostCard = ({
       </div>
     )}
     <div className="PostCard--Content">
-      {excerpt && <p className="PostCard--excerpt">{excerpt}</p>}
       {date && (
               <time
                 className="SinglePost--Meta--Date"
@@ -34,6 +34,8 @@ const PostCard = ({
             )}
     </div>
   </a>
-)
+      {excerpt && <p className="PostCard--excerpt">{excerpt}</p>}
+</div>
+      )
 
 export default PostCard
