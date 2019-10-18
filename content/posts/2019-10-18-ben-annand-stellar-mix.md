@@ -10,4 +10,4 @@ date: 2019-10-18T16:13:12.179Z
 featuredImage: 'https://ucarecdn.com/497a3bc3-2852-423e-8f9a-2973ef538b64/'
 excerpt: asdg
 ---
-Industry veteran Ben Annand puts out a stellar mix live from Dvina Rooftop - a balanced mix of new and classic.
+Industry veteran Ben Annand puts out a stellar mix live from Dvina Rooftop.
