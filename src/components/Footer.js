@@ -26,10 +26,10 @@ export default () => (
     </h2>
     <br />
     <InstagramFeed count="8" />
-    <footer className="footer">
+    <footer className="footer" style={{backgroundColor:'black'}}>
       <div className="container taCenter">
-        <span>
-          © Copyright {new Date().getFullYear()} All rights reserved.{' '}
+        <span style={{color:'white'}}>
+          © Copyright Listed {new Date().getFullYear()} All rights reserved.{' '}
         </span>
       </div>
     </footer>

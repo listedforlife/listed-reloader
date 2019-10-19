@@ -1,11 +1,11 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Location } from '@reach/router'
-import qs from 'qs'
 import Content from '../components/Content'
 import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
 import './HomePage.css'
+import ReactMarkdown from 'react-markdown'
 
 /**
  * Filter posts by date. Feature dates will be fitered
@@ -34,15 +34,15 @@ export const byCategory = (posts, title, contentType) => {
 }
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({
+export const HomePageTemplate = ({ 
   title,
   body,
+  subtitle,
   listedmix,
   listedmixlk,
   posts = [],
 }) => (
   <Location>
-
     {({ }) => {
       let newposts =
         posts
@@ -62,6 +62,12 @@ export const HomePageTemplate = ({
     <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> {listedmix}</div>
     <br/><br/><br/><br/>
     <iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src={listedmixlk}></iframe>
+    <div style={{background: 'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(20,35,51,1) 100%)', 
+    textAlign:'center', textDecoration:'none', margin:'10px', padding:'10px'}}    
+    >
+    <h1>Artists</h1>
+    <ReactMarkdown source={subtitle} />
+    </div>
     </div>
         </main>
       )
@@ -72,7 +78,7 @@ export const HomePageTemplate = ({
 )
 
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts, postCategories, listedmixlk
+const HomePage = ({ data: { page, posts, postCategories
  } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
@@ -94,18 +100,8 @@ const HomePage = ({ data: { page, posts, postCategories, listedmixlk
         ...post.node.frontmatter,
         ...post.node.fields
       }))}
-
-      postCategories={postCategories.edges.map(post => ({
-        ...post.node,
-        ...post.node.frontmatter,
-        ...post.node.fields
-      }))}
-      
     />
-    <div style={{textAlign:'center'}}>
-      
-      <HomePageTemplate       body={page.html} 
-></HomePageTemplate></div>
+
   </Layout>
   
 )

@@ -58,6 +58,7 @@
     "react-responsive-carousel": "^3.1.50",
     "react-soundcloud": "^0.1.1",
     "react-soundcloud-embed": "^1.0.3",
+    "remarkable": "^2.0.0",
     "sharp": "^0.23.1",
     "typeface-nunito": "0.0.72"
   },
