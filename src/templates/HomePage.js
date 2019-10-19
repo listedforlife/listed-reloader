@@ -87,17 +87,13 @@ const HomePage = ({ data: { page, posts
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
-      <Carousel showStatus={false} emulateTouch showIndicators={false} autoPlay infiniteLoop >
-       <div>
-                <img src='https://www.bensound.com/bensound-img/clearday.jpg' />
-                </div>
-                <div>
-                <img src='https://tinyjpg.com/images/social/website.jpg'/>
-                </div>
-                <div>
-                <img src='https://www.smallbizgeek.co.uk/wp-content/uploads/2016/03/tiny-png-tiny-jpg.jpg' />
-                </div>
-</Carousel>
+    <div className='slider'>
+  <div className='slide1' style={{background: 'url(https://ucarecdn.com/895426fd-39d7-4349-981f-1699c3ee410c/)no-repeat center',backgroundSize:'cover'}}></div>
+  <div className='slide2' style={{background: 'url(https://ucarecdn.com/5a118e82-86f5-48c0-bca6-7143b2cb27ef/)no-repeat center',backgroundSize:'cover'}}></div>
+  <div className='slide3' style={{background: 'url(https://ucarecdn.com/cf73fca0-c7a6-40f6-b8f2-30c679187e2d/)no-repeat center',backgroundSize:'cover'}}></div>
+  <div className='slide4' style={{background: 'url(https://ucarecdn.com/85cf0a51-f408-4b1d-845f-133a7f21a48e/)no-repeat center',backgroundSize:'cover'}}></div>
+  <div className='slide5' style={{background: 'url(https://ucarecdn.com/2c5a006f-ed1d-4046-8f59-60f0ecd7638c/)no-repeat center',backgroundSize:'cover'}}></div>
+</div>
 <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Fresh News</div>
 
     <HomePageTemplate
