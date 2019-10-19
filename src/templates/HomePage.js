@@ -35,46 +35,33 @@ export const byCategory = (posts, title, contentType) => {
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
-  title,
   body,
+  listedmix,
+  listedmixlk,
   posts = [],
-  enableSearch = true,
-  contentType
 }) => (
-
   <Location>
 
-    {({ location }) => {
-      let filteredPosts =
-        posts && !!posts.length
-          ? byCategory(byDate(posts), title, contentType)
-          : []
-
-      let queryObj = location.search.replace('?', '')
-      queryObj = qs.parse(queryObj)
-
-      if (enableSearch && queryObj.s) {
-        const searchTerm = queryObj.s.toLowerCase()
-        filteredPosts = filteredPosts.filter(post =>
-          post.frontmatter.title.toLowerCase().includes(searchTerm)
-        )
-      }
-
+    {({ }) => {
+      let newposts =
+        posts
       return (
         <main className="Blog">
 <section className="section">
       <div className="container">
         <Content source={body} />
-        
       </div>
     </section>
-          {!!posts.length && (
             <section className="section">
               <div className="container">
-                <PostSection posts={filteredPosts} />
+                <PostSection posts={newposts} />
               </div>
             </section>
-          )}
+            <div>
+    <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> {listedmix}</div>
+    <br/><br/><br/><br/>
+    <iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src={listedmixlk}></iframe>
+    </div>
         </main>
       )
     }}
@@ -84,7 +71,8 @@ export const HomePageTemplate = ({
 )
 
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts, postCategories } }) => (
+const HomePage = ({ data: { page, posts, postCategories, listedmixlk
+ } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
@@ -113,13 +101,6 @@ const HomePage = ({ data: { page, posts, postCategories } }) => (
       }))}
       
     />
-    <div style={{textAlign:'center'}}>
-      
-      <HomePageTemplate       body={page.html} 
-></HomePageTemplate></div>
-<div style={{paddingLeft:'45px',fontSize:'25px'}}> Listed Playlist Vol #1</div>
-<br></br>
- <div><iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657878880&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
   </Layout>
   
 )
@@ -141,7 +122,8 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        url
+        listedmix
+        listedmixlk
         excerpt
         date
         template
