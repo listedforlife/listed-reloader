@@ -62,11 +62,13 @@ export const HomePageTemplate = ({
     <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> {listedmix}</div>
     <br/><br/><br/><br/>
     <iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src={listedmixlk}></iframe>
-    <div style={{background: 'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(20,35,51,1) 100%)', 
+    <div style={{background: 'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(3,5,9,1) 100%)', 
     textAlign:'center', textDecoration:'none', margin:'10px', padding:'10px'}}    
     >
+      <div style={{}}>
     <h1>Artists</h1>
     <ReactMarkdown source={subtitle} />
+    </div>
     </div>
     </div>
         </main>
