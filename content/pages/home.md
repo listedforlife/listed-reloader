@@ -10,4 +10,4 @@ subtitle: adsgs
 meta:
   description: This is a meta description.
 ---
-\[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
+`[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)`
