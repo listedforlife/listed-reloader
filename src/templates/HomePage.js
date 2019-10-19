@@ -37,11 +37,7 @@ export const byCategory = (posts, title, contentType) => {
 export const HomePageTemplate = ({
   title,
   body,
-  subtitle,
-  featuredImage,
   posts = [],
-  date,
-  postCategories = [],
   enableSearch = true,
   contentType
 }) => (
@@ -66,17 +62,12 @@ export const HomePageTemplate = ({
 
       return (
         <main className="Blog">
-   
-
 <section className="section">
       <div className="container">
         <Content source={body} />
         
       </div>
     </section>
-
-
-
           {!!posts.length && (
             <section className="section">
               <div className="container">
