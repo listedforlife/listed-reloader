@@ -249,9 +249,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Listed Mix, name: listedmix, widget: string }
           - { label: Listed Mix Link, name: listedmixlk, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Body, name: body, widget: markdown }
+          - { label: Featured Image 1, name: featuredImage, widget: image }
+          - { label: Featured Image 2, name: featuredImage2, widget: image }
+          - { label: Featured Image 3, name: featuredImage3, widget: image }
+          - { label: Featured Image 4, name: featuredImage4, widget: image }
+          - { label: Featured Image 5, name: featuredImag5, widget: image }
+          - { label: Artist Links, name: subtitle, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
             widget: 'list'
