@@ -253,7 +253,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image 2, name: featuredImage2, widget: image }
           - { label: Featured Image 3, name: featuredImage3, widget: image }
           - { label: Featured Image 4, name: featuredImage4, widget: image }
-          - { label: Featured Image 5, name: featuredImag5, widget: image }
+          - { label: Featured Image 5, name: featuredImage5, widget: image }
           - { label: Artist Links, name: subtitle, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'
@@ -296,7 +296,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: URL, name: url, widget: string}
+      - {label: Page Link, name: url, widget: string}
       - { label: Template, name: template, widget: hidden, default: SinglePost }
       - { label: Title, name: title, widget: string }
 

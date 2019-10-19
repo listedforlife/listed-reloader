@@ -6,7 +6,6 @@ import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
 import './HomePage.css'
 import ReactMarkdown from 'react-markdown'
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -137,6 +136,10 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
+        featuredImage2
+        featuredImage3
+        featuredImage4
+        featuredImage5       
       }
     }
 
