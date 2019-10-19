@@ -6,6 +6,9 @@ import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
 import './HomePage.css'
 import ReactMarkdown from 'react-markdown'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 /**
  * Filter posts by date. Feature dates will be fitered
@@ -35,7 +38,6 @@ export const byCategory = (posts, title, contentType) => {
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ 
-  title,
   body,
   subtitle,
   listedmix,
@@ -80,15 +82,22 @@ export const HomePageTemplate = ({
 )
 
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts, postCategories
+const HomePage = ({ data: { page, posts
  } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
-       <div className='slider'>
-
-
-</div>
+      <Carousel showStatus={false} emulateTouch showIndicators={false} autoPlay infiniteLoop >
+       <div>
+                <img src='https://www.bensound.com/bensound-img/clearday.jpg' />
+                </div>
+                <div>
+                <img src='https://tinyjpg.com/images/social/website.jpg'/>
+                </div>
+                <div>
+                <img src='https://www.smallbizgeek.co.uk/wp-content/uploads/2016/03/tiny-png-tiny-jpg.jpg' />
+                </div>
+</Carousel>
 <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Fresh News</div>
 
     <HomePageTemplate
