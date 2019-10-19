@@ -35,6 +35,7 @@ export const byCategory = (posts, title, contentType) => {
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({
+  title,
   body,
   listedmix,
   listedmixlk,
@@ -101,6 +102,10 @@ const HomePage = ({ data: { page, posts, postCategories, listedmixlk
       }))}
       
     />
+    <div style={{textAlign:'center'}}>
+      
+      <HomePageTemplate       body={page.html} 
+></HomePageTemplate></div>
   </Layout>
   
 )
