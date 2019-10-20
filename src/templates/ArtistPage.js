@@ -31,7 +31,7 @@ export const ArtistPageTemplate = ({
 )
 
 // Export Default BlogIndex for front-end
-const ArtistPage = ({ data: { page, posts, postCategories2 } }) => (
+const ArtistPage = ({ data: { page, posts } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
@@ -45,11 +45,6 @@ const ArtistPage = ({ data: { page, posts, postCategories2 } }) => (
       {...page.fields}
       {...page.frontmatter}
       posts={posts.edges.map(post => ({
-        ...post.node,
-        ...post.node.frontmatter,
-        ...post.node.fields
-      }))}
-      postCategories2={postCategories2.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
@@ -94,21 +89,6 @@ export const pageQuery = graphql`
             fblk
             date
             featuredImage
-          }
-        }
-      }
-    }
-    postCategories2: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "postCategories2" } } }
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
           }
         }
       }

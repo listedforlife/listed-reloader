@@ -20,20 +20,6 @@ export const byDate = posts => {
   return posts.filter(post => Date.parse(post.date) <= now)
 }
 
-/**
- * filter posts by category.
- *
- * @param {posts} object
- * @param {title} string
- * @param {contentType} string
- */
-export const byCategory = (posts, title, contentType) => {
-  const isCategory = contentType === 'postCategories'
-  const byCategory = post =>
-    post.categories &&
-    post.categories.filter(cat => cat.category === title).length
-  return isCategory ? posts.filter(byCategory) : posts
-}
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ 
