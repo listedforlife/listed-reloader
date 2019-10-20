@@ -89,18 +89,11 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: 'componets' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
-          - label: 'accordion'
-            name: 'accordion'
-            widget: 'list'
-            fields:
-              - { name: title, label: title, widget: string, default: '' }
-              - { name: description, label: description, widget: string }
           - label: 'Gallery'
             name: 'gallery'
             widget: 'list'

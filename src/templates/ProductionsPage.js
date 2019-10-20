@@ -20,12 +20,10 @@ export const ProductionsPageTemplate = ({
   videoPoster,
   videoTitle,
   accordion,
-  body,
   gallery
 }) => (
   <main>
     <PageHeader
-      title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
@@ -88,19 +86,13 @@ export const pageQuery = graphql`
       ...Gallery
       html
       frontmatter {
-        title
         template
-        subtitle
         featuredImage
         section1
         section2
         video
         videoPoster
         videoTitle
-        accordion {
-          title
-          description
-        }
       }
     }
   }
