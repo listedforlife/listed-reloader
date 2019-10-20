@@ -11,14 +11,11 @@ section1: >-
   make it accessible via event productions and an artist agency. Our mission is
   to create unforgettable experiences with a warm, intimate vibe for our guests.
   We strive to make the partygoer as important as the headliner because we think
-  the experience matters!
-
-
-  Since its founding in San Francisco in 2005, listed has steadily expanded its
-  reach to become an integral part of the dance music scene across other North
-  American cities, most notably New York, Chicago, Los Angeles and Miami, where
-  its events and bookings artists are supported by an avid following of fans,
-  artists and industry professionals.
+  the experience matters. Since its founding in San Francisco in 2005, listed
+  has steadily expanded its reach to become an integral part of the dance music
+  scene across other North American cities, most notably New York, Chicago, Los
+  Angeles and Miami, where its events and bookings artists are supported by an
+  avid following of fans, artists and industry professionals.
 
 
   In addition to regularly featuring world-renowned talent and other
