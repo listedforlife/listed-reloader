@@ -131,7 +131,6 @@ export const pageQuery = graphql`
         title
         listedmix
         listedmixlk
-        excerpt
         date
         template
         subtitle

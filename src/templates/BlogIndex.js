@@ -133,7 +133,6 @@ export const pageQuery = graphql`
       frontmatter {
         url
         title
-        excerpt
         template
         featuredImage
       }

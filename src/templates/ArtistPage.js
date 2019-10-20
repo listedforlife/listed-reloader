@@ -74,7 +74,6 @@ export const pageQuery = graphql`
       frontmatter {
         url
         title
-        excerpt
         template
       }
     }
@@ -90,7 +89,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            excerpt
+            
             title
             fblk
             date

@@ -141,7 +141,6 @@ export const pageQuery = graphql`
         template
         subtitle
         date
-        excerpt
         categories {
           category
         }
