@@ -138,8 +138,7 @@ export const pageQuery = graphql`
         featuredImage
         featuredImage2
         featuredImage3
-        featuredImage4
-        featuredImage5       
+        featuredImage4       
       }
     }
 
