@@ -9,16 +9,15 @@
   overflow: hidden;
 }
 
-.PostCard:hover,
-.PostCard:focus {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
-}
 
 .PostCard--Image {
   margin: 0 0 2rem 0;
   width: 100%;
   height: 20rem;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .PostCard--excerpt {
@@ -35,4 +34,28 @@
   min-height: 1.2em;
   line-height: 1;
   margin: 0.5em 0;
+}
+
+.PostCard--Image:hover {
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);  
+}
+
+.PostCard--Image:hover  {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
+}
+
+.PostCard--Image:hover:after {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  -webkit-transform: scale(1);
+  transform: scale(1);  
+}
+
+
+.PostCard:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+    0 15px 24px var(--box-shadow-color);
 }
