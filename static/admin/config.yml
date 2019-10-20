@@ -112,7 +112,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Slug, name: slug, widget: hidden, default: 'blog' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
-          - { label: Subtitle, name: subtitle, widget: markdown }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -140,7 +139,7 @@ collections: # A list of collections the CMS should be able to edit
 
 
       - file: 'content/pages/artists.md'
-        label: 'Blog Page'
+        label: 'Artist Page'
         name: 'blog-page2'
         fields:
           - {
