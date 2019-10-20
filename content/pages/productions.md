@@ -2,10 +2,10 @@
 template: ProductionsPage
 slug: productions
 title: Productions
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: asdgdas
+featuredImage: 'https://ucarecdn.com/4a8f4caf-1b88-45d7-b78e-0da9c5ec7817/'
+subtitle: Listed For Life.
 section1: >-
-  ## Tatiana Productions
+  ## Listed Productions
 
 
   Listed is a SF based initiative that showcases cutting-edge EDM and strives to
@@ -19,12 +19,14 @@ section1: >-
   creating a communal atmosphere that’s long been forgotten in the dance music
   scene. listed also acts as an agency of representation for 17 artists from
   around the world. Get listed and join in on our fun!
-section2: |-
-  ## You can use videos, images and text.
+section2: >-
+  ## Listed Getting Deep at Ship Of Fools! 
+
 
   <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/Js00yn142ic" frameBorder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  src="https://www.youtube.com/embed/aYA_YO11TNM" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope;
+  picture-in-picture" allowfullscreen></iframe>
 video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
 videoTitle: 'Also background videos, with poster image & title overlay.'
