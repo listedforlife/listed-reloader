@@ -36,6 +36,10 @@ gallery:
   - alt: 'https://www.facebook.com/events/721450698310295/'
     image: 'https://ucarecdn.com/e6564372-e91d-429b-bc9f-8f5d8f052516/'
     title: 'PLAY: Atish, Monroe, and R. Fentz at Permission to Land'
+  - alt: >-
+      https://www.facebook.com/audiosf/photos/gm.2410523142340023/3116006235076959/?type=3&theater
+    image: 'https://ucarecdn.com/ef6ac8e0-90f4-4b79-b520-c1f1486648a4/'
+    title: Nikita Neverstops Open to Close + Special guests at Audio SF
 meta:
   description: This is a meta description.
   title: Productions Page
