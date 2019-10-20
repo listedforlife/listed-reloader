@@ -1,5 +1,4 @@
 ---
-displayText: bla
 url: 'https://www.facebook.com/events/439971906628344/'
 itemType: Link
 template: SinglePost
@@ -7,7 +6,6 @@ title: manju showcase
 status: Published
 date: 2019-10-17T15:36:56.667Z
 featuredImage: 'https://ucarecdn.com/23c36b62-2367-417e-89f6-c407be5e29bf/'
-excerpt: bla
 meta:
   description: >-
     http://dev-listedforlife.pantheonsite.io/wp-content/uploads/2018/03/Ben-Annand-Press-Kit-New.zip

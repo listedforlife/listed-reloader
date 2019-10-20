@@ -75,10 +75,7 @@ export const pageQuery = graphql`
         url
         title
         excerpt
-
         template
-        subtitle
-        featuredImage
       }
     }
 

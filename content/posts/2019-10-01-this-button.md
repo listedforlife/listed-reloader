@@ -1,5 +1,4 @@
 ---
-displayText: asdfsad
 url: 'https://www.facebook.com/events/976929159306444'
 itemType: Button
 template: SinglePost
@@ -7,7 +6,6 @@ title: morgana listed
 status: Published
 date: 2019-10-09T16:51:50.998Z
 featuredImage: 'https://ucarecdn.com/7b5b6d0b-bb3e-4c44-aa16-48a873cfc095/'
-excerpt: asdgsadg
 categories:
   - category: News
 ---

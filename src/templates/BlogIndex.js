@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { Location } from '@reach/router'
 import qs from 'qs'
+import Content from '../components/Content'
 
 import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
@@ -38,17 +39,15 @@ export const byCategory = (posts, title, contentType) => {
 export const BlogIndexTemplate = ({
   title,
   featuredImage,
+  body,
   posts = [],
   postCategories = [],
   enableSearch = true,
-  contentType
 }) => (
   <Location>
     {({ location }) => {
       let filteredPosts =
-        posts && !!posts.length
-          ? byCategory(byDate(posts), title, contentType)
-          : []
+        posts
 
       let queryObj = location.search.replace('?', '')
       queryObj = qs.parse(queryObj)
@@ -67,18 +66,24 @@ export const BlogIndexTemplate = ({
             backgroundImage={featuredImage}
           />
 
-          {!!postCategories.length && (
-            <section className="section thin">
+<section className="section">
+      <div className="container">
+        <Content source={body} />
+      </div>
+    </section>
+
+          {!!posts.length && (
+            <section style={{marginTop:'-35px'}} className="section">
               <div className="container">
-                <PostCategoriesNav enableSearch categories={postCategories} />
+                <PostSection posts={filteredPosts} />
               </div>
             </section>
           )}
 
-          {!!posts.length && (
-            <section className="section">
+{!!postCategories.length && (
+            <section className="section thin">
               <div className="container">
-                <PostSection posts={filteredPosts} />
+                <PostCategoriesNav enableSearch categories={postCategories} />
               </div>
             </section>
           )}
@@ -145,8 +150,8 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            excerpt
             title
+            url
             date
             categories {
               category
