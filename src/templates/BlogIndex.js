@@ -60,10 +60,11 @@ export const BlogIndexTemplate = ({
       }
 
       return (
-        <main className="Blog">
-          <PageHeader
+        <main>
+          <PageHeader 
             title={title}
             backgroundImage={featuredImage}
+            
           />
 
 <section className="section">

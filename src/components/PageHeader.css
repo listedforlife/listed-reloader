@@ -5,7 +5,10 @@
 }
 
 .PageHeader .BackgroundImage {
-  opacity: 0.8;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .PageHeader-large {

@@ -286,7 +286,7 @@ collections: # A list of collections the CMS should be able to edit
 
 
   - name: posts
-    label: News Post
+    label: News
     editor:
       preview: true
     folder: content/posts
@@ -385,81 +385,7 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-          
-  - name: postCategories
-    label: Post Category
-    editor:
-      preview: false
-    folder: content/postCategories
-    slug: '{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: BlogIndex }
-      - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: string, required: false }
-      - {
-          label: Featured Image,
-          name: featuredImage,
-          widget: image,
-          required: false,
-        }
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
-        fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
-          
-  - name: postCategories2
-    label: Post Category2
-    editor:
-      preview: false
-    folder: content/postCategories2
-    slug: '{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: ArtistPage }
-      - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: string, required: false }
-      - {
-          label: Featured Image,
-          name: featuredImage,
-          widget: image,
-          required: false,
-        }
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
-        fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
-
+     
   - name: 'settings'
     label: 'Settings'
     delete: false # Prevent users from deleting documents in this collection
