@@ -14,10 +14,20 @@ section1: >-
   the experience matters!
 
 
-  We add personal touches to foster “ridiculous fun for ridiculous people”
-  creating a communal atmosphere that’s long been forgotten in the dance music
-  scene. listed also acts as an agency of representation for 17 artists from
-  around the world. Get listed and join in on our fun!
+  Since its founding in San Francisco in 2005, listed has steadily expanded its
+  reach to become an integral part of the dance music scene across other North
+  American cities, most notably New York, Chicago, Los Angeles and Miami, where
+  its events and bookings artists are supported by an avid following of fans,
+  artists and industry professionals.
+
+
+  In addition to regularly featuring world-renowned talent and other
+  exceptional, carefully chosen artists, listed Productions strives to create a
+  warm and intimate vibe so that guests enjoy an unforgettable event, where
+  their experience is paramount. listed parties have been memorable highlights
+  of major dance music festivals, including BPM in Playa Del Carmen, Mexico,
+  Love Parade in San Francisco, Movement in Detroit and the Winter Music
+  Conference/Week in Miami.
 section2: >-
   ## Getting Deep at Ship Of Fools
 
