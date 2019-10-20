@@ -28,7 +28,7 @@ section2: >-
   picture-in-picture" allowfullscreen></iframe>
 video: 'https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/'
 videoPoster: 'https://ucarecdn.com/0fda529c-dcf9-43af-b4af-e2a0d379e645/'
-videoTitle: Videos And More Coming Soon
+videoTitle: Clarian At Phonobar September 2019
 gallery:
   - alt: 'Manjumasi + Listed Amsterdam Showcase w/ Atish, Tim Engelhardt'
     image: 'https://ucarecdn.com/465b779f-d1af-439c-a56d-4b72878ebf8f/'
