@@ -30,12 +30,12 @@ video: 'https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/'
 videoPoster: 'https://ucarecdn.com/0fda529c-dcf9-43af-b4af-e2a0d379e645/'
 videoTitle: Clarian At Phonobar September 2019
 gallery:
-  - alt: 'Manjumasi + Listed Amsterdam Showcase w/ Atish, Tim Engelhardt'
+  - alt: 'https://www.facebook.com/events/439971906628344/'
     image: 'https://ucarecdn.com/465b779f-d1af-439c-a56d-4b72878ebf8f/'
-    title: 'https://www.facebook.com/events/439971906628344/'
-  - alt: 'PLAY: Atish, Monroe, and R. Fentz at Permission to Land'
+    title: 'Manjumasi + Listed Amsterdam Showcase w/ Atish, Tim Engelhardt'
+  - alt: 'https://www.facebook.com/events/721450698310295/'
     image: 'https://ucarecdn.com/e6564372-e91d-429b-bc9f-8f5d8f052516/'
-    title: 'https://www.facebook.com/events/721450698310295/'
+    title: 'PLAY: Atish, Monroe, and R. Fentz at Permission to Land'
 meta:
   description: This is a meta description.
   title: Productions Page
