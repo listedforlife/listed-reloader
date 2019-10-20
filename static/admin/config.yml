@@ -239,7 +239,7 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/blog.md'
+      - file: 'content/pages/news.md'
         label: 'News Page'
         name: 'blog-page'
         fields:
@@ -249,7 +249,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: BlogIndex,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Slug, name: slug, widget: hidden, default: 'news' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - label: 'Meta'
