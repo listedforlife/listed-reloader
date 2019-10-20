@@ -18,138 +18,39 @@ media_library:
 collections: # A list of collections the CMS should be able to edit
 
   - name: 'pages'
-    label: 'Page'
+    label: 'Pages'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
     files:
-      - file: 'content/pages/contact.md'
-        label: 'Contact Page'
-        name: 'contact-page'
+
+      - file: 'content/pages/home.md'
+        label: 'Home Page'
+        name: 'home-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ContactPage,
+              default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'contact' }
+          - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }
-          - {
-              label: Featured Image,
-              name: featuredImage,
-              widget: image,
-              options:
-                { media_library: { config: { imageShrink: 2600x2600 } } },
-            }
-          - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Body, name: body, widget: markdown }
-          - { label: Address, name: address, widget: text }
-          - { label: Phone, name: phone, widget: string }
-          - { label: Email Address, name: email, widget: string }
-          - name: locations
-            label: locations
-            widget: list
-            fields:
-              - {
-                  name: mapLink,
-                  label: mapLink,
-                  widget: string,
-                  required: false,
-                  default: '',
-                }
-              - {
-                  name: lat,
-                  label: latitude,
-                  widget: string,
-                  required: false,
-                  delete: false,
-                  default: '',
-                }
-              - {
-                  name: lng,
-                  label: longitude,
-                  widget: string,
-                  required: false,
-                  delete: false,
-                  default: '',
-                }
-          - label: 'Meta'
+          - { label: Listed Mix, name: listedmix, widget: string }
+          - { label: Listed Mix Link, name: listedmixlk, widget: string }
+          - { label: Featured Image 1, name: featuredImage, widget: image }
+          - { label: Featured Image 2, name: featuredImage2, widget: image }
+          - { label: Featured Image 3, name: featuredImage3, widget: image }
+          - { label: Featured Image 4, name: featuredImage4, widget: image }
+          - { label: Featured Image 5, name: featuredImage5, widget: image }
+          - { label: Artist Links, name: subtitle, widget: markdown }
+          - label: 'Accordion'
+            name: 'accordion'
+            widget: 'list'
             required: false
-            name: 'meta'
-            widget: 'object'
             fields:
-              - { label: Title, name: title, widget: string, required: false }
-              - {
-                  label: Description,
-                  name: description,
-                  widget: text,
-                  required: false,
-                }
-              - {
-                  label: Canonical Link,
-                  name: canonicalLink,
-                  widget: string,
-                  required: false,
-                }
-              - {
-                  label: Noindex,
-                  name: noindex,
-                  widget: boolean,
-                  required: false,
-                }
-
-      - file: 'content/pages/blog.md'
-        label: 'News Page'
-        name: 'blog-page'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: BlogIndex,
-            }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
-          - { label: Title, name: title, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
-          - label: 'Meta'
-            required: false
-            name: 'meta'
-            widget: 'object'
-            fields:
-              - { label: Title, name: title, widget: string, required: false }
-              - {
-                  label: Description,
-                  name: description,
-                  widget: text,
-                  required: false,
-                }
-              - {
-                  label: Canonical Link,
-                  name: canonicalLink,
-                  widget: string,
-                  required: false,
-                }
-              - {
-                  label: Noindex,
-                  name: noindex,
-                  widget: boolean,
-                  required: false,
-                }
-
-
-      - file: 'content/pages/artists.md'
-        label: 'Artist Page'
-        name: 'blog-page2'
-        fields:
-          - {
-              label: Template,
-              name: template,
-              widget: hidden,
-              default: ArtistPage,
-            }
-          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
-          - { label: Title, name: title, widget: string }
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: Content, name: content, widget: text }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -231,34 +132,133 @@ collections: # A list of collections the CMS should be able to edit
                   widget: boolean,
                   required: false,
                 }
-
-      - file: 'content/pages/home.md'
-        label: 'Home Page'
-        name: 'home-page'
+      
+      - file: 'content/pages/contact.md'
+        label: 'Contact Page'
+        name: 'contact-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: HomePage,
+              default: ContactPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
-          - { label: Listed Mix, name: listedmix, widget: string }
-          - { label: Listed Mix Link, name: listedmixlk, widget: string }
-          - { label: Featured Image 1, name: featuredImage, widget: image }
-          - { label: Featured Image 2, name: featuredImage2, widget: image }
-          - { label: Featured Image 3, name: featuredImage3, widget: image }
-          - { label: Featured Image 4, name: featuredImage4, widget: image }
-          - { label: Featured Image 5, name: featuredImage5, widget: image }
-          - { label: Artist Links, name: subtitle, widget: markdown }
-          - label: 'Accordion'
-            name: 'accordion'
-            widget: 'list'
-            required: false
+          - {
+              label: Featured Image,
+              name: featuredImage,
+              widget: image,
+              options:
+                { media_library: { config: { imageShrink: 2600x2600 } } },
+            }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Body, name: body, widget: markdown }
+          - { label: Address, name: address, widget: text }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Email Address, name: email, widget: string }
+          - name: locations
+            label: locations
+            widget: list
             fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: Content, name: content, widget: text }
+              - {
+                  name: mapLink,
+                  label: mapLink,
+                  widget: string,
+                  required: false,
+                  default: '',
+                }
+              - {
+                  name: lat,
+                  label: latitude,
+                  widget: string,
+                  required: false,
+                  delete: false,
+                  default: '',
+                }
+              - {
+                  name: lng,
+                  label: longitude,
+                  widget: string,
+                  required: false,
+                  delete: false,
+                  default: '',
+                }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
+      - file: 'content/pages/artists.md'
+        label: 'Artist Page'
+        name: 'blog-page2'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: ArtistPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Title, name: title, widget: string }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
+      - file: 'content/pages/blog.md'
+        label: 'News Page'
+        name: 'blog-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: BlogIndex,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -286,7 +286,7 @@ collections: # A list of collections the CMS should be able to edit
 
 
   - name: posts
-    label: Post
+    label: News Post
     editor:
       preview: true
     folder: content/posts
@@ -329,75 +329,6 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-
-  - name: postCategories
-    label: Post Category
-    editor:
-      preview: false
-    folder: content/postCategories
-    slug: '{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: BlogIndex }
-      - { label: Title, name: title, widget: string }
-      - { label: Subtitle, name: subtitle, widget: string, required: false }
-      - {
-          label: Featured Image,
-          name: featuredImage,
-          widget: image,
-          required: false,
-        }
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
-        fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
-
-          
-
-  - name: 'settings'
-    label: 'Settings'
-    delete: false # Prevent users from deleting documents in this collection
-    editor:
-      preview: false
-    files:
-      - file: 'content/settings/global.yml'
-        label: 'Global Settings'
-        name: 'global-settings'
-        fields:
-          - { label: Site Title, name: siteTitle, widget: string }
-          - { label: Site Url, name: siteUrl, widget: string, required: false }
-          - {
-              label: Site Description,
-              name: siteDescription,
-              widget: text,
-              required: false,
-            }
-          - label: Social Media Card
-            name: socialMediaCard
-            widget: object
-            fields:
-              - { label: Image, name: image, widget: image, required: false }
-          - {
-              label: Google Analytics Tracking Id,
-              name: googleTrackingId,
-              widget: string,
-              required: false,
-            }
 
   - name: artists
     label: Artists
@@ -454,7 +385,44 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
-
+          
+  - name: postCategories
+    label: Post Category
+    editor:
+      preview: false
+    folder: content/postCategories
+    slug: '{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: BlogIndex }
+      - { label: Title, name: title, widget: string }
+      - { label: Subtitle, name: subtitle, widget: string, required: false }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+          
   - name: postCategories2
     label: Post Category2
     editor:
@@ -491,3 +459,33 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+  - name: 'settings'
+    label: 'Settings'
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - file: 'content/settings/global.yml'
+        label: 'Global Settings'
+        name: 'global-settings'
+        fields:
+          - { label: Site Title, name: siteTitle, widget: string }
+          - { label: Site Url, name: siteUrl, widget: string, required: false }
+          - {
+              label: Site Description,
+              name: siteDescription,
+              widget: text,
+              required: false,
+            }
+          - label: Social Media Card
+            name: socialMediaCard
+            widget: object
+            fields:
+              - { label: Image, name: image, widget: image, required: false }
+          - {
+              label: Google Analytics Tracking Id,
+              name: googleTrackingId,
+              widget: string,
+              required: false,
+            }
