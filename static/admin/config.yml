@@ -100,7 +100,7 @@ collections: # A list of collections the CMS should be able to edit
                 }
 
       - file: 'content/pages/blog.md'
-        label: 'Blog Page'
+        label: 'News Page'
         name: 'blog-page'
         fields:
           - {
