@@ -20,7 +20,7 @@ const PageHeader = ({
           background
           resolutions="large"
           src={backgroundImage}
-          alt={title}
+          alt="temp"
           size="cover"
         />
       )}

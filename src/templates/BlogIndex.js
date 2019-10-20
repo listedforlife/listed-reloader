@@ -48,8 +48,7 @@ export const BlogIndexTemplate = ({
       return (
         <main>
           <PageHeader 
-            backgroundImage={featuredImage}
-            
+            backgroundImage={featuredImage}            
           />
 
 <section className="section">
