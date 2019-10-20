@@ -20,7 +20,6 @@ export const byDate = posts => {
   return posts.filter(post => Date.parse(post.date) <= now)
 }
 
-
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ 
   body,
@@ -141,21 +140,6 @@ export const pageQuery = graphql`
             url
             date
             featuredImage
-          }
-        }
-      }
-    }
-    postCategories: allMarkdownRemark(
-      filter: { fields: { contentType: { eq: "postCategories" } } }
-      sort: { order: ASC, fields: [frontmatter___title] }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
           }
         }
       }
