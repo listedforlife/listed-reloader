@@ -3,7 +3,6 @@ template: ProductionsPage
 slug: productions
 title: Productions
 featuredImage: 'https://ucarecdn.com/4a8f4caf-1b88-45d7-b78e-0da9c5ec7817/'
-subtitle: Listed For Life.
 section1: >-
   ## Listed Productions
 
@@ -20,37 +19,22 @@ section1: >-
   scene. listed also acts as an agency of representation for 17 artists from
   around the world. Get listed and join in on our fun!
 section2: >-
-  ## Listed Getting Deep at Ship Of Fools! 
+  ## Getting Deep at Ship Of Fools
 
 
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/aYA_YO11TNM" frameborder="0"
   allow="accelerometer; autoplay; encrypted-media; gyroscope;
   picture-in-picture" allowfullscreen></iframe>
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: 'Also background videos, with poster image & title overlay.'
-accordion:
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
-  - description: Taciti lorem tempor quam vestibulum dis habitasse
-    title: Taciti lorem
+video: 'https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/'
+videoPoster: 'https://ucarecdn.com/0fda529c-dcf9-43af-b4af-e2a0d379e645/'
+videoTitle: Videos And More Coming Soon
 gallery:
-  - alt: yellow rope image
-    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
-    title: Yellow Rope
-  - alt: umbrellas
-    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
-    title: Yellow Ice Cream
+  - alt: 'Manjumasi + Listed Amsterdam Showcase w/ Atish, Tim Engelhardt'
+    image: 'https://ucarecdn.com/465b779f-d1af-439c-a56d-4b72878ebf8f/'
+    title: ''
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Productions Page
 ---
 
