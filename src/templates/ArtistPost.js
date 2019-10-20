@@ -169,9 +169,6 @@ export const pageQuery = graphql`
         presskit
         scwidg
         subtitle
-        categories {
-          category
-        }
       }
     }
 

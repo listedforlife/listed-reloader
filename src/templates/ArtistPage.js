@@ -93,9 +93,6 @@ export const pageQuery = graphql`
             title
             fblk
             date
-            categories {
-              category
-            }
             featuredImage
           }
         }

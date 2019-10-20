@@ -152,9 +152,6 @@ export const pageQuery = graphql`
             title
             url
             date
-            categories {
-              category
-            }
             featuredImage
           }
         }
