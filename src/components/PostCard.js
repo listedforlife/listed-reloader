@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import _format from 'date-fns/format'
 import Image from './Image'
 import './PostCard.css'
@@ -16,7 +15,7 @@ const PostCard = ({
   ...props
 }) => (
   <div>
-  <a href={url}  target="_blank" className={`PostCard ${className}`}>
+  <a href={url}  target="_blank" rel="noopener noreferrer" className={`PostCard ${className}`}>
     {featuredImage && (
       <div className="PostCard--Image relative">
         <Image background src={featuredImage} alt={title} />

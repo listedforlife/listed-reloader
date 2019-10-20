@@ -44,9 +44,7 @@ export const HomePageTemplate = ({
   posts = [],
 }) => (
   <Location>
-    {({ }) => {
-      let newposts =
-        posts
+    {() => {
       return (
         <main className="Blog">
 <section className="section">
@@ -56,7 +54,7 @@ export const HomePageTemplate = ({
     </section>
             <section className="section">
               <div className="container">
-                <PostSection posts={newposts} />
+                <PostSection posts={posts} />
               </div>
             </section>
             <div>
