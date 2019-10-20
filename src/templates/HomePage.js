@@ -37,6 +37,7 @@ export const byCategory = (posts, title, contentType) => {
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ 
+  featuredImage,
   body,
   subtitle,
   listedmix,
@@ -81,17 +82,17 @@ export const HomePageTemplate = ({
 )
 
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts
+const HomePage = ({ data: { page, posts, featuredImage
  } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
     <div className='slider'>
-  <div className='slide1' style={{background: 'url(https://ucarecdn.com/895426fd-39d7-4349-981f-1699c3ee410c/)no-repeat center',backgroundSize:'cover'}}></div>
-  <div className='slide2' style={{background: 'url(https://ucarecdn.com/5a118e82-86f5-48c0-bca6-7143b2cb27ef/)no-repeat center',backgroundSize:'cover'}}></div>
-  <div className='slide3' style={{background: 'url(https://ucarecdn.com/cf73fca0-c7a6-40f6-b8f2-30c679187e2d/)no-repeat center',backgroundSize:'cover'}}></div>
-  <div className='slide4' style={{background: 'url(https://ucarecdn.com/85cf0a51-f408-4b1d-845f-133a7f21a48e/)no-repeat center',backgroundSize:'cover'}}></div>
-  <div className='slide5' style={{background: 'url(https://ucarecdn.com/2c5a006f-ed1d-4046-8f59-60f0ecd7638c/)no-repeat center',backgroundSize:'cover'}}></div>
+  <div className='slide1' style={{background: `url(${page.frontmatter.featuredImage})no-repeat center`,backgroundSize:'cover'}}></div>
+  <div className='slide2' style={{background: `url(${page.frontmatter.featuredImage2})no-repeat center`,backgroundSize:'cover'}}></div>
+  <div className='slide3' style={{background: `url(${page.frontmatter.featuredImage3})no-repeat center`,backgroundSize:'cover'}}></div>
+  <div className='slide4' style={{background: `url(${page.frontmatter.featuredImage4})no-repeat center`,backgroundSize:'cover'}}></div>
+  <div className='slide5' style={{background: `url(${page.frontmatter.featuredImage5})no-repeat center`,backgroundSize:'cover'}}></div>
 </div>
 <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Fresh News</div>
 
@@ -138,7 +139,8 @@ export const pageQuery = graphql`
         featuredImage
         featuredImage2
         featuredImage3
-        featuredImage4       
+        featuredImage4
+        featuredImage5       
       }
     }
 

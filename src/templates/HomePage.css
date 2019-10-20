@@ -23,20 +23,21 @@
 .slide3 {
     
       background-size: cover;
-    animation:fade3 8s infinite;
+    animation:fade3 
+    8s infinite;
 -webkit-animation:fade3 8s infinite;
 }
 .slide4 {
     
   background-size: cover;
-animation:fade3 8s infinite;
--webkit-animation:fade3 8s infinite;
+animation:fade4 8s infinite;
+-webkit-animation:fade4 8s infinite;
 }
 .slide5 {
     
   background-size: cover;
-animation:fade3 8s infinite;
--webkit-animation:fade3 8s infinite;
+animation:fade5 8s infinite;
+-webkit-animation:fade5 8s infinite;
 }
 @keyframes fade
 {
@@ -53,6 +54,22 @@ animation:fade3 8s infinite;
   100% { opacity: 0}
 }
 @keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+@keyframes fade4
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0}
+  100% { opacity: 0}
+}
+
+@keyframes fade5
 {
   0%   {opacity:0}
   33.333% { opacity: 0}
