@@ -8,7 +8,7 @@ listedmixlk: >-
 featuredImage: 'https://ucarecdn.com/dd4fb52d-eae1-497a-a2a9-0ccb6ca34531/'
 featuredImage2: 'https://ucarecdn.com/280d875a-5f06-4296-83ce-724afe7fa036/'
 featuredImage3: 'https://ucarecdn.com/8c80d10f-a3b5-4ca6-8105-242693bd59b3/'
-featuredImage4: 'https://ucarecdn.com/84ec4454-42b5-442a-ae1b-30dc7910640c/'
+featuredImage4: 'https://ucarecdn.com/05c98ea7-6785-4c1e-8de6-b6ac7139d6ab/'
 featuredImage5: 'https://ucarecdn.com/b775868c-fb0e-4cc7-ad4e-7442055c5462/'
 subtitle: >-
   [Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish) &nbsp; [Ben
