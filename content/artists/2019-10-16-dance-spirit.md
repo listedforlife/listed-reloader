@@ -11,6 +11,7 @@ fblk: 'https://www.facebook.com/DanceSpiritHyperspace'
 instalk: 'https://www.instagram.com/dance_spirit'
 spotifylk: 'https://open.spotify.com/artist/3Ws2v9GjQHbdlJyTtXKwhH'
 sclk: 'https://soundcloud.com/dance-spirit'
+presskit: 'https://drive.google.com/open?id=1Ot-313HmSfBM7aOlcWNr4hBL5C-7oCnA'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323236826&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/BDXnpjWZkJI'
