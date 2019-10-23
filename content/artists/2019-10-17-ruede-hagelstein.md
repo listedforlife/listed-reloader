@@ -21,6 +21,7 @@ twitterlk: 'https://twitter.com/ruederich?lang=en'
 spotifylk: >-
   https://open.spotify.com/artist/49VV6EX7Tz4JNKeimVEoxQ?si=6BiN0aFSTr6oKQCWysbc0A
 sclk: 'https://soundcloud.com/ruede'
+presskit: 'https://drive.google.com/open?id=1gD3A98rQKHOVr1EJksYHEFknTspZHCkE'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/696762721&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/NlS4M1zJaYA'
