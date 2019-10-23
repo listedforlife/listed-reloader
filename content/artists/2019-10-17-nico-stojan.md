@@ -24,6 +24,7 @@ twitterlk: 'https://twitter.com/nico_stojan'
 spotifylk: >-
   https://open.spotify.com/artist/1SuKmGtjsRRJcGhTspfUnd?si=YGGQjDCfRZ2F3HQBncC43g
 sclk: 'https://soundcloud.com/nicostojan'
+presskit: 'https://drive.google.com/open?id=1B9W4JjlBXOO9wOVwR28Eg8OpJpUsr-FQ'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/788030358&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/RSKhc8usFXo'
