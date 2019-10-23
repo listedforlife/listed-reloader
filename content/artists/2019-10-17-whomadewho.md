@@ -45,7 +45,7 @@ twitterlk: 'https://twitter.com/whomadewho'
 spotifylk: >-
   https://open.spotify.com/artist/50Lr1puweM1hFsF1LpIZLM?si=AjtccNJZSViQDqP9ypVaMw
 sclk: 'https://soundcloud.com/whomadewho'
-presskit: ''
+presskit: 'https://drive.google.com/open?id=15c8nlyQHMDR2kvrn_8YT2uhiz4CaB6-g'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/692239942&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/ucQ3lc4lkhY'
