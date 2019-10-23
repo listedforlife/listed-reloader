@@ -26,6 +26,7 @@ twitterlk: 'https://twitter.com/tarabrooksmusic?lang=en'
 spotifylk: >-
   https://open.spotify.com/artist/7gCspPoGmiOBuw1IkSxQei?si=s2nhyTOzT2KiFWBLgGLUTw
 sclk: 'https://soundcloud.com/tarabrooksmusic'
+presskit: 'https://drive.google.com/open?id=1nEqmJucW7ecoorbcantNh91n1aAS1q_E'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/327161167&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/0Wd8afws2cM'
