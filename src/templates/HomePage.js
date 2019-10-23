@@ -1,7 +1,6 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import {useStaticQuery, graphql } from 'gatsby'
 import { Location } from '@reach/router'
-import Content from '../components/Content'
 import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
 import './HomePage.css'
@@ -9,20 +8,9 @@ import ReactMarkdown from 'react-markdown'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
-/**
- * Filter posts by date. Feature dates will be fitered
- * When used, make sure you run a cronejob each day to show schaduled content. See docs
- *
- * @param {posts} object
- */
-export const byDate = posts => {
-  const now = Date.now()
-  return posts.filter(post => Date.parse(post.date) <= now)
-}
-
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ 
-  body,
+export const HomePageTemplate = ({
+  subT = [],
   subtitle,
   listedmix,
   listedmixlk,
@@ -30,11 +18,11 @@ export const HomePageTemplate = ({
 }) => (
   <Location>
     {() => {
+    
       return (
         <main className="Blog">
 <section className="section">
       <div className="container">
-        <Content source={body} />
       </div>
     </section>
             <section className="section">
@@ -51,7 +39,14 @@ export const HomePageTemplate = ({
     >
       <div style={{}}>
     <h1>Artists</h1>
-    <ReactMarkdown source={subtitle} />
+   {subT = 
+   <ReactMarkdown source={subtitle} />}
+   <div className="dropdown">
+		<button className="dropdown-button" style={{visibility:'hidden'}}>Artists</button>
+		<div className="dropdown-list">
+    
+    </div>
+	</div>
     </div>
     </div>
     </div>
@@ -60,11 +55,11 @@ export const HomePageTemplate = ({
     }}
     
   </Location>
-  
 )
 
+
 // Export Default BlogIndex for front-end
-const HomePage = ({ data: { page, posts, featuredImage
+const HomePage = ({ data: { page, posts
  } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
@@ -79,7 +74,6 @@ const HomePage = ({ data: { page, posts, featuredImage
 <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> Fresh <span style={{fontStyle:'italic',}}>N</span>ews</div>
 
     <HomePageTemplate
-
       {...page}
       {...page.fields}
       {...page.frontmatter}
@@ -89,6 +83,7 @@ const HomePage = ({ data: { page, posts, featuredImage
         ...post.node.frontmatter,
         ...post.node.fields
       }))}
+    
     />
 
   </Layout>

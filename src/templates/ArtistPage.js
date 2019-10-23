@@ -4,7 +4,6 @@ import { Location } from '@reach/router'
 import ArtistSection from '../components/ArtistSection'
 import Layout from '../components/Layout'
 
-
 export const ArtistPageTemplate = ({
 
   posts = [],

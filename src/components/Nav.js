@@ -5,6 +5,7 @@ import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 import { SocialIcon } from 'react-social-icons';
 
+
 import './Nav.css'
 
 export class Navigation extends Component {
@@ -54,6 +55,7 @@ export class Navigation extends Component {
             <NavLink to="/productions/">Productions</NavLink>
             <NavLink to="/news/">News</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
+         
           </div>
           <button
             className="Button-blank Nav--MenuButton"
@@ -84,3 +86,5 @@ export class Navigation extends Component {
 export default ({ subNav }) => (
   <Location>{route => <Navigation subNav={subNav} {...route} />}</Location>
 )
+
+

@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react'
 import _get from 'lodash/get'
-import {graphql } from 'gatsby'
+import {graphql, Link } from 'gatsby'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './ArtistPost.css'
 import './ArtistPost.scss'
+import { SocialIcon } from 'react-social-icons';
+
 
 import randomColor from 'randomcolor';
 
@@ -114,19 +116,20 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
       Presskit
       </a>
-      <a style={{margin:'30px',textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
+      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href="/contact/" className="doingit example_c" >
       Book Artist
       </a>
       </div>
       <div className='smlist' style={{display:'flex',
                    alignItems: 'center',
                    justifyContent: 'center',
+                   textDecoration: 'none'
                    }}>
       <ul>
-      <a href={post.frontmatter.sclk}  > Soundcloud </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.spotifylk}  > Spotify </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.fblk}  > Facebook </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={post.frontmatter.instalk}  > Instagram </a>
+      <SocialIcon url={post.frontmatter.sclk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <SocialIcon url={post.frontmatter.spotifylk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <SocialIcon url={post.frontmatter.fblk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <SocialIcon url={post.frontmatter.instalk} style={{ height: 25, width: 25 }}  />
      </ul>
       </div>
       <br/>

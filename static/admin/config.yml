@@ -44,13 +44,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image 4, name: featuredImage4, widget: image }
           - { label: Featured Image 5, name: featuredImage5, widget: image }
           - { label: Artist Links, name: subtitle, widget: markdown }
-          - label: 'Accordion'
-            name: 'accordion'
-            widget: 'list'
-            required: false
-            fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
-              - { label: Content, name: content, widget: text }
           - label: 'Meta'
             required: false
             name: 'meta'
