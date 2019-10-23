@@ -10,6 +10,7 @@ instalk: 'https://www.instagram.com/longfellow_max'
 twitterlk: 'https://twitter.com/maxi_storrs'
 spotifylk: 'https://open.spotify.com/user/1231743452?si=49l7a1AHQXKjCjJtzopI3g'
 sclk: 'https://soundcloud.com/maxi-storrs'
+presskit: 'https://drive.google.com/open?id=16iQ3URbvW-HrzABHK7r0FtBSEBNsnNkc'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620436786&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/QIfrMrWlukk'
