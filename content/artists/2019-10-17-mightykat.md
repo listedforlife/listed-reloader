@@ -6,6 +6,7 @@ fblk: 'https://www.facebook.com/Mightykatsound'
 instalk: 'https://www.instagram.com/1mightykat'
 twitterlk: 'https://twitter.com/mightykat33'
 sclk: 'https://soundcloud.com/mightykat'
+presskit: 'https://drive.google.com/open?id=1QtsVl9wvcPFdpFyQu3cNAL6os26Ishj_'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/698656581&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/eIEhx-fxawM'
