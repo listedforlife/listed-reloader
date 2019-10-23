@@ -34,6 +34,7 @@ instalk: 'https://www.instagram.com/timengelhrdt'
 spotifylk: >-
   https://open.spotify.com/artist/74HdscE6G74tt01dbVZULE?si=5Y4VT8NPTrqx_MMLfUA0Zw
 sclk: 'https://soundcloud.com/timengelhardt'
+presskit: 'https://drive.google.com/open?id=1NJZduDI57TFhhhozONRXsfwUujrNexbY'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/882191314&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/fx0NDTUPBco'
