@@ -116,7 +116,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
       Presskit
       </a>
-      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href="/contact/" className="doingit example_c" >
+      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="doingit example_c" >
       Book Artist
       </a>
       </div>
