@@ -7,6 +7,7 @@ instalk: 'https://www.instagram.com/mikeekhoury'
 twitterlk: 'https://twitter.com/MikeeKhoury'
 spotifylk: 'https://open.spotify.com/artist/4BomYHSIu8OHHyBCrKwGgZ'
 sclk: 'https://soundcloud.com/mikekhoury'
+presskit: 'https://drive.google.com/open?id=1_uIQb5M_3ro1YrJbr7m5KQQHfgyluANp'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/305205898&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/iF--TgOZmEk'
