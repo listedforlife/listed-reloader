@@ -18,7 +18,7 @@ instalk: 'https://www.instagram.com/francke_costa'
 twitterlk: 'https://twitter.com/franklindecosta'
 spotifylk: 'https://open.spotify.com/artist/2f5rbWB8Cv5suxxjLrF3E2'
 sclk: 'https://soundcloud.com/franklindecosta'
-presskit: 'https://soundcloud.com/franklindecosta'
+presskit: 'https://drive.google.com/open?id=1KxRbldgM8qEiN9xL8wZvN9EeoA1JaPe8'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348827465&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/Nihpa5j9nzY'
