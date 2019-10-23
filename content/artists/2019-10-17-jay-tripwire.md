@@ -7,7 +7,7 @@ instalk: 'https://www.instagram.com/jaytripwire'
 twitterlk: 'https://twitter.com/jay_tripwire'
 spotifylk: 'https://open.spotify.com/artist'
 sclk: 'https://soundcloud.com/jaytripwire'
-presskit: 'https://drive.google.com/open?id=118z1Sob29rs1GQXJJeP1y4rzvduJz2Q3'
+presskit: ''
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644743188&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/4tjD1vqFqRk'
