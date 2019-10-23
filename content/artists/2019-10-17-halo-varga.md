@@ -9,6 +9,7 @@ fblk: 'https://www.facebook.com/HaloVarga'
 instalk: 'https://www.instagram.com/halo_varga'
 spotifylk: 'https://open.spotify.com/artist/5VBtTaJAurHIdZFucwR2l8'
 sclk: 'https://soundcloud.com/halovarga'
+presskit: 'https://drive.google.com/open?id=1I-iQbts8B9dKuArg_8vXUfcFHXMzyev8'
 scwidg: >-
   https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/848433545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/LJLvLRNfbps'
