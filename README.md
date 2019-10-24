@@ -1,4 +1,4 @@
-# Yellowcake
+# Clarian Music Starter Blog
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![dependencies](https://david-dm.org/jinksi/netlify-cms-react-starter.svg?style=flat-square)](https://david-dm.org/jinksi/gatsbro)
@@ -137,6 +137,3 @@ https://hooks.zapier.com/hooks/catch/2881617/ea5exg/
 - Submit your form one last time and see if all data is coming trough to MailChimp
 - Thats is!
 
-## Instagram Feed
-
-Get Your Instagram Access Token [here](https://generator.thrivex.io/). In order to display your Instagram photos on your own website, you are required to provide an Instagram Access Token. You can do this by clicking the generator button on this site you will first need to login to your account.
