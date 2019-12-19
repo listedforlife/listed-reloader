@@ -195,6 +195,31 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
+      - file: 'content/pages/enter.md'
+        label: 'Enter Page'
+        name: 'enter-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: EnterPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'enter' }
+          - { label: Title, name: title, widget: string }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+
       - file: 'content/pages/artists.md'
         label: 'Artist Page'
         name: 'blog-page2'

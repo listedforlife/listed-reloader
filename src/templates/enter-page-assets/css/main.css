@@ -1,0 +1,4769 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
+
+audio:hover, audio:focus, audio:active
+{
+-webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+}
+
+
+
+audio
+{
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+transition:all 0.5s linear;
+-moz-box-shadow: 2px 2px 4px 0px #006773;
+-webkit-box-shadow:  2px 2px 4px 0px #006773;
+box-shadow: 2px 2px 4px 0px #006773;
+-moz-border-radius:7px 7px 7px 7px ;
+-webkit-border-radius:7px 7px 7px 7px ;
+border-radius:7px 7px 7px 7px ;
+}
+
+
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	body {
+		-ms-overflow-style: scrollbar;
+	}
+
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 300px;
+		}
+
+	}
+
+	@media screen and (max-width: 320px) {
+
+		html, body {
+			min-width: 300px;
+		}
+
+	}
+
+
+
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+/* Type */
+
+	body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.65);
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 200;
+		line-height: 1.65;
+	}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	}
+
+		a:hover {
+			color: #ffffff;
+			border-bottom-color: transparent;
+		}
+
+	strong, b {
+		color: #ffffff;
+		font-weight: 200;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+		font-weight: 200;
+		line-height: 1;
+		margin: 0 0 1em 0;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+				display: none;
+			}
+
+		}
+
+	h1 {
+		font-size: 1.75em;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			h1 {
+				font-size: 1.25em;
+			}
+
+		}
+
+	h2 {
+		font-size: 1.35em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			h2 {
+				font-size: 1em;
+			}
+
+		}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
+	blockquote {
+		border-left: solid 4px rgba(255, 255, 255, 0.25);
+		font-style: italic;
+		margin: 0 0 2em 0;
+		padding: 0.5em 0 0.5em 2em;
+	}
+
+	code {
+		background: rgba(255, 255, 255, 0.075);
+		border-radius: 4px;
+		border: solid 1px rgba(255, 255, 255, 0.25);
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
+
+	pre {
+		-webkit-overflow-scrolling: touch;
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		margin: 0 0 2em 0;
+	}
+
+		pre code {
+			display: block;
+			line-height: 1;
+			padding: 1em 1.5em;
+			overflow-x: auto;
+		}
+
+	hr {
+		border: 0;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+		margin: 2em 0;
+	}
+
+		hr.major {
+			margin: 3em 0;
+		}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.style2 {
+			-moz-transition: all 0.2s ease;
+			-webkit-transition: all 0.2s ease;
+			-ms-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			border-radius: 100%;
+			display: inline-block;
+			padding: 0.5em;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+			.icon.style2:before {
+				display: block;
+				width: 1.35em;
+				height: 1.35em;
+				line-height: 1.35em;
+				font-size: 1em;
+			}
+
+			.icon.style2:hover {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.icon.style2:before {
+					font-size: 1em;
+				}
+
+			}
+
+
+			@media screen and (max-width: 340px) {
+
+			.icon.style2:before {
+				display: block;
+				width: 1em;
+				height: 1em;
+				line-height: 1em;
+				font-size: 1em;
+			}
+
+			.icon.style2:hover {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+		}
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 2em 0;
+		padding-left: 1.25em;
+	}
+
+		ol li {
+			padding-left: 0.25em;
+		}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+
+		ul li {
+			padding-left: 0.5em;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 1px rgba(255, 255, 255, 0.25);
+				padding: 0.5em 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5em 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1em 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5em 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1em;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1em);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1em;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5em;
+					width: calc(100% + 0.5em);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5em;
+					}
+
+			@media screen and (max-width: 480px) {
+
+				ul.actions {
+					margin: 0 0 2em 0;
+				}
+
+					ul.actions li {
+						padding: 1em 0 0 0;
+						display: block;
+						text-align: center;
+						width: 100%;
+					}
+
+						ul.actions li:first-child {
+							padding-top: 0;
+						}
+
+						ul.actions li > * {
+							width: 100%;
+							margin: 0 !important;
+						}
+
+							ul.actions li > *.icon:before {
+								margin-left: -2em;
+							}
+
+					ul.actions.small li {
+						padding: 0.5em 0 0 0;
+					}
+
+						ul.actions.small li:first-child {
+							padding-top: 0;
+						}
+
+			}
+
+	dl {
+		margin: 0 0 2em 0;
+	}
+
+		dl dt {
+			display: block;
+			font-weight: 200;
+			margin: 0 0 1em 0;
+		}
+
+		dl dd {
+			margin-left: 2em;
+		}
+
+/* Wrapper */
+
+
+/* Header */
+
+	#header {
+		text-align: center;
+		padding: 6em 0 4em 0;
+	}
+
+		#header h1 {
+			color: rgba(255, 255, 255, 0.65);
+		}
+
+		#header .avatar {
+			display: inline-block;
+		}
+
+			#header .avatar img {
+				position: relative;
+				width: 100%;
+				margin-bottom: -77px;
+
+			}
+
+		@media screen and (max-width: 1280px) {
+			#header {
+				padding: 4em 0 2em 0;
+			}
+
+		}
+
+/* Footer */
+
+	#footer {
+		text-align: center;
+		padding: 2em 0 2em 0;
+	}
+
+		#footer:before {
+			content: '';
+			border-top: solid 1px rgba(255, 255, 255, 0.25);
+			width: 10em;
+			display: block;
+			margin: 0 auto 3em auto;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#footer {
+				padding: 2em 0 2em 0;
+			}
+
+		}
+
+
+		.container2 {
+
+			text-align: center;
+			height: 100px;
+		  }
+			.everlib-logo-first-bar,
+			.everlib-logo-second-bar,
+			.everlib-logo-third-bar,
+			.everlib-logo-fourth-bar,
+			.everlib-logo-fifth-bar, 
+			.everlib-logo-six-bar,
+			.everlib-logo-seventh-bar,
+			.everlib-logo-eighth-bar,
+			.everlib-logo-ninth-bar,
+			.everlib-logo-tenth-bar, 
+			.everlib-logo-elleventh-bar,
+			.everlib-logo-twelfth-bar,
+			.everlib-logo-thirteenth-bar,
+			.everlib-logo-fourteenth-bar,
+			.everlib-logo-fifteenth-bar,
+			.everlib-logo-sixteenth-bar,
+			.everlib-logo-seventeenth-bar,
+			.everlib-logo-eighteenth-bar,
+			.everlib-logo-ninteenth-bar,
+			.everlib-logo-twenty-bar,
+			.everlib-logo-twentyone-bar,
+			.everlib-logo-twentytwo-bar,
+			.everlib-logo-twenty-three,
+			.everlib-logo-twenty-four,
+			.everlib-logo-twenty-five,
+			.everlib-logo-twenty-six,
+			.everlib-logo-twenty-seven, 
+			.everlib-logo-twenty-eight,
+			.everlib-logo-twenty-nine,
+			.everlib-logo-thirty,
+			.everlib-logo-thirty-one,
+			.everlib-logo-thirty-two, 
+			.everlib-logo-thirty-three,
+			.everlib-logo-thirty-four,
+			.everlib-logo-thirty-five,
+			.everlib-logo-thirty-six,
+			.everlib-logo-thirty-seven,
+			.everlib-logo-thirty-eight,
+			.everlib-logo-thirty-nine,
+			.everlib-logo-forty,
+			.everlib-logo-forty-one,
+			.everlib-logo-forty-two,
+			.everlib-logo-forty-three,
+			.everlib-logo-forty-four,
+			.everlib-logo-forty-five,
+			.everlib-logo-forty-six,
+			.everlib-logo-forty-seven,
+			.everlib-logo-forty-eight,
+			.everlib-logo-forty-nine,
+			.everlib-logo-fifty,
+			.everlib-logo-space,
+			.everlib-logo-spacem,
+			.everlib-logo-spacem2,
+			.everlib-logo-spacem3 {
+				display: inline-block;
+				width: 2.8px;
+				margin:1px;
+				transition: .5s;
+				animation: equalize 6s 2s infinite;
+				animation-timing-function: linear;
+				vertical-align: top;
+			}
+			.everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+			  }
+			  .everlib-logo-spacem3 {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin-left:9.5px;
+				
+			  }
+
+			
+			.everlib-logo-first-bar {
+			  height: 20%;
+			  background: #eb8fd9;
+			  transition: 0.5s;
+			  animation-delay: -1.9s;
+			  margin-top:-5px;
+
+			}
+			
+			.everlib-logo-second-bar {
+			  height: 4px;
+			  background: #e156c5;
+			  width: 4px;
+			  margin:0px;
+			  animation-delay: -2.9s;
+			  margin-top:-5px;
+
+			}
+			
+			.everlib-logo-third-bar {
+			  height: 40px;
+			  background: #fffdff;
+			  animation-delay: -3.9s;
+			  margin:-1px;
+			  margin-top:-5px;
+
+
+			}
+			
+			.everlib-logo-fourth-bar {
+			  height: 40px;
+			  background: #e94ec5;
+			  margin:0px;
+			  width: 3px;
+			  animation-delay: -4.9s;
+			  margin-top:-5px;
+
+			}
+
+			.everlib-logo-fifth-bar {
+				height: 40px;
+				background: #ffbef0;
+				animation-delay: -4.4s;
+				width: 2px;
+				margin-right:7px;
+				margin-top:-3px;
+
+
+			  }
+			  .everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin:-1px;
+				margin-top:-15px;
+
+			  }
+			  
+			  .everlib-logo-six-bar {
+				height: 40px;
+				background: #f43a81;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-seventh-bar {
+				height: 40px;
+				background: #ed161a;
+				width:2.3px;
+				animation-delay: -2.8s;
+				margin:-1px;
+				margin-top:-35px;
+			  }
+			  .everlib-logo-eighth-bar {
+				height: 40px;
+				background: rgb(255, 255, 255);
+				animation-delay: -2.5s;
+				width: 1.8px;
+				margin:0px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-ninth-bar {
+				height: 40px;
+				background: #f04346;
+				animation-delay: -2.6s;
+				margin:-1px;
+				margin-top:-35px;
+			  }
+
+			  .everlib-logo-tenth-bar {
+				height: 40px;
+				background: #f9b0b1;
+				animation-delay: -2.6s;
+				width: 1.8px;
+				margin-right: 9px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-elleventh-bar {
+				height: 40px;
+				background: rgb(46, 173, 227);
+				width:3.2px;
+
+				animation-delay: -2.6s;
+			  }
+			  .everlib-logo-twelfth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(42, 135, 206);
+				animation-delay: -2.6s;
+				margin:-1px;
+
+			  }
+			  .everlib-logo-thirteenth-bar {
+				height: 40px;
+				background: rgb(250, 252, 252);
+				animation-delay: -2.6s;
+				margin:-1px;
+
+			  }
+			  .everlib-logo-fourteenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(0, 114, 155);
+				animation-delay: -3.4s;
+			  }
+			  .everlib-logo-fifteenth-bar {
+				height: 40px;
+				width:3.2px;
+
+				background: rgb(104, 189, 242);
+				animation-delay: -3.7s;
+			  }
+			  .everlib-logo-sixteenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(255, 250, 116);
+				animation-delay: -1.7s;
+				margin-top:-3px;
+
+			  }
+			  .everlib-logo-seventeenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(249, 243, 69);
+				animation-delay: -3.9s;
+				margin:-1px;
+
+			  }
+			  .everlib-logo-eighteenth-bar {
+				height: 40px;
+				background: rgb(255, 255, 255);
+				animation-delay: -2.6s;
+				margin:-1px;
+				margin-top:-15px;
+
+			  }
+			  .everlib-logo-ninteenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(249, 243, 69);
+				margin-top: -20px;				
+				animation-delay: -1.6s;
+				margin-top:-15px;
+  
+			}
+			  .everlib-logo-twenty-bar {
+				height: 40px;
+				background: rgb(255, 250, 116);
+				animation-delay: -2.6s;
+				margin-right: 14px;
+				margin-top:-15px;
+
+			  }
+			  .everlib-logo-twentyone-bar {
+				height: 40px;
+				background: rgb(184, 47, 175);
+				animation-delay: -4.2s;
+				margin:-1px;
+				margin-top:-37px;
+
+			  }
+			  .everlib-logo-twentytwo-bar {
+				height: 40px;
+				width: 3.2px;
+				background: rgb(136, 26, 159);
+				animation-delay: -3.1s;
+				margin-top:-37px;
+
+			  }
+
+			  .everlib-logo-twenty-three {
+				height: 20%;
+				background: #feffff;
+				transition: 0.5s;
+				margin:-1px;
+				margin-top:-37px;
+
+
+				animation-delay: -1.9s;
+			  }
+			  
+			  .everlib-logo-twenty-four {
+				height: 4px;
+				background: rgb(133, 57, 148);
+				animation-delay: -2.9s;
+				margin-top:-7px;
+
+			  }
+			  
+			  .everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin:-1px;
+			  }
+
+			  .everlib-logo-twenty-five {
+				height: 40px;
+				background: rgb(191, 138, 201);
+				animation-delay: -3.9s;
+				margin-right: 9px;
+				margin-top:-3px;
+
+
+			  }
+			  
+			  .everlib-logo-twenty-six {
+				height: 40px;
+				background: rgb(27, 155, 89);
+				animation-delay: -4.9s;
+				margin:-1px;
+
+			  }
+  
+			  .everlib-logo-twenty-seven {
+				  height: 40px;
+				  background: rgb(17, 106, 60);
+				  width:3.2px;
+				  animation-delay: -4.4s;
+				}
+				.everlib-logo-twenty-eight {
+				  height: 40px;
+				  background: rgb(255, 255, 255);
+				  animation-delay: -3.8s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-twenty-nine {
+				  height: 40px;
+				  background: rgb(34, 157, 93);
+				  animation-delay: -2.8s;
+				}
+				.everlib-logo-thirty {
+				  height: 40px;
+				  background: rgb(63, 220, 139);
+				  animation-delay: -2.2s;
+				}
+				.everlib-logo-thirty-one {
+				  height: 40px;
+				  background: rgb(245, 119, 241);
+				  animation-delay: -1.6s;
+				}
+  
+				.everlib-logo-thirty-two {
+				  height: 40px;
+				  background: rgb(235, 114, 207);
+				  animation-delay: -2.2s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-thirty-three {
+				  height: 40px;
+				  background: rgb(249, 249, 255);
+				  animation-delay: -3.7s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-thirty-four {
+				  height: 40px;
+				  background: rgb(245, 119, 241);
+				  animation-delay: -4.1s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-thirty-five {
+				  height: 40px;
+				  background: rgb(245, 153, 242);
+				  animation-delay: -2.6s;
+				  margin-right: 12px;
+
+				}
+				.everlib-logo-thirty-six {
+				  height: 40px;
+				  background: rgb(255, 137, 145);
+				  animation-delay: -3.4s;
+				  margin:-2px;
+				}
+				.everlib-logo-thirty-seven {
+				  height: 40px;
+				  background: rgb(187, 13, 25);
+				  animation-delay: -3.7s;
+				}
+				.everlib-logo-thirty-eight {
+				  height: 40px;
+				  background: rgb(254, 223, 225);
+				  animation-delay: -1.7s;
+				}
+				.everlib-logo-thirty-nine {
+				  height: 40px;
+				  background: rgb(250, 93, 93);
+				  animation-delay: -3.9s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-forty {
+				  height: 40px;
+				  background: rgb(255, 135, 135);
+				  animation-delay: -2.6s;
+				  margin:-1px;
+
+				}
+				.everlib-logo-forty-one {
+				  height: 40px;
+				  background: rgb(15, 165, 230);
+				  width:3.2px;
+				  animation-delay: -2.6s;
+				}
+				.everlib-logo-forty-two {
+				  height: 40px;
+				  width:3.2px;
+				  background: rgb(38, 97, 199);
+				  animation-delay: -2.6s;
+				}
+				.everlib-logo-forty-three {
+				  height: 40px;
+				  background: rgb(255, 255, 255);
+				  animation-delay: -4.2s;
+				  margin-top:-47px;
+
+				}
+				.everlib-logo-forty-four {
+				  height: 40px;
+				  width:3.2px;
+				  background: rgb(33, 103, 177);
+				  animation-delay: -3.1s;
+				  margin-top:-47px;
+
+				}
+				.everlib-logo-forty-five {
+					height: 40px;
+					background: rgb(139, 187, 238);
+					animation-delay: -1.7s;
+					margin-right: 20px;
+					margin-top:-47px;
+
+
+				  }
+				  .everlib-logo-space{
+					height: 40px;
+					width:12.6px;
+					background: rgb(2, 2, 6);
+					animation-delay: -4.2s;
+				  }
+				  .everlib-logo-forty-six {
+					height: 40px;
+					width:3.8px;
+					background: rgb(255, 250, 104);
+					animation-delay: -3.9s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-seven {
+					width:4.8px;
+					background: rgb(238, 232, 49);
+					height: 40px;
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-eight {
+					height: 40px;
+					background: rgb(255, 255, 255);
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-nine {
+					height: 40px;
+					width:4.8px;
+					background: rgb(238, 232, 49);
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-fifty{
+					height: 40px;
+					width:3.8px;
+					background: rgb(255, 250, 104);
+					animation-delay: -4.2s;
+					margin-right: 30px;
+					margin-top:-27px;
+
+				  }
+		
+
+		  
+		  @keyframes equalize {
+			0% {
+			  height: 116px;
+			}
+			4% {
+			  height: 104px;
+			}
+			8% {
+			  height: 100px;
+			}
+			12% {
+			  height: 80px;
+			}
+			16% {
+			  height: 60px;
+			}
+			20% {
+			  height: 80px;
+			}
+			24% {
+			  height: 100px;
+			}
+			28% {
+			  height: 40px;
+			}
+			32% {
+			  height: 100px;
+			}
+			36% {
+			  height: 116px;
+			}
+			40% {
+			  height: 60px;
+			}
+			44% {
+			  height: 100px;
+			}
+			48% {
+			  height: 116px;
+			}
+			52% {
+			  height: 80px;
+			}
+			56% {
+			  height: 40px;
+			}
+			60% {
+			  height: 80px;
+			}
+			64% {
+			  height: 116px;
+			}
+			68% {
+			  height: 80px;
+			}
+			72% {
+			  height: 116px;
+			}
+			76% {
+			  height: 60px;
+			}
+			80% {
+			  height: 106x;
+			}
+			84% {
+			  height: 96px;
+			}
+			88% {
+			  height: 116px;
+			}
+			92% {
+			  height: 60px;
+			}
+			96% {
+			  height: 116px;
+			}
+			100% {
+			  height: 116px;
+			}
+		  }
+
+
+		  @media only screen and (min-width: 1282px) {
+			/* tablets and desktop */
+
+
+			.container2 {
+
+				text-align: center;
+				height: 100px;
+			  }
+				.everlib-logo-first-bar,
+				.everlib-logo-second-bar,
+				.everlib-logo-third-bar,
+				.everlib-logo-fourth-bar,
+				.everlib-logo-fifth-bar, 
+				.everlib-logo-six-bar,
+				.everlib-logo-seventh-bar,
+				.everlib-logo-eighth-bar,
+				.everlib-logo-ninth-bar,
+				.everlib-logo-tenth-bar, 
+				.everlib-logo-elleventh-bar,
+				.everlib-logo-twelfth-bar,
+				.everlib-logo-thirteenth-bar,
+				.everlib-logo-fourteenth-bar,
+				.everlib-logo-fifteenth-bar,
+				.everlib-logo-sixteenth-bar,
+				.everlib-logo-seventeenth-bar,
+				.everlib-logo-eighteenth-bar,
+				.everlib-logo-ninteenth-bar,
+				.everlib-logo-twenty-bar,
+				.everlib-logo-twentyone-bar,
+				.everlib-logo-twentytwo-bar,
+				.everlib-logo-twenty-three,
+				.everlib-logo-twenty-four,
+				.everlib-logo-twenty-five,
+				.everlib-logo-twenty-six,
+				.everlib-logo-twenty-seven, 
+				.everlib-logo-twenty-eight,
+				.everlib-logo-twenty-nine,
+				.everlib-logo-thirty,
+				.everlib-logo-thirty-one,
+				.everlib-logo-thirty-two, 
+				.everlib-logo-thirty-three,
+				.everlib-logo-thirty-four,
+				.everlib-logo-thirty-five,
+				.everlib-logo-thirty-six,
+				.everlib-logo-thirty-seven,
+				.everlib-logo-thirty-eight,
+				.everlib-logo-thirty-nine,
+				.everlib-logo-forty,
+				.everlib-logo-forty-one,
+				.everlib-logo-forty-two,
+				.everlib-logo-forty-three,
+				.everlib-logo-forty-four,
+				.everlib-logo-forty-five,
+				.everlib-logo-forty-six,
+				.everlib-logo-forty-seven,
+				.everlib-logo-forty-eight,
+				.everlib-logo-forty-nine,
+				.everlib-logo-fifty,
+				.everlib-logo-space,
+				.everlib-logo-spacem,
+				.everlib-logo-spacem2,
+				.everlib-logo-spacem3 {
+					display: inline-block;
+					width: 2.8px;
+					margin:0px;
+					transition: .5s;
+					animation: equalize 6s 2s infinite;
+					animation-timing-function: linear;
+					vertical-align: top;
+				}
+				.everlib-logo-spacem {
+					height: 40px;
+					background: #020204;
+					animation-delay: -3.8s;
+					width: 2px;
+				  }
+				  .everlib-logo-spacem3 {
+					height: 40px;
+					background: #020204;
+					animation-delay: -3.8s;
+					width: 2px;
+					margin-right:-2.5px;
+					
+				  }
+	
+				
+				.everlib-logo-first-bar {
+				  height: 20%;
+				  background: #eb8fd9;
+				  transition: 0.5s;
+				  animation-delay: -1.9s;
+				  margin-top:-5px;
+	
+				}
+				
+				.everlib-logo-second-bar {
+				  height: 4px;
+				  background: #e156c5;
+				  width: 4px;
+				  margin:0px;
+				  animation-delay: -2.9s;
+				  margin-top:-5px;
+	
+				}
+				
+				.everlib-logo-third-bar {
+				  height: 40px;
+				  background: #fffdff;
+				  animation-delay: -3.9s;
+				  margin:-1px;
+				  margin-top:-5px;
+	
+	
+				}
+				
+				.everlib-logo-fourth-bar {
+				  height: 40px;
+				  background: #e94ec5;
+				  margin:0px;
+				  width: 3px;
+				  animation-delay: -4.9s;
+				  margin-top:-5px;
+	
+				}
+	
+				.everlib-logo-fifth-bar {
+					height: 40px;
+					background: #ffbef0;
+					animation-delay: -4.4s;
+					width: 2px;
+					margin-right:6.5px;
+					margin-top:-3px;
+	
+	
+				  }
+				  .everlib-logo-spacem {
+					height: 40px;
+					background: #020204;
+					animation-delay: -3.8s;
+					width: 2px;
+					margin:-1px;
+					margin-top:-15px;
+	
+				  }
+				  
+				  .everlib-logo-six-bar {
+					height: 40px;
+					background: #f43a81;
+					animation-delay: -3.8s;
+					width: 2px;
+					margin-top:-35px;
+	
+				  }
+				  .everlib-logo-seventh-bar {
+					height: 40px;
+					background: #ed161a;
+					width:2.3px;
+					animation-delay: -2.8s;
+					margin:-1px;
+					margin-top:-35px;
+				  }
+				  .everlib-logo-eighth-bar {
+					height: 40px;
+					background: rgb(255, 255, 255);
+					animation-delay: -2.5s;
+					width: 1.8px;
+					margin:0px;
+					margin-top:-35px;
+	
+				  }
+				  .everlib-logo-ninth-bar {
+					height: 40px;
+					background: #f04346;
+					animation-delay: -2.6s;
+					margin:-1px;
+					margin-top:-35px;
+				  }
+	
+				  .everlib-logo-tenth-bar {
+					height: 40px;
+					background: #f9b0b1;
+					animation-delay: -2.6s;
+					width: 1.8px;
+					margin-right: 7px;
+					margin-top:-35px;
+	
+				  }
+				  .everlib-logo-elleventh-bar {
+					height: 40px;
+					background: rgb(46, 173, 227);
+					width:3.2px;
+	
+					animation-delay: -2.6s;
+				  }
+				  .everlib-logo-twelfth-bar {
+					height: 40px;
+					width:3.2px;
+					background: rgb(42, 135, 206);
+					animation-delay: -2.6s;
+					margin:-1px;
+	
+				  }
+				  .everlib-logo-thirteenth-bar {
+					height: 40px;
+					background: rgb(250, 252, 252);
+					animation-delay: -2.6s;
+					margin:-1px;
+	
+				  }
+				  .everlib-logo-fourteenth-bar {
+					height: 40px;
+					width:3.2px;
+					background: rgb(0, 114, 155);
+					animation-delay: -3.4s;
+				  }
+				  .everlib-logo-fifteenth-bar {
+					height: 40px;
+					width:3.2px;
+	
+					background: rgb(104, 189, 242);
+					animation-delay: -3.7s;
+				  }
+				  .everlib-logo-sixteenth-bar {
+					height: 40px;
+					width:3.2px;
+					background: rgb(255, 250, 116);
+					animation-delay: -1.7s;
+					margin-top:-3px;
+	
+				  }
+				  .everlib-logo-seventeenth-bar {
+					height: 40px;
+					width:3.2px;
+					background: rgb(249, 243, 69);
+					animation-delay: -3.9s;
+					margin:-1px;
+					margin-top:-15px;
+	
+				  }
+				  .everlib-logo-eighteenth-bar {
+					height: 40px;
+					background: rgb(255, 255, 255);
+					animation-delay: -2.6s;
+					margin:-1px;
+					margin-top:-15px;
+	
+				  }
+				  .everlib-logo-ninteenth-bar {
+					height: 40px;
+					width:3.2px;
+					background: rgb(249, 243, 69);
+					margin-top: -20px;				
+					animation-delay: -1.6s;
+					margin-top:-15px;
+	  
+				}
+				  .everlib-logo-twenty-bar {
+					height: 40px;
+					background: rgb(255, 250, 116);
+					animation-delay: -2.6s;
+					margin-right: 10px;
+					margin-top:-15px;
+	
+				  }
+				  .everlib-logo-twentyone-bar {
+					height: 40px;
+					background: rgb(184, 47, 175);
+					animation-delay: -4.2s;
+					margin:-1px;
+					margin-top:-37px;
+	
+				  }
+				  .everlib-logo-twentytwo-bar {
+					height: 40px;
+					width: 3.2px;
+					background: rgb(136, 26, 159);
+					animation-delay: -3.1s;
+					margin-top:-37px;
+	
+				  }
+	
+				  .everlib-logo-twenty-three {
+					height: 20%;
+					background: #feffff;
+					transition: 0.5s;
+					margin:-1px;
+					margin-top:-37px;
+	
+	
+					animation-delay: -1.9s;
+				  }
+				  
+				  .everlib-logo-twenty-four {
+					height: 4px;
+					background: rgb(133, 57, 148);
+					animation-delay: -2.9s;
+					margin-top:-7px;
+	
+				  }
+				  
+				  .everlib-logo-spacem {
+					height: 40px;
+					background: #020204;
+					animation-delay: -3.8s;
+					width: 2px;
+					margin:-1px;
+				  }
+	
+				  .everlib-logo-twenty-five {
+					height: 40px;
+					background: rgb(191, 138, 201);
+					animation-delay: -3.9s;
+					margin-right: 8px;
+					margin-top:-3px;
+	
+	
+				  }
+				  
+				  .everlib-logo-twenty-six {
+					height: 40px;
+					background: rgb(27, 155, 89);
+					animation-delay: -4.9s;
+					margin:-1px;
+	
+				  }
+	  
+				  .everlib-logo-twenty-seven {
+					  height: 40px;
+					  background: rgb(17, 106, 60);
+					  width:3.2px;
+					  animation-delay: -4.4s;
+					}
+					.everlib-logo-twenty-eight {
+					  height: 40px;
+					  background: rgb(255, 255, 255);
+					  animation-delay: -3.8s;
+					  margin:-1px;
+	
+					}
+					.everlib-logo-twenty-nine {
+					  height: 40px;
+					  background: rgb(34, 157, 93);
+					  animation-delay: -2.8s;
+					}
+					.everlib-logo-thirty {
+					  height: 40px;
+					  background: rgb(63, 220, 139);
+					  animation-delay: -2.2s;
+					}
+					.everlib-logo-thirty-one {
+					  height: 40px;
+					  background: rgb(245, 119, 241);
+					  animation-delay: -1.6s;
+					}
+	  
+					.everlib-logo-thirty-two {
+					  height: 40px;
+					  background: rgb(235, 114, 207);
+					  animation-delay: -2.2s;
+					  margin:-1px;
+	
+					}
+					.everlib-logo-thirty-three {
+					  height: 40px;
+					  background: rgb(249, 249, 255);
+					  animation-delay: -3.7s;
+					  margin:-1px;
+	
+					}
+					.everlib-logo-thirty-four {
+					  height: 40px;
+					  background: rgb(245, 119, 241);
+					  animation-delay: -4.1s;
+					  margin:-2px;
+	
+					}
+					.everlib-logo-thirty-five {
+					  height: 40px;
+					  background: rgb(245, 153, 242);
+					  animation-delay: -2.6s;
+					  margin-right: 14px;
+	
+					}
+					.everlib-logo-thirty-six {
+					  height: 40px;
+					  background: rgb(255, 137, 145);
+					  animation-delay: -3.4s;
+					  margin:-2px;
+					}
+					.everlib-logo-thirty-seven {
+					  height: 40px;
+					  background: rgb(187, 13, 25);
+					  animation-delay: -3.7s;
+					}
+					.everlib-logo-thirty-eight {
+					  height: 40px;
+					  background: rgb(254, 223, 225);
+					  animation-delay: -1.7s;
+					}
+					.everlib-logo-thirty-nine {
+					  height: 40px;
+					  background: rgb(250, 93, 93);
+					  animation-delay: -3.9s;
+					  margin:-1px;
+	
+					}
+					.everlib-logo-forty {
+					  height: 40px;
+					  background: rgb(255, 135, 135);
+					  animation-delay: -2.6s;
+					  margin:-1px;
+	
+					}
+					.everlib-logo-forty-one {
+					  height: 40px;
+					  background: rgb(15, 165, 230);
+					  width:3.2px;
+					  animation-delay: -2.6s;
+					}
+					.everlib-logo-forty-two {
+					  height: 40px;
+					  width:3.2px;
+					  background: rgb(38, 97, 199);
+					  animation-delay: -2.6s;
+					  margin:-1px;
+
+					}
+					.everlib-logo-forty-three {
+					  height: 40px;
+					  background: rgb(255, 255, 255);
+					  animation-delay: -4.2s;
+					  margin:-1px;
+					  margin-top:-47px;
+	
+					}
+					.everlib-logo-forty-four {
+					  height: 40px;
+					  width:3.2px;
+					  background: rgb(33, 103, 177);
+					  animation-delay: -3.1s;
+					  margin-top:-47px;
+	
+					}
+					.everlib-logo-forty-five {
+						height: 40px;
+						background: rgb(139, 187, 238);
+						animation-delay: -1.7s;
+						margin-right: 19px;
+						margin-top:-47px;
+	
+	
+					  }
+					  .everlib-logo-space{
+						height: 40px;
+						width:12.6px;
+						background: rgb(2, 2, 6);
+						animation-delay: -4.2s;
+					  }
+					  .everlib-logo-forty-six {
+						height: 40px;
+						width:3.8px;
+						background: rgb(255, 250, 104);
+						animation-delay: -3.9s;
+						margin-top:-27px;
+	
+					  }
+					  .everlib-logo-forty-seven {
+						width:4.8px;
+						background: rgb(238, 232, 49);
+						height: 40px;
+						animation-delay: -2.6s;
+						margin-top:-27px;
+	
+					  }
+					  .everlib-logo-forty-eight {
+						height: 40px;
+						background: rgb(255, 255, 255);
+						animation-delay: -2.6s;
+						margin-top:-27px;
+	
+					  }
+					  .everlib-logo-forty-nine {
+						height: 40px;
+						width:4.8px;
+						background: rgb(238, 232, 49);
+						animation-delay: -2.6s;
+						margin-top:-27px;
+	
+					  }
+					  .everlib-logo-fifty{
+						height: 40px;
+						width:3.8px;
+						background: rgb(255, 250, 104);
+						animation-delay: -4.2s;
+						margin-right: 18px;
+						margin-top:-27px;
+	
+					  }
+			
+	
+			  
+			  @keyframes equalize {
+				0% {
+				  height: 116px;
+				}
+				4% {
+				  height: 104px;
+				}
+				8% {
+				  height: 100px;
+				}
+				12% {
+				  height: 80px;
+				}
+				16% {
+				  height: 60px;
+				}
+				20% {
+				  height: 80px;
+				}
+				24% {
+				  height: 100px;
+				}
+				28% {
+				  height: 40px;
+				}
+				32% {
+				  height: 100px;
+				}
+				36% {
+				  height: 116px;
+				}
+				40% {
+				  height: 60px;
+				}
+				44% {
+				  height: 100px;
+				}
+				48% {
+				  height: 116px;
+				}
+				52% {
+				  height: 80px;
+				}
+				56% {
+				  height: 40px;
+				}
+				60% {
+				  height: 80px;
+				}
+				64% {
+				  height: 116px;
+				}
+				68% {
+				  height: 80px;
+				}
+				72% {
+				  height: 116px;
+				}
+				76% {
+				  height: 60px;
+				}
+				80% {
+				  height: 106x;
+				}
+				84% {
+				  height: 96px;
+				}
+				88% {
+				  height: 116px;
+				}
+				92% {
+				  height: 60px;
+				}
+				96% {
+				  height: 116px;
+				}
+				100% {
+				  height: 116px;
+				}
+			  }
+
+		}
+
+		
+		@media only screen and (max-width: 541px) {
+			/* mobile fuck etc */
+.avatar {
+	width: 300px;
+	margin-right:15px;
+}
+#header .avatar {
+	display: inline-block;
+}
+
+	#header .avatar img {
+		position: relative;
+		margin-bottom: -47px;
+		width: 300x;
+
+
+	}
+
+
+.container2 {
+
+	text-align: center;
+	height: 70px;
+  }
+	.everlib-logo-first-bar,
+	.everlib-logo-second-bar,
+	.everlib-logo-third-bar,
+	.everlib-logo-fourth-bar,
+	.everlib-logo-fifth-bar, 
+	.everlib-logo-six-bar,
+	.everlib-logo-seventh-bar,
+	.everlib-logo-eighth-bar,
+	.everlib-logo-ninth-bar,
+	.everlib-logo-tenth-bar, 
+	.everlib-logo-elleventh-bar,
+	.everlib-logo-twelfth-bar,
+	.everlib-logo-thirteenth-bar,
+	.everlib-logo-fourteenth-bar,
+	.everlib-logo-fifteenth-bar,
+	.everlib-logo-sixteenth-bar,
+	.everlib-logo-seventeenth-bar,
+	.everlib-logo-eighteenth-bar,
+	.everlib-logo-ninteenth-bar,
+	.everlib-logo-twenty-bar,
+	.everlib-logo-twentyone-bar,
+	.everlib-logo-twentytwo-bar,
+	.everlib-logo-twenty-three,
+	.everlib-logo-twenty-four,
+	.everlib-logo-twenty-five,
+	.everlib-logo-twenty-six,
+	.everlib-logo-twenty-seven, 
+	.everlib-logo-twenty-eight,
+	.everlib-logo-twenty-nine,
+	.everlib-logo-thirty,
+	.everlib-logo-thirty-one,
+	.everlib-logo-thirty-two, 
+	.everlib-logo-thirty-three,
+	.everlib-logo-thirty-four,
+	.everlib-logo-thirty-five,
+	.everlib-logo-thirty-six,
+	.everlib-logo-thirty-seven,
+	.everlib-logo-thirty-eight,
+	.everlib-logo-thirty-nine,
+	.everlib-logo-forty,
+	.everlib-logo-forty-one,
+	.everlib-logo-forty-two,
+	.everlib-logo-forty-three,
+	.everlib-logo-forty-four,
+	.everlib-logo-forty-five,
+	.everlib-logo-forty-six,
+	.everlib-logo-forty-seven,
+	.everlib-logo-forty-eight,
+	.everlib-logo-forty-nine,
+	.everlib-logo-fifty,
+	.everlib-logo-space,
+	.everlib-logo-spacem,
+	.everlib-logo-spacem2,
+	.everlib-logo-spacem3 {
+		display: inline-block;
+		width: .93px;
+		margin:-0.5px;
+		transition: .5s;
+		animation: equalize 6s 2s infinite;
+		animation-timing-function: linear;
+		vertical-align: top;
+	}
+	.everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .6px;
+	  }
+	  .everlib-logo-spacem3 {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .4px;
+		margin-left: -32px;
+	  }
+
+	
+	.everlib-logo-first-bar {
+	  height: 20%;
+	  background: #eb8fd9;
+	  transition: 0.5s;
+	  animation-delay: -1.9s;
+	  margin-top:5px;
+
+	}
+	
+	.everlib-logo-second-bar {
+	  height: 4px;
+	  background: #e156c5;
+	  width: 2px;
+	  margin:-2px;
+	  animation-delay: -2.9s;
+	  margin-top:5px;
+
+	}
+	
+	.everlib-logo-third-bar {
+	  height: 40px;
+	  background: #fffdff;
+	  animation-delay: -3.9s;
+	  margin-top:5px;
+
+
+	}
+	
+	.everlib-logo-fourth-bar {
+	  height: 40px;
+	  background: #e94ec5;
+	  margin:-1px;
+	  width: 1.2px;
+	  animation-delay: -4.9s;
+	  margin-top:5px;
+
+	}
+
+	.everlib-logo-fifth-bar {
+		height: 40px;
+		background: #ffbef0;
+		animation-delay: -4.4s;
+		margin-top:7px;
+		margin-right:5px;
+
+
+	  }
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .2px;
+		margin:-1px;
+		margin-top:-5px;
+
+	  }
+	  
+	  .everlib-logo-six-bar {
+		height: 40px;
+		background: #f43a81;
+		animation-delay: -3.8s;
+		margin-top:-25px;
+		margin:-1px;
+
+
+	  }
+	  .everlib-logo-seventh-bar {
+		height: 40px;
+		background: #ed161a;
+		width:1.3px;
+		animation-delay: -2.8s;
+		margin:-1px;
+		margin-top:-25px;
+	  }
+	  .everlib-logo-eighth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.5s;
+		margin:-2px;
+		margin-top:-25px;
+
+	  }
+	  .everlib-logo-ninth-bar {
+		height: 40px;
+		background: #f04346;
+		animation-delay: -2.6s;
+		margin:-1px;
+		margin-top:-25px;
+		width:1.3px;
+
+	  }
+
+	  .everlib-logo-tenth-bar {
+		height: 40px;
+		width:1.3px;
+
+		background: #f9b0b1;
+		animation-delay: -2.6s;
+		margin-right: -15px;
+		margin-top:-25px;
+
+	  }
+	  .everlib-logo-elleventh-bar {
+		height: 40px;
+		background: rgb(46, 173, 227);
+		width:1px;
+		margin-left: 20.7px;
+
+		animation-delay: -2.6s;
+	  }
+	  .everlib-logo-twelfth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(42, 135, 206);
+		animation-delay: -2.6s;
+		margin:-1px;
+
+	  }
+	  .everlib-logo-thirteenth-bar {
+		height: 40px;
+		background: rgb(250, 252, 252);
+		animation-delay: -2.6s;
+		margin:-1px;
+
+	  }
+	  .everlib-logo-fourteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(0, 114, 155);
+		animation-delay: -3.4s;
+	  }
+	  .everlib-logo-fifteenth-bar {
+		height: 40px;
+		width:1px;
+
+		background: rgb(104, 189, 242);
+		animation-delay: -3.7s;
+	  }
+	  .everlib-logo-sixteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(255, 250, 116);
+		animation-delay: -1.7s;
+		margin-top:7px;
+
+	  }
+	  .everlib-logo-seventeenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(249, 243, 69);
+		animation-delay: -3.9s;
+		margin:-1px;
+		margin-top:5px;
+
+	  }
+	  .everlib-logo-eighteenth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.6s;
+		margin:-1px;
+		margin-top:-5px;
+
+	  }
+	  .everlib-logo-ninteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(249, 243, 69);
+		margin-top: -15px;				
+		animation-delay: -1.6s;
+		margin-top:-5px;
+
+	}
+	  .everlib-logo-twenty-bar {
+		height: 40px;
+		background: rgb(255, 250, 116);
+		animation-delay: -2.6s;
+		margin-top:-5px;
+		margin-right: 4px;
+
+	  }
+	  .everlib-logo-twentyone-bar {
+		height: 40px;
+		background: rgb(0, 0, 0);
+		animation-delay: -4.2s;
+		margin-top:-7px;
+
+
+	  }
+	  .everlib-logo-twentytwo-bar {
+		height: 40px;
+		width: 1px;
+		background: rgb(136, 26, 159);
+		animation-delay: -3.1s;
+		margin-top:-27px;
+		margin:-1px;
+
+
+	  }
+
+	  .everlib-logo-twenty-three {
+		height: 20%;
+		background: #feffff;
+		transition: 0.5s;
+		margin:-1px;
+		margin-top:-27px;
+
+
+		animation-delay: -1.9s;
+	  }
+	  
+	  .everlib-logo-twenty-four {
+		height: 4px;
+		background: rgb(133, 57, 148);
+		animation-delay: -2.9s;
+		margin-top:3px;
+
+	  }
+	  
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: 1.1px;
+		margin:-1px;
+	  }
+
+	  .everlib-logo-twenty-five {
+		height: 40px;
+		background: rgb(191, 138, 201);
+		animation-delay: -3.9s;
+		margin-top:7px;
+		margin-right: 12px;
+
+
+	  }
+	  
+	  .everlib-logo-twenty-six {
+		height: 40px;
+		background: rgb(27, 155, 89);
+		animation-delay: -4.9s;
+		margin:-1px;
+
+	  }
+
+	  .everlib-logo-twenty-seven {
+		  height: 40px;
+		  background: rgb(17, 106, 60);
+		  width:3.2px;
+		  animation-delay: -4.4s;
+		}
+		.everlib-logo-twenty-eight {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -3.8s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-twenty-nine {
+		  height: 40px;
+		  background: rgb(34, 157, 93);
+		  animation-delay: -2.8s;
+		}
+		.everlib-logo-thirty {
+		  height: 40px;
+		  background: rgb(63, 220, 139);
+		  animation-delay: -2.2s;
+		}
+		.everlib-logo-thirty-one {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -1.6s;
+		}
+
+		.everlib-logo-thirty-two {
+		  height: 40px;
+		  background: rgb(235, 114, 207);
+		  animation-delay: -2.2s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-thirty-three {
+		  height: 40px;
+		  background: rgb(249, 249, 255);
+		  animation-delay: -3.7s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-thirty-four {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -4.1s;
+		  margin:-2px;
+
+		}
+		.everlib-logo-thirty-five {
+		  height: 40px;
+		  background: rgb(245, 153, 242);
+		  animation-delay: -2.6s;
+		  margin-right: 13px;
+
+		}
+		.everlib-logo-thirty-six {
+		  height: 40px;
+		  background: rgb(255, 137, 145);
+		  animation-delay: -3.4s;
+		  margin:-2px;
+		}
+		.everlib-logo-thirty-seven {
+		  height: 40px;
+		  background: rgb(187, 13, 25);
+		  animation-delay: -3.7s;
+		}
+		.everlib-logo-thirty-eight {
+		  height: 40px;
+		  background: rgb(254, 223, 225);
+		  animation-delay: -1.7s;
+		}
+		.everlib-logo-thirty-nine {
+		  height: 40px;
+		  background: rgb(250, 93, 93);
+		  animation-delay: -3.9s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-forty {
+		  height: 40px;
+		  background: rgb(255, 135, 135);
+		  animation-delay: -2.6s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-forty-one {
+		  height: 40px;
+		  background: rgb(15, 165, 230);
+		  width:1px;
+		  animation-delay: -2.6s;
+		}
+		.everlib-logo-forty-two {
+		  height: 40px;
+		  width:3.2px;
+		  background: rgb(38, 97, 199);
+		  animation-delay: -2.6s;
+		  margin:-1px;
+
+		}
+		.everlib-logo-forty-three {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -4.2s;
+		  margin:-1px;
+		  margin-top:-37px;
+
+		}
+		.everlib-logo-forty-four {
+		  height: 40px;
+		  width:1px;
+		  background: rgb(33, 103, 177);
+		  animation-delay: -3.1s;
+		  margin-top:-37px;
+		  margin:-2px;
+
+
+		}
+		.everlib-logo-forty-five {
+			height: 40px;
+			background: rgb(139, 187, 238);
+			animation-delay: -1.7s;
+			margin-top:-42px;
+			margin-right: 19px;
+
+		  }
+		  .everlib-logo-space{
+			height: 40px;
+			width:0.4px;
+			background: rgb(2, 2, 6);
+			animation-delay: -4.2s;
+		  }
+		  .everlib-logo-forty-six {
+			height: 40px;
+			width:1px;
+			background: rgb(255, 250, 104);
+			animation-delay: -3.9s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-seven {
+			width:2px;
+			background: rgb(238, 232, 49);
+			height: 40px;
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-eight {
+			height: 40px;
+			background: rgb(255, 255, 255);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-nine {
+			height: 40px;
+			width:1px;
+			background: rgb(238, 232, 49);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-fifty{
+			height: 40px;
+			width:2px;
+			background: rgb(255, 250, 104);
+			animation-delay: -4.2s;
+			margin-top:-14px;
+			margin-right: -22px;
+
+		  }
+
+
+  
+  @keyframes equalize {
+	0% {
+	  height: 71px;
+	}
+	4% {
+	  height: 59px;
+	}
+	8% {
+	  height: 55px;
+	}
+	12% {
+	  height: 35px;
+	}
+	16% {
+	  height: 15px;
+	}
+	20% {
+	  height: 35px;
+	}
+	24% {
+	  height: 55px;
+	}
+	28% {
+	  height: -5px;
+	}
+	32% {
+	  height: 55px;
+	}
+	36% {
+	  height: 71px;
+	}
+	40% {
+	  height: 25px;
+	}
+	44% {
+	  height: 55px;
+	}
+	48% {
+	  height: 71px;
+	}
+	52% {
+	  height: 35px;
+	}
+	56% {
+	  height: -5px;
+	}
+	60% {
+	  height: 35px;
+	}
+	64% {
+	  height: 71px;
+	}
+	68% {
+	  height: 35px;
+	}
+	72% {
+	  height: 71px;
+	}
+	76% {
+	  height: 15px;
+	}
+	80% {
+	  height: 71x;
+	}
+	84% {
+	  height: 51px;
+	}
+	88% {
+	  height: 71px;
+	}
+	92% {
+	  height: 15px;
+	}
+	96% {
+	  height: 71px;
+	}
+	100% {
+	  height: 71px;
+	}
+  }
+
+}
+
+
+
+@media only screen and (max-width: 323px) {
+	/* mobile fuck etc */
+.avatar {
+width: 330px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -47px;
+width: 330px;
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .93px;
+margin:-0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: -22px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 2px;
+margin:-2px;
+animation-delay: -2.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:-1px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:7px;
+margin-right:5px;
+
+
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .2px;
+margin:-1px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:-1px;
+
+
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:-1px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:-2px;
+margin-top:-25px;
+
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-25px;
+width:1.3px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: #f9b0b1;
+animation-delay: -2.6s;
+margin-right: -15px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin-left: 20.7px;
+
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:-1px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-5px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -15px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 4px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+background: rgb(0, 0, 0);
+animation-delay: -4.2s;
+margin-top:-7px;
+
+
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-27px;
+margin:-1px;
+
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+background: #feffff;
+transition: 0.5s;
+margin:-1px;
+margin-top:-27px;
+
+
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 4px;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:3px;
+
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:-1px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:7px;
+margin-right: 12px;
+
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:-1px;
+
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:3.2px;
+  animation-delay: -4.4s;
+}
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:-1px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:-2px;
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 13px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:-2px;
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:-1px;
+
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:3.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:-1px;
+  margin-top:-37px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-37px;
+  margin:-2px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-42px;
+	margin-right: 19px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-seven {
+	width:2px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:2px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -22px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
+
+
+@media only screen and (max-width: 325px) {
+	/* mobile fuck etc */
+.avatar {
+width: 270px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -47px;
+width: 270px;
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .93px;
+margin:-0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: -22px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 2px;
+margin:-2px;
+animation-delay: -2.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:-1px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:7px;
+margin-right:5px;
+
+
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .2px;
+margin:-1px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:-1px;
+
+
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:-1px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:-2px;
+margin-top:-25px;
+
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-25px;
+width:1.3px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: #f9b0b1;
+animation-delay: -2.6s;
+margin-right: -15px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin-left: 20.7px;
+
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:-1px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-5px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -15px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 4px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+background: rgb(0, 0, 0);
+animation-delay: -4.2s;
+margin-top:-7px;
+
+
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-27px;
+margin:-1px;
+
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+background: #feffff;
+transition: 0.5s;
+margin:-1px;
+margin-top:-27px;
+
+
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 4px;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:3px;
+
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:-1px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:7px;
+margin-right: 12px;
+
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:-1px;
+
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:3.2px;
+  animation-delay: -4.4s;
+}
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:-1px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:-2px;
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 13px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:-2px;
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:-1px;
+
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:3.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:-1px;
+  margin-top:-37px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-37px;
+  margin:-2px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-42px;
+	margin-right: 19px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-seven {
+	width:2px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:2px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -22px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 326px) {
+	/* mobile fuck etc */
+.avatar {
+width: 270px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -47px;
+width: 2700px;
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .93px;
+margin:-0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: -22px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 2px;
+margin:-2px;
+animation-delay: -2.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:-1px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:7px;
+margin-right:5px;
+
+
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .2px;
+margin:-1px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:-1px;
+
+
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:-1px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:-2px;
+margin-top:-25px;
+
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-25px;
+width:1.3px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: #f9b0b1;
+animation-delay: -2.6s;
+margin-right: -15px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin-left: 20.7px;
+
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:-1px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-5px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -15px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 4px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+background: rgb(0, 0, 0);
+animation-delay: -4.2s;
+margin-top:-7px;
+
+
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-27px;
+margin:-1px;
+
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+background: #feffff;
+transition: 0.5s;
+margin:-1px;
+margin-top:-27px;
+
+
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 4px;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:3px;
+
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:-1px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:7px;
+margin-right: 12px;
+
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:-1px;
+
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:3.2px;
+  animation-delay: -4.4s;
+}
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:-1px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:-2px;
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 13px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:-2px;
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:-1px;
+
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:3.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:-1px;
+  margin-top:-37px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-37px;
+  margin:-2px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-42px;
+	margin-right: 19px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-seven {
+	width:2px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:2px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -22px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
+@media only screen and (max-width: 310px) {
+
+.icon.style2:before {
+	display: block;
+	width: .5em;
+	height: .5em;
+	line-height: .5em;
+	font-size: .5em;
+}
+}
+
+.icon.style2:hover {
+	background-color: rgba(255, 255, 255, 0.25);
+}
+
+@media only screen and (max-width: 300px) {
+	/* mobile fuck etc */
+.avatar {
+width: 270px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -47px;
+width: 270px;
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .93px;
+margin:-0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: 4px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 2px;
+margin:-2px;
+animation-delay: -2.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:-1px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:7px;
+margin-right:5px;
+
+
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .2px;
+margin:-1px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:-1px;
+
+
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:-1px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:-2px;
+margin-top:-25px;
+
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-25px;
+width:1.3px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: #f9b0b1;
+animation-delay: -2.6s;
+margin-right: -15px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin-left: 20.7px;
+
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:-1px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:-1px;
+margin-top:-5px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -15px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 4px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+background: rgb(0, 0, 0);
+animation-delay: -4.2s;
+margin-top:-7px;
+
+
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-27px;
+margin:-1px;
+
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+background: #feffff;
+transition: 0.5s;
+margin:-1px;
+margin-top:-27px;
+
+
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 4px;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:3px;
+
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:-1px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:7px;
+margin-right: 12px;
+
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:-1px;
+
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:3.2px;
+  animation-delay: -4.4s;
+}
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:-1px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:-1px;
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:-2px;
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 13px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:-2px;
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:-1px;
+
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:3.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:-1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:-1px;
+  margin-top:-37px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-37px;
+  margin:-2px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-42px;
+	margin-right: 19px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-seven {
+	width:2px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:2px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -22px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
+
+
+		  
+#player {
+	height: 0;
+	width: 0
+  }
+  
+  /* Apologies for the large base64 image file */
+  
+  .speaker {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARAAAACACAYAAAG0HAZ0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MEFERTNEQzA3QTMxMTFFMzgzNTFFRDRCMzk1MDA0NUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEFERTNEQzE3QTMxMTFFMzgzNTFFRDRCMzk1MDA0NUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowQURFM0RCRTdBMzExMUUzODM1MUVENEIzOTUwMDQ1QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowQURFM0RCRjdBMzExMUUzODM1MUVENEIzOTUwMDQ1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvEtsecAABjVSURBVHjaYvz//z/D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);
+	background-repeat: no-repeat;
+	background-size: 200%;
+	background-position: 100% 0;
+	height: 54px;
+	width: 50px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+  }
+  
+  .speakerplay {
+	background-position: 0 0;
+  }
+
