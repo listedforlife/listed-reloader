@@ -84,7 +84,7 @@ export const EnterPageTemplate = ({}) =>  (
                 <li><a href="mailto:gunita@listedproductions.com" className="icon style2 fa-envelope-o"><span className="label">Email</span></a></li>
               </ul>
       </div>
-      <a style={{margin:'25px', textAlign:'center', marginRight:"33px", textDecoration:'none'}} href='/home' className="example_d" >
+      <a style={{margin:'25px', textAlign:'center', marginRight:"41px", textDecoration:'none'}} href='/home' className="example_d" >
       ENTER
       </a>
                 <footer id="footer">
