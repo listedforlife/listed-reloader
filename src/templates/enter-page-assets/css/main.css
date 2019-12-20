@@ -3,6 +3,84 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
 
 
+.example_d {
+    color: #ffffff !important;
+    text-transform: uppercase;
+	background: #000000;
+	font-weight:bold;
+	font-size:16px;
+	opacity: 0.7;
+	padding: 15px 32px;
+    border: 2px solid #ffffff !important;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+	cursor: pointer;
+    }
+    .example_d:hover {
+	  opacity:1;
+	  color: #c6c6c6 !important;
+	  -webkit-animation:example_d 1s infinite;
+	  -ms-animation:example_d 1s infinite;
+      -o-animation:example_d 1s infinite;
+      animation:example_d 1s infinite;
+      border-color: #bbbbbb !important;
+      transition: all 0.3s ease 0s;
+	  }
+	  
+	  @-webkit-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@-ms-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@-o-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+
+
 #test  {
 
     -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */

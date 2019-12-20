@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Slug, name: slug, widget: hidden, default: 'home' }
           - { label: Title, name: title, widget: string }
           - { label: Listed Mix, name: listedmix, widget: string }
           - { label: Listed Mix Link, name: listedmixlk, widget: string }
@@ -205,7 +205,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: EnterPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'enter' }
+          - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }
           - label: 'Meta'
             required: false
