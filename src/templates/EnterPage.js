@@ -4,21 +4,16 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './enter-page-assets/css/main.css'
 import mainone from './enter-page-assets/media/mainone.png'
-import {Helmet} from 'react-helmet'
 
 // Export Template for use in CMS preview
 export const EnterPageTemplate = ({}) =>  (
   <div>
-    <div id="wrapper">
+    <div id="wrapper" id='test'>
   <header id="header">
-    <Helmet>
-    <script src="enter-page-assets/js/jquery.min.js"></script>
-    <script src="enter-page-assets/js/main.js"></script>
-    </Helmet>
     <div><p></p>
       <div className="centerAll">
     <span className="avatar"><img src={mainone} alt="" /></span></div>
-    <div className="container2">
+    <div className="container2" >
               <i className="everlib-logo-spacem3"></i>
               <i className="everlib-logo-first-bar"></i>
               <i className="everlib-logo-second-bar"></i>
