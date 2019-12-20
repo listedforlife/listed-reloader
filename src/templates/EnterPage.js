@@ -1,7 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Content from '../components/Content'
-import Layout from '../components/Layout'
 import './enter-page-assets/css/main.css'
 import mainone from './enter-page-assets/media/mainone.png'
 
@@ -77,7 +75,7 @@ export const EnterPageTemplate = ({}) =>  (
               <audio id="audio1" src="images/sakura2.wav" type="audio/wav" />
               <ul className="icons">
                 
-                <li><a href="#" id="stop"  style={{marginLeft: '-19.39px'}} className="icon style2 fa-stop"><span className="label">Stop</span></a></li>
+                <li><a href="#" id="play"  style={{marginLeft: '-19.39px'}} className="icon style2 fa-play"><span className="label">Stop</span></a></li>
                 <li><a href="https://www.facebook.com/listedbookings"  className="icon style2 fa-facebook"><span className="label">Facebook</span></a></li>
                 <li><a href="https://www.instagram.com/areulisted"  className="icon style2 fa-instagram"><span className="label">Instagram</span></a></li>
                 <li><a href="https://twitter.com/areulisted"  className="icon style2 fa-twitter"><span className="label">Twitter</span></a></li>
