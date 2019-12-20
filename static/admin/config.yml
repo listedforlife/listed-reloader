@@ -34,7 +34,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: hidden,
               default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Slug, name: slug, widget: hidden, default: 'home' }
           - { label: Title, name: title, widget: string }
           - { label: Listed Mix, name: listedmix, widget: string }
           - { label: Listed Mix Link, name: listedmixlk, widget: string }
@@ -192,6 +192,31 @@ collections: # A list of collections the CMS should be able to edit
                   label: Noindex,
                   name: noindex,
                   widget: boolean,
+                  required: false,
+                }
+
+      - file: 'content/pages/enter.md'
+        label: 'Enter Page'
+        name: 'enter-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: EnterPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Title, name: title, widget: string }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
                   required: false,
                 }
 

@@ -13,6 +13,8 @@ import { ArtistPageTemplate } from '../templates/ArtistPage'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import { ArtistPostTemplate } from '../templates/ArtistPost'
 
+import {EnterPageTemplate} from '../templates/EnterPage'
+
 
 if (
   window.location.hostname === 'localhost' &&
@@ -35,6 +37,12 @@ CMS.registerPreviewTemplate('productions-page', ({ entry }) => (
 CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
+
+CMS.registerPreviewTemplate('enter-page', ({ entry }) => (
+  <EnterPageTemplate {...entry.toJS().data} />
+))
+
+
 
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />

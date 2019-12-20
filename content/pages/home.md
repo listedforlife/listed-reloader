@@ -1,6 +1,6 @@
 ---
 template: HomePage
-slug: ''
+slug: home
 title: HomePage
 listedmix: 'Listed Autumn Playlist '
 listedmixlk: >-

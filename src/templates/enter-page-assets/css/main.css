@@ -1,0 +1,3684 @@
+
+
+.example_d {
+    color: #ffffff !important;
+    text-transform: uppercase;
+	background: #000000;
+	font-weight:bold;
+	font-size:16px;
+	opacity: 0.7;
+	padding: 15px 32px;
+    border: 2px solid #ffffff !important;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+	cursor: pointer;
+    }
+    .example_d:hover {
+	  opacity:1;
+	  color: #c6c6c6 !important;
+	  -webkit-animation:example_d 1s infinite;
+	  -ms-animation:example_d 1s infinite;
+      -o-animation:example_d 1s infinite;
+      animation:example_d 1s infinite;
+      border-color: #bbbbbb !important;
+      transition: all 0.3s ease 0s;
+	  }
+	  
+	  @-webkit-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@-ms-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@-o-keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+		@keyframes example_d {
+		0% {color: #ff0000;}
+		10% {color: #ff8000;}
+		20% {color: #ffff00;}
+		30% {color: #80ff00;}
+		40% {color: #00ff00;}
+		50% {color: #00ff80;}
+		60% {color: #00ffff;}
+		70% {color: #0080ff;}
+		80% {color: #0000ff;}
+		90% {color: #8000ff;}
+		100% {color: #ff0080;}
+		}
+
+
+#test  {
+
+    -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 0.5s; /* Firefox < 16 */
+        -ms-animation: fadein 0.5s; /* Internet Explorer */
+         -o-animation: fadein 0.5s; /* Opera < 12.1 */
+            animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* Basic */
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	body {
+		-ms-overflow-style: scrollbar;
+	}
+
+
+	@media screen and (max-width: 480px) {
+
+		html, body {
+			min-width: 300px;
+		}
+
+	}
+
+	@media screen and (max-width: 320px) {
+
+		html, body {
+			min-width: 300px;
+		}
+
+	}
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+/* Type */
+
+	body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.65);
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 200;
+		line-height: 1.65;
+	}
+	
+	/* if the screen is 1280px or less it will change */
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	}
+
+		a:hover {
+			color: #ffffff;
+			border-bottom-color: transparent;
+		}
+
+	strong, b {
+		color: #ffffff;
+		font-weight: 200;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #ffffff;
+		font-weight: 200;
+		line-height: 1;
+		margin: 0 0 1em 0;
+	}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+				display: none;
+			}
+
+		}
+
+	h1 {
+		font-size: 1.75em;
+	}
+
+		@media screen and (max-width: 980px) {
+
+			h1 {
+				font-size: 1.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			h1 {
+				font-size: 1.25em;
+			}
+
+		}
+
+	h2 {
+		font-size: 1.35em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			h2 {
+				font-size: 1em;
+			}
+
+		}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
+	blockquote {
+		border-left: solid 4px rgba(255, 255, 255, 0.25);
+		font-style: italic;
+		margin: 0 0 2em 0;
+		padding: 0.5em 0 0.5em 2em;
+	}
+
+	code {
+		background: rgba(255, 255, 255, 0.075);
+		border-radius: 4px;
+		border: solid 1px rgba(255, 255, 255, 0.25);
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		margin: 0 0.25em;
+		padding: 0.25em 0.65em;
+	}
+
+	pre {
+		-webkit-overflow-scrolling: touch;
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		margin: 0 0 2em 0;
+	}
+
+		pre code {
+			display: block;
+			line-height: 1;
+			padding: 1em 1.5em;
+			overflow-x: auto;
+		}
+
+	hr {
+		border: 0;
+		border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+		margin: 2em 0;
+	}
+
+		hr.major {
+			margin: 3em 0;
+		}
+
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
+/* Icon */
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon.style2 {
+			-moz-transition: all 0.2s ease;
+			-webkit-transition: all 0.2s ease;
+			-ms-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			border-radius: 100%;
+			display: inline-block;
+			padding: 0.5em;
+			border: solid 1px rgba(255, 255, 255, 0.25);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+
+			.icon.style2:before {
+				display: block;
+				width: 1.35em;
+				height: 1.35em;
+				line-height: 1.35em;
+				font-size: 1em;
+			}
+
+			.icon.style2:hover {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.icon.style2:before {
+					font-size: 1em;
+				}
+
+			}
+
+
+			@media screen and (max-width: 340px) {
+
+			.icon.style2:before {
+				display: block;
+				width: 1em;
+				height: 1em;
+				line-height: 1em;
+				font-size: 1em;
+			}
+
+			.icon.style2:hover {
+				background-color: rgba(255, 255, 255, 0.25);
+			}
+		}
+
+/* List */
+
+	ol {
+		list-style: decimal;
+		margin: 0 0 2em 0;
+		padding-left: 1.25em;
+	}
+
+		ol li {
+			padding-left: 0.25em;
+		}
+
+	ul {
+		list-style: disc;
+		margin: 0 0 2em 0;
+		padding-left: 1em;
+	}
+
+		ul li {
+			padding-left: 0.5em;
+		}
+
+		ul.alt {
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.alt li {
+				border-top: solid 1px rgba(255, 255, 255, 0.25);
+				padding: 0.5em 0;
+			}
+
+				ul.alt li:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+
+		ul.icons {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.icons li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+			}
+
+				ul.icons li:last-child {
+					padding-right: 0;
+				}
+
+		ul.actions {
+			cursor: default;
+			list-style: none;
+			padding-left: 0;
+		}
+
+			ul.actions li {
+				display: inline-block;
+				padding: 0 1em 0 0;
+				vertical-align: middle;
+			}
+
+				ul.actions li:last-child {
+					padding-right: 0;
+				}
+
+			ul.actions.small li {
+				padding: 0 0.5em 0 0;
+			}
+
+			ul.actions.vertical li {
+				display: block;
+				padding: 1em 0 0 0;
+			}
+
+				ul.actions.vertical li:first-child {
+					padding-top: 0;
+				}
+
+				ul.actions.vertical li > * {
+					margin-bottom: 0;
+				}
+
+			ul.actions.vertical.small li {
+				padding: 0.5em 0 0 0;
+			}
+
+				ul.actions.vertical.small li:first-child {
+					padding-top: 0;
+				}
+
+			ul.actions.fit {
+				display: table;
+				margin-left: -1em;
+				padding: 0;
+				table-layout: fixed;
+				width: calc(100% + 1em);
+			}
+
+				ul.actions.fit li {
+					display: table-cell;
+					padding: 0 0 0 1em;
+				}
+
+					ul.actions.fit li > * {
+						margin-bottom: 0;
+					}
+
+				ul.actions.fit.small {
+					margin-left: -0.5em;
+					width: calc(100% + 0.5em);
+				}
+
+					ul.actions.fit.small li {
+						padding: 0 0 0 0.5em;
+					}
+
+			@media screen and (max-width: 480px) {
+
+				ul.actions {
+					margin: 0 0 2em 0;
+				}
+
+					ul.actions li {
+						padding: 1em 0 0 0;
+						display: block;
+						text-align: center;
+						width: 100%;
+					}
+
+						ul.actions li:first-child {
+							padding-top: 0;
+						}
+
+						ul.actions li > * {
+							width: 100%;
+							margin: 0 !important;
+						}
+
+							ul.actions li > *.icon:before {
+								margin-left: -2em;
+							}
+
+					ul.actions.small li {
+						padding: 0.5em 0 0 0;
+					}
+
+						ul.actions.small li:first-child {
+							padding-top: 0;
+						}
+
+			}
+
+	dl {
+		margin: 0 0 2em 0;
+	}
+
+		dl dt {
+			display: block;
+			font-weight: 200;
+			margin: 0 0 1em 0;
+		}
+
+		dl dd {
+			margin-left: 2em;
+		}
+
+/* Wrapper */
+
+
+/* Header */
+
+	#header {
+		text-align: center;
+		padding: 6em 0 4em 0;
+	}
+
+		#header h1 {
+			color: rgba(255, 255, 255, 0.65);
+		}
+
+		#header .avatar {
+			display: inline-block;
+		}
+
+			#header .avatar img {
+				position: relative;
+				width: 100%;
+				margin-bottom: -77px;
+
+			}
+
+		@media screen and (max-width: 1280px) {
+			#header {
+				padding: 4em 0 2em 0;
+			}
+
+		}
+
+/* Footer */
+
+	#footer {
+		text-align: center;
+		padding: 2em 0 2em 0;
+	}
+
+		#footer:before {
+			content: '';
+			border-top: solid 1px rgba(255, 255, 255, 0.25);
+			width: 10em;
+			display: block;
+			margin: 0 auto 3em auto;
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#footer {
+				padding: 2em 0 2em 0;
+			}
+
+		}
+
+
+		
+		.container2 {
+
+			text-align: center;
+			height: 100px;
+		  }
+			.everlib-logo-first-bar,
+			.everlib-logo-second-bar,
+			.everlib-logo-third-bar,
+			.everlib-logo-fourth-bar,
+			.everlib-logo-fifth-bar, 
+			.everlib-logo-six-bar,
+			.everlib-logo-seventh-bar,
+			.everlib-logo-eighth-bar,
+			.everlib-logo-ninth-bar,
+			.everlib-logo-tenth-bar, 
+			.everlib-logo-elleventh-bar,
+			.everlib-logo-twelfth-bar,
+			.everlib-logo-thirteenth-bar,
+			.everlib-logo-fourteenth-bar,
+			.everlib-logo-fifteenth-bar,
+			.everlib-logo-sixteenth-bar,
+			.everlib-logo-seventeenth-bar,
+			.everlib-logo-eighteenth-bar,
+			.everlib-logo-ninteenth-bar,
+			.everlib-logo-twenty-bar,
+			.everlib-logo-twentyone-bar,
+			.everlib-logo-twentytwo-bar,
+			.everlib-logo-twenty-three,
+			.everlib-logo-twenty-four,
+			.everlib-logo-twenty-five,
+			.everlib-logo-twenty-six,
+			.everlib-logo-twenty-seven, 
+			.everlib-logo-twenty-eight,
+			.everlib-logo-twenty-nine,
+			.everlib-logo-thirty,
+			.everlib-logo-thirty-one,
+			.everlib-logo-thirty-two, 
+			.everlib-logo-thirty-three,
+			.everlib-logo-thirty-four,
+			.everlib-logo-thirty-five,
+			.everlib-logo-thirty-six,
+			.everlib-logo-thirty-seven,
+			.everlib-logo-thirty-eight,
+			.everlib-logo-thirty-nine,
+			.everlib-logo-forty,
+			.everlib-logo-forty-one,
+			.everlib-logo-forty-two,
+			.everlib-logo-forty-three,
+			.everlib-logo-forty-four,
+			.everlib-logo-forty-five,
+			.everlib-logo-forty-six,
+			.everlib-logo-forty-seven,
+			.everlib-logo-forty-eight,
+			.everlib-logo-forty-nine,
+			.everlib-logo-fifty,
+			.everlib-logo-space,
+			.everlib-logo-spacem,
+			.everlib-logo-spacem2,
+			.everlib-logo-spacem3 {
+				display: inline-block;
+				width: 2.8px;
+				margin:1px;
+				transition: .5s;
+				animation: equalize 6s 2s infinite;
+				animation-timing-function: linear;
+				vertical-align: top;
+			}
+			.everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+			  }
+			  .everlib-logo-spacem3 {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin-left:-14.5px;
+				
+			  }
+
+			
+			.everlib-logo-first-bar {
+			  height: 20%;
+			  background: #eb8fd9;
+			  transition: 0.5s;
+			  animation-delay: -1.9s;
+			  margin-top:-5px;
+			}
+			
+			.everlib-logo-second-bar {
+			  height: 4px;
+			  background: #e156c5;
+			  width: 3px;
+			  margin:1px;
+			  animation-delay: -2.9s;
+			  margin-top:-5px;
+
+			}
+			
+			.everlib-logo-third-bar {
+			  height: 40px;
+			  background: #fffdff;
+			  animation-delay: -3.9s;
+			  margin:1px;
+			  margin-top:-5px;
+
+
+			}
+			
+			.everlib-logo-fourth-bar {
+			  height: 40px;
+			  background: #e94ec5;
+			  margin:1px;
+			  width: 3px;
+			  animation-delay: -4.9s;
+			  margin-top:-5px;
+
+			}
+
+			.everlib-logo-fifth-bar {
+				height: 40px;
+				background: #ffbef0;
+				animation-delay: -4.4s;
+				width: 2px;
+				margin-right:15.5px;
+				margin-top:-1px;
+
+
+			  }
+			  .everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin:0.3px;
+				margin-top:-15px;
+
+			  }
+			  
+			  .everlib-logo-six-bar {
+				height: 40px;
+				background: #f43a81;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-seventh-bar {
+				height: 40px;
+				background: #ed161a;
+				width:2.3px;
+				animation-delay: -2.8s;
+				margin:1px;
+				margin-top:-35px;
+			  }
+			  .everlib-logo-eighth-bar {
+				height: 40px;
+				background: rgb(255, 255, 255);
+				animation-delay: -2.5s;
+				width: 1.8px;
+				margin:1px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-ninth-bar {
+				height: 40px;
+				background: #f04346;
+				animation-delay: -2.6s;
+				margin:0.3px;
+				margin-top:-35px;
+				width: 2px;
+			  }
+
+
+			  .everlib-logo-tenth-bar {
+				height: 40px;
+				background: #f9b0b1;
+				animation-delay: -2.6s;
+				width: 1.2px;
+				margin-right: 12px;
+				margin-top:-35px;
+
+			  }
+			  .everlib-logo-elleventh-bar {
+				height: 40px;
+				background: rgb(46, 173, 227);
+				width:3.2px;
+
+				animation-delay: -2.6s;
+			  }
+			  .everlib-logo-twelfth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(42, 135, 206);
+				animation-delay: -2.6s;
+				margin:1px;
+
+			  }
+			  .everlib-logo-thirteenth-bar {
+				height: 40px;
+				background: rgb(250, 252, 252);
+				animation-delay: -2.6s;
+				margin:1px;
+
+			  }
+			  .everlib-logo-fourteenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(0, 114, 155);
+				animation-delay: -3.4s;
+			  }
+			  .everlib-logo-fifteenth-bar {
+				height: 40px;
+				width:3.2px;
+
+				background: rgb(104, 189, 242);
+				animation-delay: -3.7s;
+			  }
+			  .everlib-logo-sixteenth-bar {
+				height: 36px;
+				width:3.2px;
+				background: rgb(255, 250, 116);
+				animation-delay: -1.7s;
+				margin-top:-1px;
+
+			  }
+			  .everlib-logo-seventeenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(249, 243, 69);
+				animation-delay: -3.9s;
+				margin:1px;
+
+			  }
+			  .everlib-logo-eighteenth-bar {
+				height: 40px;
+				background: rgb(255, 255, 255);
+				animation-delay: -2.6s;
+				margin:1px;
+				margin-top:-15px;
+
+			  }
+			  .everlib-logo-ninteenth-bar {
+				height: 40px;
+				width:3.2px;
+				background: rgb(249, 243, 69);
+				margin-top: -20px;				
+				animation-delay: -1.6s;
+				margin-top:-15px;
+  
+			}
+			  .everlib-logo-twenty-bar {
+				height: 40px;
+				background: rgb(255, 250, 116);
+				animation-delay: -2.6s;
+				margin-right: 15px;
+				margin-top:-15px;
+
+			  }
+			  .everlib-logo-twentyone-bar {
+				height: 40px;
+				background: rgb(184, 47, 175);
+				animation-delay: -4.2s;
+				margin:1px;
+				margin-top:-37px;
+
+			  }
+			  .everlib-logo-twentytwo-bar {
+				height: 40px;
+				width: 3.2px;
+				background: rgb(136, 26, 159);
+				animation-delay: -3.1s;
+				margin-top:-37px;
+
+			  }
+
+			  .everlib-logo-twenty-three {
+				height: 20%;
+				background: #feffff;
+				transition: 0.5s;
+				margin:1px;
+				margin-top:-37px;
+
+
+				animation-delay: -1.9s;
+			  }
+			  
+			  .everlib-logo-twenty-four {
+				height: 4px;
+				background: rgb(133, 57, 148);
+				animation-delay: -2.9s;
+				margin-top:-7px;
+
+			  }
+			  
+			  .everlib-logo-spacem {
+				height: 40px;
+				background: #020204;
+				animation-delay: -3.8s;
+				width: 2px;
+				margin:-1px;
+			  }
+
+			  .everlib-logo-twenty-five {
+				height: 40px;
+				background: rgb(191, 138, 201);
+				animation-delay: -3.9s;
+				margin-right: 12px;
+				margin-top:-3px;
+
+
+			  }
+			  
+			  .everlib-logo-twenty-six {
+				height: 40px;
+				background: rgb(27, 155, 89);
+				animation-delay: -4.9s;
+				margin:1px;
+
+			  }
+  
+			  .everlib-logo-twenty-seven {
+				  height: 40px;
+				  background: rgb(17, 106, 60);
+				  width:3.2px;
+				  animation-delay: -4.4s;
+				}
+				.everlib-logo-twenty-eight {
+				  height: 40px;
+				  background: rgb(255, 255, 255);
+				  animation-delay: -3.8s;
+				  margin:1px;
+
+				}
+				.everlib-logo-twenty-nine {
+				  height: 40px;
+				  background: rgb(34, 157, 93);
+				  animation-delay: -2.8s;
+				}
+				.everlib-logo-thirty {
+				  height: 40px;
+				  background: rgb(63, 220, 139);
+				  animation-delay: -2.2s;
+				}
+				.everlib-logo-thirty-one {
+				  height: 40px;
+				  background: rgb(245, 119, 241);
+				  animation-delay: -1.6s;
+				  margin:1px;
+				}
+  
+				.everlib-logo-thirty-two {
+				  height: 40px;
+				  background: rgb(235, 114, 207);
+				  animation-delay: -2.2s;
+				  margin:1px;
+
+				}
+				.everlib-logo-thirty-three {
+				  height: 40px;
+				  background: rgb(249, 249, 255);
+				  animation-delay: -3.7s;
+				  margin:1px;
+
+				}
+				.everlib-logo-thirty-four {
+				  height: 40px;
+				  background: rgb(245, 119, 241);
+				  animation-delay: -4.1s;
+				  margin:1px;
+
+				}
+				.everlib-logo-thirty-five {
+				  height: 40px;
+				  background: rgb(245, 153, 242);
+				  animation-delay: -2.6s;
+				  margin-right: 16px;
+
+				}
+				.everlib-logo-thirty-six {
+				  height: 40px;
+				  background: rgb(255, 137, 145);
+				  animation-delay: -3.4s;
+				  margin:1px;
+				}
+				.everlib-logo-thirty-seven {
+				  height: 40px;
+				  background: rgb(187, 13, 25);
+				  animation-delay: -3.7s;
+				}
+				.everlib-logo-thirty-eight {
+				  height: 40px;
+				  background: rgb(254, 223, 225);
+				  animation-delay: -1.7s;
+				}
+				.everlib-logo-thirty-nine {
+				  height: 40px;
+				  background: rgb(250, 93, 93);
+				  animation-delay: -3.9s;
+				  margin:1px;
+
+				}
+				.everlib-logo-forty {
+				  height: 40px;
+				  background: rgb(255, 135, 135);
+				  animation-delay: -2.6s;
+				  margin:1px;
+
+				}
+				.everlib-logo-forty-one {
+				  height: 40px;
+				  background: rgb(15, 165, 230);
+				  width:3.2px;
+				  animation-delay: -2.6s;
+				}
+				.everlib-logo-forty-two {
+				  height: 40px;
+				  width:3.2px;
+				  background: rgb(38, 97, 199);
+				  animation-delay: -2.6s;
+				}
+				.everlib-logo-forty-three {
+				  height: 40px;
+				  background: rgb(255, 255, 255);
+				  animation-delay: -4.2s;
+				  margin-top:-47px;
+
+				}
+				.everlib-logo-forty-four {
+				  height: 40px;
+				  width:3.2px;
+				  background: rgb(33, 103, 177);
+				  animation-delay: -3.1s;
+				  margin-top:-47px;
+
+				}
+				.everlib-logo-forty-five {
+					height: 40px;
+					background: rgb(139, 187, 238);
+					animation-delay: -1.7s;
+					margin-right: 30px;
+					margin-top:-47px;
+
+
+				  }
+				  .everlib-logo-space{
+					height: 40px;
+					width:12.6px;
+					background: rgb(2, 2, 6);
+					animation-delay: -4.2s;
+				  }
+				  .everlib-logo-forty-six {
+					height: 40px;
+					width:3.8px;
+					background: rgb(255, 250, 104);
+					animation-delay: -3.9s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-seven {
+					width:4.8px;
+					background: rgb(238, 232, 49);
+					height: 40px;
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-eight {
+					height: 40px;
+					background: rgb(255, 255, 255);
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-forty-nine {
+					height: 40px;
+					width:4.8px;
+					background: rgb(238, 232, 49);
+					animation-delay: -2.6s;
+					margin-top:-27px;
+
+				  }
+				  .everlib-logo-fifty{
+					height: 40px;
+					width:3.8px;
+					background: rgb(255, 250, 104);
+					animation-delay: -4.2s;
+					margin-right: 5px;
+					margin-top:-27px;
+
+				  }
+		
+
+		  
+		  @keyframes equalize {
+			0% {
+			  height: 116px;
+			}
+			4% {
+			  height: 104px;
+			}
+			8% {
+			  height: 100px;
+			}
+			12% {
+			  height: 80px;
+			}
+			16% {
+			  height: 60px;
+			}
+			20% {
+			  height: 80px;
+			}
+			24% {
+			  height: 100px;
+			}
+			28% {
+			  height: 40px;
+			}
+			32% {
+			  height: 100px;
+			}
+			36% {
+			  height: 116px;
+			}
+			40% {
+			  height: 60px;
+			}
+			44% {
+			  height: 100px;
+			}
+			48% {
+			  height: 116px;
+			}
+			52% {
+			  height: 80px;
+			}
+			56% {
+			  height: 40px;
+			}
+			60% {
+			  height: 80px;
+			}
+			64% {
+			  height: 116px;
+			}
+			68% {
+			  height: 80px;
+			}
+			72% {
+			  height: 116px;
+			}
+			76% {
+			  height: 60px;
+			}
+			80% {
+			  height: 106x;
+			}
+			84% {
+			  height: 96px;
+			}
+			88% {
+			  height: 116px;
+			}
+			92% {
+			  height: 60px;
+			}
+			96% {
+			  height: 116px;
+			}
+			100% {
+			  height: 116px;
+			}
+		  }
+
+		  @media only screen and (max-width: 741px) {
+			/* 541 = starting pnt,  */
+.avatar {
+	width: 560px;
+	margin-right:15px;
+}
+#header .avatar {
+	display: inline-block;
+}
+
+	#header .avatar img {
+		position: relative;
+		margin-bottom: -67px;
+		width: 480x;
+
+
+	}
+
+
+.container2 {
+
+	text-align: center;
+	height: 70px;
+  }
+	.everlib-logo-first-bar,
+	.everlib-logo-second-bar,
+	.everlib-logo-third-bar,
+	.everlib-logo-fourth-bar,
+	.everlib-logo-fifth-bar, 
+	.everlib-logo-six-bar,
+	.everlib-logo-seventh-bar,
+	.everlib-logo-eighth-bar,
+	.everlib-logo-ninth-bar,
+	.everlib-logo-tenth-bar, 
+	.everlib-logo-elleventh-bar,
+	.everlib-logo-twelfth-bar,
+	.everlib-logo-thirteenth-bar,
+	.everlib-logo-fourteenth-bar,
+	.everlib-logo-fifteenth-bar,
+	.everlib-logo-sixteenth-bar,
+	.everlib-logo-seventeenth-bar,
+	.everlib-logo-eighteenth-bar,
+	.everlib-logo-ninteenth-bar,
+	.everlib-logo-twenty-bar,
+	.everlib-logo-twentyone-bar,
+	.everlib-logo-twentytwo-bar,
+	.everlib-logo-twenty-three,
+	.everlib-logo-twenty-four,
+	.everlib-logo-twenty-five,
+	.everlib-logo-twenty-six,
+	.everlib-logo-twenty-seven, 
+	.everlib-logo-twenty-eight,
+	.everlib-logo-twenty-nine,
+	.everlib-logo-thirty,
+	.everlib-logo-thirty-one,
+	.everlib-logo-thirty-two, 
+	.everlib-logo-thirty-three,
+	.everlib-logo-thirty-four,
+	.everlib-logo-thirty-five,
+	.everlib-logo-thirty-six,
+	.everlib-logo-thirty-seven,
+	.everlib-logo-thirty-eight,
+	.everlib-logo-thirty-nine,
+	.everlib-logo-forty,
+	.everlib-logo-forty-one,
+	.everlib-logo-forty-two,
+	.everlib-logo-forty-three,
+	.everlib-logo-forty-four,
+	.everlib-logo-forty-five,
+	.everlib-logo-forty-six,
+	.everlib-logo-forty-seven,
+	.everlib-logo-forty-eight,
+	.everlib-logo-forty-nine,
+	.everlib-logo-fifty,
+	.everlib-logo-space,
+	.everlib-logo-spacem,
+	.everlib-logo-spacem2,
+	.everlib-logo-spacem3 {
+		display: inline-block;
+		width: 2.6px;
+		margin:1.4px;
+		transition: .5s;
+		animation: equalize 6s 2s infinite;
+		animation-timing-function: linear;
+		vertical-align: top;
+	}
+	.everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .6px;
+	  }
+	  .everlib-logo-spacem3 {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .4px;
+		margin-left: -71.8px;
+	  }
+
+	
+	.everlib-logo-first-bar {
+	  height: 20%;
+	  background: #eb8fd9;
+	  transition: 0.5s;
+	  animation-delay: -1.9s;
+	  margin-top:5px;
+	  width: 2px;
+	}
+	
+	.everlib-logo-second-bar {
+	  height: 4px;
+	  background: #e156c5;
+	  width: 2px;
+	  margin:0.3px;
+	  animation-delay: -2.9s;
+	  margin-top:5px;
+
+	}
+	
+	.everlib-logo-third-bar {
+	  height: 40px;
+	  background: #fffdff;
+	  animation-delay: -3.9s;
+	  margin-top:5px;
+	  width: 2px;
+
+	}
+	
+	.everlib-logo-fourth-bar {
+	  height: 40px;
+	  background: #e94ec5;
+	  margin:0.5px;
+	  width: 1.2px;
+	  animation-delay: -4.9s;
+	  margin-top:5px;
+
+	}
+
+	.everlib-logo-fifth-bar {
+		height: 40px;
+		background: #ffbef0;
+		animation-delay: -4.4s;
+		margin-top:7px;
+		margin-right:13px;
+		width: 2px;
+
+	  }
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: 1.7px;
+		margin:0px;
+		margin-top:-5px;
+
+	  }
+	  
+	  .everlib-logo-six-bar {
+		height: 40px;
+		background: #f43a81;
+		animation-delay: -3.8s;
+		margin-top:-27px;
+		margin:1px;
+		width: 2px;
+	  }
+	  .everlib-logo-seventh-bar {
+		height: 40px;
+		background: #ed161a;
+		width:1.5px;
+		animation-delay: -2.8s;
+		margin:0.7px;
+		margin-top:-25px;
+	  }
+	  .everlib-logo-eighth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.5s;
+		margin:1px;
+		margin-top:-25px;
+		width:2px;
+	  }
+	  .everlib-logo-ninth-bar {
+		height: 40px;
+		background: #f04346;
+		animation-delay: -2.6s;
+		margin:0.4px;
+		margin-top:-25px;
+		width:2px;
+	  }
+
+	  .everlib-logo-tenth-bar {
+		height: 40px;
+		width:2px;
+		background: #f9b0b1;
+		animation-delay: -2.6s;
+		margin-right: 12px;
+		margin-top:-25px;
+	  }
+	  .everlib-logo-elleventh-bar {
+		height: 40px;
+		background: rgb(46, 173, 227);
+		width:1.5px;
+		margin-left: 0.7px;
+		animation-delay: -2.6s;
+	  }
+	  .everlib-logo-twelfth-bar {
+		height: 40px;
+		width:1.5px;
+		background: rgb(42, 135, 206);
+		animation-delay: -2.6s;
+		margin:0.5px;
+
+	  }
+	  .everlib-logo-thirteenth-bar {
+		height: 40px;
+		background: rgb(250, 252, 252);
+		animation-delay: -2.6s;
+		margin:1px;
+		width:1.6px;
+
+	  }
+	  .everlib-logo-fourteenth-bar {
+		height: 40px;
+		width:2px;
+		background: rgb(0, 114, 155);
+		animation-delay: -3.4s;
+	  }
+	  .everlib-logo-fifteenth-bar {
+		height: 40px;
+		width:1.7px;
+		background: rgb(104, 189, 242);
+		animation-delay: -3.7s;
+	  }
+	  .everlib-logo-sixteenth-bar {
+		height: 40px;
+		width:2px;
+		background: rgb(255, 250, 116);
+		animation-delay: -1.7s;
+		margin-top:7px;
+
+	  }
+	  .everlib-logo-seventeenth-bar {
+		height: 40px;
+		width:2px;
+		background: rgb(249, 243, 69);
+		animation-delay: -3.9s;
+		margin:0.5px;
+		margin-top:5px;
+
+	  }
+	  .everlib-logo-eighteenth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.6s;
+		margin:0.5px;
+		margin-top:-5px;
+		width:1.6px;
+	  }
+	  .everlib-logo-ninteenth-bar {
+		height: 40px;
+		width:1.7px;
+		background: rgb(249, 243, 69);
+		margin-top: -15px;				
+		animation-delay: -1.6s;
+		margin-top:-5px;
+
+	}
+	  .everlib-logo-twenty-bar {
+		height: 40px;
+		background: rgb(255, 250, 116);
+		animation-delay: -2.6s;
+		margin-top:-5px;
+		margin-right: 14px;
+		width:2px;
+	  }
+	  .everlib-logo-twentyone-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -4.2s;
+		margin-top:-7px;
+		width:2px;
+
+	  }
+	  .everlib-logo-twentytwo-bar {
+		height: 40px;
+		width: 1px;
+		background: rgb(136, 26, 159);
+		animation-delay: -3.1s;
+		margin-top:-27px;
+		margin:0.7px;
+
+
+	  }
+
+	  .everlib-logo-twenty-three {
+		height: 20%;
+		width: 1px;
+		background: #feffff;
+		transition: 0.5s;
+		margin:0.6px;
+		margin-top:-27px;
+		animation-delay: -1.9s;
+	  }
+	  
+	  .everlib-logo-twenty-four {
+		height: 4px;
+		background: rgb(133, 57, 148);
+		animation-delay: -2.9s;
+		margin-top:3px;
+		width: 2px;
+	  }
+	  
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: 1.1px;
+		margin:0px;
+	  }
+
+	  .everlib-logo-twenty-five {
+		height: 40px;
+		background: rgb(191, 138, 201);
+		animation-delay: -3.9s;
+		margin-top:7px;
+		margin-right: 11px;
+		width: 2px;
+	  }
+	  
+	  .everlib-logo-twenty-six {
+		height: 40px;
+		background: rgb(27, 155, 89);
+		animation-delay: -4.9s;
+		margin:0.6px;
+		width: 2px;
+	  }
+
+	  .everlib-logo-twenty-seven {
+		  height: 40px;
+		  background: rgb(17, 106, 60);
+		  width:2px;
+		  animation-delay: -4.4s;
+		  margin:1px;
+		}
+
+		.everlib-logo-twenty-eight {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -3.8s;
+		  margin:0.6px;
+		  width:2px;
+
+		}
+		.everlib-logo-twenty-nine {
+		  height: 40px;
+		  background: rgb(34, 157, 93);
+		  animation-delay: -2.8s;
+		  width:1.8px;
+		  margin:0.8px;
+		}
+		.everlib-logo-thirty {
+		  height: 40px;
+		  background: rgb(63, 220, 139);
+		  animation-delay: -2.2s;
+		  width:2px;
+		  margin:0.6px;
+		}
+		.everlib-logo-thirty-one {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -1.6s;
+		  width: 2px;
+		}
+
+		.everlib-logo-thirty-two {
+		  height: 40px;
+		  background: rgb(235, 114, 207);
+		  animation-delay: -2.2s;
+		  margin:0.8px;
+		  width: 2px;
+		}
+		.everlib-logo-thirty-three {
+		  height: 40px;
+		  background: rgb(249, 249, 255);
+		  animation-delay: -3.7s;
+		  margin:1px;
+		  width: 2px;
+
+		}
+		.everlib-logo-thirty-four {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -4.1s;
+		  margin:0.6px;
+		  width: 2px;
+
+		}
+		.everlib-logo-thirty-five {
+		  height: 40px;
+		  background: rgb(245, 153, 242);
+		  animation-delay: -2.6s;
+		  margin-right: 23px;
+		  width: 2px;
+		}
+		.everlib-logo-thirty-six {
+		  height: 40px;
+		  background: rgb(255, 137, 145);
+		  animation-delay: -3.4s;
+		  margin:1px;
+		  width: 2px;
+		}
+		.everlib-logo-thirty-seven {
+		  height: 40px;
+		  background: rgb(187, 13, 25);
+		  animation-delay: -3.7s;
+		  margin:0.5px;
+		  width: 2px;
+		}
+		.everlib-logo-thirty-eight {
+		  height: 40px;
+		  background: rgb(254, 223, 225);
+		  animation-delay: -1.7s;
+		  margin:0.7px;
+		  width: 2px;
+		}
+		.everlib-logo-thirty-nine {
+		  height: 40px;
+		  background: rgb(250, 93, 93);
+		  animation-delay: -3.9s;
+		  margin:0.7px;
+		  width:1.6px;
+		}
+		.everlib-logo-forty {
+		  height: 40px;
+		  background: rgb(255, 135, 135);
+		  animation-delay: -2.6s;
+		  margin:0.5px;
+
+		}
+		.everlib-logo-forty-one {
+		  height: 40px;
+		  background: rgb(15, 165, 230);
+		  width:1.7px;
+		  animation-delay: -2.6s;
+		}
+		.everlib-logo-forty-two {
+		  height: 40px;
+		  width:2px;
+		  background: rgb(38, 97, 199);
+		  animation-delay: -2.6s;
+		  margin:1px;
+
+		}
+		.everlib-logo-forty-three {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -4.2s;
+		  margin:0px;
+		  margin-top:-37px;
+		  width: 2px;
+		}
+		.everlib-logo-forty-four {
+		  height: 40px;
+		  width:2px;
+		  background: rgb(33, 103, 177);
+		  animation-delay: -3.1s;
+		  margin-top:-37px;
+		  margin:1px;
+		}
+		.everlib-logo-forty-five {
+			height: 40px;
+			background: rgb(139, 187, 238);
+			animation-delay: -1.7s;
+			margin-top:-42px;
+			margin-right: 31px;
+
+		  }
+		  .everlib-logo-space{
+			height: 40px;
+			width:0.4px;
+			background: rgb(2, 2, 6);
+			animation-delay: -4.2s;
+		  }
+		  .everlib-logo-forty-six {
+			height: 40px;
+			width:1px;
+			background: rgb(255, 250, 104);
+			animation-delay: -3.9s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-seven {
+			width:2px;
+			background: rgb(238, 232, 49);
+			height: 40px;
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-eight {
+			height: 40px;
+			background: rgb(255, 255, 255);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-nine {
+			height: 40px;
+			width:1px;
+			background: rgb(238, 232, 49);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-fifty{
+			height: 40px;
+			width:2px;
+			background: rgb(255, 250, 104);
+			animation-delay: -4.2s;
+			margin-top:-14px;
+			margin-right: -38px;
+
+		  }
+
+
+  
+  @keyframes equalize {
+	0% {
+	  height: 71px;
+	}
+	4% {
+	  height: 59px;
+	}
+	8% {
+	  height: 55px;
+	}
+	12% {
+	  height: 35px;
+	}
+	16% {
+	  height: 15px;
+	}
+	20% {
+	  height: 35px;
+	}
+	24% {
+	  height: 55px;
+	}
+	28% {
+	  height: -5px;
+	}
+	32% {
+	  height: 55px;
+	}
+	36% {
+	  height: 71px;
+	}
+	40% {
+	  height: 25px;
+	}
+	44% {
+	  height: 55px;
+	}
+	48% {
+	  height: 71px;
+	}
+	52% {
+	  height: 35px;
+	}
+	56% {
+	  height: -5px;
+	}
+	60% {
+	  height: 35px;
+	}
+	64% {
+	  height: 71px;
+	}
+	68% {
+	  height: 35px;
+	}
+	72% {
+	  height: 71px;
+	}
+	76% {
+	  height: 15px;
+	}
+	80% {
+	  height: 71x;
+	}
+	84% {
+	  height: 51px;
+	}
+	88% {
+	  height: 71px;
+	}
+	92% {
+	  height: 15px;
+	}
+	96% {
+	  height: 71px;
+	}
+	100% {
+	  height: 71px;
+	}
+  }
+
+}
+		@media only screen and (max-width: 580px) {
+			/* 541 = starting pnt,  */
+.avatar {
+	width: 380px;
+	margin-right:15px;
+}
+#header .avatar {
+	display: inline-block;
+}
+
+	#header .avatar img {
+		position: relative;
+		margin-bottom: -47px;
+		width: 300x;
+
+
+	}
+
+
+.container2 {
+
+	text-align: center;
+	height: 70px;
+  }
+	.everlib-logo-first-bar,
+	.everlib-logo-second-bar,
+	.everlib-logo-third-bar,
+	.everlib-logo-fourth-bar,
+	.everlib-logo-fifth-bar, 
+	.everlib-logo-six-bar,
+	.everlib-logo-seventh-bar,
+	.everlib-logo-eighth-bar,
+	.everlib-logo-ninth-bar,
+	.everlib-logo-tenth-bar, 
+	.everlib-logo-elleventh-bar,
+	.everlib-logo-twelfth-bar,
+	.everlib-logo-thirteenth-bar,
+	.everlib-logo-fourteenth-bar,
+	.everlib-logo-fifteenth-bar,
+	.everlib-logo-sixteenth-bar,
+	.everlib-logo-seventeenth-bar,
+	.everlib-logo-eighteenth-bar,
+	.everlib-logo-ninteenth-bar,
+	.everlib-logo-twenty-bar,
+	.everlib-logo-twentyone-bar,
+	.everlib-logo-twentytwo-bar,
+	.everlib-logo-twenty-three,
+	.everlib-logo-twenty-four,
+	.everlib-logo-twenty-five,
+	.everlib-logo-twenty-six,
+	.everlib-logo-twenty-seven, 
+	.everlib-logo-twenty-eight,
+	.everlib-logo-twenty-nine,
+	.everlib-logo-thirty,
+	.everlib-logo-thirty-one,
+	.everlib-logo-thirty-two, 
+	.everlib-logo-thirty-three,
+	.everlib-logo-thirty-four,
+	.everlib-logo-thirty-five,
+	.everlib-logo-thirty-six,
+	.everlib-logo-thirty-seven,
+	.everlib-logo-thirty-eight,
+	.everlib-logo-thirty-nine,
+	.everlib-logo-forty,
+	.everlib-logo-forty-one,
+	.everlib-logo-forty-two,
+	.everlib-logo-forty-three,
+	.everlib-logo-forty-four,
+	.everlib-logo-forty-five,
+	.everlib-logo-forty-six,
+	.everlib-logo-forty-seven,
+	.everlib-logo-forty-eight,
+	.everlib-logo-forty-nine,
+	.everlib-logo-fifty,
+	.everlib-logo-space,
+	.everlib-logo-spacem,
+	.everlib-logo-spacem2,
+	.everlib-logo-spacem3 {
+		display: inline-block;
+		width: .93px;
+		margin:0.5px;
+		transition: .5s;
+		animation: equalize 6s 2s infinite;
+		animation-timing-function: linear;
+		vertical-align: top;
+	}
+	.everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .6px;
+	  }
+	  .everlib-logo-spacem3 {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .4px;
+		margin-left: -64px;
+	  }
+
+	
+	.everlib-logo-first-bar {
+	  height: 20%;
+	  background: #eb8fd9;
+	  transition: 0.5s;
+	  animation-delay: -1.9s;
+	  margin-top:5px;
+	  margin:0.3px;
+	}
+	
+	.everlib-logo-second-bar {
+	  height: 4px;
+	  background: #e156c5;
+	  width: 2px;
+	  margin:0.3px;
+	  animation-delay: -2.9s;
+	  margin-top:5px;
+
+	}
+	
+	.everlib-logo-third-bar {
+	  height: 40px;
+	  background: #fafafa;
+	  animation-delay: -3.9s;
+	  margin-top:5px;
+	  width: 1px;
+	  margin:0.3px;
+	}
+	
+	.everlib-logo-fourth-bar {
+	  height: 40px;
+	  background: #e94ec5;
+	  margin:0.5px;
+	  width: 1.2px;
+	  animation-delay: -4.9s;
+	  margin-top:5px;
+
+	}
+
+	.everlib-logo-fifth-bar {
+		height: 40px;
+		background: #ffbef0;
+		animation-delay: -4.4s;
+		margin-top:7px;
+		margin-right:11.5px;
+
+
+	  }
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: .2px;
+		margin:0px;
+		margin-top:-5px;
+
+	  }
+	  
+	  .everlib-logo-six-bar {
+		height: 40px;
+		background: #f43a81;
+		animation-delay: -3.8s;
+		margin-top:-25px;
+		margin:0px;
+
+
+	  }
+	  .everlib-logo-seventh-bar {
+		height: 40px;
+		background: #ed161a;
+		width:1.3px;
+		animation-delay: -2.8s;
+		margin:0px;
+		margin-top:-25px;
+	  }
+
+	  .everlib-logo-eighth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.5s;
+		margin:0.4px;
+		margin-top:-25px;
+		width: 1px;
+	  }
+	  .everlib-logo-ninth-bar {
+		height: 40px;
+		background: #f04346;
+		animation-delay: -2.6s;
+		margin:0.4px;
+		margin-top:-25px;
+		width:1.3px;
+
+	  }
+
+	  .everlib-logo-tenth-bar {
+		height: 40px;
+		width:1.3px;
+
+		background: #f9b0b1;
+		animation-delay: -2.6s;
+		margin-right: 14px;
+		margin-top:-25px;
+
+	  }
+	  .everlib-logo-elleventh-bar {
+		height: 40px;
+		background: rgb(46, 173, 227);
+		width:1px;
+		margin: 0.3px;
+		animation-delay: -2.6s;
+	  }
+	  .everlib-logo-twelfth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(42, 135, 206);
+		animation-delay: -2.6s;
+		margin:0.5px;
+
+	  }
+	  .everlib-logo-thirteenth-bar {
+		height: 40px;
+		background: rgb(250, 252, 252);
+		animation-delay: -2.6s;
+		margin:0.4px;
+
+	  }
+	  .everlib-logo-fourteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(0, 114, 155);
+		animation-delay: -3.4s;
+		margin:0.6px;
+
+	  }
+	  .everlib-logo-fifteenth-bar {
+		height: 40px;
+		width:1px;
+		margin:0.5px;
+		background: rgb(104, 189, 242);
+		animation-delay: -3.7s;
+	  }
+	  .everlib-logo-sixteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(255, 250, 116);
+		animation-delay: -1.7s;
+		margin-top:7px;
+		margin:0.5px;
+	  }
+	  .everlib-logo-seventeenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(249, 243, 69);
+		animation-delay: -3.9s;
+		margin:0.5px;
+		margin-top:5px;
+
+	  }
+	  .everlib-logo-eighteenth-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -2.6s;
+		margin:0.5px;
+		margin-top:-5px;
+
+	  }
+	  .everlib-logo-ninteenth-bar {
+		height: 40px;
+		width:1px;
+		background: rgb(249, 243, 69);
+		margin-top: -15px;				
+		animation-delay: -1.6s;
+		margin-top:-5px;
+
+	}
+	  .everlib-logo-twenty-bar {
+		height: 40px;
+		background: rgb(255, 250, 116);
+		animation-delay: -2.6s;
+		margin-top:-5px;
+		margin-right: 14px;
+		width:1px;
+
+	  }
+	  .everlib-logo-twentyone-bar {
+		height: 40px;
+		background: rgb(255, 255, 255);
+		animation-delay: -4.2s;
+		margin-top:-7px;
+		width:1px;
+		margin:0.4px;
+
+	  }
+	  .everlib-logo-twentytwo-bar {
+		height: 40px;
+		width: 1px;
+		background: rgb(136, 26, 159);
+		animation-delay: -3.1s;
+		margin-top:-27px;
+		margin:0.7px;
+
+	  }
+
+	  .everlib-logo-twenty-three {
+		height: 20%;
+		width: 1px;
+		background: #feffff;
+		transition: 0.5s;
+		margin:0.6px;
+		margin-top:-27px;
+		animation-delay: -1.9s;
+	  }
+	  
+	  .everlib-logo-twenty-four {
+		height: 4px;
+		background: rgb(133, 57, 148);
+		animation-delay: -2.9s;
+		margin-top:3px;
+
+	  }
+	  
+	  .everlib-logo-spacem {
+		height: 40px;
+		background: #020204;
+		animation-delay: -3.8s;
+		width: 1.1px;
+		margin:0px;
+	  }
+
+	  .everlib-logo-twenty-five {
+		height: 40px;
+		background: rgb(191, 138, 201);
+		animation-delay: -3.9s;
+		margin-top:7px;
+		margin-right: 13px;
+
+	  }
+	  
+	  .everlib-logo-twenty-six {
+		height: 40px;
+		background: rgb(27, 155, 89);
+		animation-delay: -4.9s;
+		margin:0.6px;
+	  }
+
+	  .everlib-logo-twenty-seven {
+		  height: 40px;
+		  background: rgb(17, 106, 60);
+		  width:1.2px;
+		  animation-delay: -4.4s;
+		  margin:0.6px;
+
+		}
+
+		.everlib-logo-twenty-eight {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -3.8s;
+		  margin:0.6px;
+
+		}
+		.everlib-logo-twenty-nine {
+		  height: 40px;
+		  background: rgb(34, 157, 93);
+		  animation-delay: -2.8s;
+		  width:1.2px;
+		}
+		.everlib-logo-thirty {
+		  height: 40px;
+		  background: rgb(63, 220, 139);
+		  animation-delay: -2.2s;
+		  width:1px;
+		  margin:0.6px;
+
+		}
+		.everlib-logo-thirty-one {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -1.6s;
+		  margin:0.6px;
+		  width:1px;
+
+		}
+
+		.everlib-logo-thirty-two {
+		  height: 40px;
+		  background: rgb(235, 114, 207);
+		  animation-delay: -2.2s;
+		  margin:0px;
+		  width:1px;
+
+		}
+		.everlib-logo-thirty-three {
+		  height: 40px;
+		  background: rgb(249, 249, 255);
+		  animation-delay: -3.7s;
+		  margin:0.6px;
+
+		}
+		.everlib-logo-thirty-four {
+		  height: 40px;
+		  background: rgb(245, 119, 241);
+		  animation-delay: -4.1s;
+		  margin:0.8px;
+		  width:1px;
+		}
+		.everlib-logo-thirty-five {
+		  height: 40px;
+		  background: rgb(245, 153, 242);
+		  animation-delay: -2.6s;
+		  margin-right: 19px;
+
+		}
+		.everlib-logo-thirty-six {
+		  height: 40px;
+		  background: rgb(255, 137, 145);
+		  animation-delay: -3.4s;
+		  margin:0.5px;
+		  width:1px;
+
+		}
+		.everlib-logo-thirty-seven {
+		  height: 40px;
+		  background: rgb(187, 13, 25);
+		  animation-delay: -3.7s;
+		  width:1px;
+
+		}
+		.everlib-logo-thirty-eight {
+		  height: 40px;
+		  background: rgb(254, 223, 225);
+		  animation-delay: -1.7s;
+		  margin:0.7px;
+
+		}
+		.everlib-logo-thirty-nine {
+		  height: 40px;
+		  background: rgb(250, 93, 93);
+		  animation-delay: -3.9s;
+		  margin:0px;
+		  width:1px;
+		}
+		.everlib-logo-forty {
+		  height: 40px;
+		  background: rgb(255, 135, 135);
+		  animation-delay: -2.6s;
+		  margin:0.5px;
+		  width:1px;
+
+		}
+		.everlib-logo-forty-one {
+		  height: 40px;
+		  background: rgb(15, 165, 230);
+		  width:1px;
+		  animation-delay: -2.6s;
+		}
+		.everlib-logo-forty-two {
+		  height: 40px;
+		  width:1px;
+		  background: rgb(38, 97, 199);
+		  animation-delay: -2.6s;
+		  margin:1px;
+
+		}
+		.everlib-logo-forty-three {
+		  height: 40px;
+		  background: rgb(255, 255, 255);
+		  animation-delay: -4.2s;
+		  margin:0.4px;
+		  margin-top:-37px;
+		  width:1px;
+
+		}
+		.everlib-logo-forty-four {
+		  height: 40px;
+		  width:1px;
+		  background: rgb(33, 103, 177);
+		  animation-delay: -3.1s;
+		  margin-top:-37px;
+		  margin:0.5px;
+
+		}
+		.everlib-logo-forty-five {
+			height: 40px;
+			background: rgb(139, 187, 238);
+			animation-delay: -1.7s;
+			margin-top:-42px;
+			margin-right: 25px;
+
+		  }
+		  .everlib-logo-space{
+			height: 40px;
+			width:0.4px;
+			background: rgb(2, 2, 6);
+			animation-delay: -4.2s;
+		  }
+		  .everlib-logo-forty-six {
+			height: 40px;
+			width:1px;
+			background: rgb(255, 250, 104);
+			animation-delay: -3.9s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-seven {
+			width:2px;
+			background: rgb(238, 232, 49);
+			height: 40px;
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-eight {
+			height: 40px;
+			background: rgb(255, 255, 255);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-forty-nine {
+			height: 40px;
+			width:1px;
+			background: rgb(238, 232, 49);
+			animation-delay: -2.6s;
+			margin-top:-14px;
+
+		  }
+		  .everlib-logo-fifty{
+			height: 40px;
+			width:2px;
+			background: rgb(255, 250, 104);
+			animation-delay: -4.2s;
+			margin-top:-14px;
+			margin-right: -38px;
+
+		  }
+
+
+  
+  @keyframes equalize {
+	0% {
+	  height: 71px;
+	}
+	4% {
+	  height: 59px;
+	}
+	8% {
+	  height: 55px;
+	}
+	12% {
+	  height: 35px;
+	}
+	16% {
+	  height: 15px;
+	}
+	20% {
+	  height: 35px;
+	}
+	24% {
+	  height: 55px;
+	}
+	28% {
+	  height: -5px;
+	}
+	32% {
+	  height: 55px;
+	}
+	36% {
+	  height: 71px;
+	}
+	40% {
+	  height: 25px;
+	}
+	44% {
+	  height: 55px;
+	}
+	48% {
+	  height: 71px;
+	}
+	52% {
+	  height: 35px;
+	}
+	56% {
+	  height: -5px;
+	}
+	60% {
+	  height: 35px;
+	}
+	64% {
+	  height: 71px;
+	}
+	68% {
+	  height: 35px;
+	}
+	72% {
+	  height: 71px;
+	}
+	76% {
+	  height: 15px;
+	}
+	80% {
+	  height: 71x;
+	}
+	84% {
+	  height: 51px;
+	}
+	88% {
+	  height: 71px;
+	}
+	92% {
+	  height: 15px;
+	}
+	96% {
+	  height: 71px;
+	}
+	100% {
+	  height: 71px;
+	}
+  }
+
+}
+
+
+		
+@media only screen and (max-width: 400px) {
+	/* 541 = starting pnt,  */
+.avatar {
+width: 300px;
+margin-right:15px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -36px;
+width: 300x;
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .36px;
+margin:0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: -40px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:1px;
+margin:0.3px;
+width: 1px;
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 1px;
+margin:0.3px;
+animation-delay: -2.9s;
+margin-top:1px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+margin:0.3px;
+width: 1px;
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:0.5px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:3px;
+margin-right:7px;
+width: 1px;
+
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1px;
+margin:0px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:0.4px;
+width: 1px;
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:0px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:0.4px;
+margin-top:-25px;
+width: 1px;
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:0.4px;
+margin-top:-25px;
+width:1px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: rgb(0, 0, 0);
+animation-delay: -2.6s;
+margin-right: 7.5px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin: 0.7px;
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:0.5px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:0.4px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+margin:0.4px;
+
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+margin:0.4px;
+
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+margin:0.4px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:0.5px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:0.5px;
+margin-top:-8px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -9px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 11px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+width: 1.1;
+background: rgb(255, 255, 255);
+animation-delay: -4.2s;
+margin-top:-7px;
+margin: 0.4;
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-24px;
+margin:0.7px;
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+width: 1px;
+background: #feffff;
+transition: 0.5s;
+margin:0.3px;
+margin-top:-22px;
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 40px;
+width:1;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:6px;
+margin:0.3;
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:0px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:2px;
+margin-right: 11px;
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:0.6px;
+width: 1px;
+
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:1.2px;
+  animation-delay: -4.4s;
+  width: 1px;
+
+}
+
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:0.3px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+  width:1.2px;
+  margin:0.3px;
+
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+  width:.8px;
+  margin:0.3px;
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+  width:1px;
+  margin:0.4px;
+
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:0.4px;
+  width:1px;
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:0.5px;
+  width:1px;
+
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:0.6px;
+  width:1px;
+
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 12.4px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:0.5px;
+  width:1px;
+
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+  width:1px;
+  ;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+  margin:0.7px;
+  width:1px;
+
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:0px;
+  width:1px;
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:0.5px;
+  width:1px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:2.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:0px;
+  margin-top:-33px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-25px;
+  margin:0px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-35px;
+	margin-right: 19.5px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+	margin:0
+  }
+  .everlib-logo-forty-seven {
+	width:1px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+	margin:0
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -16px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
+
+
+@media only screen and (max-width: 310px) {
+	/* 541 = starting pnt,  */
+.avatar {
+width: 300px;
+margin-right:15px;
+}
+#header .avatar {
+display: inline-block;
+}
+
+#header .avatar img {
+position: relative;
+margin-bottom: -36px;
+width: 300x;
+margin-right:15px;
+
+
+
+}
+
+
+.container2 {
+
+text-align: center;
+height: 70px;
+}
+.everlib-logo-first-bar,
+.everlib-logo-second-bar,
+.everlib-logo-third-bar,
+.everlib-logo-fourth-bar,
+.everlib-logo-fifth-bar, 
+.everlib-logo-six-bar,
+.everlib-logo-seventh-bar,
+.everlib-logo-eighth-bar,
+.everlib-logo-ninth-bar,
+.everlib-logo-tenth-bar, 
+.everlib-logo-elleventh-bar,
+.everlib-logo-twelfth-bar,
+.everlib-logo-thirteenth-bar,
+.everlib-logo-fourteenth-bar,
+.everlib-logo-fifteenth-bar,
+.everlib-logo-sixteenth-bar,
+.everlib-logo-seventeenth-bar,
+.everlib-logo-eighteenth-bar,
+.everlib-logo-ninteenth-bar,
+.everlib-logo-twenty-bar,
+.everlib-logo-twentyone-bar,
+.everlib-logo-twentytwo-bar,
+.everlib-logo-twenty-three,
+.everlib-logo-twenty-four,
+.everlib-logo-twenty-five,
+.everlib-logo-twenty-six,
+.everlib-logo-twenty-seven, 
+.everlib-logo-twenty-eight,
+.everlib-logo-twenty-nine,
+.everlib-logo-thirty,
+.everlib-logo-thirty-one,
+.everlib-logo-thirty-two, 
+.everlib-logo-thirty-three,
+.everlib-logo-thirty-four,
+.everlib-logo-thirty-five,
+.everlib-logo-thirty-six,
+.everlib-logo-thirty-seven,
+.everlib-logo-thirty-eight,
+.everlib-logo-thirty-nine,
+.everlib-logo-forty,
+.everlib-logo-forty-one,
+.everlib-logo-forty-two,
+.everlib-logo-forty-three,
+.everlib-logo-forty-four,
+.everlib-logo-forty-five,
+.everlib-logo-forty-six,
+.everlib-logo-forty-seven,
+.everlib-logo-forty-eight,
+.everlib-logo-forty-nine,
+.everlib-logo-fifty,
+.everlib-logo-space,
+.everlib-logo-spacem,
+.everlib-logo-spacem2,
+.everlib-logo-spacem3 {
+display: inline-block;
+width: .36px;
+margin:0.5px;
+transition: .5s;
+animation: equalize 6s 2s infinite;
+animation-timing-function: linear;
+vertical-align: top;
+}
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .6px;
+}
+.everlib-logo-spacem3 {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .4px;
+margin-left: -40px;
+}
+
+
+.everlib-logo-first-bar {
+height: 20%;
+background: #eb8fd9;
+transition: 0.5s;
+animation-delay: -1.9s;
+margin-top:1px;
+
+}
+
+.everlib-logo-second-bar {
+height: 4px;
+background: #e156c5;
+width: 2px;
+margin:0.3px;
+animation-delay: -2.9s;
+margin-top:1px;
+
+}
+
+.everlib-logo-third-bar {
+height: 40px;
+background: #fffdff;
+animation-delay: -3.9s;
+margin-top:5px;
+
+
+}
+
+.everlib-logo-fourth-bar {
+height: 40px;
+background: #e94ec5;
+margin:0.5px;
+width: 1.2px;
+animation-delay: -4.9s;
+margin-top:5px;
+
+}
+
+.everlib-logo-fifth-bar {
+height: 40px;
+background: #ffbef0;
+animation-delay: -4.4s;
+margin-top:7px;
+margin-right:8px;
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: .2px;
+margin:0px;
+margin-top:-5px;
+
+}
+
+.everlib-logo-six-bar {
+height: 40px;
+background: #f43a81;
+animation-delay: -3.8s;
+margin-top:-25px;
+margin:0px;
+
+
+}
+.everlib-logo-seventh-bar {
+height: 40px;
+background: #ed161a;
+width:1.3px;
+animation-delay: -2.8s;
+margin:0px;
+margin-top:-25px;
+}
+.everlib-logo-eighth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.5s;
+margin:0.4px;
+margin-top:-25px;
+
+}
+.everlib-logo-ninth-bar {
+height: 40px;
+background: #f04346;
+animation-delay: -2.6s;
+margin:0.4px;
+margin-top:-25px;
+width:1.3px;
+
+}
+
+.everlib-logo-tenth-bar {
+height: 40px;
+width:1.3px;
+
+background: rgb(0, 0, 0);
+animation-delay: -2.6s;
+margin-right: 9.5px;
+margin-top:-25px;
+
+}
+.everlib-logo-elleventh-bar {
+height: 40px;
+background: rgb(46, 173, 227);
+width:1px;
+margin-left: 0.7px;
+animation-delay: -2.6s;
+}
+.everlib-logo-twelfth-bar {
+height: 40px;
+width:1px;
+background: rgb(42, 135, 206);
+animation-delay: -2.6s;
+margin:0.5px;
+
+}
+.everlib-logo-thirteenth-bar {
+height: 40px;
+background: rgb(250, 252, 252);
+animation-delay: -2.6s;
+margin:-1px;
+
+}
+.everlib-logo-fourteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(0, 114, 155);
+animation-delay: -3.4s;
+}
+.everlib-logo-fifteenth-bar {
+height: 40px;
+width:1px;
+
+background: rgb(104, 189, 242);
+animation-delay: -3.7s;
+}
+.everlib-logo-sixteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(255, 250, 116);
+animation-delay: -1.7s;
+margin-top:7px;
+
+}
+.everlib-logo-seventeenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+animation-delay: -3.9s;
+margin:0.5px;
+margin-top:5px;
+
+}
+.everlib-logo-eighteenth-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -2.6s;
+margin:0.5px;
+margin-top:-5px;
+
+}
+.everlib-logo-ninteenth-bar {
+height: 40px;
+width:1px;
+background: rgb(249, 243, 69);
+margin-top: -15px;				
+animation-delay: -1.6s;
+margin-top:-5px;
+
+}
+.everlib-logo-twenty-bar {
+height: 40px;
+background: rgb(255, 250, 116);
+animation-delay: -2.6s;
+margin-top:-5px;
+margin-right: 12px;
+
+}
+.everlib-logo-twentyone-bar {
+height: 40px;
+background: rgb(255, 255, 255);
+animation-delay: -4.2s;
+margin-top:-7px;
+margin: 0;
+width: 1;
+}
+.everlib-logo-twentytwo-bar {
+height: 40px;
+width: 1px;
+background: rgb(136, 26, 159);
+animation-delay: -3.1s;
+margin-top:-27px;
+margin:0.7px;
+
+
+}
+
+.everlib-logo-twenty-three {
+height: 20%;
+width: 1px;
+background: #feffff;
+transition: 0.5s;
+margin:0.3px;
+margin-top:-27px;
+animation-delay: -1.9s;
+}
+
+.everlib-logo-twenty-four {
+height: 4px;
+background: rgb(133, 57, 148);
+animation-delay: -2.9s;
+margin-top:3px;
+margin:0.3;
+width:1;
+}
+
+.everlib-logo-spacem {
+height: 40px;
+background: #020204;
+animation-delay: -3.8s;
+width: 1.1px;
+margin:0px;
+}
+
+.everlib-logo-twenty-five {
+height: 40px;
+background: rgb(191, 138, 201);
+animation-delay: -3.9s;
+margin-top:7px;
+margin-right: 13px;
+
+}
+
+.everlib-logo-twenty-six {
+height: 40px;
+background: rgb(27, 155, 89);
+animation-delay: -4.9s;
+margin:0.6px;
+}
+
+.everlib-logo-twenty-seven {
+  height: 40px;
+  background: rgb(17, 106, 60);
+  width:1.2px;
+  animation-delay: -4.4s;
+}
+
+.everlib-logo-twenty-eight {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -3.8s;
+  margin:0.3px;
+
+}
+.everlib-logo-twenty-nine {
+  height: 40px;
+  background: rgb(34, 157, 93);
+  animation-delay: -2.8s;
+  width:1.2px;
+  margin:0.3px;
+
+}
+.everlib-logo-thirty {
+  height: 40px;
+  background: rgb(63, 220, 139);
+  animation-delay: -2.2s;
+  width:.6px;
+
+}
+.everlib-logo-thirty-one {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -1.6s;
+}
+
+.everlib-logo-thirty-two {
+  height: 40px;
+  background: rgb(235, 114, 207);
+  animation-delay: -2.2s;
+  margin:0px;
+
+}
+.everlib-logo-thirty-three {
+  height: 40px;
+  background: rgb(249, 249, 255);
+  animation-delay: -3.7s;
+  margin:0px;
+
+}
+.everlib-logo-thirty-four {
+  height: 40px;
+  background: rgb(245, 119, 241);
+  animation-delay: -4.1s;
+  margin:0px;
+
+}
+.everlib-logo-thirty-five {
+  height: 40px;
+  background: rgb(245, 153, 242);
+  animation-delay: -2.6s;
+  margin-right: 15.4px;
+
+}
+.everlib-logo-thirty-six {
+  height: 40px;
+  background: rgb(255, 137, 145);
+  animation-delay: -3.4s;
+  margin:0.5px;
+}
+.everlib-logo-thirty-seven {
+  height: 40px;
+  background: rgb(187, 13, 25);
+  animation-delay: -3.7s;
+}
+.everlib-logo-thirty-eight {
+  height: 40px;
+  background: rgb(254, 223, 225);
+  animation-delay: -1.7s;
+  margin:0.7px;
+
+}
+.everlib-logo-thirty-nine {
+  height: 40px;
+  background: rgb(250, 93, 93);
+  animation-delay: -3.9s;
+  margin:0px;
+  width:1px;
+}
+.everlib-logo-forty {
+  height: 40px;
+  background: rgb(255, 135, 135);
+  animation-delay: -2.6s;
+  margin:0.5px;
+
+}
+.everlib-logo-forty-one {
+  height: 40px;
+  background: rgb(15, 165, 230);
+  width:1px;
+  animation-delay: -2.6s;
+}
+.everlib-logo-forty-two {
+  height: 40px;
+  width:2.2px;
+  background: rgb(38, 97, 199);
+  animation-delay: -2.6s;
+  margin:1px;
+
+}
+.everlib-logo-forty-three {
+  height: 40px;
+  background: rgb(255, 255, 255);
+  animation-delay: -4.2s;
+  margin:0px;
+  margin-top:-37px;
+
+}
+.everlib-logo-forty-four {
+  height: 40px;
+  width:1px;
+  background: rgb(33, 103, 177);
+  animation-delay: -3.1s;
+  margin-top:-37px;
+  margin:0px;
+
+
+}
+.everlib-logo-forty-five {
+	height: 40px;
+	background: rgb(139, 187, 238);
+	animation-delay: -1.7s;
+	margin-top:-42px;
+	margin-right: 23px;
+
+  }
+  .everlib-logo-space{
+	height: 40px;
+	width:0.4px;
+	background: rgb(2, 2, 6);
+	animation-delay: -4.2s;
+  }
+  .everlib-logo-forty-six {
+	height: 40px;
+	width:1px;
+	background: rgb(255, 250, 104);
+	animation-delay: -3.9s;
+	margin-top:-14px;
+	margin:0
+
+  }
+  .everlib-logo-forty-seven {
+	width:2px;
+	background: rgb(238, 232, 49);
+	height: 40px;
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-eight {
+	height: 40px;
+	background: rgb(255, 255, 255);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+
+  }
+  .everlib-logo-forty-nine {
+	height: 40px;
+	width:1px;
+	background: rgb(238, 232, 49);
+	animation-delay: -2.6s;
+	margin-top:-14px;
+	margin:0
+  }
+  .everlib-logo-fifty{
+	height: 40px;
+	width:2px;
+	background: rgb(255, 250, 104);
+	animation-delay: -4.2s;
+	margin-top:-14px;
+	margin-right: -16px;
+
+  }
+
+
+
+@keyframes equalize {
+0% {
+height: 71px;
+}
+4% {
+height: 59px;
+}
+8% {
+height: 55px;
+}
+12% {
+height: 35px;
+}
+16% {
+height: 15px;
+}
+20% {
+height: 35px;
+}
+24% {
+height: 55px;
+}
+28% {
+height: -5px;
+}
+32% {
+height: 55px;
+}
+36% {
+height: 71px;
+}
+40% {
+height: 25px;
+}
+44% {
+height: 55px;
+}
+48% {
+height: 71px;
+}
+52% {
+height: 35px;
+}
+56% {
+height: -5px;
+}
+60% {
+height: 35px;
+}
+64% {
+height: 71px;
+}
+68% {
+height: 35px;
+}
+72% {
+height: 71px;
+}
+76% {
+height: 15px;
+}
+80% {
+height: 71x;
+}
+84% {
+height: 51px;
+}
+88% {
+height: 71px;
+}
+92% {
+height: 15px;
+}
+96% {
+height: 71px;
+}
+100% {
+height: 71px;
+}
+}
+
+}
+
