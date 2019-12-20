@@ -608,12 +608,13 @@
 	#footer {
 		text-align: center;
 		padding: 2em 0 2em 0;
+		margin-right:15px;
 	}
 
 		#footer:before {
 			content: '';
 			border-top: solid 1px rgba(255, 255, 255, 0.25);
-			width: 10em;
+			width: 9em;
 			display: block;
 			margin: 0 auto 3em auto;
 		}

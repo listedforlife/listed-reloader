@@ -75,7 +75,7 @@ export const EnterPageTemplate = ({}) =>  (
               </div>
               <br/><br/>
               <audio id="audio1" src="images/sakura2.wav" type="audio/wav" />
-              <ul className="icons testw">
+              <ul className="icons testewew">
                 
                 <li><a href="#" id="play"  style={{marginLeft: '-19.39px'}} className="icon style2 fa-play"><span className="label">Stop</span></a></li>
                 <li><a href="https://www.facebook.com/listedbookings"  className="icon style2 fa-facebook"><span className="label">Facebook</span></a></li>
@@ -84,7 +84,7 @@ export const EnterPageTemplate = ({}) =>  (
                 <li><a href="mailto:gunita@listedproductions.com" className="icon style2 fa-envelope-o"><span className="label">Email</span></a></li>
               </ul>
       </div>
-      <a style={{margin:'25px', textAlign:'center', marginRight:"33px", textDecoration:'none'}} href='/home' className="example_d" >
+      <a style={{margin:'25px', textAlign:'center', marginRight:"41px", textDecoration:'none'}} href='/home' className="example_d" >
       ENTER
       </a>
                 <footer id="footer">
