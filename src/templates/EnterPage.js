@@ -75,7 +75,7 @@ export const EnterPageTemplate = ({}) =>  (
               </div>
               <br/><br/>
               <audio id="audio1" src="images/sakura2.wav" type="audio/wav" />
-              <ul className="icons testeqw">
+              <ul className="icons testewew">
                 
                 <li><a href="#" id="play"  style={{marginLeft: '-19.39px'}} className="icon style2 fa-play"><span className="label">Stop</span></a></li>
                 <li><a href="https://www.facebook.com/listedbookings"  className="icon style2 fa-facebook"><span className="label">Facebook</span></a></li>
