@@ -41,6 +41,7 @@ upcomingshows: >-
    
 fblk: 'https://www.facebook.com/whomadewho'
 instalk: 'https://www.instagram.com/whomadewhoofficial'
+ralk: 'https://www.residentadvisor.net/dj/whomadewho'
 twitterlk: 'https://twitter.com/whomadewho'
 spotifylk: >-
   https://open.spotify.com/artist/50Lr1puweM1hFsF1LpIZLM?si=AjtccNJZSViQDqP9ypVaMw
