@@ -44,9 +44,9 @@ export const HomePageTemplate = ({
    <div className="dropdown">
 		<button className="dropdown-button" style={{visibility:'hidden'}}>Artists</button>
 		<div className="dropdown-list">
-    
     </div>
 	</div>
+<div className="ctct-inline-form" data-form-id="77fa4a78-f78b-4c9b-9057-b015694f8ed3"></div>
     </div>
     </div>
     </div>

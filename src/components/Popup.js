@@ -20,7 +20,7 @@ class Popup extends Component {
     return (
       <Fragment>
         <div className="taCenter">
-          <h3> r u listed?</h3>
+          <h3> are u listed?</h3>
           <div className="Button" onClick={this.togglePopup.bind(this)}>
             Click For More Info
           </div>
