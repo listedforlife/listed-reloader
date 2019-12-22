@@ -7,6 +7,7 @@ upcomingshows: |-
   Substance with Halo at The EndUp, San Francisco
 fblk: 'https://www.facebook.com/HaloVarga'
 instalk: 'https://www.instagram.com/halo_varga'
+ralk: 'https://www.residentadvisor.net/dj/halo'
 spotifylk: 'https://open.spotify.com/artist/5VBtTaJAurHIdZFucwR2l8'
 sclk: 'https://soundcloud.com/halovarga'
 presskit: 'https://drive.google.com/open?id=1I-iQbts8B9dKuArg_8vXUfcFHXMzyev8'
