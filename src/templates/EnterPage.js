@@ -1,8 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import './enter-page-assets/css/main.css'
-import mainone from './enter-page-assets/media/mainone.png'
-
+import './EnterPage.css'
+import ra from '../../static/images/ra.png'
+import mainone from '../../static/images/mainone.png'
+import { SocialIcon } from 'react-social-icons';
 
 
 // Export Template for use in CMS preview
@@ -75,13 +76,12 @@ export const EnterPageTemplate = ({}) =>  (
               </div>
               <br/><br/>
               <audio id="audio1" src="images/sakura2.wav" type="audio/wav" />
-              <ul className="icons testewew">
-                
-                <li><a href="#" id="play"  style={{marginLeft: '-19.39px'}} className="icon style2 fa-play"><span className="label">Stop</span></a></li>
-                <li><a href="https://www.facebook.com/listedbookings"  className="icon style2 fa-facebook"><span className="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/areulisted"  className="icon style2 fa-instagram"><span className="label">Instagram</span></a></li>
-                <li><a href="https://twitter.com/areulisted"  className="icon style2 fa-twitter"><span className="label">Twitter</span></a></li>
-                <li><a href="mailto:gunita@listedproductions.com" className="icon style2 fa-envelope-o"><span className="label">Email</span></a></li>
+              <ul className="icons" style={{marginLeft: '-15px' }}>
+                <li><SocialIcon url="https://www.facebook.com/listedbookings"  style={{ height: 25, width: 25 }} /></li>
+                <li><SocialIcon url="https://www.instagram.com/areulisted"  style={{ height: 25, width: 25 }} /></li>
+                <li><SocialIcon  url="https://twitter.com/areulisted"  style={{ height: 25, width: 25, }} /></li>
+                <li><a href="https://residentadvisor.net" ><img src={ra} style={{marginLeft: '-12px', width: 50, marginBottom: '-8px' }} /></a></li>
+                <li><SocialIcon  url="mailto:gunita@listedbokings.com"  style={{marginLeft: '-14px', height: 25, width: 25, }} /></li>
               </ul>
       </div>
       <a style={{margin:'25px', textAlign:'center', marginRight:"41px", textDecoration:'none'}} href='/home' className="example_d" >

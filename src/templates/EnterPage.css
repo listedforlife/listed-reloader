@@ -1,8 +1,8 @@
 
-*, *:before, *:after {
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
-	box-sizing: border-box;
+
+
+  a {
+	  text-decoration: none;
   }
   
 .example_d {
@@ -159,16 +159,6 @@
 		}
 
 	}
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 /* Type */
 
@@ -192,7 +182,6 @@
 	a {
 		color: inherit;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -200,7 +189,7 @@
 	}
 
 		a:hover {
-			color: #ffffff;
+			color: #ff0000;
 			border-bottom-color: transparent;
 		}
 
@@ -428,16 +417,21 @@
 
 		ol li {
 			padding-left: 0.25em;
+			text-decoration: none;
+
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		text-decoration: none;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			text-decoration: none;
+
 		}
 
 		ul.alt {
@@ -459,11 +453,15 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-decoration: none;
+
 		}
 
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
+				text-decoration: none;
+
 			}
 
 				ul.icons li:last-child {
