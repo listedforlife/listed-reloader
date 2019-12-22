@@ -9,6 +9,7 @@ upcomingshows: >-
   More at Avant Gardner, New York
 fblk: 'https://www.facebook.com/DanceSpiritHyperspace'
 instalk: 'https://www.instagram.com/dance_spirit'
+ralk: 'https://www.residentadvisor.net/dj/dancespirit'
 spotifylk: 'https://open.spotify.com/artist/3Ws2v9GjQHbdlJyTtXKwhH'
 sclk: 'https://soundcloud.com/dance-spirit'
 presskit: 'https://drive.google.com/open?id=1Ot-313HmSfBM7aOlcWNr4hBL5C-7oCnA'
