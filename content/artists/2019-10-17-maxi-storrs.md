@@ -7,6 +7,7 @@ upcomingshows: |-
   Phonobar presents Maxi Storrs at Phonobar, San Francisco
 fblk: 'https://www.facebook.com/maxi.storrs.dj'
 instalk: 'https://www.instagram.com/longfellow_max'
+ralk: 'https://www.residentadvisor.net/dj/maxistorrs'
 twitterlk: 'https://twitter.com/maxi_storrs'
 spotifylk: 'https://open.spotify.com/user/1231743452?si=49l7a1AHQXKjCjJtzopI3g'
 sclk: 'https://soundcloud.com/maxi-storrs'
