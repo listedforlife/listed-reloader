@@ -56,7 +56,27 @@
 .NavLink.active,
 .NavLink:focus {
   color: var(--primary);
-  border-bottom-color: currentColor;
+
+}
+
+#navc1:hover{
+  color: pink
+}
+
+#navc2:hover{
+  color: red
+}
+
+#navc3:hover{
+  color: purple
+}
+
+#navc4:hover{
+  color: green
+}
+
+#navc5:hover{
+  color: yellow
 }
 
 .Nav--Group {
