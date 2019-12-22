@@ -4,6 +4,7 @@ title: Jay Tripwire
 featuredImage: 'https://ucarecdn.com/86d525da-1424-4139-8111-1517d20c433f/'
 fblk: 'https://www.facebook.com/jaytripwire.fanpage'
 instalk: 'https://www.instagram.com/jaytripwire'
+ralk: 'https://www.residentadvisor.net/dj/jaytripwire'
 twitterlk: 'https://twitter.com/jay_tripwire'
 spotifylk: 'https://open.spotify.com/artist'
 sclk: 'https://soundcloud.com/jaytripwire'
