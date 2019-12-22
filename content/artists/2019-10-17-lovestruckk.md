@@ -14,6 +14,7 @@ upcomingshows: >-
   at Le Jardin, Los Angeles
 fblk: 'https://www.facebook.com/lovestruuckk'
 instalk: 'https://www.instagram.com/thelovestruckk'
+ralk: 'https://www.residentadvisor.net/dj/lovestruckk'
 twitterlk: 'https://twitter.com/hashtag/lovestruckk'
 spotifylk: 'https://open.spotify.com/artist/094Tke1cciJmfbu6AeOJLZ'
 sclk: 'https://soundcloud.com/thelovestruckk'
