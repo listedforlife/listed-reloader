@@ -17,6 +17,7 @@ upcomingshows: >-
   Berliner Luft - Extravaganza Festivalala at Viertel, Basel
 fblk: 'https://www.facebook.com/RuedeHagelstein'
 instalk: 'https://www.instagram.com/ruedehagelstein'
+ralk: 'https://www.residentadvisor.net/dj/ruedehagelstein'
 twitterlk: 'https://twitter.com/ruederich?lang=en'
 spotifylk: >-
   https://open.spotify.com/artist/49VV6EX7Tz4JNKeimVEoxQ?si=6BiN0aFSTr6oKQCWysbc0A
