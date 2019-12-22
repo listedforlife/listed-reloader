@@ -67,7 +67,7 @@ const FormSimple2 = () => {
       <input 
       type="submit" 
       value="Send Message" 
-      className='Button Form--SubmitButton' />
+      className='Form--SubmitButton example_d' />
       
 </form>
 )

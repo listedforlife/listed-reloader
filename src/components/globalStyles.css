@@ -57,6 +57,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: blue;
+}
+
 strong {
   font-weight: 600;
 }
