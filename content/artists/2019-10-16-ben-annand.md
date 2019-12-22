@@ -7,6 +7,7 @@ upcomingshows: |-
   Zombie Disco: Steve Bug + Uniting Souls at The Monkey Loft, Seattle
 fblk: 'https://www.facebook.com/benannandmusic'
 instalk: 'https://www.instagram.com/benannand'
+ralk: 'https://www.residentadvisor.net/dj/benannand'
 twitterlk: 'https://twitter.com/benannand'
 spotifylk: ''
 sclk: 'https://soundcloud.com/ben-annand'
