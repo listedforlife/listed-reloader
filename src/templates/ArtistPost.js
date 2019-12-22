@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import './ArtistPost.css'
 import './ArtistPost.scss'
 import { SocialIcon } from 'react-social-icons';
-
+import ra from '../../static/images/ra.png'
 
 import randomColor from 'randomcolor';
 
@@ -129,7 +129,8 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <SocialIcon url={post.frontmatter.sclk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <SocialIcon url={post.frontmatter.spotifylk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <SocialIcon url={post.frontmatter.fblk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <SocialIcon url={post.frontmatter.instalk} style={{ height: 25, width: 25 }}  />
+      <SocialIcon url={post.frontmatter.instalk} style={{ height: 25, width: 25 }}  />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={post.frontmatter.ralk} ><img src={ra} style={{ width: 25, marginBottom: '-8px' }} /></a>
      </ul>
       </div>
       <br/>
@@ -164,6 +165,7 @@ export const pageQuery = graphql`
         spotifywidg
         fblk
         instalk
+        ralk
         twitterlk
         sclk
         spotifylk
