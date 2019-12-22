@@ -20,6 +20,7 @@ upcomingshows: >-
   Shipwrecked Festival 2020 at Shipwrecked Festival, New Zealand
 fblk: 'https://www.facebook.com/nico.stojan.music'
 instalk: 'https://www.instagram.com/nico_stojan'
+ralk: 'https://www.residentadvisor.net/dj/nicostojan'
 twitterlk: 'https://twitter.com/nico_stojan'
 spotifylk: >-
   https://open.spotify.com/artist/1SuKmGtjsRRJcGhTspfUnd?si=YGGQjDCfRZ2F3HQBncC43g
