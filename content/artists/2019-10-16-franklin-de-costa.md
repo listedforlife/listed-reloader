@@ -15,6 +15,7 @@ upcomingshows: >-
   Griessmuehle, Berlin
 fblk: 'https://www.facebook.com/FranklinDeCosta'
 instalk: 'https://www.instagram.com/francke_costa'
+ralk: 'https://www.residentadvisor.net/dj/franklindecosta'
 twitterlk: 'https://twitter.com/franklindecosta'
 spotifylk: 'https://open.spotify.com/artist/2f5rbWB8Cv5suxxjLrF3E2'
 sclk: 'https://soundcloud.com/franklindecosta'
