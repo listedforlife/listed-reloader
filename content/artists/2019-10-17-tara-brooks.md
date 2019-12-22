@@ -22,6 +22,7 @@ upcomingshows: >-
   Rakastella 2019 at Historic Virginia Key Beach Park, Miami
 fblk: 'https://www.facebook.com/shaunreevesmusic'
 instalk: 'https://www.instagram.com/shaun.reeves'
+ralk: 'https://www.residentadvisor.net/dj/tarabrooks'
 twitterlk: 'https://twitter.com/tarabrooksmusic?lang=en'
 spotifylk: >-
   https://open.spotify.com/artist/7gCspPoGmiOBuw1IkSxQei?si=s2nhyTOzT2KiFWBLgGLUTw
