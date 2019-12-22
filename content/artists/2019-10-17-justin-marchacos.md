@@ -4,6 +4,7 @@ title: Justin Marchacos
 featuredImage: 'https://ucarecdn.com/82dcf56e-92c4-4646-ba40-06766c7d2c3c/'
 fblk: 'https://www.facebook.com/justinmarchacos'
 instalk: 'https://www.instagram.com/justinmarchacos'
+ralk: 'https://www.residentadvisor.net/dj/justinmarchacos'
 twitterlk: 'https://twitter.com/hashtag/justinmarchacos?src=hash'
 spotifylk: 'https://open.spotify.com/artist/5elp7hYJfIAPLSxT7JupT8'
 sclk: 'https://soundcloud.com/justinmarchacosmusic'
