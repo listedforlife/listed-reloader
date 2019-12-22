@@ -4,6 +4,7 @@ title: Nicolas Matar
 featuredImage: 'https://ucarecdn.com/0e60debe-0308-4963-b275-520cc21516a6/'
 fblk: 'https://www.facebook.com/djnicolasmatar'
 instalk: 'https://www.instagram.com/nicolasmatar.nyc'
+ralk: 'https://www.residentadvisor.net/dj/nicolasmatar'
 twitterlk: 'https://twitter.com/nicolasmatar1'
 spotifylk: >-
   https://open.spotify.com/artist/3DiqyQp6QuZ3ujpB5MJR2O?si=KZF0Y9AdRvmpdBgTinfzfA
