@@ -362,6 +362,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Facebook Link", name: fblk, required: false, widget: string}
       - {label: "Instagram Link", name: instalk, required: false, widget: string}
+      - {label: "Resident Advisor Link", name: ralk, required: false, widget: string}
       - {label: "Twitter Link", name: twitterlk, required: false, widget: string}
       - {label: "Spotify Link", name: spotifylk, required: false, widget: string}
       - {label: "SoundCloud Link", name: sclk, required: false, widget: string}

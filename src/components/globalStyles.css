@@ -47,8 +47,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+
+ul {
+  text-decoration: none;
+}
+
 a {
   color: white;
+  text-decoration: none;
 }
 
 strong {
@@ -196,6 +202,8 @@ blockquote {
 .container.skinnier {
   max-width: 555px;
 }
+
+
 
 /* Buttons */
 
