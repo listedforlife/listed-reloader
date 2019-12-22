@@ -8,6 +8,7 @@ upcomingshows: |-
   Beyond Blue - London 28.12.19
 fblk: 'https://www.facebook.com/Yosei.Gorazu'
 instalk: 'https://www.instagram.com/clariannorth'
+ralk: 'https://www.residentadvisor.net/dj/clarian'
 twitterlk: 'https://twitter.com/clarianmusic'
 spotifylk: 'https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa'
 sclk: 'https://soundcloud.com/clariannorth'
