@@ -4,6 +4,7 @@ title: MightyKat
 featuredImage: 'https://ucarecdn.com/fbaf1542-d22c-48ec-95b7-2c4bcdddc158/'
 fblk: 'https://www.facebook.com/Mightykatsound'
 instalk: 'https://www.instagram.com/1mightykat'
+ralk: 'https://www.residentadvisor.net/dj/mightykat'
 twitterlk: 'https://twitter.com/mightykat33'
 sclk: 'https://soundcloud.com/mightykat'
 presskit: 'https://drive.google.com/open?id=1QtsVl9wvcPFdpFyQu3cNAL6os26Ishj_'
