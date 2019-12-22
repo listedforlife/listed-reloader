@@ -80,7 +80,7 @@ export const EnterPageTemplate = ({}) =>  (
                 <li><SocialIcon url="https://www.facebook.com/listedbookings"  style={{ height: 25, width: 25 }} /></li>
                 <li><SocialIcon url="https://www.instagram.com/areulisted"  style={{ height: 25, width: 25 }} /></li>
                 <li><SocialIcon  url="https://twitter.com/areulisted"  style={{ height: 25, width: 25, }} /></li>
-                <li><a href="https://residentadvisor.net" ><img src={ra} style={{marginLeft: '-12px', width: 50, marginBottom: '-8px' }} /></a></li>
+                <li><a href="https://www.residentadvisor.net/promoter.aspx?id=91" ><img src={ra} style={{marginLeft: '-12px', width: 50, marginBottom: '-8px' }} /></a></li>
                 <li><SocialIcon  url="mailto:gunita@listedbokings.com"  style={{marginLeft: '-14px', height: 25, width: 25, }} /></li>
               </ul>
       </div>
