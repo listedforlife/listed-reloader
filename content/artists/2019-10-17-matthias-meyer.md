@@ -41,6 +41,7 @@ upcomingshows: >-
   Center of Contemporary Arts, Bahrain
 fblk: 'https://www.facebook.com/matthiasmeyer81'
 instalk: 'https://www.instagram.com/matthiasmeyer'
+ralk: 'https://www.residentadvisor.net/dj/matthiasmeyer'
 twitterlk: 'https://twitter.com/matthiasmeyerld'
 spotifylk: 'https://open.spotify.com/artist/6bWakzaLHaNewLTdhJHPQb'
 sclk: 'https://soundcloud.com/matthias-meyer'
