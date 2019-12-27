@@ -53,10 +53,8 @@ subtitle: >-
   Reeves](https://quirky-northcutt-3bdb7c.netlify.com/artists/shaun-reeves)
   &nbsp;   [Tara
   Brooks](https://quirky-northcutt-3bdb7c.netlify.com/artists/tara-brooks)
-  &nbsp;   [Tim
-  Engelhardt](https://quirky-northcutt-3bdb7c.netlify.com/artists/tim-engelhardt)
-  &nbsp;  
-  [WhoMadeWho](https://quirky-northcutt-3bdb7c.netlify.com/artists/who-made-who)  
+  &nbsp; 
+  [WhoMadeWho](https://quirky-northcutt-3bdb7c.netlify.com/artists/who-made-who)
 meta:
   description: This is a meta description.
 ---
