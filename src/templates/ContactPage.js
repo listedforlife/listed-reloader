@@ -19,7 +19,7 @@ export const ContactPageTemplate = ({
   locations
 }) => (
   <main className="Contact">
-    <section className="section Contact--Section1" style={{backgroundColor:'black', color:'white'}}>
+    <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container ">
         <div>
           <Content source={body}  />

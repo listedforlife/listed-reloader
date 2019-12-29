@@ -1,11 +1,23 @@
+/* Artists Link*/
+
+.home-artists-links p {
+  font-family: 'dinBoldFont', sans-serif;
+  font-size: 2.6rem;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+
 a:hover {
   border-bottom-color: transparent;
   color: red;
 }
 .slider {
-  max-width: 75%;
-  height: 300px;
-  margin: 20px auto;
+  width: 75%;
+  padding-top: 42.1875%;
+  margin-top: -42.1875%;
+  margin-bottom: 43.1875%;
+  margin-right: auto;
+  margin-left: auto;
   position: relative;
 }
 .slide1,.slide2,.slide3,.slide4,.slide5 {

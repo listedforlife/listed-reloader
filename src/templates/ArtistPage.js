@@ -34,8 +34,7 @@ const ArtistPage = ({ data: { page, posts } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
-  ><div style={{background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,9,121,1) 35%, rgba(0,212,255,1) 100%)',
-              margin:'30px'}}>
+  ><div>
     <div>
     <h1>Artists</h1>
     </div></div>
