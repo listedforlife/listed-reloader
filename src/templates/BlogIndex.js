@@ -47,26 +47,16 @@ export const BlogIndexTemplate = ({
 
       return (
         <main>
-          <PageHeader 
-            backgroundImage={featuredImage}            
-          />
-
-<section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
-
-
+<h1>Buzz</h1>
 {!!postCategories.length && (
   <section className="section thin">
-    <div style={{textAlign:'center',marginTop:'-95px'}}>
+    <div style={{textAlign:'center',marginTop:'-105px'}}>
       <PostCategoriesNav enableSearch categories={postCategories} />
     </div>
   </section>
 )}
           {!!posts.length && (
-            <section style={{marginTop:'-35px'}}  className="section">
+            <section style={{marginTop:'-65px'}}  className="section">
               <div className="container">
                 <PostSection posts={filteredPosts} />
               </div>

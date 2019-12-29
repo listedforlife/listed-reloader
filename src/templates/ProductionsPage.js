@@ -21,8 +21,6 @@ export const ProductionsPageTemplate = ({
 }) => (
   <main>
     <PageHeader
-
-      subtitle={subtitle}
       backgroundImage={featuredImage}
     />
     <section className="section">
@@ -37,20 +35,20 @@ export const ProductionsPageTemplate = ({
       </BackgroundVideo>
     </section>
 
-    <section className="section">
+    <section className="section" class="marginFix">
       <div className="container">
-        <h2 style={{textAlign:'center'}}>Recent Events Gallery</h2>
+        <h1>Recent Events Gallery</h1>
         <Gallery images={gallery} />
       </div>
     </section>
 
-    <section className="section">
-      <div className="container" style={{textAlign:'center'}}>
+    <section className="section" class="marginFix">
+      <div className="container">
         <Content source={section2} />
       </div>
     </section>
 
-    <section className="section">
+    <section className="section" class="marginFix">
       <div className="container">
         <Popup>
           <Content source={section1} />

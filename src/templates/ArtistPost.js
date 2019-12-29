@@ -24,22 +24,10 @@ export const ArtistPostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <br/>
       <div className="card rainbow"  >
-        <div className='htoone' id="demo"  style={{backgroundColor:randomColor(
-      {
-             }
-            ), width:'70%', textAlign:'center', marginLeft:'15%'
-            }}>
-          {title && (
-            <h1 className="textheader titleflex"
-            itemProp="title">
-            {title}  
-            </h1>
-          )}
+        <div className='htoone' id="demo">
           <div className="img2 shadow item">
-          <img className="thisone" style={{marginBottom:'38px'}} src={featuredImage} alt={title} />
-            
+          <img className="thisone"src={featuredImage} alt={title} />    
           </div>
           </div>
           </div>
@@ -58,9 +46,14 @@ export const ArtistPostTemplate = ({
                 ))}
               </Fragment>
             )}
+          {title && (
+            <h1
+            itemProp="title">
+            {title}  
+            </h1>
+          )}
         <div className="text-holder right">
         <div className="pg1-2-txt">
-            <br/>
             <p>
             <Content source={body} />
             </p>
@@ -110,14 +103,13 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       </div>
       </div>
       </div>
-      <br/>
       <div style={{textAlign:'center',
       }}>
-      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="doingit example_c" href={post.frontmatter.presskit} >
-      Presskit
+      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d" href={post.frontmatter.presskit} >
+      <span class="skew-fix">Presskit</span>
       </a>
-      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="doingit example_c" >
-      Book Artist
+      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="example_d" >
+      <span class="skew-fix">Book Artist</span>
       </a>
       </div>
       <div className='smlist' style={{display:'flex',

@@ -1,10 +1,15 @@
+.Contact {
+  margin-top: -20px;
+}
+
 
 .Contact--Details {
   margin-top: 3rem;
 }
 
-html {
-  background-color: black;
+.Contact h1 {
+  padding-left: 32px;
+  background-position: 0px 15px;
 }
 
 .Contact--Details--Item {
