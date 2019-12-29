@@ -5,15 +5,16 @@
 	  text-decoration: none;
   }
   
-.example_d {
+.example_d, .Button {
+	font-family: 'dinBoldFont', sans-serif;
     text-transform: uppercase;
-	background: #000000;
+	background: #fff;
 	font-weight:bold;
-	font-size:16px;
-	opacity: 0.7;
-	padding: 15px 32px;
-    border: 2px solid #ffffff !important;
+	font-size: 2.2rem;
+	color:#000;
+	padding: 10px 25px;
     display: inline-block;
+    transform: skew(-20deg);
     transition: all 0.3s ease 0s;
 	cursor: pointer;
     }
@@ -160,7 +161,7 @@
 
 	}
 
-/* Type */
+/* Type
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.65);
@@ -168,7 +169,7 @@
 		font-size: 13pt;
 		font-weight: 200;
 		line-height: 1.65;
-	}
+	} */
 	
 	/* if the screen is 1280px or less it will change */
 		@media screen and (max-width: 1280px) {
@@ -202,15 +203,11 @@
 		font-style: italic;
 	}
 
-	p {
-		margin: 0 0 2em 0;
-	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 200;
 		line-height: 1;
-		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -226,9 +223,6 @@
 
 		}
 
-	h1 {
-		font-size: 1.75em;
-	}
 
 		@media screen and (max-width: 980px) {
 
@@ -247,7 +241,7 @@
 		}
 
 	h2 {
-		font-size: 1.35em;
+
 	}
 
 		@media screen and (max-width: 736px) {

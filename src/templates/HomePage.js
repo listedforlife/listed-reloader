@@ -31,13 +31,12 @@ export const HomePageTemplate = ({
               </div>
             </section>
             <div>
-    <div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> {listedmix}</div>
+    <h1 style={{margin:'15px', marginBottom:'-80px'}}> {listedmix}</h1>
     <br/><br/><br/><br/>
     <iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src={listedmixlk}></iframe>
-    <div style={{background: 'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(3,5,9,1) 100%)', 
-    textAlign:'center', textDecoration:'none', margin:'10px', padding:'10px'}}    
+    <div style={{textDecoration:'none', margin:'10px', padding:'10px'}}    
     >
-      <div style={{}}>
+      <div class="home-artists-links" style={{}}>
     <h1>Artists</h1>
    {subT = 
    <ReactMarkdown source={subtitle} />}
@@ -71,7 +70,7 @@ const HomePage = ({ data: { page, posts
   <div className='slide4' style={{background: `url(${page.frontmatter.featuredImage4})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide5' style={{background: `url(${page.frontmatter.featuredImage5})no-repeat center`,backgroundSize:'cover'}}></div>
 </div>
-<div style={{paddingLeft:'45px', margin:'15px', marginBottom:'-80px', fontSize:'25px'}}> <span style={{}}>B</span>uzz</div>
+<h1 style={{margin:'15px', marginBottom:'80px'}}>Buzz</h1>
 
     <HomePageTemplate
       {...page}

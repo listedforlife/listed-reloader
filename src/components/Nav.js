@@ -49,6 +49,17 @@ export class Navigation extends Component {
           <Link to="/home/" onClick={this.handleLinkClick}>
             <Logo />
           </Link>
+          <div className="smedialinks">
+          <span style={{margin:'5px'}}>
+          <SocialIcon url="https://www.facebook.com/listedbookings"  style={{ height: 25, width: 25 }} />
+          </span>
+          <span style={{margin:'5px'}}>
+          <SocialIcon url="https://www.instagram.com/areulisted"  style={{ height: 25, width: 25 }} />
+          </span>
+          <span style={{margin:'5px'}}>
+          <SocialIcon  url="https://twitter.com/areulisted"  style={{ height: 25, width: 25, }} />
+          </span>
+          </div>
           <div className="Nav--Links">
             <NavLink id="navc1" to="/home/">Home</NavLink>
             <NavLink id="navc2" to="/artists/">Artists</NavLink>
@@ -65,19 +76,6 @@ export class Navigation extends Component {
             {active ? <X /> : <Menu />}
           </button>
         </div>
-        <div className="smedialinks">
-        <div style={{opacity:'0.7', float:'right', marginBottom:'30px', marginRight:'69px', marginTop:'-44px'}}>
-      <span style={{margin:'5px'}}>
-      <SocialIcon url="https://www.facebook.com/listedbookings"  style={{ height: 25, width: 25 }} />
-      </span>
-      <span style={{margin:'5px'}}>
-      <SocialIcon url="https://www.instagram.com/areulisted"  style={{ height: 25, width: 25 }} />
-      </span>
-      <span style={{margin:'5px'}}>
-      <SocialIcon  url="https://twitter.com/areulisted"  style={{ height: 25, width: 25, }} />
-      </span>
-      </div>
-      </div>
       </nav>
     )
   }

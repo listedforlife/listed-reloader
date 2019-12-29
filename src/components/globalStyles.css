@@ -27,18 +27,38 @@
   background: rgba(0, 194, 189, 0.6);
 }
 
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap');
+
+@font-face {
+  font-family: dinFont;
+  src: url(/fonts/din1451alt.ttf);
+}
+
+@font-face {
+  font-family: dinBoldFont;
+  src: url(/fonts/din1451altG.ttf);
+}
+
+/* Button Skew Fix */
+
+.skew-fix{
+  display:inline-block;
+  transform: skew(20deg);
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
   min-height: 100%;
-  background: var(--lightGrey);
+  background-image: url("/images/bg1.jpg");
+  background-size: 100% 100%;
 }
 
 body {
-  font-family: var(--font-system);
+  font-family: 'Cabin', sans-serif;
   min-height: 100%;
   position: relative;
-  background: black;
   color: white;
   font-size: 1.6em;
   font-weight: 400;
@@ -76,8 +96,23 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: 'dinBoldFont', sans-serif;
   margin: 0;
   margin-bottom: 0.5em;
+}
+
+h1, h2 {
+  font-size: 3.2rem;
+  padding: 10px;
+  padding-left: 101px;
+  background-image: url("/images/h1vl_rbg.png");
+  background-repeat: no-repeat;
+  background-position: 69px 15px;
+}
+
+.marginFix h1, h2 {
+  padding-left: 32px;
+  background-position: 0px 15px;
 }
 
 pre {
@@ -165,8 +200,6 @@ blockquote {
 
 .section {
   width: 100%;
-  padding: 5rem 0;
-
 }
 .section:last-child {
   border: 0;
@@ -196,9 +229,13 @@ blockquote {
 }
 
 .container {
-  max-width: 1111px;
+/* Old  max-width: 1111px;
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto;*/
+  margin-right: 69px;
+  margin-left: 69px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .container.skinny {
   max-width: 888px;
@@ -224,7 +261,6 @@ blockquote {
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;
-  border-radius: var(--borderRadius);
 }
 .Button:hover,
 .Button:focus {
