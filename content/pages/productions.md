@@ -2,7 +2,7 @@
 template: ProductionsPage
 slug: productions
 title: Productions
-featuredImage: 'https://ucarecdn.com/4a8f4caf-1b88-45d7-b78e-0da9c5ec7817/'
+featuredImage: 'https://ucarecdn.com/8f0c2645-088d-4ecd-8e40-3acf1ecc08ad/'
 section1: >-
   ## Listed Productions
 
