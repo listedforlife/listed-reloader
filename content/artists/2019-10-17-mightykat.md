@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: MightyKat
-featuredImage: 'https://ucarecdn.com/fbaf1542-d22c-48ec-95b7-2c4bcdddc158/'
+featuredImage: 'https://ucarecdn.com/d778dc85-18eb-422d-a49b-3946a305fcdb/'
 fblk: 'https://www.facebook.com/Mightykatsound'
 instalk: 'https://www.instagram.com/1mightykat'
 ralk: 'https://www.residentadvisor.net/dj/mightykat'
