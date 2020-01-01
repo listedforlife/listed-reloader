@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: WhoMadeWho
-featuredImage: 'https://ucarecdn.com/e7af2b64-7b7d-4bbf-a095-769554dd0e7a/'
+featuredImage: 'https://ucarecdn.com/b3c08a27-1543-4140-9661-31910b971076/'
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
