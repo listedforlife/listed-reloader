@@ -30,6 +30,10 @@
 @media (max-width: 600px) {
   .PostCategoriesNav input[type='text'] {
     position: relative;
-    width: 70%;
+    width: 50%;
   }
+  .PostCategoriesNav {
+  margin-right: 20px;
+
+}
 }
