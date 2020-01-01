@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: 'Tara Brooks '
-featuredImage: 'https://ucarecdn.com/78961d9a-8ddc-495f-8540-d951d8e37569/'
+featuredImage: 'https://ucarecdn.com/446a1ed2-0a02-4e09-87e5-680fe35c7a32/'
 upcomingshows: >-
   Fri, 25 Oct 2019 /
 
