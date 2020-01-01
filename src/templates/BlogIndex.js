@@ -56,7 +56,7 @@ export const BlogIndexTemplate = ({
   </section>
 )}
           {!!posts.length && (
-            <section style={{marginTop:'-65px'}}  className="section">
+            <section className="section">
               <div className="container">
                 <PostSection posts={filteredPosts} />
               </div>

@@ -231,10 +231,18 @@ blockquote {
   max-width: 555px;
 }
 
+@media (max-width: 860px) {
+  .smedialinks {
+    display: none;
+  }
+}
+
+
+
 @media (max-width: 600px) {
   .section {
     width: 100%;
-    padding: 5rem 0;
+    padding: 2rem 0;
   }
   .section.thick {
     padding: 7rem 0;
@@ -243,8 +251,16 @@ blockquote {
     padding: 1.5rem 0;
   }
   .container {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin:0px 20px;
+  }
+  .Contact--Section1 {
+    padding: 0px;
+  }
+  .hide {
+    display: none;
+  }
+  .smedialinks {
+    display: block;
   }
 }
 
