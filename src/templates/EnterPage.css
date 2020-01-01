@@ -694,12 +694,14 @@
 			.everlib-logo-spacem {
 				height: 40px;
 				background: #020204;
+				visibility: hidden;
 				animation-delay: -3.8s;
 				width: 2px;
 			  }
 			  .everlib-logo-spacem3 {
 				height: 40px;
 				background: #020204;
+				visibility: hidden;
 				animation-delay: -3.8s;
 				width: 2px;
 				margin-left:-14.5px;
@@ -758,6 +760,7 @@
 			  .everlib-logo-spacem {
 				height: 40px;
 				background: #020204;
+				visibility: hidden;
 				animation-delay: -3.8s;
 				width: 2px;
 				margin:0.3px;
@@ -924,6 +927,7 @@
 			  .everlib-logo-spacem {
 				height: 40px;
 				background: #020204;
+				visibility: hidden;
 				animation-delay: -3.8s;
 				width: 2px;
 				margin:-1px;
@@ -1075,6 +1079,7 @@
 					height: 40px;
 					width:12.6px;
 					background: rgb(2, 2, 6);
+					visibility: hidden;
 					animation-delay: -4.2s;
 				  }
 				  .everlib-logo-forty-six {
@@ -1290,12 +1295,14 @@
 	.everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: .6px;
 	  }
 	  .everlib-logo-spacem3 {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: .4px;
 		margin-left: -71.8px;
@@ -1352,6 +1359,7 @@
 	  .everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: 1.7px;
 		margin:0px;
@@ -1517,6 +1525,7 @@
 	  .everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: 1.1px;
 		margin:0px;
@@ -1683,6 +1692,7 @@
 			height: 40px;
 			width:0.4px;
 			background: rgb(2, 2, 6);
+			visibility: hidden;
 			animation-delay: -4.2s;
 		  }
 		  .everlib-logo-forty-six {
@@ -1899,12 +1909,14 @@ ul.icons{display:none;}
 	.everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: .6px;
 	  }
 	  .everlib-logo-spacem3 {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: .4px;
 		margin-left: -64px;
@@ -1961,6 +1973,7 @@ ul.icons{display:none;}
 	  .everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: .2px;
 		margin:0px;
@@ -2134,6 +2147,7 @@ ul.icons{display:none;}
 	  .everlib-logo-spacem {
 		height: 40px;
 		background: #020204;
+		visibility: hidden;
 		animation-delay: -3.8s;
 		width: 1.1px;
 		margin:0px;
@@ -2304,6 +2318,7 @@ ul.icons{display:none;}
 			height: 40px;
 			width:0.4px;
 			background: rgb(2, 2, 6);
+			visibility: hidden;
 			animation-delay: -4.2s;
 		  }
 		  .everlib-logo-forty-six {
@@ -2537,12 +2552,14 @@ vertical-align: top;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: .6px;
 }
 .everlib-logo-spacem3 {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: .4px;
 margin-left: -40px;
@@ -2602,6 +2619,7 @@ width: 1px;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: 1px;
 margin:0px;
@@ -2646,7 +2664,7 @@ width:1px;
 .everlib-logo-tenth-bar {
 height: 40px;
 width:1.3px;
-
+visibility: hidden;
 background: rgb(0, 0, 0);
 animation-delay: -2.6s;
 margin-right: 7.5px;
@@ -2774,6 +2792,7 @@ margin:0.3;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: 1.1px;
 margin:0px;
@@ -2951,6 +2970,7 @@ width: 1px;
 	height: 40px;
 	width:0.4px;
 	background: rgb(2, 2, 6);
+	visibility: hidden;
 	animation-delay: -4.2s;
   }
   .everlib-logo-forty-six {
@@ -3172,12 +3192,14 @@ vertical-align: top;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: .6px;
 }
 .everlib-logo-spacem3 {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: .4px;
 margin-left: -40px;
@@ -3233,6 +3255,7 @@ margin-right:8px;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: .2px;
 margin:0px;
@@ -3278,7 +3301,7 @@ width:1.3px;
 .everlib-logo-tenth-bar {
 height: 40px;
 width:1.3px;
-
+visibility: hidden;
 background: rgb(0, 0, 0);
 animation-delay: -2.6s;
 margin-right: 9.5px;
@@ -3403,6 +3426,7 @@ width:1;
 .everlib-logo-spacem {
 height: 40px;
 background: #020204;
+visibility: hidden;
 animation-delay: -3.8s;
 width: 1.1px;
 margin:0px;
@@ -3563,6 +3587,7 @@ margin:0.6px;
 	height: 40px;
 	width:0.4px;
 	background: rgb(2, 2, 6);
+	visibility: hidden;
 	animation-delay: -4.2s;
   }
   .everlib-logo-forty-six {
