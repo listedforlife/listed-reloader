@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Dance Spirit
-featuredImage: 'https://ucarecdn.com/f611e86b-81d6-402e-88eb-74c1e8534f9b/'
+featuredImage: 'https://ucarecdn.com/2d8240da-7a8d-428e-903e-43aa2519b959/'
 upcomingshows: >-
   Sat, 26 Oct 2019 /
 
