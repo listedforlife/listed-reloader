@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Justin Marchacos
-featuredImage: 'https://ucarecdn.com/82dcf56e-92c4-4646-ba40-06766c7d2c3c/'
+featuredImage: 'https://ucarecdn.com/b98fe687-6294-42b3-be9e-aa23ad3a760a/'
 fblk: 'https://www.facebook.com/justinmarchacos'
 instalk: 'https://www.instagram.com/justinmarchacos'
 ralk: 'https://www.residentadvisor.net/dj/justinmarchacos'
