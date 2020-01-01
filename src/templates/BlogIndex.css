@@ -1,3 +1,6 @@
+.search div {
+  	margin-top: -65px;
+}
 @media (max-width: 600px) {
   .search div {
   	margin-top: -115px;
