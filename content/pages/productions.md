@@ -4,7 +4,7 @@ slug: productions
 title: Productions
 featuredImage: 'https://ucarecdn.com/8f0c2645-088d-4ecd-8e40-3acf1ecc08ad/'
 section1: >-
-  ## Listed Productions
+  # Listed Productions
 
 
   Listed is a SF based initiative that showcases cutting-edge EDM and strives to
@@ -26,7 +26,7 @@ section1: >-
   Love Parade in San Francisco, Movement in Detroit and the Winter Music
   Conference/Week in Miami.
 section2: >-
-  ## Getting Deep at Ship Of Fools
+  # Video Highlight
 
 
   <iframe width="560" height="315"
