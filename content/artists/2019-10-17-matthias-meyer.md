@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Matthias Meyer
-featuredImage: 'https://ucarecdn.com/c0f23efe-15f3-48b8-999d-944f60326bc8/'
+featuredImage: 'https://ucarecdn.com/a50a2e6d-bd79-45d5-b5c6-eaec1d11845b/'
 upcomingshows: >-
   Thu, 17 Oct 2019 /
 
