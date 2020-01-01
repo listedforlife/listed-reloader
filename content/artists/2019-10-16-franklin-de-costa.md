@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: 'Franklin De Costa '
-featuredImage: 'https://ucarecdn.com/f3be4c5d-2cef-483c-946e-224c95d94e71/'
+featuredImage: 'https://ucarecdn.com/c53d26b2-b6e1-4c0f-a354-02612bc56da3/'
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
