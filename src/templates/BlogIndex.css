@@ -1,9 +1,9 @@
-.headerp {
-    background-repeat:no-repeat;
-    background-size:50%;
-}
 
+  .search div {
+  	margin-top: -105px;
+}
 @media (max-width: 600px) {
-  .search {
-  	display: none;
+  .search div {
+  	margin-top: -115px;
+}
 }
