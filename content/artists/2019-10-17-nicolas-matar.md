@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Nicolas Matar
-featuredImage: 'https://ucarecdn.com/0e60debe-0308-4963-b275-520cc21516a6/'
+featuredImage: 'https://ucarecdn.com/8638f05d-8db4-4891-85a7-552cf5ce8f7a/'
 fblk: 'https://www.facebook.com/djnicolasmatar'
 instalk: 'https://www.instagram.com/nicolasmatar.nyc'
 ralk: 'https://www.residentadvisor.net/dj/nicolasmatar'
