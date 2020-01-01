@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: 'Nico Stojan '
-featuredImage: 'https://ucarecdn.com/ca784eb9-904f-44af-ab26-5357ab730729/'
+featuredImage: 'https://ucarecdn.com/f2a97700-3c27-497d-8f2d-942ae5b39683/'
 upcomingshows: >-
   Thu, 17 Oct 2019 /
 
