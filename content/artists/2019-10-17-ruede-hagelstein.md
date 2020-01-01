@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Ruede Hagelstein
-featuredImage: 'https://ucarecdn.com/3c63a9f2-0a92-4597-b4d4-ea8e39f1466f/'
+featuredImage: 'https://ucarecdn.com/8fa8085d-58b7-40ac-a4f9-eebffc916bf5/'
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
