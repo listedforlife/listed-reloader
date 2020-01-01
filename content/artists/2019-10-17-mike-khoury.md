@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Mike Khoury
-featuredImage: 'https://ucarecdn.com/3598004c-3399-4e76-934c-80f190d92e3f/'
+featuredImage: 'https://ucarecdn.com/7f79a150-b212-43c8-b720-f75f203eeee3/'
 fblk: 'https://www.facebook.com/Mike-Khoury-117636811597362'
 instalk: 'https://www.instagram.com/mikeekhoury'
 ralk: 'https://www.residentadvisor.net/dj/mikekhoury'
