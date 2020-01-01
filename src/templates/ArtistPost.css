@@ -4,6 +4,18 @@
   margin-top:70px;
 }
 
+h1.artistTitle {
+  margin-top: 20px;
+}
+
+h1.shows {
+  padding-left: 32px;
+  padding-bottom: 0px;
+  background-position: 0px 15px;
+}
+.artistBTN {
+  width: 138px;
+}
 .ArtistPost {
     background: black;
   }
@@ -52,8 +64,8 @@
 
   .scroll {
     overflow: scroll;
-    text-align: center;
-    margin-top:40px;
+    margin-top: 10px;
+    height: 200px;
   }
   
   .ArtistPost--Meta {
@@ -135,7 +147,7 @@ text-align: center;
   margin-left: 69px;
   margin-right: 69px;
   overflow:scroll;
-  max-height:800px;
+  height: 850px;
   -ms-overflow-style: none; 
   scrollbar-width: none; 
 }
@@ -166,14 +178,6 @@ text-align: center;
 .smlist {
   font-size: 15px;
 }
-
-
-.spotifyc {
-  box-shadow: 10px 10px 5px rgb(65, 65, 65);
-}
-
-
-
 
 @media (max-width: 643px) {
   .ArtistPost--InnerContent {

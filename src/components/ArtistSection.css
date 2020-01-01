@@ -1,4 +1,16 @@
+a:hover {
+  border-bottom-color: transparent;
+  color: #ef4137;
+}
 
+.Buzz a:hover {
+  border-bottom-color: transparent;
+  color: #814199;
+}
+.Prod a:hover {
+  border-bottom-color: transparent;
+  color: #1895d3;
+}
 .ArtistSection--Grid {
   display: flex;
   justify-content: space-between;
@@ -19,7 +31,7 @@
 .ArtistSection button:hover {
   background: black;
   border: 2px solid rgb(0, 0, 0);
-  color: rgb(82, 166, 201);
+  color: #ef4137;
 }
 
 .ArtistSection--Grid > * {

@@ -19,7 +19,7 @@ export const ProductionsPageTemplate = ({
   videoTitle,
   gallery
 }) => (
-  <main>
+  <main className="Prod">
     <PageHeader
       backgroundImage={featuredImage}
     />

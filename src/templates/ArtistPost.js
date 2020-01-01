@@ -48,7 +48,7 @@ export const ArtistPostTemplate = ({
             )}
           {title && (
             <h1
-            itemProp="title">
+            itemProp="title" className="artistTitle">
             {title}  
             </h1>
           )}
@@ -93,23 +93,21 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
         prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
       <div className="marginbox">
-      <div style={{textAlign:'center', marginLeft:'60px'}}>
+      <div>
       <div className="scroll">
       <p>
-      __________________________________   
-      <br/>Upcoming Shows<br/>
-      __________________________________ <br/>
+      <h1 className="shows">Upcoming Shows</h1>
       {post.frontmatter.upcomingshows}</p>
       </div>
       </div>
       </div>
       <div style={{textAlign:'center',
       }}>
-      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d" href={post.frontmatter.presskit} >
-      <span class="skew-fix">Presskit</span>
+      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d button" href={post.frontmatter.presskit} >
+      <span className="skew-fix artistBTN">Presskit</span>
       </a>
-      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="example_d" >
-      <span class="skew-fix">Book Artist</span>
+      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="example_d button" >
+      <span className="skew-fix artistBTN">Book Artist</span>
       </a>
       </div>
       <div className='smlist' style={{display:'flex',
@@ -125,10 +123,7 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       <a href={post.frontmatter.ralk} ><img src={ra} style={{ width: 25, marginBottom: '-8px' }} /></a>
      </ul>
       </div>
-      <br/>
       <div style={{textAlign:'center', width:'100%'}}>
-      _________________
-      <br/><br/>
       <iframe className="spotifyc" title="spotify widget"  width="80%" height="300px" scrolling="no" 
            frameBorder="no" allow="autoplay" 
            src={post.frontmatter.spotifywidg}></iframe>   
