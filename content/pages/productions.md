@@ -34,7 +34,7 @@ section2: >-
   allow="accelerometer; autoplay; encrypted-media; gyroscope;
   picture-in-picture" allowfullscreen></iframe>
 video: 'https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/'
-videoPoster: 'https://ucarecdn.com/0fda529c-dcf9-43af-b4af-e2a0d379e645/'
+videoPoster: 'https://ucarecdn.com/0dbf7a50-3196-449d-9a2e-c3661e4eadc8/'
 videoTitle: Clarian At Phonobar September 2019
 gallery:
   - alt: 'https://www.facebook.com/events/439971906628344/'
