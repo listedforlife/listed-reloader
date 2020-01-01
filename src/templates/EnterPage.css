@@ -2440,6 +2440,9 @@ ul.icons{display:none;}
     margin-top: 56.25%;
     margin-bottom: 56.25%;
   }
+  .example_d, .Button {
+  	font-size: 1.8rem;
+  }
 }
 
 
@@ -2458,7 +2461,7 @@ display: inline-block;
 #header .avatar img {
 position: relative;
 margin-bottom: -36px;
-width: 300px;
+width: 210px;
 
 
 }

@@ -151,7 +151,10 @@ animation:fade5 8s infinite;
     margin-bottom: 56.25%;
   }
   h1 {
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     padding-left: 52px;
     background-position: 20px 15px;
   }

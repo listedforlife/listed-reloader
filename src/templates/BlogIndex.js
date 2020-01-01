@@ -8,6 +8,7 @@ import PageHeader from '../components/PageHeader'
 import PostSection from '../components/PostSection'
 import PostCategoriesNav from '../components/PostCategoriesNav'
 import Layout from '../components/Layout'
+import './BlogIndex.css'
 
 /**
  * Filter posts by date. Feature dates will be fitered
@@ -49,8 +50,8 @@ export const BlogIndexTemplate = ({
         <main className="Buzz">
 <h1>Buzz</h1>
 {!!postCategories.length && (
-  <section className="section thin">
-    <div style={{textAlign:'center',marginTop:'-105px'}}>
+  <section className="section search">
+    <div style={{textAlign:'center'}}>
       <PostCategoriesNav enableSearch categories={postCategories} />
     </div>
   </section>
