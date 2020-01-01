@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Shaun Reeves
-featuredImage: 'https://ucarecdn.com/3c85a567-36c6-4c0e-b9b4-714e92b45ec4/'
+featuredImage: 'https://ucarecdn.com/d71ce244-9da9-4175-bccb-e503c2e84e91/'
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
