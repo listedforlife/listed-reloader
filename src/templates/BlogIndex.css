@@ -2,3 +2,8 @@
     background-repeat:no-repeat;
     background-size:50%;
 }
+
+@media (max-width: 600px) {
+  .search {
+  	display: none;
+}
