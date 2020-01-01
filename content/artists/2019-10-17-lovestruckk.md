@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Lovestruckk
-featuredImage: 'https://ucarecdn.com/14722bf3-14de-45c4-bfe3-bb4a383b9991/'
+featuredImage: 'https://ucarecdn.com/0f7133e3-9492-458f-b2e9-1b3595583245/'
 upcomingshows: >-
   Sat, 02 Nov 2019 /
 
