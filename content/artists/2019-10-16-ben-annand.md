@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Ben Annand
-featuredImage: 'https://ucarecdn.com/cf73fca0-c7a6-40f6-b8f2-30c679187e2d/'
+featuredImage: 'https://ucarecdn.com/c3c64259-5c9c-4511-a574-fca37828627c/'
 upcomingshows: |-
   Sat, 26 Oct 2019 /
   Zombie Disco: Steve Bug + Uniting Souls at The Monkey Loft, Seattle
