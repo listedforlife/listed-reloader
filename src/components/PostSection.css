@@ -1,4 +1,7 @@
 .PostSection {
+  padding-top: 0px;
+}
+.Buzz .PostSection {
   padding-top: 60px;
 }
 
