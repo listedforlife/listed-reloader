@@ -63,11 +63,10 @@ const FormSimple2 = () => {
      />
     <div data-netlify-recaptcha="true">
     </div>
-
-      <input 
-      type="submit" 
-      value="Send Message" 
-      className='Form--SubmitButton example_d' />
+    
+    <button name="contactSubmitButton" id="contactSubmitButton" type="submit" class="example_d button">  
+    <span class="skew-fix">Send</span>
+    </button>  
       
 </form>
 )

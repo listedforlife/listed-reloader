@@ -46,7 +46,7 @@ export const BlogIndexTemplate = ({
       }
 
       return (
-        <main>
+        <main className="Buzz">
 <h1>Buzz</h1>
 {!!postCategories.length && (
   <section className="section thin">

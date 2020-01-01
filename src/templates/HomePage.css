@@ -9,8 +9,14 @@
 
 a:hover {
   border-bottom-color: transparent;
-  color: red;
+  color: #f8ec21;
 }
+
+.home-artists-links a:hover {
+  border-bottom-color: transparent;
+  color: #ef4137;
+}
+
 .slider {
   width: 75%;
   padding-top: 42.1875%;
