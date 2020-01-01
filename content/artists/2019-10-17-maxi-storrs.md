@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Maxi Storrs
-featuredImage: 'https://ucarecdn.com/93beffc3-dd84-42f8-bd42-c273b1b85f88/'
+featuredImage: 'https://ucarecdn.com/b5c1e53f-cf2e-4b7e-b32f-0225f72a783f/'
 upcomingshows: |-
   Sat, 19 Oct 2019 /
   Phonobar presents Maxi Storrs at Phonobar, San Francisco
