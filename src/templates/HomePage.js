@@ -21,7 +21,7 @@ export const HomePageTemplate = ({
     
       return (
         <main className="Blog">
-<section className="section">
+    <section className="section hide">
       <div className="container">
       </div>
     </section>
@@ -31,11 +31,9 @@ export const HomePageTemplate = ({
               </div>
             </section>
             <div>
-    <h1 style={{margin:'15px', marginBottom:'-80px'}}> {listedmix}</h1>
-    <br/><br/><br/><br/>
+    <h1> {listedmix}</h1>
     <iframe title="listed-playlist" width="100%" height="300" scrolling="no" frameBorder="no" allow="autoplay" src={listedmixlk}></iframe>
-    <div style={{textDecoration:'none', margin:'10px', padding:'10px'}}    
-    >
+    <div>
       <div class="home-artists-links" style={{}}>
     <h1>Artists</h1>
    {subT = 
@@ -70,7 +68,7 @@ const HomePage = ({ data: { page, posts
   <div className='slide4' style={{background: `url(${page.frontmatter.featuredImage4})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide5' style={{background: `url(${page.frontmatter.featuredImage5})no-repeat center`,backgroundSize:'cover'}}></div>
 </div>
-<h1 style={{margin:'15px', marginBottom:'80px'}}>Buzz</h1>
+<h1>Buzz</h1>
 
     <HomePageTemplate
       {...page}

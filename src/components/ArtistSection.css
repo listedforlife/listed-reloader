@@ -43,7 +43,7 @@ a:hover {
 @supports (display: grid) {
   .ArtistSection--Grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 4rem;
   }
 
@@ -60,19 +60,44 @@ a:hover {
   line-height: 1.2;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 1400px) {
   .ArtistSection--Grid > * {
     width: 100%;
     max-width: 50rem;
-    margin: 0 auto 4rem;
     display: block;
   }
 
   @supports (display: grid) {
     .ArtistSection--Grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ArtistSection--Grid > * {
+    width: 100%;
+    max-width: 50rem;
+    display: block;
+  }
+
+  @supports (display: grid) {
+    .ArtistSection--Grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+
+  @supports (display: grid) {
+    .ArtistSection--Grid {
       display: block;
-      grid-template-columns: 1;
-      grid-gap: 0;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 0rem;
     }
   }
 }

@@ -609,7 +609,6 @@
 
 		#footer:before {
 			content: '';
-			border-top: solid 1px rgba(255, 255, 255, 0.25);
 			width: 9em;
 			display: block;
 			margin: 0 auto 3em auto;
@@ -1821,13 +1820,13 @@
 	display: inline-block;
 }
 
-	#header .avatar img {
-		position: relative;
-		margin-bottom: -47px;
-		width: 300x;
+#header .avatar img {
+	position: relative;
+	margin-bottom: -47px;
+	width: 260px
+}
 
-
-	}
+ul.icons{display:none;}
 
 
 .container2 {
@@ -2433,10 +2432,21 @@
 
 }
 
+@media (max-width: 600px) {
+
+  .slider {
+    width:100%;
+    padding-top: 56.25%;
+    margin-top: 56.25%;
+    margin-bottom: 56.25%;
+  }
+}
+
 
 		
 @media only screen and (max-width: 400px) {
 	/* 541 = starting pnt,  */
+
 .avatar {
 width: 300px;
 margin-right:15px;
@@ -2448,7 +2458,7 @@ display: inline-block;
 #header .avatar img {
 position: relative;
 margin-bottom: -36px;
-width: 300x;
+width: 300px;
 
 
 }
