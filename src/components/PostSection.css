@@ -1,4 +1,5 @@
 .PostSection {
+  padding-top: 60px;
 }
 
 .PostSection--Grid {
@@ -50,7 +51,7 @@
   line-height: 1.2;
 }
 
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 768px) {
   .PostSection--Grid > * {
     width: 100%;
     max-width: 50rem;
@@ -60,9 +61,29 @@
 
   @supports (display: grid) {
     .PostSection--Grid {
-      display: block;
-      grid-template-columns: 1;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .PostSection {
+  padding-top: 0px;
+}
+.PostSection--Grid > * {
+    width: 100%;
+    max-width: 50rem;
+    margin: 0 auto 4rem;
+    display: block;
+  }
+
+  @supports (display: grid) {
+    .PostSection--Grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
       grid-gap: 0;
     }
   }
+
 }
