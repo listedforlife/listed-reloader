@@ -1,5 +1,7 @@
 const postcssPresetEnv = require('postcss-preset-env')
 
+ignorecase = true
+
 module.exports = {
   siteMetadata: {
     title: 'Listed Productions',
