@@ -10,7 +10,7 @@
   .ArtistCard:hover,
   .ArtistCard:focus {
     transform: translateY(-1px);
-    opacity:1.5;
+    opacity:1.6;
     color:#ef4137;
   }
   
