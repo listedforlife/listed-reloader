@@ -28,9 +28,9 @@ export default () => (
     <div
     style={{textAlign:'center'}}>
     <a
-    className='example_d button'
+    className='example_d '
     href="https://visitor.r20.constantcontact.com/d.jsp?llr=csi9ozbab&p=oi&m=csi9ozbab&sit=zaxq5c9bb&f=56937576-3074-4bab-becd-a2b8ce970e8b" target="_blank">
-    <span class="skew-fix">Subscribe</span></a>
+    <span >Subscribe</span></a>
     </div>
     <br />
     <InstagramFeed count="8" />

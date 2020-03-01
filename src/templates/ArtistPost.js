@@ -100,11 +100,11 @@ const ArtistPost = ({ data: { post, allPosts } }) => {
       </div>
       <div style={{textAlign:'center',
       }}>
-      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d button" href={post.frontmatter.presskit} >
-      <span className="skew-fix artistBTN">Presskit</span>
+      <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d" href={post.frontmatter.presskit} >
+      <span className="artistBTN">Presskit</span>
       </a>
-      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="example_d button" >
-      <span className="skew-fix artistBTN">Book Artist</span>
+      <a style={{margin:'30px',textAlign:'center',  textDecoration:'none'}} href='mailto:gunita@listedbookings.com' className="example_d" >
+      <span className="artistBTN">Book Artist</span>
       </a>
       </div>
       <div className='smlist' style={{display:'flex',
