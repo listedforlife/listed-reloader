@@ -8,7 +8,7 @@ import './InstagramFeed.css'
 
 export default class InstagramFeed extends Component {
   static defaultProps = {
-    accessToken: '1051524659.452bff1.4d6c115af64f4ef384ca00fd668cdff9',
+    accessToken: '1051524659.452bff1.e557d42201cd4747a3a3b5fb42d1d4c9',
     count: 20
   }
 
@@ -38,25 +38,25 @@ export default class InstagramFeed extends Component {
   }
 
   fetchInstagram = () => {
-    let insaFeed = localStorage.getItem('insaFeed')
-      ? localStorage.getItem('insaFeed')
+    let instaFeed = localStorage.getItem('instaFeed')
+      ? localStorage.getItem('instaFeed')
       : false
 
-    if (!insaFeed) {
+    if (!instaFeed) {
       typeof window !== 'undefined' &&
         fetch(`https://instagramapi.thrivex.io/?ref=${this.props.accessToken}`)
           .then(res => res.json())
           .then(data => {
-            insaFeed = data && data.items ? data.items : []
-            localStorage.setItem('insaFeed', JSON.stringify(insaFeed))
+            instaFeed = data && data.items ? data.items : []
+            localStorage.setItem('instaFeed', JSON.stringify(instaFeed))
             this.setState({
-              posts: insaFeed
+              posts: instaFeed
             })
           })
           .catch(err => console.error(err))
     }
     this.setState({
-      posts: JSON.parse(insaFeed)
+      posts: JSON.parse(instaFeed)
     })
   }
 
