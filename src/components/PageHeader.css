@@ -1,14 +1,12 @@
 .PageHeader {
   background-color: var(--darkGrey);
   color: white;
-  padding: 15rem 0;
+  padding: 25rem 0;
+  width:100%
 }
 
 .PageHeader .BackgroundImage {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  min-width: 1280px;
 }
 
 .PageHeader-large {

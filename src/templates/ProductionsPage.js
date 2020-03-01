@@ -7,6 +7,8 @@ import Layout from '../components/Layout.js'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+import '../components/PageHeader.css'
+
 
 // Export Template for use in CMS preview
 export const ProductionsPageTemplate = ({
