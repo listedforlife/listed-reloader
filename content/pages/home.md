@@ -49,8 +49,6 @@ subtitle: >-
   [Nikita](https://quirky-northcutt-3bdb7c.netlify.com/artists/nikita) &nbsp;  
   [Nitin](https://www.listedbookings.com/artists/nitin/) &nbsp;   [Ruede
   Hagelstein](https://quirky-northcutt-3bdb7c.netlify.com/artists/ruede-hagelstein)
-  &nbsp;   [Shaun
-  Reeves](https://quirky-northcutt-3bdb7c.netlify.com/artists/shaun-reeves)
   &nbsp;   [Tony y Not](https://www.listedbookings.com/artists/tony-y-not/)
   &nbsp; 
   [WhoMadeWho](https://quirky-northcutt-3bdb7c.netlify.com/artists/who-made-who)
