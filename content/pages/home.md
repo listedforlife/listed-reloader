@@ -51,9 +51,7 @@ subtitle: >-
   Hagelstein](https://quirky-northcutt-3bdb7c.netlify.com/artists/ruede-hagelstein)
   &nbsp;   [Shaun
   Reeves](https://quirky-northcutt-3bdb7c.netlify.com/artists/shaun-reeves)
-  &nbsp;   [Tara
-  Brooks](https://quirky-northcutt-3bdb7c.netlify.com/artists/tara-brooks)
-  &nbsp;  [Tony y Not](https://www.listedbookings.com/artists/tony-y-not/)
+  &nbsp;   [Tony y Not](https://www.listedbookings.com/artists/tony-y-not/)
   &nbsp; 
   [WhoMadeWho](https://quirky-northcutt-3bdb7c.netlify.com/artists/who-made-who)
 meta:
