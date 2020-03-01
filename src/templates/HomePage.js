@@ -65,12 +65,14 @@ const HomePage = ({ data: { page, posts
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}>
+      <div className='fixcenter'>
     <div className='slider'>
   <div className='slide1' style={{background: `url(${page.frontmatter.featuredImage})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide2' style={{background: `url(${page.frontmatter.featuredImage2})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide3' style={{background: `url(${page.frontmatter.featuredImage3})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide4' style={{background: `url(${page.frontmatter.featuredImage4})no-repeat center`,backgroundSize:'cover'}}></div>
   <div className='slide5' style={{background: `url(${page.frontmatter.featuredImage5})no-repeat center`,backgroundSize:'cover'}}></div>
+</div>
 </div>
 <h1>Buzz</h1>
 

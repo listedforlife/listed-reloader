@@ -17,6 +17,12 @@ a:hover {
   color: #ef4137;
 }
 
+.fixcenter {
+  margin: auto;
+  width: 83%;
+  padding: 10px;
+}
+
 .slider {
   width: 75%;
   padding-top: 42.1875%;
