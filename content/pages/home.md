@@ -41,6 +41,8 @@ subtitle: >-
   &nbsp;   [Mike
   Khoury](https://quirky-northcutt-3bdb7c.netlify.com/artists/mike-khoury)
   &nbsp;   [Mr. C](https://quirky-northcutt-3bdb7c.netlify.com/artists/mr-c)
+  &nbsp;   m.O.N.R.O.E](https://www.listedbookings.com/artists/m-o-n-r-o-e)
+  &nbsp;   [Mr. C](https://quirky-northcutt-3bdb7c.netlify.com/artists/mr-c)
   &nbsp;   [Naveen
   G](https://quirky-northcutt-3bdb7c.netlify.com/artists/naveen-g) &nbsp;  
   [Nico Stojan](https://quirky-northcutt-3bdb7c.netlify.com/artists/nico-stojan)
