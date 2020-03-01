@@ -30,15 +30,7 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i&display=swap');
 
-@font-face {
-  font-family: dinFont;
-  src: url(/fonts/din1451alt.ttf);
-}
 
-@font-face {
-  font-family: dinBoldFont;
-  src: url(/fonts/din1451altG.ttf);
-}
 
 /* Button Skew Fix */
 
@@ -49,19 +41,17 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 53.5%;
   min-height: 100%;
   background-image: url("/images/bg1.jpg");
   background-size: 100% 100%;
 }
 
 body {
-  font-family: 'Cabin', sans-serif;
   min-height: 100%;
   position: relative;
   color: white;
   font-size: 1.6em;
-  font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
