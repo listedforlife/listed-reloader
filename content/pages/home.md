@@ -19,9 +19,9 @@ subtitle: >-
   &nbsp;   [Dory](https://quirky-northcutt-3bdb7c.netlify.com/artists/dory)
   &nbsp;   [Franklin De
   Costa](https://quirky-northcutt-3bdb7c.netlify.com/artists/franklin-de-costa)
-  &nbsp;   [Halo
+  &nbsp;   [Galen](https://www.listedbookings.com/artists/galen) &nbsp;   [Halo
   Varga](https://quirky-northcutt-3bdb7c.netlify.com/artists/halo-varga)
-  &nbsp;   [Jay
+  &nbsp;   [Holmar](https://www.listedbookings.com/artists/holmar) &nbsp;   [Jay
   Tripwire](https://quirky-northcutt-3bdb7c.netlify.com/artists/jay-tripwire)
   &nbsp;  [Justin
   Marchacos](https://quirky-northcutt-3bdb7c.netlify.com/artists/justin-marchacos)
@@ -47,12 +47,13 @@ subtitle: >-
   &nbsp;   [Nicolas
   Matar](https://quirky-northcutt-3bdb7c.netlify.com/artists/nicolas-matar)&nbsp;  
   [Nikita](https://quirky-northcutt-3bdb7c.netlify.com/artists/nikita) &nbsp;  
-  [Ruede
+  [Nitin](https://www.listedbookings.com/artists/nitin/) &nbsp;   [Ruede
   Hagelstein](https://quirky-northcutt-3bdb7c.netlify.com/artists/ruede-hagelstein)
   &nbsp;   [Shaun
   Reeves](https://quirky-northcutt-3bdb7c.netlify.com/artists/shaun-reeves)
   &nbsp;   [Tara
   Brooks](https://quirky-northcutt-3bdb7c.netlify.com/artists/tara-brooks)
+  &nbsp;  [Tony y Not](https://www.listedbookings.com/artists/tony-y-not/)
   &nbsp; 
   [WhoMadeWho](https://quirky-northcutt-3bdb7c.netlify.com/artists/who-made-who)
 meta:
