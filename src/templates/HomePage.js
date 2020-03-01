@@ -38,7 +38,7 @@ export const HomePageTemplate = ({
     <h1>Artists</h1>
     
    {subT = 
-   <div style={{ fontSize: '8'}}>
+   <div style={{textAlign:'center'}}>
    <ReactMarkdown style={{ fontSize: '8px'}} source={subtitle} />     
    </div>
 }
