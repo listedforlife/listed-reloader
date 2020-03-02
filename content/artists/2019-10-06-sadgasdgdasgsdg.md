@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Clarian
-featuredImage: 'https://ucarecdn.com/51c0a037-1247-45d0-9718-887f5b1255c1/'
+featuredImage: 'https://ucarecdn.com/9be8bec5-fec3-4f58-9195-d29861a82fcc/'
 upcomingshows: |-
   The Techno Haus - Berlin 20.1219 /
   Sad Tambourine - Moscow 21.12.19 /
