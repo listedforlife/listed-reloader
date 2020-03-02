@@ -28,8 +28,6 @@ subtitle: >-
   &nbsp;   [KMLN](https://quirky-northcutt-3bdb7c.netlify.com/artists/kmln)
   &nbsp;  
   [Lovestruckk](https://quirky-northcutt-3bdb7c.netlify.com/artists/lovestruckk)
-  &nbsp;  
-  [M.O.N.R.O.E.](https://quirky-northcutt-3bdb7c.netlify.com/artists/m-o-n-r-o-e)
   &nbsp;   [Mark
   Slee](https://quirky-northcutt-3bdb7c.netlify.com/artists/mark-slee) &nbsp;  
   [Matthias
