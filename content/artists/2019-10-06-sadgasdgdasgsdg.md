@@ -14,7 +14,7 @@ spotifylk: 'https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa'
 sclk: 'https://soundcloud.com/clariannorth'
 presskit: 'https://drive.google.com/open?id=1EOCABZ4LEfsj9QXUR434jAlsQdOGxa5r'
 scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/679794170&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/712776601&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: 'https://www.youtube.com/embed/X6tkrMOo2WM'
 spotifywidg: 'https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa'
 status: Published
