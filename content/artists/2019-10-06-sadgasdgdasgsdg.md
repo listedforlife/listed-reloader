@@ -20,9 +20,9 @@ spotifywidg: 'https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa'
 status: Published
 date: 2019-10-06T20:25:40.793Z
 meta:
-  canonicalLink: sadgasdg
-  description: asdgdsag
-  title: sdagads
+  canonicalLink: clarian
+  description: ''
+  title: Clarian
 ---
 Clarian is a contrarian and a surrealist weirdo, a science fiction purist and contributor, mixing and mastering electronic engineer, and dj / live performer with a unique indefinable energy. He goes his own way whether dark storms, abandoned warehouses, or misanthropic dive bars. His strange and distinguishable melodic and surreal touches has extended to a wide creatively vibrant dance labels from the very beginnings of Visionquest (Detroit) Life n Death (Italy) Rumors (Ibiza) FOF (Montreal) to engineering and contributions for such mainstays as Ninja Tunes via. Counter, Kompakt, and Turbo. He has collaborated records with Tiga, Felix Da Housecat, Jamie Principle, Guy Gerber, Henry Saiz and Guy J. In his free time he plays chess and collects interesting ornaments..
 
