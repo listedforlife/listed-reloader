@@ -9,7 +9,7 @@ upcomingshows: |-
 fblk: 'https://www.facebook.com/Yosei.Gorazu'
 instalk: 'https://www.instagram.com/clariannorth'
 ralk: 'https://www.residentadvisor.net/dj/clarian'
-twitterlk: 'https://twitter.com/clarianmusic'
+twitterlk: 'https://twitter.com/clarianmusic1'
 spotifylk: 'https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa'
 sclk: 'https://soundcloud.com/clariannorth'
 presskit: 'https://drive.google.com/open?id=1EOCABZ4LEfsj9QXUR434jAlsQdOGxa5r'
