@@ -56,6 +56,6 @@ CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
 
-// CMS.registerPreviewTemplate('artists', ({ entry }) => (
-//   <ArtistPostTemplate {...entry.toJS().data} />
-// ))
+CMS.registerPreviewTemplate('artists', ({ entry }) => (
+  <ArtistPostTemplate {...entry.toJS().data} />
+))
