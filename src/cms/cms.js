@@ -1,5 +1,6 @@
 import React from 'react'
 import CMS from 'netlify-cms-app'
+import uploadCare from 'netlify-cms-media-library-uploadcare'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
@@ -13,8 +14,9 @@ import { ArtistPageTemplate } from '../templates/ArtistPage'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import { ArtistPostTemplate } from '../templates/ArtistPost'
 
-import {EnterPageTemplate} from '../templates/EnterPage'
+import { EnterPageTemplate } from '../templates/EnterPage'
 
+CMS.registerMediaLibrary(uploadCare)
 
 if (
   window.location.hostname === 'localhost' &&
@@ -42,8 +44,6 @@ CMS.registerPreviewTemplate('enter-page', ({ entry }) => (
   <EnterPageTemplate {...entry.toJS().data} />
 ))
 
-
-
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
 ))
@@ -56,8 +56,6 @@ CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
 
-
 CMS.registerPreviewTemplate('artists', ({ entry }) => (
   <ArtistPostTemplate {...entry.toJS().data} />
 ))
-
