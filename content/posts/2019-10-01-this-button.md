@@ -1,9 +1,9 @@
 ---
-url: 'https://www.facebook.com/events/976929159306444'
+url: https://www.facebook.com/events/976929159306444
 template: SinglePost
-title: morgana listed
+title: "Art with Me Festival In Tulum -November Edition "
 status: Published
 date: 2019-10-09T16:51:50.998Z
-featuredImage: 'https://ucarecdn.com/07177278-76fb-4c68-aca9-93df823e045a/'
+featuredImage: https://ucarecdn.com/f57ad045-e094-49b1-8dc3-194e283f64c6/
 ---
-NYC is in luck as the first Morgana of the season falls on a Frida.
+ART WITH ME's Dance Portion features listed artists Holmar & Nico Stojan
