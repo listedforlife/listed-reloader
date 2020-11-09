@@ -5,10 +5,10 @@ title: HomePage
 listedmix: "Listed Winter Playlists "
 listedmixlk: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/657878880&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 featuredImage: https://ucarecdn.com/95398940-4313-4972-bc47-b54183d7267f/
-featuredImage2: https://ucarecdn.com/280d875a-5f06-4296-83ce-724afe7fa036/
-featuredImage3: https://ucarecdn.com/8c80d10f-a3b5-4ca6-8105-242693bd59b3/
-featuredImage4: https://ucarecdn.com/05c98ea7-6785-4c1e-8de6-b6ac7139d6ab/
-featuredImage5: https://ucarecdn.com/b775868c-fb0e-4cc7-ad4e-7442055c5462/
+featuredImage2: https://ucarecdn.com/cef9932a-00b4-4f89-a353-bd9af485f25d/
+featuredImage3: https://ucarecdn.com/1b1adefa-24aa-434e-8f80-b95360035fe3/
+featuredImage4: https://ucarecdn.com/efacb135-19a0-45e0-af94-33e9fe01b72f/
+featuredImage5: https://ucarecdn.com/0eccca9b-467c-473f-950c-9f419503f636/
 subtitle: "[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
   &nbsp; [Ben
   Annand](https://quirky-northcutt-3bdb7c.netlify.com/artists/ben-annand)
