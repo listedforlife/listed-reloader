@@ -52,7 +52,7 @@ export const ArtistPostTemplate = ({
             {title}  
             </h1>
           )}
-      <div style={{textAlign:'center',
+        <div style={{textAlign:'center',
       }}>
       <a style={{margin:'30px', textAlign:'center', textDecoration:'none'}} className="example_d" href={post.frontmatter.presskit} >
       <span className="artistBTN">Presskit</span>
