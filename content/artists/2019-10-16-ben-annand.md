@@ -1,22 +1,20 @@
 ---
 template: ArtistPost
 title: Ben Annand
-featuredImage: 'https://ucarecdn.com/3c2bd72d-bd87-48ad-8707-ba5a07e8f951/'
+featuredImage: https://ucarecdn.com/3c2bd72d-bd87-48ad-8707-ba5a07e8f951/-/crop/1082x389/86,0/-/preview/
 upcomingshows: |-
   Sat, 26 Oct 2019 /
   Zombie Disco: Steve Bug + Uniting Souls at The Monkey Loft, Seattle
-fblk: 'https://www.facebook.com/benannandmusic'
-instalk: 'https://www.instagram.com/benannand'
-ralk: 'https://www.residentadvisor.net/dj/benannand'
-twitterlk: 'https://twitter.com/benannand'
-spotifylk: ''
-sclk: 'https://soundcloud.com/ben-annand'
-presskit: 'https://drive.google.com/open?id=1OqGr-hdg3R2wBcoMGqEQRT4aQFAohWYZ'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211795183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/H5jPrYY07HI'
-spotifywidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/495683133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+fblk: https://www.facebook.com/benannandmusic
+instalk: https://www.instagram.com/benannand
+ralk: https://www.residentadvisor.net/dj/benannand
+twitterlk: https://twitter.com/benannand
+spotifylk: ""
+sclk: https://soundcloud.com/ben-annand
+presskit: https://drive.google.com/open?id=1OqGr-hdg3R2wBcoMGqEQRT4aQFAohWYZ
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/211795183&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/H5jPrYY07HI
+spotifywidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/495683133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 status: Published
 date: 2019-10-16T17:57:21.655Z
 ---
