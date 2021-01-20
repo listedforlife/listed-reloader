@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Ruede Hagelstein
-featuredImage: 'https://ucarecdn.com/8fa8085d-58b7-40ac-a4f9-eebffc916bf5/'
+featuredImage: https://ucarecdn.com/8fa8085d-58b7-40ac-a4f9-eebffc916bf5/-/crop/1074x389/85,0/-/preview/
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
@@ -9,24 +9,21 @@ upcomingshows: >-
 
   Sat, 26 Oct 2019 /
 
-  Garanti Bbva Concerts: Janus Rasmussen / Before: Ruede Hagelstein at Salon
-  Iksv, Istanbul /
+  Garanti Bbva Concerts: Janus Rasmussen / Before: Ruede Hagelstein at Salon Iksv, Istanbul /
 
   Sat, 16 Nov 2019 /
 
   Berliner Luft - Extravaganza Festivalala at Viertel, Basel
-fblk: 'https://www.facebook.com/RuedeHagelstein'
-instalk: 'https://www.instagram.com/ruedehagelstein'
-ralk: 'https://www.residentadvisor.net/dj/ruedehagelstein'
-twitterlk: 'https://twitter.com/ruederich?lang=en'
-spotifylk: >-
-  https://open.spotify.com/artist/49VV6EX7Tz4JNKeimVEoxQ?si=6BiN0aFSTr6oKQCWysbc0A
-sclk: 'https://soundcloud.com/ruede'
-presskit: 'https://drive.google.com/open?id=1gD3A98rQKHOVr1EJksYHEFknTspZHCkE'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/696762721&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/NlS4M1zJaYA'
-spotifywidg: 'https://open.spotify.com/embed/artist/49VV6EX7Tz4JNKeimVEoxQ'
+fblk: https://www.facebook.com/RuedeHagelstein
+instalk: https://www.instagram.com/ruedehagelstein
+ralk: https://www.residentadvisor.net/dj/ruedehagelstein
+twitterlk: https://twitter.com/ruederich?lang=en
+spotifylk: https://open.spotify.com/artist/49VV6EX7Tz4JNKeimVEoxQ?si=6BiN0aFSTr6oKQCWysbc0A
+sclk: https://soundcloud.com/ruede
+presskit: https://drive.google.com/open?id=1gD3A98rQKHOVr1EJksYHEFknTspZHCkE
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/696762721&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/NlS4M1zJaYA
+spotifywidg: https://open.spotify.com/embed/artist/49VV6EX7Tz4JNKeimVEoxQ
 status: Published
 date: 2019-10-17T17:42:27.256Z
 ---
