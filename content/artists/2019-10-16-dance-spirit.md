@@ -1,22 +1,20 @@
 ---
 template: ArtistPost
 title: Dance Spirit
-featuredImage: 'https://ucarecdn.com/2d8240da-7a8d-428e-903e-43aa2519b959/'
+featuredImage: https://ucarecdn.com/2d8240da-7a8d-428e-903e-43aa2519b959/-/crop/1075x389/87,0/-/preview/
 upcomingshows: >-
   Sat, 26 Oct 2019 /
 
-  The Cityfox Halloween Festival: Lee Burridge, Bedouin, Stimming, Monolink &
-  More at Avant Gardner, New York
-fblk: 'https://www.facebook.com/DanceSpiritHyperspace'
-instalk: 'https://www.instagram.com/dance_spirit'
-ralk: 'https://www.residentadvisor.net/dj/dancespirit'
-spotifylk: 'https://open.spotify.com/artist/3Ws2v9GjQHbdlJyTtXKwhH'
-sclk: 'https://soundcloud.com/dance-spirit'
-presskit: 'https://drive.google.com/open?id=1Ot-313HmSfBM7aOlcWNr4hBL5C-7oCnA'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323236826&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/BDXnpjWZkJI'
-spotifywidg: 'https://open.spotify.com/embed/artist/3Ws2v9GjQHbdlJyTtXKwhH'
+  The Cityfox Halloween Festival: Lee Burridge, Bedouin, Stimming, Monolink & More at Avant Gardner, New York
+fblk: https://www.facebook.com/DanceSpiritHyperspace
+instalk: https://www.instagram.com/dance_spirit
+ralk: https://www.residentadvisor.net/dj/dancespirit
+spotifylk: https://open.spotify.com/artist/3Ws2v9GjQHbdlJyTtXKwhH
+sclk: https://soundcloud.com/dance-spirit
+presskit: https://drive.google.com/open?id=1Ot-313HmSfBM7aOlcWNr4hBL5C-7oCnA
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323236826&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/BDXnpjWZkJI
+spotifywidg: https://open.spotify.com/embed/artist/3Ws2v9GjQHbdlJyTtXKwhH
 status: Published
 date: 2019-10-16T18:25:58.366Z
 ---
