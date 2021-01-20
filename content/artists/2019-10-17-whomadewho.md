@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: WhoMadeWho
-featuredImage: 'https://ucarecdn.com/b64b8e20-2b4f-4655-82bb-3e80e37832ea/'
+featuredImage: https://ucarecdn.com/b64b8e20-2b4f-4655-82bb-3e80e37832ea/-/crop/1070x385/87,4/-/preview/
 upcomingshows: >-
   Sat, 19 Oct 2019 /
 
@@ -13,8 +13,7 @@ upcomingshows: >-
 
   Sat, 26 Oct 2019 /
 
-  The Cityfox Halloween Festival: Lee Burridge, Bedouin, Stimming, Monolink &
-  More at Avant Gardner, New York /
+  The Cityfox Halloween Festival: Lee Burridge, Bedouin, Stimming, Monolink & More at Avant Gardner, New York /
 
   Sat, 02 Nov 2019 /
 
@@ -22,8 +21,7 @@ upcomingshows: >-
 
   Sat, 09 Nov 2019 /
 
-  10 Years of Watergate Records: WhoMadeWho Adana Twins + Matthias Meyer + B.O.T
-  at E1 London, London /
+  10 Years of Watergate Records: WhoMadeWho Adana Twins + Matthias Meyer + B.O.T at E1 London, London /
 
   Fri, 15 Nov 2019 /
 
@@ -31,26 +29,21 @@ upcomingshows: >-
 
   Fri, 22 Nov 2019 /
 
-  Hypnotica & Nøice present: WhoMadeWho [Hybrid DJ] at Special Music Sessions,
-  Moscow /
+  Hypnotica & Nøice present: WhoMadeWho [Hybrid DJ] at Special Music Sessions, Moscow /
 
   Sun, 08 Dec 2019 /
 
   Piknic Électronik at Jardines Estadio Nacional, Santiago
-
-   
-fblk: 'https://www.facebook.com/whomadewho'
-instalk: 'https://www.instagram.com/whomadewhoofficial'
-ralk: 'https://www.residentadvisor.net/dj/whomadewho'
-twitterlk: 'https://twitter.com/whomadewho'
-spotifylk: >-
-  https://open.spotify.com/artist/50Lr1puweM1hFsF1LpIZLM?si=AjtccNJZSViQDqP9ypVaMw
-sclk: 'https://soundcloud.com/whomadewho'
-presskit: 'https://drive.google.com/open?id=15c8nlyQHMDR2kvrn_8YT2uhiz4CaB6-g'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/692239942&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/ucQ3lc4lkhY'
-spotifywidg: 'https://open.spotify.com/embed/artist/50Lr1puweM1hFsF1LpIZLM'
+fblk: https://www.facebook.com/whomadewho
+instalk: https://www.instagram.com/whomadewhoofficial
+ralk: https://www.residentadvisor.net/dj/whomadewho
+twitterlk: https://twitter.com/whomadewho
+spotifylk: https://open.spotify.com/artist/50Lr1puweM1hFsF1LpIZLM?si=AjtccNJZSViQDqP9ypVaMw
+sclk: https://soundcloud.com/whomadewho
+presskit: https://drive.google.com/open?id=15c8nlyQHMDR2kvrn_8YT2uhiz4CaB6-g
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/692239942&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/ucQ3lc4lkhY
+spotifywidg: https://open.spotify.com/embed/artist/50Lr1puweM1hFsF1LpIZLM
 status: Published
 date: 2019-10-17T18:03:56.483Z
 ---
