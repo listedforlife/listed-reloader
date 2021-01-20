@@ -1,18 +1,17 @@
 ---
 template: ArtistPost
 title: Mike Khoury
-featuredImage: 'https://ucarecdn.com/7f79a150-b212-43c8-b720-f75f203eeee3/'
-fblk: 'https://www.facebook.com/Mike-Khoury-117636811597362'
-instalk: 'https://www.instagram.com/mikeekhoury'
-ralk: 'https://www.residentadvisor.net/dj/mikekhoury'
-twitterlk: 'https://twitter.com/MikeeKhoury'
-spotifylk: 'https://open.spotify.com/artist/4BomYHSIu8OHHyBCrKwGgZ'
-sclk: 'https://soundcloud.com/mikekhoury'
-presskit: 'https://drive.google.com/open?id=1_uIQb5M_3ro1YrJbr7m5KQQHfgyluANp'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/305205898&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/iF--TgOZmEk'
-spotifywidg: 'https://open.spotify.com/embed/artist/4J8gNYQvD99oAsAARFwnM4'
+featuredImage: https://ucarecdn.com/7f79a150-b212-43c8-b720-f75f203eeee3/-/crop/1080x387/82,2/-/preview/
+fblk: https://www.facebook.com/Mike-Khoury-117636811597362
+instalk: https://www.instagram.com/mikeekhoury
+ralk: https://www.residentadvisor.net/dj/mikekhoury
+twitterlk: https://twitter.com/MikeeKhoury
+spotifylk: https://open.spotify.com/artist/4BomYHSIu8OHHyBCrKwGgZ
+sclk: https://soundcloud.com/mikekhoury
+presskit: https://drive.google.com/open?id=1_uIQb5M_3ro1YrJbr7m5KQQHfgyluANp
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/305205898&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/iF--TgOZmEk
+spotifywidg: https://open.spotify.com/embed/artist/4J8gNYQvD99oAsAARFwnM4
 status: Published
 date: 2019-10-17T16:43:20.244Z
 ---
