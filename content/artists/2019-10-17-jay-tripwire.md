@@ -1,18 +1,17 @@
 ---
 template: ArtistPost
 title: Jay Tripwire
-featuredImage: 'https://ucarecdn.com/34ad0d21-fda1-4439-a574-41f21581ba26/'
-fblk: 'https://www.facebook.com/jaytripwire.fanpage'
-instalk: 'https://www.instagram.com/jaytripwire'
-ralk: 'https://www.residentadvisor.net/dj/jaytripwire'
-twitterlk: 'https://twitter.com/jay_tripwire'
-spotifylk: 'https://open.spotify.com/artist'
-sclk: 'https://soundcloud.com/jaytripwire'
-presskit: ''
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644743188&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/4tjD1vqFqRk'
-spotifywidg: 'https://open.spotify.com/embed/artist/5MRqNnxNEGqmeQOJPrm2wg'
+featuredImage: https://ucarecdn.com/e56ca588-fc32-4ece-a0e9-ddb89b3a89f4/-/crop/2449x1255/0,0/-/preview/
+fblk: https://www.facebook.com/jaytripwire.fanpage
+instalk: https://www.instagram.com/jaytripwire
+ralk: https://www.residentadvisor.net/dj/jaytripwire
+twitterlk: https://twitter.com/jay_tripwire
+spotifylk: https://open.spotify.com/artist
+sclk: https://soundcloud.com/jaytripwire
+presskit: ""
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/644743188&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/4tjD1vqFqRk
+spotifywidg: https://open.spotify.com/embed/artist/5MRqNnxNEGqmeQOJPrm2wg
 status: Published
 date: 2019-10-17T15:16:21.033Z
 ---
