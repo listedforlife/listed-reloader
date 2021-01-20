@@ -1,18 +1,16 @@
 ---
 template: ArtistPost
 title: Nicolas Matar
-featuredImage: 'https://ucarecdn.com/8638f05d-8db4-4891-85a7-552cf5ce8f7a/'
-fblk: 'https://www.facebook.com/djnicolasmatar'
-instalk: 'https://www.instagram.com/nicolasmatar.nyc'
-ralk: 'https://www.residentadvisor.net/dj/nicolasmatar'
-twitterlk: 'https://twitter.com/nicolasmatar1'
-spotifylk: >-
-  https://open.spotify.com/artist/3DiqyQp6QuZ3ujpB5MJR2O?si=KZF0Y9AdRvmpdBgTinfzfA
-sclk: 'https://soundcloud.com/nicolas-matar'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45555388&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/sF9mBYCMIm0'
-spotifywidg: 'https://open.spotify.com/embed/artist/3DiqyQp6QuZ3ujpB5MJR2O'
+featuredImage: https://ucarecdn.com/8638f05d-8db4-4891-85a7-552cf5ce8f7a/-/crop/1076x389/84,0/-/preview/
+fblk: https://www.facebook.com/djnicolasmatar
+instalk: https://www.instagram.com/nicolasmatar.nyc
+ralk: https://www.residentadvisor.net/dj/nicolasmatar
+twitterlk: https://twitter.com/nicolasmatar1
+spotifylk: https://open.spotify.com/artist/3DiqyQp6QuZ3ujpB5MJR2O?si=KZF0Y9AdRvmpdBgTinfzfA
+sclk: https://soundcloud.com/nicolas-matar
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45555388&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/sF9mBYCMIm0
+spotifywidg: https://open.spotify.com/embed/artist/3DiqyQp6QuZ3ujpB5MJR2O
 status: Published
 date: 2019-10-17T17:22:58.580Z
 ---
