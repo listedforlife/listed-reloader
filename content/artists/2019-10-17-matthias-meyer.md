@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Matthias Meyer
-featuredImage: 'https://ucarecdn.com/a50a2e6d-bd79-45d5-b5c6-eaec1d11845b/'
+featuredImage: https://ucarecdn.com/a50a2e6d-bd79-45d5-b5c6-eaec1d11845b/-/crop/1075x389/84,0/-/preview/
 upcomingshows: >-
   Thu, 17 Oct 2019 /
 
@@ -9,8 +9,7 @@ upcomingshows: >-
 
   / Fri, 18 Oct 2019 /
 
-  Jack x Innerverse Invites: Supernatural Fiesta with Ibiza Global Radio &
-  Fiesta&bullshit at JACK, Amsterdam
+  Jack x Innerverse Invites: Supernatural Fiesta with Ibiza Global Radio & Fiesta&bullshit at JACK, Amsterdam
 
   /
 
@@ -28,8 +27,7 @@ upcomingshows: >-
 
   / Sat, 09 Nov 2019 /
 
-  10 Years of Watergate Records: WhoMadeWho Adana Twins + Matthias Meyer + B.O.T
-  at E1 London, London /
+  10 Years of Watergate Records: WhoMadeWho Adana Twins + Matthias Meyer + B.O.T at E1 London, London /
 
   / Fri, 15 Nov 2019 /
 
@@ -37,19 +35,17 @@ upcomingshows: >-
 
   /Fri, 29 Nov 2019 /
 
-  Soundscapes presents Martin Buttrich and Matthias Meyer at La Fontaine -
-  Center of Contemporary Arts, Bahrain
-fblk: 'https://www.facebook.com/matthiasmeyer81'
-instalk: 'https://www.instagram.com/matthiasmeyer'
-ralk: 'https://www.residentadvisor.net/dj/matthiasmeyer'
-twitterlk: 'https://twitter.com/matthiasmeyerld'
-spotifylk: 'https://open.spotify.com/artist/6bWakzaLHaNewLTdhJHPQb'
-sclk: 'https://soundcloud.com/matthias-meyer'
-presskit: 'https://drive.google.com/open?id=1p_nO51FjlHgWRP8IBsaarSzIx5jMU3T1'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/683263466&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/em_GbURVJrA'
-spotifywidg: 'https://open.spotify.com/embed/artist/6bWakzaLHaNewLTdhJHPQb'
+  Soundscapes presents Martin Buttrich and Matthias Meyer at La Fontaine - Center of Contemporary Arts, Bahrain
+fblk: https://www.facebook.com/matthiasmeyer81
+instalk: https://www.instagram.com/matthiasmeyer
+ralk: https://www.residentadvisor.net/dj/matthiasmeyer
+twitterlk: https://twitter.com/matthiasmeyerld
+spotifylk: https://open.spotify.com/artist/6bWakzaLHaNewLTdhJHPQb
+sclk: https://soundcloud.com/matthias-meyer
+presskit: https://drive.google.com/open?id=1p_nO51FjlHgWRP8IBsaarSzIx5jMU3T1
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/683263466&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/em_GbURVJrA
+spotifywidg: https://open.spotify.com/embed/artist/6bWakzaLHaNewLTdhJHPQb
 status: Published
 date: 2019-10-17T16:01:07.459Z
 ---
