@@ -1,27 +1,26 @@
 ---
 template: ArtistPost
 title: Clarian
-featuredImage: 'https://ucarecdn.com/9be8bec5-fec3-4f58-9195-d29861a82fcc/'
+featuredImage: https://ucarecdn.com/0dfa1321-a723-49a3-afa0-2fda385597a8/-/crop/1754x1034/0,12/-/preview/-/enhance/50/
 upcomingshows: |-
   The Techno Haus - Berlin 20.1219 /
   Sad Tambourine - Moscow 21.12.19 /
   Beyond Blue - London 28.12.19
-fblk: 'https://www.facebook.com/Yosei.Gorazu'
-instalk: 'https://www.instagram.com/clariannorth'
-ralk: 'https://www.residentadvisor.net/dj/clarian'
-twitterlk: 'https://twitter.com/clarianmusic'
-spotifylk: 'https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa'
-sclk: 'https://soundcloud.com/clariannorth'
-presskit: 'https://drive.google.com/open?id=1EOCABZ4LEfsj9QXUR434jAlsQdOGxa5r'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/712776601&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/X6tkrMOo2WM'
-spotifywidg: 'https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa'
+fblk: https://www.facebook.com/Yosei.Gorazu
+instalk: https://www.instagram.com/clariannorth
+ralk: https://www.residentadvisor.net/dj/clarian
+twitterlk: https://twitter.com/clarianmusic
+spotifylk: https://open.spotify.com/artist/2polW59xyLfTDB4E5Ig7Xa
+sclk: https://soundcloud.com/clariannorth
+presskit: https://drive.google.com/open?id=1EOCABZ4LEfsj9QXUR434jAlsQdOGxa5r
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/712776601&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/X6tkrMOo2WM
+spotifywidg: https://open.spotify.com/embed/artist/2polW59xyLfTDB4E5Ig7Xa
 status: Published
 date: 2019-10-06T20:25:40.793Z
 meta:
   canonicalLink: clarian
-  description: ''
+  description: ""
   title: Clarian
 ---
 Clarian is a contrarian and a surrealist weirdo, a science fiction purist and contributor, mixing and mastering electronic engineer, and dj / live performer with a unique indefinable energy. He goes his own way whether dark storms, abandoned warehouses, or misanthropic dive bars. His strange and distinguishable melodic and surreal touches has extended to a wide creatively vibrant dance labels from the very beginnings of Visionquest (Detroit) Life n Death (Italy) Rumors (Ibiza) FOF (Montreal) to engineering and contributions for such mainstays as Ninja Tunes via. Counter, Kompakt, and Turbo. He has collaborated records with Tiga, Felix Da Housecat, Jamie Principle, Guy Gerber, Henry Saiz and Guy J. In his free time he plays chess and collects interesting ornaments..
