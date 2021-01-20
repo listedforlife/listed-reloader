@@ -1,18 +1,16 @@
 ---
 template: ArtistPost
 title: MightyKat
-featuredImage: 'https://ucarecdn.com/d778dc85-18eb-422d-a49b-3946a305fcdb/'
-fblk: 'https://www.facebook.com/Mightykatsound'
-instalk: 'https://www.instagram.com/1mightykat'
-ralk: 'https://www.residentadvisor.net/dj/mightykat'
-twitterlk: 'https://twitter.com/mightykat33'
-sclk: 'https://soundcloud.com/mightykat'
-presskit: 'https://drive.google.com/open?id=1QtsVl9wvcPFdpFyQu3cNAL6os26Ishj_'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/698656581&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/eIEhx-fxawM'
-spotifywidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195132577&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+featuredImage: https://ucarecdn.com/d778dc85-18eb-422d-a49b-3946a305fcdb/-/crop/1083x389/81,0/-/preview/
+fblk: https://www.facebook.com/Mightykatsound
+instalk: https://www.instagram.com/1mightykat
+ralk: https://www.residentadvisor.net/dj/mightykat
+twitterlk: https://twitter.com/mightykat33
+sclk: https://soundcloud.com/mightykat
+presskit: https://drive.google.com/open?id=1QtsVl9wvcPFdpFyQu3cNAL6os26Ishj_
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/698656581&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/eIEhx-fxawM
+spotifywidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195132577&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 status: Published
 date: 2019-10-17T16:19:33.538Z
 ---
