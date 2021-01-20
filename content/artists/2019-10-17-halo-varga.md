@@ -1,20 +1,19 @@
 ---
 template: ArtistPost
 title: Halo Varga
-featuredImage: 'https://ucarecdn.com/efda51b7-ef17-4a0c-83df-c29052e0435b/'
+featuredImage: https://ucarecdn.com/efda51b7-ef17-4a0c-83df-c29052e0435b/-/crop/1075x389/85,0/-/preview/
 upcomingshows: |-
   Thu, 14 Nov 2019 /
   Substance with Halo at The EndUp, San Francisco
-fblk: 'https://www.facebook.com/HaloVarga'
-instalk: 'https://www.instagram.com/halo_varga'
-ralk: 'https://www.residentadvisor.net/dj/halo'
-spotifylk: 'https://open.spotify.com/artist/5VBtTaJAurHIdZFucwR2l8'
-sclk: 'https://soundcloud.com/halovarga'
-presskit: 'https://drive.google.com/open?id=1I-iQbts8B9dKuArg_8vXUfcFHXMzyev8'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/848433545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/LJLvLRNfbps'
-spotifywidg: 'https://open.spotify.com/embed/artist/5VBtTaJAurHIdZFucwR2l8'
+fblk: https://www.facebook.com/HaloVarga
+instalk: https://www.instagram.com/halo_varga
+ralk: https://www.residentadvisor.net/dj/halo
+spotifylk: https://open.spotify.com/artist/5VBtTaJAurHIdZFucwR2l8
+sclk: https://soundcloud.com/halovarga
+presskit: https://drive.google.com/open?id=1I-iQbts8B9dKuArg_8vXUfcFHXMzyev8
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/848433545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/LJLvLRNfbps
+spotifywidg: https://open.spotify.com/embed/artist/5VBtTaJAurHIdZFucwR2l8
 status: Published
 date: 2019-10-17T15:01:07.204Z
 ---
