@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Lovestruckk
-featuredImage: 'https://ucarecdn.com/0f7133e3-9492-458f-b2e9-1b3595583245/'
+featuredImage: https://ucarecdn.com/0f7133e3-9492-458f-b2e9-1b3595583245/-/crop/1079x389/85,0/-/preview/
 upcomingshows: >-
   Sat, 02 Nov 2019 /
 
@@ -10,19 +10,16 @@ upcomingshows: >-
 
   Sun, 10 Nov 2019 /
 
-  SBCLTR presents Lovestruckk (Holmar b2b Nico Stojan) Seth Schwarz & Dead Tones
-  at Le Jardin, Los Angeles
-fblk: 'https://www.facebook.com/lovestruuckk'
-instalk: 'https://www.instagram.com/thelovestruckk'
-ralk: 'https://www.residentadvisor.net/dj/lovestruckk'
-twitterlk: 'https://twitter.com/hashtag/lovestruckk'
-spotifylk: 'https://open.spotify.com/artist/094Tke1cciJmfbu6AeOJLZ'
-sclk: 'https://soundcloud.com/thelovestruckk'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597328002&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/727118028&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-spotifywidg: 'https://open.spotify.com/embed/artist/094Tke1cciJmfbu6AeOJLZ'
+  SBCLTR presents Lovestruckk (Holmar b2b Nico Stojan) Seth Schwarz & Dead Tones at Le Jardin, Los Angeles
+fblk: https://www.facebook.com/lovestruuckk
+instalk: https://www.instagram.com/thelovestruckk
+ralk: https://www.residentadvisor.net/dj/lovestruckk
+twitterlk: https://twitter.com/hashtag/lovestruckk
+spotifylk: https://open.spotify.com/artist/094Tke1cciJmfbu6AeOJLZ
+sclk: https://soundcloud.com/thelovestruckk
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/597328002&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/727118028&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+spotifywidg: https://open.spotify.com/embed/artist/094Tke1cciJmfbu6AeOJLZ
 status: Published
 date: 2019-10-17T15:46:15.663Z
 ---
