@@ -1,18 +1,17 @@
 ---
 template: ArtistPost
 title: Justin Marchacos
-featuredImage: 'https://ucarecdn.com/b98fe687-6294-42b3-be9e-aa23ad3a760a/'
-fblk: 'https://www.facebook.com/justinmarchacos'
-instalk: 'https://www.instagram.com/justinmarchacos'
-ralk: 'https://www.residentadvisor.net/dj/justinmarchacos'
-twitterlk: 'https://twitter.com/hashtag/justinmarchacos?src=hash'
-spotifylk: 'https://open.spotify.com/artist/5elp7hYJfIAPLSxT7JupT8'
-sclk: 'https://soundcloud.com/justinmarchacosmusic'
-presskit: 'https://drive.google.com/open?id=1SOVG-oHpdVH-PMus0z2X4bZhbh5sM_x7'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689608624&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/0IpZNjfUxYA'
-spotifywidg: 'https://open.spotify.com/embed/artist/5elp7hYJfIAPLSxT7JupT8'
+featuredImage: https://ucarecdn.com/b98fe687-6294-42b3-be9e-aa23ad3a760a/-/crop/1077x389/85,0/-/preview/
+fblk: https://www.facebook.com/justinmarchacos
+instalk: https://www.instagram.com/justinmarchacos
+ralk: https://www.residentadvisor.net/dj/justinmarchacos
+twitterlk: https://twitter.com/hashtag/justinmarchacos?src=hash
+spotifylk: https://open.spotify.com/artist/5elp7hYJfIAPLSxT7JupT8
+sclk: https://soundcloud.com/justinmarchacosmusic
+presskit: https://drive.google.com/open?id=1SOVG-oHpdVH-PMus0z2X4bZhbh5sM_x7
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689608624&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/0IpZNjfUxYA
+spotifywidg: https://open.spotify.com/embed/artist/5elp7hYJfIAPLSxT7JupT8
 status: Published
 date: 2019-10-17T15:23:44.097Z
 ---
