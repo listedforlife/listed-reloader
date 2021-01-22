@@ -1,9 +1,9 @@
 ---
-url: https://www.facebook.com/artwithmefestival
+url: https://soundcloud.com/areulisted/atnarko-gunitastavern-cityfoxnye2019?in=areulisted/sets/live-at-gunitas-tavern-the
 template: SinglePost
-title: "Art with Me Festival In Tulum -November Edition "
+title: "Gunita's Tavern at the Cityfox Experience "
 status: Published
 date: 2019-10-09T16:51:50.998Z
-featuredImage: https://ucarecdn.com/f57ad045-e094-49b1-8dc3-194e283f64c6/
+featuredImage: https://ucarecdn.com/7b1d22d1-a040-4d85-ab58-ab525c9d4976/-/crop/1112x532/0,0/-/preview/
 ---
-ART WITH ME's Dance Portion features listed artists Holmar & Nico Stojan
+Gunita's Tavern 1st Set Release featuring[ Atnarko ](https://www.facebook.com/atnarko)
