@@ -4,6 +4,6 @@ template: SinglePost
 title: "Gunita's Tavern at the Cityfox Experience "
 status: Published
 date: 2019-10-09T16:51:50.998Z
-featuredImage: https://ucarecdn.com/7b1d22d1-a040-4d85-ab58-ab525c9d4976/-/crop/1017x505/84,27/-/preview/
+featuredImage: https://ucarecdn.com/d98bea83-eb6a-4abe-a3be-a9f206396b8d/-/crop/1081x979/0,0/-/preview/
 ---
-Gunita's Tavern 1st Set Release featuring[ Atnarko ](https://www.facebook.com/atnarko)
+Gunita's Tavern 1st Set Release featuring[ Atnarko](https://www.facebook.com/atnarko)
