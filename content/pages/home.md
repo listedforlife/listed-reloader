@@ -11,8 +11,8 @@ featuredImage4: https://ucarecdn.com/efacb135-19a0-45e0-af94-33e9fe01b72f/-/crop
 featuredImage5: https://ucarecdn.com/0eccca9b-467c-473f-950c-9f419503f636/
 subtitle: "[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
   &nbsp; [Ben
-  Annand](https://quirky-northcutt-3bdb7c.netlify.com/artists/ben-annand)
-  &nbsp;  [Bilaliwood](https://www.facebook.com/bilaliwood) &nbsp;
+  Annand](https://quirky-northcutt-3bdb7c.netlify.com/artists/ben-annand) &nbsp;
+  [Bilaliwood](https://www.facebook.com/bilaliwood) &nbsp;
   [Clarian](https://quirky-northcutt-3bdb7c.netlify.com/artists/clarian)
   &nbsp;  [Dance
   Spirit](https://quirky-northcutt-3bdb7c.netlify.com/artists/dance-spirit)
