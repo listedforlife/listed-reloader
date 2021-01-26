@@ -12,7 +12,8 @@ featuredImage5: https://ucarecdn.com/0eccca9b-467c-473f-950c-9f419503f636/
 subtitle: "[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
   &nbsp; [Ben
   Annand](https://quirky-northcutt-3bdb7c.netlify.com/artists/ben-annand)
-  &nbsp;  [Clarian](https://quirky-northcutt-3bdb7c.netlify.com/artists/clarian)
+  &nbsp;  [Bilaliwood](https://www.facebook.com/bilaliwood) &nbsp;
+  [Clarian](https://quirky-northcutt-3bdb7c.netlify.com/artists/clarian)
   &nbsp;  [Dance
   Spirit](https://quirky-northcutt-3bdb7c.netlify.com/artists/dance-spirit)
   &nbsp;   [Dory](https://quirky-northcutt-3bdb7c.netlify.com/artists/dory)
@@ -37,7 +38,7 @@ subtitle: "[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
   ty-kat) &nbsp;   [Mike
   Khoury](https://quirky-northcutt-3bdb7c.netlify.com/artists/mike-khoury)
   &nbsp;   [Mr. C](https://quirky-northcutt-3bdb7c.netlify.com/artists/mr-c)
-  &nbsp;   [m.O.N.R.O.E](https://www.listedbookings.com/artists/m-o-n-r-o-e)
+  &nbsp;   [M.O.N.R.O.E](https://www.listedbookings.com/artists/m-o-n-r-o-e)
   &nbsp;   [Mr. C](https://quirky-northcutt-3bdb7c.netlify.com/artists/mr-c)
   &nbsp;   [Naveen
   G](https://quirky-northcutt-3bdb7c.netlify.com/artists/naveen-g)
