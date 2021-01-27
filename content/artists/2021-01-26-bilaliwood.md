@@ -1,7 +1,7 @@
 ---
 template: ArtistPost
 title: Bilaliwood
-featuredImage: https://ucarecdn.com/b65a51f1-29a6-44a5-b262-e8d09d84fd5e/-/crop/615x444/0,0/-/preview/
+featuredImage: https://ucarecdn.com/b65a51f1-29a6-44a5-b262-e8d09d84fd5e/-/crop/610x435/0,49/-/preview/
 fblk: https://www.facebook.com/bilaliwood
 instalk: https://www.instagram.com/bilaliwood/
 presskit: https://www.dropbox.com/sh/4e58p9g2c7nk6um/AAB3PTgvwa6oZcawdUAEf633a?dl=0
