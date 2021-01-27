@@ -21,6 +21,7 @@ scwidg: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/track
   #cccccc; text-decoration: none;">Swaggar #36 - &quot;rough edges, bumps &amp;
   records skipping, but oh the view&quot; - johnnyboy &amp;
   bilaliwood</a></div>&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true'
+videowidg: https://www.youtube.com/embed/X6tkrMOo2WM
 status: Published
 date: 2021-01-26T17:59:26.188Z
 ---
