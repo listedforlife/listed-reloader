@@ -1,11 +1,8 @@
 ---
 template: ArtistPost
 title: H Foundation
-featuredImage: https://ucarecdn.com/63fa0a5b-f63d-4fc3-9524-da8bebd295ab/
-spotifylk: <iframe
-  src="https://open.spotify.com/embed/artist/6TzeSLzmRUWf9aj4WJqZjD" width="300"
-  height="380" frameborder="0" allowtransparency="true"
-  allow="encrypted-media"></iframe>
+featuredImage: https://ucarecdn.com/63fa0a5b-f63d-4fc3-9524-da8bebd295ab/-/crop/2423x1451/0,181/-/preview/
+spotifylk: ""
 scwidg: '<iframe width="100%" height="300" scrolling="no" frameborder="no"
   allow="autoplay"
   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/134103824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div
