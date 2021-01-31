@@ -2,6 +2,7 @@
 template: ArtistPost
 title: H Foundation
 featuredImage: https://ucarecdn.com/63fa0a5b-f63d-4fc3-9524-da8bebd295ab/-/crop/2423x1451/0,181/-/preview/
+upcomingshows: "No Shows but ready to book for Late 2021/Early 2022 "
 spotifylk: ""
 scwidg: '<iframe width="100%" height="300" scrolling="no" frameborder="no"
   allow="autoplay"
