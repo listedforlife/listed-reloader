@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Nicolas Matar
+title: Nicolas Matar [Output]
 featuredImage: https://ucarecdn.com/8638f05d-8db4-4891-85a7-552cf5ce8f7a/-/crop/1076x389/84,0/-/preview/
 fblk: https://www.facebook.com/djnicolasmatar
 instalk: https://www.instagram.com/nicolasmatar.nyc
