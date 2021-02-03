@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Clarian [Kompakt, Turbo Recordings, Founders of Filth, Bedrock, Anjunadeep]
+title: Clarian
 featuredImage: https://ucarecdn.com/1c212d92-6926-4e90-ab62-3b0baddb786c/-/crop/700x444/0,0/-/preview/
 upcomingshows: |-
   The Techno Haus - Berlin 20.1219 /
@@ -23,6 +23,8 @@ meta:
   description: ""
   title: Clarian
 ---
+ \[KOMPAKT, TURBO RECORDINGS, FOUNDERS OF FILTH, BEDROCK, ANJUNADEEP] 
+
 Clarian is a contrarian and a surrealist weirdo, a science fiction purist and contributor, mixing and mastering electronic engineer, and dj / live performer with a unique indefinable energy. He goes his own way whether dark storms, abandoned warehouses, or misanthropic dive bars. His strange and distinguishable melodic and surreal touches has extended to a wide creatively vibrant dance labels from the very beginnings of Visionquest (Detroit) Life n Death (Italy) Rumors (Ibiza) FOF (Montreal) to engineering and contributions for such mainstays as Ninja Tunes via. Counter, Kompakt, and Turbo. He has collaborated records with Tiga, Felix Da Housecat, Jamie Principle, Guy Gerber, Henry Saiz and Guy J. In his free time he plays chess and collects interesting ornaments..
 
 Cited as a producer’s producer, Clarian has contributed on wide reaching platforms in communities globally. From the volcanic emergence of Detroit’s Visionquest, to the surgical and darker spectrums of Life and Death. Clarian’s distinctive influence shines through with versatility both as a musician and songwriter without being pigeonholed. With contributions ranging from the deeper hues of Ibiza’s Rumours showcased by his “Fear And Self Loathing EP” to creative techno fixtures such as Kompakt and Turbo Recordings are all testaments to Clarian’s reach for his signature sound. Clarian’s longstanding work and in-depth experience as a mixing and mastering engineer in sought-after studios has furthered his own quiet evolution to the craft.
