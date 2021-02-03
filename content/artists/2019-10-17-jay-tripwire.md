@@ -1,7 +1,6 @@
 ---
 template: ArtistPost
-title: "Jay Tripwire [The Witching Hour, Pokerflat, Superfreq, Akbal, Kwench,
-  Wild Wolves on Acid] "
+title: Jay Tripwire
 featuredImage: https://ucarecdn.com/e56ca588-fc32-4ece-a0e9-ddb89b3a89f4/-/crop/2449x1255/0,0/-/preview/
 fblk: https://www.facebook.com/jaytripwire.fanpage
 instalk: https://www.instagram.com/jaytripwire
@@ -16,6 +15,8 @@ spotifywidg: https://open.spotify.com/embed/artist/5MRqNnxNEGqmeQOJPrm2wg
 status: Published
 date: 2019-10-17T15:16:21.033Z
 ---
+ \[THE WITCHING HOUR, POKERFLAT, SUPERFREQ, AKBAL, KWENCH, WILD WOLVES ON ACID, BEDROCK] 
+
 Foremost Jay Tripwire is a Dj and his craft goes back to when every party was vinyl only and there was no sync button, an ethos still to this day Jay adheres to.
 
 Tripwire is getting old and has over 25 years under his belt professionally as a DJ and has toured extensively for 20 years with gigs taking him to over 200 cities worldwide.
