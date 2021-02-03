@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: H Foundation [Muted Noise]
+title: "H Foundation "
 featuredImage: https://ucarecdn.com/63fa0a5b-f63d-4fc3-9524-da8bebd295ab/-/crop/2423x1451/0,181/-/preview/
 upcomingshows: "No Shows but ready to book for Late 2021/Early 2022 "
 spotifylk: ""
@@ -10,4 +10,4 @@ spotifywidg: https://open.spotify.com/embed/artist/6TzeSLzmRUWf9aj4WJqZjD
 status: Published
 date: 2021-01-26T17:10:01.827Z
 ---
-test
+\[MUTED NOISE]
