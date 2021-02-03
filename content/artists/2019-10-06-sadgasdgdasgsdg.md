@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Clarian
+title: Clarian [Kompakt, Turbo Recordings, Founders of Filth, Bedrock, Anjunadeep]
 featuredImage: https://ucarecdn.com/1c212d92-6926-4e90-ab62-3b0baddb786c/-/crop/700x444/0,0/-/preview/
 upcomingshows: |-
   The Techno Haus - Berlin 20.1219 /
