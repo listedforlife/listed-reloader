@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Ruede Hagelstein
+title: "Ruede Hagelstein (Watergate) "
 featuredImage: https://ucarecdn.com/8fa8085d-58b7-40ac-a4f9-eebffc916bf5/-/crop/1074x389/85,0/-/preview/
 upcomingshows: >-
   Sat, 19 Oct 2019 /
