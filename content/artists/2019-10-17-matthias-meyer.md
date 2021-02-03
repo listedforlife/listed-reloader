@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Matthias Meyer [Watergate, Liebe Detail]
+title: "Matthias Meyer "
 featuredImage: https://ucarecdn.com/a50a2e6d-bd79-45d5-b5c6-eaec1d11845b/-/crop/1075x389/84,0/-/preview/
 upcomingshows: >-
   Thu, 17 Oct 2019 /
@@ -49,16 +49,12 @@ spotifywidg: https://open.spotify.com/embed/artist/6bWakzaLHaNewLTdhJHPQb
 status: Published
 date: 2019-10-17T16:01:07.459Z
 ---
+\[WATERGATE, LIEBE DETAIL]
+
 Long time Watergate resident Matthias Meyer embarks on a momentous summer schedule this year propelled by some career defining moments of late. On the music front, he has continued his quality approach with a small number of high impact releases in recent times including the Beatport Deep House number 1 ‘Hope’ alongside Ryan Davis on his beloved Watergate Records and the Pete Tong endorsed remix of Butch - ‘Shahzrad’ (which made his BBC Radio 1 Tunes of the Year list alongside many established luminaries). These releases join a stellar discography which includes fan favourites such as ‘Reichanbach’, ‘Tout Va Bien’, ‘November Rain’ and of course, ‘Infinity’.
-
-
 
 The past few months on the road have also provided some poignant moments for Meyer with visits to the likes of Tobacco Dock, Liverpool’s Circus, Fabrik - Madrid, Rex Paris, Cityfox in New York and of course the renowned Stereo in Montreal. Another of his highlights on the road was a memorable trip to Brazil, playing D-Edge and Warung to universal acclaim. Alongside this the German also found time for a number of pivotal festival appearances (Strawberry Fields in Australia proving to be a particular highlight) and performances at both the Mixmag Lab and Boiler Room, Berlin.
 
-
-
 Following on from his well-received residency at Pacha, Ibiza alongside Hot Since 82 last year, Meyer will return to the landmark venue once more this summer as well as venturing further afield to play Ibiza bastions Hï and Heart.
-
-
 
 With a style that ranges from uplifting and orchestral to deep tribal grooves, the Berlin based selector will continue to showcase his diverse talents globally throughout the rest of 2018, kicking off the summer with a considerable European tour before his long awaited return to the white isle. Meyer looks set to finish this year just as he started it, with an action packed schedule focused around an expansive US tour.
