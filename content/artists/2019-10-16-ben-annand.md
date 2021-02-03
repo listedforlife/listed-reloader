@@ -18,6 +18,8 @@ spotifywidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/t
 status: Published
 date: 2019-10-16T17:57:21.655Z
 ---
+\[TROPICAL]
+
 Internationally his credits include Wiggle at Fabric (London), Labyrinth Festival (Japan), Propaganda (Moscow), Festimad and Rave Goa (Madrid), Shambhalla (Canada) and the Aca World Sound Festival (Acapulco).  On the West Coast USA he has played sets in all major cities and at noteworthy house/techno festivals such as Desert Hearts (Socal), Stilldream and Firefall (Norcal), Esthetic Evolution (Idaho), and Photosynthesis (WA State)
 
 In his zone on vinyl, CDJs, or both, he pairs impeccably smooth mixing skills with a dynamic mixing style that keeps the music moving. His music is dreamy, atmospheric and deep, crossing the genres of house, tech-house and techno and defying categorization strictly in one
