@@ -1,6 +1,6 @@
 ---
 template: ArtistPost
-title: Halo Varga [Muted Noise]
+title: Halo Varga
 featuredImage: https://ucarecdn.com/efda51b7-ef17-4a0c-83df-c29052e0435b/-/crop/1075x389/85,0/-/preview/
 upcomingshows: |-
   Thu, 14 Nov 2019 /
@@ -17,6 +17,10 @@ spotifywidg: https://open.spotify.com/embed/artist/5VBtTaJAurHIdZFucwR2l8
 status: Published
 date: 2019-10-17T15:01:07.204Z
 ---
+MUTED  NOISE 
+
+
+
 Halo's career in dance music has always been about evolution. His sonic education and progression throughout his professional life has contributed to his metamorphosis both as a DJ and producer. Credited with a diverse and remarkably long list of productions, remixes and collaborations, a stable and successful independent record label Surface Recordings with longtime partner & friend Hipp-e, prestigious residencies and a globetrotting DJ schedule, the past few years have seen Halo take the industry by storm. Halo's blend of house and modern sophisticated Teky rhythms is keenly rooted in the early dance floor sounds of New York, Detroit and home town Chicago. The brand of music he has fashioned is comfortable and timeless; it just fits. His productions, which reside in the..“I have so many musical inspirations that I love,” says Halo (born Brian Varga.) For him, creative motivations are found everywhere.
 
 \>>
