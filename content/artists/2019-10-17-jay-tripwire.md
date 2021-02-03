@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
-title: Jay Tripwire
+title: "Jay Tripwire [The Witching Hour, Pokerflat, Superfreq, Akbal, Kwench,
+  Wild Wolves on Acid] "
 featuredImage: https://ucarecdn.com/e56ca588-fc32-4ece-a0e9-ddb89b3a89f4/-/crop/2449x1255/0,0/-/preview/
 fblk: https://www.facebook.com/jaytripwire.fanpage
 instalk: https://www.instagram.com/jaytripwire
