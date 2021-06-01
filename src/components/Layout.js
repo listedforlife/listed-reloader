@@ -22,6 +22,21 @@ export default ({ children, meta, title }) => {
               image
             }
           }
+          artists: allMarkdownRemark(
+            filter: { fields: { contentType: { eq: "artists" } } }
+            sort: { order: ASC, fields: [frontmatter___title] }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
+            }
+          }
           allPosts: allMarkdownRemark(
             filter: { fields: { contentType: { eq: "postCategories" } } }
             sort: { order: DESC, fields: [frontmatter___date] }
@@ -40,6 +55,7 @@ export default ({ children, meta, title }) => {
         }
       `}
       render={data => {
+        const artists = data.artists
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
           subNav = {
@@ -49,7 +65,6 @@ export default ({ children, meta, title }) => {
                 })
               : false
           }
-
         return (
           <Fragment>
             <Helmet
@@ -75,7 +90,7 @@ export default ({ children, meta, title }) => {
 
 
 
-            <Nav subNav={subNav} />
+            <Nav subNav={subNav} artists={artists} />
 
             <Fragment>{children}</Fragment>
 

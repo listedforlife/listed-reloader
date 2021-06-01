@@ -81,7 +81,8 @@ export const EnterPageTemplate = ({}) =>  (
                 <li><SocialIcon url="https://www.instagram.com/areulisted"  style={{ height: 25, width: 25 }} /></li>
                 <li><SocialIcon  url="https://twitter.com/areulisted"  style={{ height: 25, width: 25, }} /></li>
                 <li><a href="https://www.residentadvisor.net/promoter.aspx?id=91" ><img src={ra} style={{marginRight: '12px', width: 28, marginBottom: '-8px' }} /></a></li>
-                <li><SocialIcon  url="mailto:gunita@listedbokings.com"  style={{marginLeft: '-14px', height: 25, width: 25, }} /></li>
+                <li><SocialIcon  url="https://soundcloud.com/areulisted"  style={{marginLeft: '-14px', height: 25, width: 25, }} /></li>
+                {/* <li><SocialIcon  url="mailto:gunita@listedbokings.com"  style={{marginLeft: '-14px', height: 25, width: 25, }} /></li> */}
               </ul>
       </div>
       <a style={{margin:'25px', textAlign:'center', marginRight:"41px", textDecoration:'none'}} href='/home' className="example_d" >

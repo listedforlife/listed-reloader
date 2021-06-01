@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: Ben Annand
+gigwellID: "642"
 featuredImage: https://ucarecdn.com/3c2bd72d-bd87-48ad-8707-ba5a07e8f951/-/crop/1075x387/86,0/-/preview/
 upcomingshows: |-
   Sat, 26 Oct 2019 /

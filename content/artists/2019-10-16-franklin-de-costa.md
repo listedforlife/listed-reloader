@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: "Franklin De Costa "
+gigwellID: "656"
 featuredImage: https://ucarecdn.com/c53d26b2-b6e1-4c0f-a354-02612bc56da3/-/crop/1081x389/84,0/-/preview/
 upcomingshows: >-
   Sat, 19 Oct 2019 /

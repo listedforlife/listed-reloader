@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: MightyKat
+gigwellID: "9625"
 featuredImage: https://ucarecdn.com/d778dc85-18eb-422d-a49b-3946a305fcdb/-/crop/1083x389/81,0/-/preview/
 fblk: https://www.facebook.com/Mightykatsound
 instalk: https://www.instagram.com/1mightykat

@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: Lovestruckk
+gigwellID: "315381"
 featuredImage: https://ucarecdn.com/0f7133e3-9492-458f-b2e9-1b3595583245/-/crop/1079x389/85,0/-/preview/
 upcomingshows: >-
   Sat, 02 Nov 2019 /

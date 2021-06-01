@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: Dance Spirit
+gigwellID: "103275"
 featuredImage: https://ucarecdn.com/2d8240da-7a8d-428e-903e-43aa2519b959/-/crop/1075x389/87,0/-/preview/
 upcomingshows: >-
   Sat, 26 Oct 2019 /

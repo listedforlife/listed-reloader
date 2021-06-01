@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: Halo Varga
+gigwellID: "9620"
 featuredImage: https://ucarecdn.com/efda51b7-ef17-4a0c-83df-c29052e0435b/-/crop/1075x389/85,0/-/preview/
 upcomingshows: |-
   Thu, 14 Nov 2019 /

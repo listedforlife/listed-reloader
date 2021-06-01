@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: WhoMadeWho
+gigwellID: "146880"
 featuredImage: https://ucarecdn.com/b64b8e20-2b4f-4655-82bb-3e80e37832ea/-/crop/1070x385/87,4/-/preview/
 upcomingshows: >-
   Sat, 19 Oct 2019 /

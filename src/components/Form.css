@@ -29,7 +29,7 @@
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .Form--Label > span {

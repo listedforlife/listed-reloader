@@ -682,7 +682,7 @@
 				width: 2.8px;
 				margin:1px;
 				transition: .5s;
-				animation: equalize 6s 2s infinite;
+				animation: equalize 12s 2s infinite;
 				animation-timing-function: linear;
 				vertical-align: top;
 			}

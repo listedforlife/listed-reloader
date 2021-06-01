@@ -1,7 +1,7 @@
 # See https://github.com/netlify/netlify-cms/blob/master/example/config.yml
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_library:
@@ -43,6 +43,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image 3, name: featuredImage3, widget: image }
           - { label: Featured Image 4, name: featuredImage4, widget: image }
           - { label: Featured Image 5, name: featuredImage5, widget: image }
+          - { label: Featured Image 6, name: featuredImage6, widget: file }
           - { label: Artist Links, name: subtitle, widget: markdown }
           - label: 'Meta'
             required: false
@@ -352,6 +353,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - { label: Template, name: template, widget: hidden, default: ArtistPost }
       - { label: Artist Name, name: title, widget: string }
+      - { label: Artist Gigwell ID, name: gigwellID, widget: string }
       - {
           label: Featured Image,
           name: featuredImage,
@@ -410,6 +412,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: Site Title, name: siteTitle, widget: string }
           - { label: Site Url, name: siteUrl, widget: string, required: false }
+          - { label: Password for presskit, name: presskitPwd, widget: string, required: false }
           - {
               label: Site Description,
               name: siteDescription,

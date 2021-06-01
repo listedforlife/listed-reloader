@@ -9,6 +9,7 @@ featuredImage2: https://ucarecdn.com/cef9932a-00b4-4f89-a353-bd9af485f25d/-/crop
 featuredImage3: https://ucarecdn.com/1b1adefa-24aa-434e-8f80-b95360035fe3/-/crop/2000x1454/0,0/-/preview/
 featuredImage4: https://ucarecdn.com/efacb135-19a0-45e0-af94-33e9fe01b72f/-/crop/2000x1485/0,0/-/preview/
 featuredImage5: https://ucarecdn.com/0eccca9b-467c-473f-950c-9f419503f636/
+featuredImage6: https://ucarecdn.com/65675880-b1c6-4957-980b-24a975de8313/
 subtitle: "[Atish](https://quirky-northcutt-3bdb7c.netlify.com/artists/atish)
   &nbsp; [Ben
   Annand](https://quirky-northcutt-3bdb7c.netlify.com/artists/ben-annand) &nbsp;

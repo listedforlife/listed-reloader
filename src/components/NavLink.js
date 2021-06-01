@@ -3,8 +3,13 @@ import { Link } from 'gatsby'
 
 import './NavLink.css'
 
-export default ({ className, children, ...props }) => (
-  <Link {...props} className={`NavLink ${className || ''}`}>
-    {children}
-  </Link>
-)
+export default ({ className, children, ...props }) => {
+
+  return (
+    <>
+      <Link {...props} className={`NavLink ${className || ''}`}>
+          {children}
+        </Link>
+    </>
+  )
+}

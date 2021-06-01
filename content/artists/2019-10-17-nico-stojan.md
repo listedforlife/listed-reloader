@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: "Nico Stojan "
+gigwellID: "9621"
 featuredImage: https://ucarecdn.com/f2a97700-3c27-497d-8f2d-942ae5b39683/-/crop/1069x385/90,4/-/preview/
 upcomingshows: >-
   Thu, 17 Oct 2019 /

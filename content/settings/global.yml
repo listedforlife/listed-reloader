@@ -1,7 +1,7 @@
 siteTitle: Listed Productions
-siteUrl: 'https://listedproductions.com'
-siteDescription: >-
-  Listed Productions music productions and artists.
+siteUrl: https://listedproductions.com
+presskitPwd: listed
+siteDescription: Listed Productions music productions and artists.
 socialMediaCard:
-  image: 'https://ucarecdn.com/1ad727b2-5db5-41b9-a4db-05f26e34f273/'
-googleTrackingId: 'UA-133175780-1'
+  image: https://ucarecdn.com/1ad727b2-5db5-41b9-a4db-05f26e34f273/
+googleTrackingId: UA-133175780-1

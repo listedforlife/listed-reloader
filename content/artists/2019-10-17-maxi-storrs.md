@@ -1,6 +1,7 @@
 ---
 template: ArtistPost
 title: Maxi Storrs
+gigwellID: "9624"
 featuredImage: 'https://ucarecdn.com/b5c1e53f-cf2e-4b7e-b32f-0225f72a783f/'
 upcomingshows: |-
   Sat, 19 Oct 2019 /

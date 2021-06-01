@@ -221,11 +221,11 @@ blockquote {
   max-width: 555px;
 }
 
-@media (max-width: 860px) {
+/* @media (max-width: 860px) {
   .smedialinks {
     display: none;
   }
-}
+} */
 
 
 
