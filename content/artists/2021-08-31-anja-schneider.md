@@ -9,6 +9,7 @@ ralk: https://www.residentadvisor.net/dj/anjaschneider
 twitterlk: https://twitter.com/anjaschneider
 spotifylk: https://open.spotify.com/artist/0f14r70OISSfJoyqYaHbgV?si=dVM5kNoyRZ-ibDB87FEEkw&dl_branch=1
 sclk: https://soundcloud.com/anjaschneider
+presskit: https://www.dropbox.com/sh/eg79voxcft8gq82/AADClvoee-021dlKOzNC66gHa?dl=0
 scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1191405010&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
 videowidg: https://www.youtube.com/embed/1KCBjEQ8cFA
 spotifywidg: https://open.spotify.com/embed/artist/0f14r70OISSfJoyqYaHbgV
