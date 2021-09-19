@@ -4,7 +4,7 @@ slug: home
 title: HomePage
 listedmix: "Listed Winter Playlists "
 listedmixlk: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1187392201&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-featuredImage: https://ucarecdn.com/0f88d23c-6e40-4ac4-86f3-0500ec8092ac/-/preview/
+featuredImage: https://ucarecdn.com/b9cc16c7-729d-4e54-8af6-ff8542697c69/
 featuredImage2: https://ucarecdn.com/cef9932a-00b4-4f89-a353-bd9af485f25d/-/crop/960x678/0,282/-/preview/
 featuredImage3: https://ucarecdn.com/1b1adefa-24aa-434e-8f80-b95360035fe3/-/crop/2000x1454/0,0/-/preview/
 featuredImage4: https://ucarecdn.com/efacb135-19a0-45e0-af94-33e9fe01b72f/-/crop/2000x1485/0,0/-/preview/
