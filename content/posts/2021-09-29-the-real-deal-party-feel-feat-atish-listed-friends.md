@@ -4,7 +4,7 @@ template: SinglePost
 title: The Real Deal Party Feel feat. Atish & Listed Friends
 status: Published
 date: 2021-09-29T18:08:21.730Z
-featuredImage: https://ucarecdn.com/5e0e1beb-9097-4cde-a233-d5767df156bb/
+featuredImage: https://ucarecdn.com/61556416-3ad1-46a1-b75d-e87d5977854a/
 ---
 Listed Productions, LIVING, and The Grass is Green present:
 
