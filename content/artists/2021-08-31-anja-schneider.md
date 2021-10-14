@@ -2,7 +2,7 @@
 template: ArtistPost
 title: Anja Schneider
 gigwellID: "428867"
-featuredImage: https://ucarecdn.com/6d29a980-087b-45eb-a370-0a77e917dead/
+featuredImage: https://ucarecdn.com/a270e38c-0453-4534-a63a-0c2db6adc47d/
 fblk: https://www.facebook.com/anjaschneider/
 instalk: https://www.instagram.com/anjaschneiderofficial/
 ralk: https://www.residentadvisor.net/dj/anjaschneider
