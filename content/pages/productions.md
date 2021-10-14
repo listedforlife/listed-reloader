@@ -20,15 +20,16 @@ video: https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/
 videoPoster: https://ucarecdn.com/0dbf7a50-3196-449d-9a2e-c3661e4eadc8/
 videoTitle: Clarian At Phonobar September 2019
 gallery:
-  - alt: https://www.facebook.com/events/439971906628344/
-    image: https://ucarecdn.com/465b779f-d1af-439c-a56d-4b72878ebf8f/
-    title: Manjumasi + Listed Amsterdam Showcase w/ Atish, Tim Engelhardt
-  - alt: https://www.facebook.com/events/721450698310295/
-    image: https://ucarecdn.com/e6564372-e91d-429b-bc9f-8f5d8f052516/
-    title: "PLAY: Atish, Monroe, and R. Fentz at Permission to Land"
-  - alt: https://www.facebook.com/audiosf/photos/gm.2410523142340023/3116006235076959/?type=3&theater
-    image: https://ucarecdn.com/ef6ac8e0-90f4-4b79-b520-c1f1486648a4/
-    title: Nikita Neverstops Open to Close + Special guests at Audio SF
+  - alt: https://ra.co/events/1468162#tickets
+    image: https://ucarecdn.com/e9b26137-904b-4c9f-ad06-fa453286f943/
+    title: "The Real Deal Party Feel: Featuring Atish at The Brooklyn Monarch"
+  - alt: https://www.facebook.com/events/4644850988965410/
+    image: https://ucarecdn.com/d1a079f7-7af3-49ae-9757-08d4bf19d1fb/
+    title: "The Real Deal Party Feel: Featuring DJ Three and Dubtribe Sound System
+      at The EndUp"
+  - alt: https://soundcloud.app.goo.gl/2bWbbeUax1TEYRYS6
+    image: https://ucarecdn.com/74f416b9-fe23-4967-b5ce-6f87d44c6b14/
+    title: "Electronic Music Community & Culture: On The Record feat. Gunita Nagpaul"
 meta:
   description: This is a meta description.
   title: Productions Page
