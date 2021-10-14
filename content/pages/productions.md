@@ -22,7 +22,8 @@ videoTitle: Clarian At Phonobar September 2019
 gallery:
   - alt: https://ra.co/events/1468162#tickets
     image: https://ucarecdn.com/e9b26137-904b-4c9f-ad06-fa453286f943/
-    title: "The Real Deal Party Feel: Featuring Atish at The Brooklyn Monarch"
+    title: "The Real Deal Party Feel: Featuring Atish & Listed Friends at The
+      Brooklyn Monarch"
   - alt: https://www.facebook.com/events/4644850988965410/
     image: https://ucarecdn.com/d1a079f7-7af3-49ae-9757-08d4bf19d1fb/
     title: "The Real Deal Party Feel: Featuring DJ Three and Dubtribe Sound System
