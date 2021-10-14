@@ -4,7 +4,7 @@ template: SinglePost
 title: The Real Deal Party Feel (16-Hour Marathon)
 status: Published
 date: 2021-08-06T20:29:46.367Z
-featuredImage: https://ucarecdn.com/abd7ceca-94d0-42eb-ba4e-37d9f077716d/
+featuredImage: https://ucarecdn.com/a357f477-bccf-40df-8615-24ee4f8e0390/
 ---
 Listed Productions, LIVING, and The Grass is Green are proud to present 
 
