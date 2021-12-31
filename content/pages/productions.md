@@ -20,17 +20,17 @@ video: https://ucarecdn.com/ddb18fe5-3a50-47a8-84b0-60f655b4bc33/
 videoPoster: https://ucarecdn.com/0dbf7a50-3196-449d-9a2e-c3661e4eadc8/
 videoTitle: Clarian At Phonobar September 2019
 gallery:
+  - alt: https://soundcloud.com/areulisted/lee-coombs-guntastavern-cityfoxnye2019?in=areulisted/sets/live-at-gunitas-tavern-the&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+    image: https://ucarecdn.com/4fb47e46-bc42-4ce1-9fef-2f28975dca13/
+    title: "Lee Coombs: Live at Gunita's Tavern (The Cityfox Odyssey NYE 2019)"
   - alt: https://ra.co/events/1468162#tickets
-    image: https://ucarecdn.com/e9b26137-904b-4c9f-ad06-fa453286f943/
+    image: https://ucarecdn.com/5a840610-e961-4cab-98a4-03b99cdb1539/
     title: "The Real Deal Party Feel: Featuring Atish & Listed Friends at The
       Brooklyn Monarch"
   - alt: https://www.facebook.com/events/4644850988965410/
-    image: https://ucarecdn.com/d1a079f7-7af3-49ae-9757-08d4bf19d1fb/
+    image: https://ucarecdn.com/8379658b-efa6-4c30-8c5c-c403be80a1f4/
     title: "The Real Deal Party Feel: Featuring DJ Three and Dubtribe Sound System
       at The EndUp"
-  - alt: https://soundcloud.app.goo.gl/2bWbbeUax1TEYRYS6
-    image: https://ucarecdn.com/74f416b9-fe23-4967-b5ce-6f87d44c6b14/
-    title: "Electronic Music Community & Culture: On The Record feat. Gunita Nagpaul"
 meta:
   description: This is a meta description.
   title: Productions Page
