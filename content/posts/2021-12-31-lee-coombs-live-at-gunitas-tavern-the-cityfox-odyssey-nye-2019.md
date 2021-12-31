@@ -4,6 +4,7 @@ template: SinglePost
 title: "Lee Coombs: Live at Gunita's Tavern (The Cityfox Odyssey NYE 2019)"
 status: Published
 date: 2021-12-31T19:56:10.660Z
+featuredImage: https://ucarecdn.com/49be09ea-3ce2-4210-9ba7-a0adc16e456d/
 meta:
   title: "Lee Coombs: Live at Gunita's Tavern (The Cityfox Odyssey NYE 2019)"
   description: For the last mix of our Gunita's Tavern 2019 series, we have
