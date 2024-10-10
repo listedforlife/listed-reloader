@@ -8,7 +8,7 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 - **[Gatsby](https://gatsbyjs.org)** static site generator
 - **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
 
-## See also
+## See also 
 
 [Netlify CMS Docs](https://www.netlifycms.org/docs/)  
 [Netlify CMS Repo](https://github.com/netlify/netlify-cms)
