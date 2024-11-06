@@ -1,16 +1,14 @@
 ---
 template: ArtistPost
-title: 'Bilaliwood '
+title: "Bilaliwood "
 gigwellID: "44503"
-featuredImage: >-
-  https://ucarecdn.com/b65a51f1-29a6-44a5-b262-e8d09d84fd5e/-/crop/451x287/80,48/-/preview/-/enhance/50/
-fblk: 'https://www.facebook.com/bilaliwood'
-instalk: 'https://www.instagram.com/bilaliwood/'
-sclk: ''
-presskit: 'https://www.dropbox.com/sh/4e58p9g2c7nk6um/AAB3PTgvwa6oZcawdUAEf633a?dl=0'
-scwidg: >-
-  https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/980615164&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
-videowidg: 'https://www.youtube.com/embed/_ph1uVTZal4'
+featuredImage: https://ucarecdn.com/c4b8abf6-ac43-4721-bddc-75ab95a2c3c9/
+fblk: https://www.facebook.com/bilaliwood
+instalk: https://www.instagram.com/bilaliwood/
+sclk: ""
+presskit: https://www.dropbox.com/sh/4e58p9g2c7nk6um/AAB3PTgvwa6oZcawdUAEf633a?dl=0
+scwidg: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/980615164&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+videowidg: https://www.youtube.com/embed/_ph1uVTZal4
 status: Published
 date: 2021-01-26T17:59:26.188Z
 ---
