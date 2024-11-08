@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm install --force && npm run build"
+  command = "npm install && npm run build"
 
 [build.environment]
   NODE_VERSION = "18.18.0"
