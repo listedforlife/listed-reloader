@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm install --legacy-peer-deps --build-from-source && npm run build"
+  command = "npm install --force && npm run build"
 
 [build.environment]
   NODE_VERSION = "18.18.0"
