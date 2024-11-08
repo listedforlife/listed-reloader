@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c7907e0-70a5-40cc-be12-87cbf86dccf0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TODO_SCOPE": "All Places",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "fix/netlify-build-fix",
     "last_opened_file_path": "/Users/alexanderpapashvili/Documents/scherzo/listed-reloader",
@@ -74,6 +77,7 @@
       <updated>1731088462595</updated>
       <workItem from="1731088464221" duration="2983000" />
       <workItem from="1731091464012" duration="143000" />
+      <workItem from="1731091631283" duration="363000" />
     </task>
     <servers />
   </component>
