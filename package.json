@@ -3,6 +3,9 @@
   "HomePage": "https://yellowcake.netlify.com/",
   "description": "An opinionated starter project for creating lightning-fast websites with Gatsby v2 and Netlify CMS v2",
   "version": "2.0.0",
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/thriveweb/yellowcake"
@@ -71,7 +74,8 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "start": "gatsby clean && npm run develop",
+    "start": "gatsby clean && npm install --legacy-peer-deps && npm run develop",
+    "install": "npm install --legacy-peer-deps",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "rm -rf .cache public",
