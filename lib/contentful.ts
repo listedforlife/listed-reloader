@@ -1,15 +1,20 @@
 import { createClient } from 'contentful';
-import type { Entry, Asset } from 'contentful';
+import type { Asset } from 'contentful';
 import { Document } from '@contentful/rich-text-types';
 
 // Initialize Contentful client (only if credentials are provided)
-const isContentfulConfigured = !!(process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID && process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN);
+// These are now server-side only (no NEXT_PUBLIC_ prefix)
+const isContentfulConfigured = !!(
+  process.env.CONTENTFUL_SPACE_ID && process.env.CONTENTFUL_ACCESS_TOKEN
+);
 
-const client = isContentfulConfigured ? createClient({
-  space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID!,
-  accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN!,
-  environment: process.env.NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT || 'master'
-}) : null;
+const client = isContentfulConfigured
+  ? createClient({
+      space: process.env.CONTENTFUL_SPACE_ID!,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN!,
+      environment: process.env.CONTENTFUL_ENVIRONMENT || 'master',
+    })
+  : null;
 
 // Type definitions
 export interface Artist {
@@ -17,7 +22,7 @@ export interface Artist {
   attributes: {
     name: string;
     slug: string;
-    bio?: string;
+    bio?: string | Document;
     image?: {
       data: {
         attributes: {
@@ -33,6 +38,7 @@ export interface Artist {
       spotify?: string;
       facebook?: string;
       residentAdvisor?: string;
+      'twitter/x'?: string;
     };
   };
 }
@@ -85,19 +91,19 @@ export interface Event {
 // Helper function to transform Contentful Asset to our format
 function transformAsset(asset: Asset | undefined) {
   if (!asset?.fields?.file) return undefined;
-  
+
   // Type guard to ensure we have the URL property
   const file = asset.fields.file as any;
   if (!file.url) return undefined;
-  
+
   const url = file.url as string;
-  
+
   return {
     data: {
       attributes: {
-        url: url.startsWith('//') ? `https:${url}` : url
-      }
-    }
+        url: url.startsWith('//') ? `https:${url}` : url,
+      },
+    },
   };
 }
 
@@ -106,19 +112,19 @@ export function getContentfulImageUrl(image: any): string {
   if (!image?.data?.attributes?.url && !image?.fields?.file?.url) {
     return '/images/logo.png'; // Default image
   }
-  
+
   // Handle Contentful asset format
   if (image?.fields?.file?.url) {
     const url = image.fields.file.url;
     return url.startsWith('//') ? `https:${url}` : url;
   }
-  
+
   // Handle our transformed format
   const url = image?.data?.attributes?.url || '';
   if (url.startsWith('http') || url.startsWith('/')) {
     return url;
   }
-  
+
   return `/${url}`;
 }
 
@@ -129,7 +135,10 @@ const sampleArtists: Artist[] = [
   { id: '3', attributes: { name: 'Dory', slug: 'dory' } },
   { id: '4', attributes: { name: 'Halo Varga', slug: 'halo-varga' } },
   { id: '5', attributes: { name: 'Jay Tripwire', slug: 'jay-tripwire' } },
-  { id: '6', attributes: { name: 'Justin Marchacos', slug: 'justin-marchacos' } },
+  {
+    id: '6',
+    attributes: { name: 'Justin Marchacos', slug: 'justin-marchacos' },
+  },
   { id: '7', attributes: { name: 'KMLN', slug: 'kmln' } },
   { id: '8', attributes: { name: 'Lovestruckk', slug: 'lovestruckk' } },
   { id: '9', attributes: { name: 'M.O.N.R.O.E', slug: 'm-o-n-r-o-e' } },
@@ -149,15 +158,32 @@ const sampleArtists: Artist[] = [
   { id: '23', attributes: { name: 'Philipp Jung', slug: 'philipp-jung' } },
   { id: '24', attributes: { name: 'Anja Schneider', slug: 'anja-schneider' } },
   { id: '25', attributes: { name: 'Atnarko', slug: 'atnarko' } },
-  { id: '26', attributes: { name: 'Sinca', slug: 'sinca', image: { data: { attributes: { url: '/images/Sinca.jpeg' } } } } },
+  {
+    id: '26',
+    attributes: {
+      name: 'Sinca',
+      slug: 'sinca',
+      image: { data: { attributes: { url: '/images/Sinca.jpeg' } } },
+    },
+  },
   { id: '27', attributes: { name: 'N/UM', slug: 'n-um' } },
   { id: '28', attributes: { name: 'Matt Caines', slug: 'matt-caines' } },
   { id: '29', attributes: { name: 'Reza Safinia', slug: 'reza-safinia' } },
   { id: '30', attributes: { name: 'Saqib', slug: 'saqib' } },
-  { id: '31', attributes: { name: 'Beauty & The Beast', slug: 'beauty-the-beast' } },
+  {
+    id: '31',
+    attributes: { name: 'Beauty & The Beast', slug: 'beauty-the-beast' },
+  },
   { id: '32', attributes: { name: 'Formerly', slug: 'formerly' } },
-  { id: '33', attributes: { name: 'Camea', slug: 'camea', image: { data: { attributes: { url: '/images/camea.png' } } } } },
-  { id: '34', attributes: { name: 'Niki Sadeki', slug: 'niki-sadeki' } }
+  {
+    id: '33',
+    attributes: {
+      name: 'Camea',
+      slug: 'camea',
+      image: { data: { attributes: { url: '/images/camea.png' } } },
+    },
+  },
+  { id: '34', attributes: { name: 'Niki Sadeki', slug: 'niki-sadeki' } },
 ];
 
 const samplePosts: Post[] = [
@@ -172,11 +198,11 @@ const samplePosts: Post[] = [
       image: {
         data: {
           attributes: {
-            url: '/images/mainone.png'
-          }
-        }
-      }
-    }
+            url: '/images/mainone.png',
+          },
+        },
+      },
+    },
   },
   {
     id: '2',
@@ -184,16 +210,16 @@ const samplePosts: Post[] = [
       title: 'Lee Coombs Live at The Cityfox Odyssey NYE',
       slug: 'lee-coombs-cityfox',
       createdAt: '2021-12-31T00:00:00Z',
-      excerpt: 'An unforgettable New Year\'s Eve performance.',
+      excerpt: "An unforgettable New Year's Eve performance.",
       content: 'Full article content here',
       image: {
         data: {
           attributes: {
-            url: '/images/Sinca.jpeg'
-          }
-        }
-      }
-    }
+            url: '/images/Sinca.jpeg',
+          },
+        },
+      },
+    },
   },
   {
     id: '3',
@@ -206,16 +232,17 @@ const samplePosts: Post[] = [
       image: {
         data: {
           attributes: {
-            url: '/images/camea.png'
-          }
-        }
-      }
-    }
-  }
+            url: '/images/camea.png',
+          },
+        },
+      },
+    },
+  },
 ];
 
 // Fetch functions
 export async function getArtists(): Promise<Artist[]> {
+  console.log(client);
   try {
     // Check if Contentful is configured
     if (!client) {
@@ -225,21 +252,26 @@ export async function getArtists(): Promise<Artist[]> {
 
     const entries = await client.getEntries({
       content_type: 'artist',
-      order: ['fields.name'],
-      limit: 100
+      order: ['fields.title'],
+      limit: 100,
     });
 
     return entries.items.map((entry: any) => ({
       id: entry.sys.id,
       attributes: {
-        name: (entry.fields.name as string) || '',
+        name: (entry.fields.title as string) || '',
         slug: (entry.fields.slug as string) || '',
-        bio: (entry.fields.bio as string) || '',
-        image: transformAsset(entry.fields.image as Asset | undefined),
-        soundcloud: (entry.fields.soundcloud as string) || '',
+        bio: (entry.fields.bio as string | Document) || '',
+        image: transformAsset(
+          (entry.fields.featuredImage || entry.fields.profileImage) as
+            | Asset
+            | undefined
+        ),
+        soundcloud:
+          ((entry.fields.socialLinks as any)?.soundcloud as string) || '',
         video: (entry.fields.video as string) || '',
-        socialLinks: (entry.fields.socialLinks as any) || {}
-      }
+        socialLinks: (entry.fields.socialLinks as any) || {},
+      },
     }));
   } catch (error) {
     console.error('Error fetching artists from Contentful:', error);
@@ -251,19 +283,23 @@ export async function getArtistBySlug(slug: string): Promise<Artist | null> {
   try {
     if (!client) {
       const artist = sampleArtists.find(a => a.attributes.slug === slug);
-      if (artist && (slug === 'sinca' || slug === 'camea' || slug === 'atish')) {
+      if (
+        artist &&
+        (slug === 'sinca' || slug === 'camea' || slug === 'atish')
+      ) {
         return {
           ...artist,
           attributes: {
             ...artist.attributes,
             bio: `${artist.attributes.name} is a renowned DJ and producer in the electronic music scene.`,
-            soundcloud: 'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com',
+            soundcloud:
+              'https://w.soundcloud.com/player/?url=https%3A//soundcloud.com',
             video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
             socialLinks: {
               soundcloud: 'https://soundcloud.com',
-              instagram: 'https://instagram.com'
-            }
-          }
+              instagram: 'https://instagram.com',
+            },
+          },
         };
       }
       return artist || null;
@@ -272,7 +308,7 @@ export async function getArtistBySlug(slug: string): Promise<Artist | null> {
     const entries = await client.getEntries({
       content_type: 'artist',
       'fields.slug': slug,
-      limit: 1
+      limit: 1,
     });
 
     if (entries.items.length === 0) return null;
@@ -281,14 +317,19 @@ export async function getArtistBySlug(slug: string): Promise<Artist | null> {
     return {
       id: entry.sys.id,
       attributes: {
-        name: (entry.fields.name as string) || '',
+        name: (entry.fields.title as string) || '',
         slug: (entry.fields.slug as string) || '',
-        bio: (entry.fields.bio as string) || '',
-        image: transformAsset(entry.fields.image as Asset | undefined),
-        soundcloud: (entry.fields.soundcloud as string) || '',
+        bio: (entry.fields.bio as string | Document) || '',
+        image: transformAsset(
+          (entry.fields.featuredImage || entry.fields.profileImage) as
+            | Asset
+            | undefined
+        ),
+        soundcloud:
+          ((entry.fields.socialLinks as any)?.soundcloud as string) || '',
         video: (entry.fields.video as string) || '',
-        socialLinks: (entry.fields.socialLinks as any) || {}
-      }
+        socialLinks: (entry.fields.socialLinks as any) || {},
+      },
     };
   } catch (error) {
     console.error('Error fetching artist from Contentful:', error);
@@ -305,7 +346,7 @@ export async function getPosts(): Promise<Post[]> {
     const entries = await client.getEntries({
       content_type: 'post',
       order: ['-sys.createdAt'],
-      limit: 50
+      limit: 50,
     });
 
     return entries.items.map((entry: any) => ({
@@ -317,16 +358,18 @@ export async function getPosts(): Promise<Post[]> {
         excerpt: (entry.fields.excerpt as string) || '',
         createdAt: entry.sys.createdAt,
         image: transformAsset(entry.fields.featuredImage as Asset | undefined),
-        category: entry.fields.category ? {
-          data: {
-            id: (entry.fields.category as any).sys.id,
-            attributes: {
-              name: (entry.fields.category as any).fields?.name || 'News',
-              slug: (entry.fields.category as any).fields?.slug || 'news'
+        category: entry.fields.category
+          ? {
+              data: {
+                id: (entry.fields.category as any).sys.id,
+                attributes: {
+                  name: (entry.fields.category as any).fields?.name || 'News',
+                  slug: (entry.fields.category as any).fields?.slug || 'news',
+                },
+              },
             }
-          }
-        } : undefined
-      }
+          : undefined,
+      },
     }));
   } catch (error) {
     console.error('Error fetching posts from Contentful:', error);
@@ -343,7 +386,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     const entries = await client.getEntries({
       content_type: 'post',
       'fields.slug': slug,
-      limit: 1
+      limit: 1,
     });
 
     if (entries.items.length === 0) return null;
@@ -358,16 +401,18 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
         excerpt: (entry.fields.excerpt as string) || '',
         createdAt: entry.sys.createdAt,
         image: transformAsset(entry.fields.featuredImage as Asset | undefined),
-        category: entry.fields.category ? {
-          data: {
-            id: (entry.fields.category as any).sys.id,
-            attributes: {
-              name: (entry.fields.category as any).fields?.name || 'News',
-              slug: (entry.fields.category as any).fields?.slug || 'news'
+        category: entry.fields.category
+          ? {
+              data: {
+                id: (entry.fields.category as any).sys.id,
+                attributes: {
+                  name: (entry.fields.category as any).fields?.name || 'News',
+                  slug: (entry.fields.category as any).fields?.slug || 'news',
+                },
+              },
             }
-          }
-        } : undefined
-      }
+          : undefined,
+      },
     };
   } catch (error) {
     console.error('Error fetching post from Contentful:', error);
@@ -384,7 +429,7 @@ export async function getEvents(): Promise<Event[]> {
     const entries = await client.getEntries({
       content_type: 'event',
       order: ['-fields.date'],
-      limit: 50
+      limit: 50,
     });
 
     return entries.items.map((entry: any) => ({
@@ -395,8 +440,8 @@ export async function getEvents(): Promise<Event[]> {
         description: (entry.fields.description as string) || '',
         date: (entry.fields.date as string) || '',
         venue: (entry.fields.venue as string) || '',
-        image: transformAsset(entry.fields.image as Asset | undefined)
-      }
+        image: transformAsset(entry.fields.image as Asset | undefined),
+      },
     }));
   } catch (error) {
     console.error('Error fetching events from Contentful:', error);
@@ -413,7 +458,7 @@ export async function getEventBySlug(slug: string): Promise<Event | null> {
     const entries = await client.getEntries({
       content_type: 'event',
       'fields.slug': slug,
-      limit: 1
+      limit: 1,
     });
 
     if (entries.items.length === 0) return null;
@@ -427,8 +472,8 @@ export async function getEventBySlug(slug: string): Promise<Event | null> {
         description: (entry.fields.description as string) || '',
         date: (entry.fields.date as string) || '',
         venue: (entry.fields.venue as string) || '',
-        image: transformAsset(entry.fields.image as Asset | undefined)
-      }
+        image: transformAsset(entry.fields.image as Asset | undefined),
+      },
     };
   } catch (error) {
     console.error('Error fetching event from Contentful:', error);

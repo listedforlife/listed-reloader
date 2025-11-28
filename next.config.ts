@@ -1,4 +1,4 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   images: {
@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'ucarecdn.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.ctfassets.net',
       },
       // Add your production Strapi domain here when deployed
       // {
