@@ -7,7 +7,6 @@
   },
   "scripts": {
     "dev": "next dev --turbopack",
-    "dev:open": "open http://localhost:3000 && next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

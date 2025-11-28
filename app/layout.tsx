@@ -33,9 +33,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cabin.variable} suppressHydrationWarning>
-        <Header />
-        {children}
-        <Footer />
+        <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+          <Header />
+          <main style={{ flexGrow: 1 }}>
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

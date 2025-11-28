@@ -152,7 +152,7 @@ export default function ArtistPage() {
   const imageUrl = artist.attributes.image;
 
   return (
-    <main style={{ marginTop: '70px' }}>
+    <main style={{ marginTop: isMobile ? '60px' : '70px' }}>
       <article>
         {/* Featured Image with animated bar */}
         <div style={{

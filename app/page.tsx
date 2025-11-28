@@ -10,12 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Image slides
 const imageSlides = [
-  '/images/1.jpg',
-  '/images/2.jpg',
-  '/images/banner.jpeg',
-  '/images/mainone.png',
-  '/images/ra4.png',
-  '/images/Sinca.jpeg'
+  'https://ucarecdn.com/f76fb93f-e0c5-4e5b-8170-e6ee78fb7d24/',
+  'https://ucarecdn.com/efacb135-19a0-45e0-af94-33e9fe01b72f/-/crop/2000x1485/0,0/-/preview/',
+  'https://ucarecdn.com/0eccca9b-467c-473f-950c-9f419503f636/',
+  'https://ucarecdn.com/15d81712-a4ae-4154-b161-574b784c87c3/'
 ];
 
 // Sample posts data (matching the format from contentful.ts)
@@ -156,13 +154,12 @@ export default function HomePage() {
   };
 
   return (
-    <main className="Blog" style={{ marginTop: '70px' }}>
+    <main className="Blog" style={{ marginTop: isMobile ? '60px' : '70px' }}>
       {/* Image Slider */}
       <div className="fixcenter" style={{ 
         margin: 'auto', 
         width: isMobile ? '100%' : '83%', 
-        padding: '10px',
-        paddingTop: '20px'
+        padding: '10px' 
       }}>
         <div style={{
           width: isMobile ? '100%' : '75%',
@@ -174,16 +171,8 @@ export default function HomePage() {
         }}>
           <Slider {...sliderSettings}>
             {imageSlides.map((url, index) => (
-              <div key={index} className="slide" style={{ 
-                position: 'relative',
-                zIndex: 0
-              }}>
-                <div style={{ 
-                  content: '', 
-                  display: 'block', 
-                  width: '100%', 
-                  paddingTop: 'calc(9 / 16 * 100%)' 
-                }}></div>
+              <div key={index} style={{ position: 'relative' }}>
+                <div style={{ paddingTop: '56.25%' }}></div>
                 <img
                   src={url}
                   alt={`Slide ${index + 1}`}
@@ -203,17 +192,9 @@ export default function HomePage() {
       </div>
 
       {/* Buzz Section */}
-      <h1 style={{ 
+      <h1 className="Buzz" style={{ 
         marginTop: isMobile ? '20px' : '60px', 
-        marginBottom: isMobile ? '0' : '60px',
-        fontSize: '3.2rem',
-        padding: '10px',
-        paddingLeft: '101px',
-        backgroundImage: 'url("/images/h1vl_rbg.png")',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: '69px 15px',
-        fontFamily: "'dinBoldFont', sans-serif",
-        color: 'white'
+        marginBottom: isMobile ? '0' : '60px' 
       }}>
         Buzz
       </h1>
@@ -221,7 +202,12 @@ export default function HomePage() {
       {/* Posts Grid */}
       <section className="section">
         <div className="container-custom">
-          <div className="PostSection--Grid">
+          <div className="PostSection--Grid" style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridGap: '4rem',
+            marginTop: '-60px'
+          }}>
             {posts.slice(0, visiblePosts).map((post) => (
               <Link 
                 key={post.id} 
@@ -229,21 +215,22 @@ export default function HomePage() {
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
                 <article className="PostCard" style={{
-                  backgroundColor: 'black',
-                  padding: '20px',
+                  background: 'rgba(0,0,0,0.7)',
+                  padding: '2rem',
                   borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
                   height: '100%',
                   display: 'flex',
                   flexDirection: 'column',
-                  transition: 'transform 0.3s ease',
+                  transition: 'all 0.3s ease',
                   cursor: 'pointer'
                 }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.transform = 'translateY(-5px)';
+                  e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.4)';
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = 'none';
                 }}
                 >
                   {post.attributes.image?.data?.attributes?.url && (
@@ -266,26 +253,41 @@ export default function HomePage() {
                     </div>
                   )}
                   <h3 style={{ 
-                    fontSize: '2rem', 
-                    marginBottom: '10px',
-                    color: 'white' 
+                    fontSize: '1.8rem', 
+                    marginBottom: '1rem',
+                    color: '#ffffff' 
                   }}>
                     {post.attributes.title}
                   </h3>
                   <p style={{ 
+                    color: 'rgba(255,255,255,0.6)', 
                     fontSize: '1.2rem',
-                    color: '#aaa',
-                    marginBottom: '10px'
+                    marginBottom: '1rem' 
                   }}>
                     {formatDate(post.attributes.createdAt)}
                   </p>
                   <p style={{ 
+                    flexGrow: 1,
+                    color: 'rgba(255,255,255,0.8)',
                     fontSize: '1.4rem',
-                    color: '#ccc',
                     lineHeight: '1.6' 
                   }}>
                     {post.attributes.excerpt}
                   </p>
+                  <div style={{
+                    marginTop: '1rem',
+                    paddingTop: '1rem',
+                    borderTop: '1px solid rgba(255,255,255,0.1)'
+                  }}>
+                    <span style={{
+                      color: '#f8ec21',
+                      fontSize: '1.2rem',
+                      textTransform: 'uppercase',
+                      letterSpacing: '1px'
+                    }}>
+                      Read More →
+                    </span>
+                  </div>
                 </article>
               </Link>
             ))}
@@ -295,17 +297,7 @@ export default function HomePage() {
 
       {/* SoundCloud Embed */}
       <div className="container-custom" style={{ marginTop: '60px' }}>
-        <h1 style={{ 
-          marginBottom: '20px',
-          fontSize: '3.2rem',
-          padding: '10px',
-          paddingLeft: '101px',
-          backgroundImage: 'url("/images/h1vl_rbg.png")',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: '69px 15px',
-          fontFamily: "'dinBoldFont', sans-serif",
-          color: 'white'
-        }}>
+        <h1 style={{ marginBottom: '20px' }}>
           {isMobile ? 'Playlists' : 'Listed Winter Playlists'}
         </h1>
         <iframe
@@ -326,24 +318,12 @@ export default function HomePage() {
         marginTop: '60px',
         marginBottom: '60px' 
       }}>
-        <h1 style={{ 
-          marginBottom: '20px',
-          fontSize: '3.2rem',
-          padding: '10px',
-          paddingLeft: '101px',
-          backgroundImage: 'url("/images/h1vl_rbg.png")',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: '69px 15px',
-          fontFamily: "'dinBoldFont', sans-serif",
-          color: 'white',
-          textAlign: 'left'
-        }}>Artists</h1>
+        <h1 style={{ marginBottom: '20px' }}>Artists</h1>
         <p style={{ 
           fontFamily: "'dinBoldFont', sans-serif", 
-          fontSize: isMobile ? '2.1rem' : '2.6rem', 
-          marginLeft: isMobile ? '20px' : '69px', 
-          marginRight: isMobile ? '20px' : '69px',
-          textAlign: 'left'
+          fontSize: '2.6rem', 
+          marginLeft: isMobile ? '0' : '69px', 
+          marginRight: isMobile ? '0' : '69px' 
         }}>
           {artists.map((artist, index) => (
             <Link

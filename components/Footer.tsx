@@ -5,9 +5,9 @@ export default function Footer() {
 
   return (
     <footer style={{
-      backgroundColor: 'black',
-      borderTop: '4px solid black',
-      padding: '40px 69px 20px',
+      backgroundColor: 'rgba(0, 0, 0, 0.9)',
+      borderTop: '1px solid rgba(255, 255, 255, 0.1)',
+      padding: '40px 20px 20px',
       marginTop: '60px'
     }}>
       <div style={{
@@ -98,8 +98,7 @@ export default function Footer() {
                   color: 'rgba(255, 255, 255, 0.8)',
                   fontSize: '1.4rem',
                   textDecoration: 'none',
-                  transition: 'color 0.3s ease',
-                  cursor: 'pointer'
+                  transition: 'color 0.3s ease'
                 }}
               >
                 {social.label}
