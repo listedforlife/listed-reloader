@@ -11,6 +11,7 @@ import {
   FaFacebookF,
 } from 'react-icons/fa';
 import { SiDiscogs } from 'react-icons/si'; // Using Discogs as alternative for RA
+import Script from 'next/script';
 
 // Sample data for demonstration if Contentful is not connected
 const sampleArtistData: { [key: string]: any } = {
@@ -94,7 +95,6 @@ export default function ArtistPage() {
 
         if (response.ok) {
           const artistData = await response.json();
-          console.log(artistData);
           setArtist(artistData);
         } else {
           // Fallback to sample data
@@ -446,6 +446,25 @@ export default function ArtistPage() {
                 No video or soundcloud content available.
               </div>
             )}
+
+            <div
+              dangerouslySetInnerHTML={{
+                __html: `
+            <gigwell-gigstream
+              artists="${artist.attributes.gigwellArtistId}"
+              identity-id="${artist.attributes.gigwellAgencyId}"
+              agency="${artist.attributes.gigwellAgencyId}"
+              settings="website"
+            ></gigwell-gigstream>
+            `,
+              }}
+            />
+
+            <Script
+              src="https://connect.gigwell.com/gigstream/gigstream.js"
+              strategy="afterInteractive"
+              crossOrigin="anonymous"
+            />
           </div>
         </div>
 

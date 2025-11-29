@@ -46,7 +46,7 @@ html {
   box-sizing: border-box;
   font-size: 53.5%;
   min-height: 100%;
-  background-image: url("/images/bg1.jpg");
+  background-image: url('/images/bg1.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -86,11 +86,12 @@ h6 {
   color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3.2rem;
   padding: 10px;
   padding-left: 101px;
-  background-image: url("/images/h1vl_rbg.png");
+  background-image: url('/images/h1vl_rbg.png');
   background-repeat: no-repeat;
   background-position: 69px 15px;
 }
@@ -128,22 +129,22 @@ h1, h2 {
 .home-artists-links a:nth-child(7n) {
   color: #ffffff;
 }
-.home-artists-links a:nth-child(7n+1) {
+.home-artists-links a:nth-child(7n + 1) {
   color: #e476ae;
 }
-.home-artists-links a:nth-child(7n+2) {
+.home-artists-links a:nth-child(7n + 2) {
   color: #ef4137;
 }
-.home-artists-links a:nth-child(7n+3) {
+.home-artists-links a:nth-child(7n + 3) {
   color: #1895d3;
 }
-.home-artists-links a:nth-child(7n+4) {
+.home-artists-links a:nth-child(7n + 4) {
   color: #f8ec21;
 }
-.home-artists-links a:nth-child(7n+5) {
+.home-artists-links a:nth-child(7n + 5) {
   color: #814199;
 }
-.home-artists-links a:nth-child(7n+6) {
+.home-artists-links a:nth-child(7n + 6) {
   color: #12b258;
 }
 .home-artists-links a:hover {
@@ -152,13 +153,27 @@ h1, h2 {
 }
 
 /* Artist link classes for manual coloring */
-.artist-link-0 { color: #ffffff; }
-.artist-link-1 { color: #e476ae; }
-.artist-link-2 { color: #ef4137; }
-.artist-link-3 { color: #1895d3; }
-.artist-link-4 { color: #f8ec21; }
-.artist-link-5 { color: #814199; }
-.artist-link-6 { color: #12b258; }
+.artist-link-0 {
+  color: #ffffff;
+}
+.artist-link-1 {
+  color: #e476ae;
+}
+.artist-link-2 {
+  color: #ef4137;
+}
+.artist-link-3 {
+  color: #1895d3;
+}
+.artist-link-4 {
+  color: #f8ec21;
+}
+.artist-link-5 {
+  color: #814199;
+}
+.artist-link-6 {
+  color: #12b258;
+}
 
 .artist-link-0:hover,
 .artist-link-1:hover,
@@ -243,7 +258,7 @@ h1, h2 {
 
 /* Artist page animated bar */
 .anim.active {
-  transition-timing-function: cubic-bezier(.21,.31,1,.27);
+  transition-timing-function: cubic-bezier(0.21, 0.31, 1, 0.27);
   transition-property: top;
   transition-duration: 1500ms;
   top: 100% !important;

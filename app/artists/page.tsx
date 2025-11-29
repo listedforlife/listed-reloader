@@ -24,7 +24,6 @@ export default function ArtistsPage() {
       .then(res => res.json())
       .then(theArtists => {
         setArtists(theArtists);
-        console.log(theArtists);
       })
       .catch(err => console.error('Failed to fetch artists:', err));
   }, []);
@@ -158,7 +157,7 @@ export default function ArtistsPage() {
                   </div>
                 )}
               </div>
-              <h2
+              <h3
                 style={{
                   fontSize: '2rem',
                   fontFamily: "'dinBoldFont', sans-serif",
@@ -166,7 +165,7 @@ export default function ArtistsPage() {
                 }}
               >
                 {artist.attributes.name}
-              </h2>
+              </h3>
             </Link>
           ))}
         </div>

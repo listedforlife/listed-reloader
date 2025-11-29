@@ -40,6 +40,10 @@ export interface Artist {
       residentAdvisor?: string;
       'twitter/x'?: string;
     };
+    gigwellAgencyId?: string;
+    gigwellArtistId?: string;
+    gigwellSettings?: string;
+    gigwellStandaloneProfile?: string;
   };
 }
 
@@ -242,7 +246,6 @@ const samplePosts: Post[] = [
 
 // Fetch functions
 export async function getArtists(): Promise<Artist[]> {
-  console.log(client);
   try {
     // Check if Contentful is configured
     if (!client) {
@@ -314,6 +317,7 @@ export async function getArtistBySlug(slug: string): Promise<Artist | null> {
     if (entries.items.length === 0) return null;
 
     const entry = entries.items[0];
+
     return {
       id: entry.sys.id,
       attributes: {
@@ -329,6 +333,11 @@ export async function getArtistBySlug(slug: string): Promise<Artist | null> {
           ((entry.fields.socialLinks as any)?.soundcloud as string) || '',
         video: (entry.fields.video as string) || '',
         socialLinks: (entry.fields.socialLinks as any) || {},
+        gigwellAgencyId: entry.fields.gigwellAgencyId as string,
+        gigwellArtistId: entry.fields.gigwellArtistId as string,
+        gigwellSettings: entry.fields.gigwellSettings as string,
+        gigwellStandaloneProfile: entry.fields
+          .gigwellStandaloneProfile as string,
       },
     };
   } catch (error) {
