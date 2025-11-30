@@ -1,0 +1,282 @@
+/* Custom Font Faces */
+@font-face {
+  font-family: 'dinFont';
+  src: url('/fonts/din1451alt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'dinBoldFont';
+  src: url('/fonts/din1451altG.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --primary: #ffffff;
+  --secondary: #000;
+  --lightGrey: whitesmoke;
+  --midGrey: #cacaca;
+  --darkGrey: #272727;
+  --danger: #ff3d3d;
+  --font-primary: 'Open Sans', sans-serif;
+  --font-system: system-ui;
+  --borderRadius: 3px;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px var(--grey);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 33, 91);
+  opacity: 0.3;
+}
+
+::selection {
+  background: rgba(0, 194, 189, 0.6);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 53.5%;
+  min-height: 100%;
+  background-image: url('/images/bg1.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  color: white;
+  font-size: 1.6em;
+  font-family: var(--font-cabin), 'Cabin', sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent !important;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8ec21;
+  border-bottom-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'dinBoldFont', sans-serif;
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+h1,
+h2 {
+  font-size: 3.2rem;
+  padding: 10px;
+  padding-left: 101px;
+  background-image: url('/images/h1vl_rbg.png');
+  background-repeat: no-repeat;
+  background-position: 69px 15px;
+}
+
+/* Container styling to match original */
+.container-custom {
+  margin-right: 69px;
+  margin-left: 69px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Nav colors for hover effects */
+#navc1:hover {
+  color: #e476ae !important;
+}
+
+#navc2:hover {
+  color: #ef4137 !important;
+}
+
+#navc3:hover {
+  color: #1895d3 !important;
+}
+
+#navc4:hover {
+  color: #814199 !important;
+}
+
+#navc5:hover {
+  color: #12b258 !important;
+}
+
+/* Artists Link colors */
+.home-artists-links a:nth-child(7n) {
+  color: #ffffff;
+}
+.home-artists-links a:nth-child(7n + 1) {
+  color: #e476ae;
+}
+.home-artists-links a:nth-child(7n + 2) {
+  color: #ef4137;
+}
+.home-artists-links a:nth-child(7n + 3) {
+  color: #1895d3;
+}
+.home-artists-links a:nth-child(7n + 4) {
+  color: #f8ec21;
+}
+.home-artists-links a:nth-child(7n + 5) {
+  color: #814199;
+}
+.home-artists-links a:nth-child(7n + 6) {
+  color: #12b258;
+}
+.home-artists-links a:hover {
+  text-decoration: underline;
+  color: #f8ec21 !important;
+}
+
+/* Artist link classes for manual coloring */
+.artist-link-0 {
+  color: #ffffff;
+}
+.artist-link-1 {
+  color: #e476ae;
+}
+.artist-link-2 {
+  color: #ef4137;
+}
+.artist-link-3 {
+  color: #1895d3;
+}
+.artist-link-4 {
+  color: #f8ec21;
+}
+.artist-link-5 {
+  color: #814199;
+}
+.artist-link-6 {
+  color: #12b258;
+}
+
+.artist-link-0:hover,
+.artist-link-1:hover,
+.artist-link-2:hover,
+.artist-link-3:hover,
+.artist-link-4:hover,
+.artist-link-5:hover,
+.artist-link-6:hover {
+  color: #f8ec21 !important;
+  text-decoration: underline !important;
+}
+
+/* Post Section Grid */
+.PostSection--Grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4rem;
+  margin-top: -60px;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .PostSection--Grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 2rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .Blog {
+    margin-top: 60px !important;
+  }
+
+  .fixcenter > div {
+    width: 100% !important;
+    padding-top: 56.25% !important;
+    margin-top: -56.25% !important;
+  }
+
+  main h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 52px;
+    background-position: 20px 15px;
+  }
+
+  .PostSection--Grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 0 !important;
+  }
+
+  .home-artists-links p {
+    font-size: 2.1rem !important;
+    margin: 0px 20px !important;
+  }
+}
+
+/* Custom utility classes */
+.light {
+  background-color: black;
+}
+.white {
+  background-color: rgb(0, 0, 0);
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Override defaults for this design */
+.text-white {
+  color: white !important;
+}
+
+.bg-black {
+  background-color: transparent !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+/* Artist page animated bar */
+.anim.active {
+  transition-timing-function: cubic-bezier(0.21, 0.31, 1, 0.27);
+  transition-property: top;
+  transition-duration: 1500ms;
+  top: 100% !important;
+}
+
+/* Buzz heading */
+.Buzz {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+/* Slick Carousel overrides */
+.slick-dots {
+  display: none !important;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}

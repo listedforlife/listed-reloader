@@ -1,142 +1,116 @@
-# Yellowcake
+# Listed Productions - Next.js Site
 
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![dependencies](https://david-dm.org/jinksi/netlify-cms-react-starter.svg?style=flat-square)](https://david-dm.org/jinksi/gatsbro)
+## Overview
+Modern website for Listed Productions built with Next.js 15, TypeScript, and React.
 
-An opinionated starter project for creating lightning-fast websites with [Gatsby](https://gatsbyjs.org) v2 and [Netlify CMS](https://netlifycms.org) v2.
+## Features
+- Server-side rendering with Next.js App Router
+- Responsive design matching original Gatsby site styling
+- Strapi CMS integration ready (with fallback to sample data)
+- Image optimization with Next.js Image component
+- Dynamic artist pages
+- News/blog system
+- Event listings
 
-- **[Gatsby](https://gatsbyjs.org)** static site generator
-- **[Netlify CMS](https://github.com/netlify/netlify-cms)** for content management
+## Local Development
 
-## See also 
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-[Netlify CMS Docs](https://www.netlifycms.org/docs/)  
-[Netlify CMS Repo](https://github.com/netlify/netlify-cms)
+### Setup
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Get going
+3. Create `.env.local` file (optional - app works without it):
+   ```
+   NEXT_PUBLIC_STRAPI_API_URL=http://localhost:1337/api
+   ```
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+4. Run development server:
+   ```bash
+   npm run dev
+   ```
 
-1.  Hit the **Deploy to Netlify** button. This will:
+5. Open [http://localhost:3000](http://localhost:3000)
 
-- Clone the repo into your Github account
-- Create you a new project on Netlify, build & deploy
+## Deployment on Vercel
 
-1.  Once your Netlify project has been created, check a couple of settings:
+### Method 1: Via Vercel Dashboard
+1. Go to [vercel.com](https://vercel.com)
+2. Import your Git repository
+3. Vercel will auto-detect Next.js
+4. Click "Deploy"
 
-- Enable **Identity**
-- Change **Registration Preferences** to **Invite Only**
-- Enable **Git Gateway**
+### Method 2: Via CLI
+1. Install Vercel CLI:
+   ```bash
+   npm i -g vercel
+   ```
 
-1.  Invite users (probably yourself) to enable admin access
+2. Deploy:
+   ```bash
+   vercel
+   ```
 
-- Open the **Identity** tab and hit **Invite Users**
+### Environment Variables for Production
+Add these in Vercel dashboard under Settings > Environment Variables:
+- `NEXT_PUBLIC_STRAPI_API_URL` - Your production Strapi URL (optional)
 
-## Show me the CMS!
+### Build Settings (Auto-detected)
+- **Framework Preset**: Next.js
+- **Build Command**: `npm run build` or `next build`
+- **Output Directory**: `.next`
+- **Install Command**: `npm install`
 
-The CMS lives at [\_\_YOUR_SITE_NAME\_\_.netlify.com/admin](https://__YOUR_SITE_NAME__.netlify.com/admin).
+## Project Structure
+```
+nextjs-site/
+├── app/                 # Next.js App Router pages
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Homepage
+│   ├── globals.css     # Global styles
+│   ├── artists/        # Artists pages
+│   ├── news/           # News pages
+│   ├── events/         # Events pages
+│   ├── contact/        # Contact page
+│   └── productions/    # Productions page
+├── components/         # React components
+│   ├── Header.tsx     # Navigation header
+│   └── Footer.tsx     # Site footer
+├── lib/               # Utility functions
+│   └── strapi.ts      # Strapi API client
+├── public/            # Static assets
+│   ├── images/        # Image files
+│   └── fonts/         # Custom fonts
+└── next.config.ts     # Next.js configuration
+```
 
-## Developing
+## Troubleshooting
 
-1.  Clone your repo to your local machine
+### Build Errors
+- Ensure all dependencies are installed: `npm install`
+- Clear cache: `rm -rf .next node_modules && npm install`
+- Check Node version: Should be 18+
 
-1.  Install dependencies
+### Images Not Loading
+- Check `next.config.ts` for proper image domains
+- Ensure images are in `/public/images/` folder
 
-`yarn` or `npm install`
+### Fonts Not Loading
+- Custom fonts should be in `/public/fonts/`
+- Check `globals.css` for correct font paths
 
-1.  Run the development server
+## CMS Integration
+The site is pre-configured for Strapi integration but works with sample data if no CMS is connected. To connect Strapi:
 
-`yarn start` or `npm run start`
+1. Set up a Strapi instance
+2. Create content types: Artists, Posts, Events
+3. Update `.env.local` with your Strapi URL
+4. Deploy and add the same env var in Vercel
 
-If you are adding or editing content locally in the CMS, a couple of things to note:
-
-1.  Changes will be pushed to the remote repo.
-
-1.  You will be prompted to enter your site's url, this is necessary for Netlify Identity to manage user login. This is stored in `localStorage`, so you might have to empty your browser cache if you are switching projects but remaining on `localhost:8000`.
-
-## Editing CMS fields
-
-The Netlify CMS configuration is located in `public/admin/config.yml`. This is where you will configure the pages, fields, posts and settings that are editable by the CMS.
-
-Find out more in the [Netlify CMS Docs](https://www.netlifycms.org/docs/#configuration).
-
-## Uploadcare setup
-
-Uploadcare is our file upload system. It hosts the files for us and delivers them trough their CDN network.
-Each site you'll create need its own Uploadcare API key's. See below how to set this up
-
-1. Create new project in Uploadcare and save API keys in project
-
-- Go to [Uploadcare.com](https://uploadcare.com/accounts/login/) and login
-- Once on the dashboard create a new project
-- Set the name and hit create
-- In the left menu click in API Keys and copy the public key
-- Now open your project and open the CMS congif.yml file
-- find the `media_library` settings and paste in the public key after `publicKey:`
-- Done!!
-
-For more details see the [Netlify CMS Docs](https://www.netlifycms.org/docs/uploadcare/)
-
-## Scheduled content
-
-Scheduled content allows you to schedule posts. Set the date / order field in a post to the feature.
-For the scheduled content to appear on the website we need to deploy our website daily.
-
-1. Setup a Netlify build hook
-
-- Go to https://app.netlify.com/sites/_YOUR_SITE_NAME/setings/deploys/#build-hooks
-- Hit build hook button in the build hooks section
-- Give it a name for example: "Automatic deploy Zapier"
-- Select branch, in most cases master will do.
-- Hit save and copy the generated url
-
-2. Zapier Setup
-
-- Go to [Zapier.com](https://zapier.com/) and login
-- Hit make a zap button in the right top corner
-- Search for Schedule in the search bar and select "Schedule by Zapier"
-- Check every day and hit continue
-- Select a time and make sure trigger on weekends is turned on
-- Double check your settings and hit continue
-- On the left hit add a step - and search for webhook by Zapier
-- Select post as action and continue
-- Past in the url of our recently generated webhook in the url field
-- Make sure "Payload Type" is set to form and hit continue
-- check settings and hit the test button
-- Check your Netlify site if there has been triggered a new deploy
-- If that worked hit finish
-- Give your zap a name, example: "Automatic deploy Yellowcake" and make sure your zap is turned on
-
-That's it, you'r now ready to use scheduled content!!
-
-## Mailchimp integration
-
-https://hooks.zapier.com/hooks/catch/2881617/ea5exg/
-
-- Go to [Zapier.com](https://zapier.com/) and login
-- Hit make a zap button in the right top corner
-- Search for webhook by Zapier and select catch hook and continue to next step
-- In most cases leave this field empty and continue
-- Copy the generated url
-- Now go to the [form settings](https://app.netlify.com/sites/yellowcake/settings/forms#outgoing-notifications) in you Netlify project
-- Find the form notifications section click the add notification button
-- Select the option `outgoing webhook`
-- Set the event to listen for
-- Paste in our recent generated url in the URL to notify field
-- Select your form and save settings
-- Open your website navigate to your form, fill it out and send the data
-- Go back to Zaper and see if your form data has come trough.
-- Hit continue and add a new step on the left side of the screen
-- Search for MailChimp and select add/update subscriber
-- Select MailChimp account or add one and hit the test button
-- if succeeded hit continue button
-- Select your MailChimp list and select the subscriber email address
-- Fill in other settings for your needs and continue
-- Hit send test to MailChimp button and hit finish if succeeded
-- Give your Zap a name and make sure your zap is turned on
-- Submit your form one last time and see if all data is coming trough to MailChimp
-- Thats is!
-
-## Instagram Feed
-
-Get Your Instagram Access Token [here](https://generator.thrivex.io/). In order to display your Instagram photos on your own website, you are required to provide an Instagram Access Token. You can do this by clicking the generator button on this site you will first need to login to your account.
+## Support
+For issues or questions, contact: info@listedproductions.com
