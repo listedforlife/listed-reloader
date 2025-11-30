@@ -3,10 +3,11 @@ import { getArtistBySlug } from '@/lib/contentful';
 
 export async function GET(
   request: Request,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
   try {
-    const artist = await getArtistBySlug(params.slug);
+    const { slug } = await params;
+    const artist = await getArtistBySlug(slug);
 
     if (!artist) {
       return NextResponse.json({ error: 'Artist not found' }, { status: 404 });
